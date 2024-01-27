@@ -1,0 +1,2226 @@
+{
+    "autocomplete": {
+        "games": {
+            "fortnite": {
+                "shopitem": {
+                    "no-name": "Veuillez indiquer un nom.",
+                    "no-matching-items": "Aucune correspondance n'a été trouvée.",
+                    "no-shopitem-found": "Aucun article n'a été trouvé suite à votre recherche."
+                }
+            },
+            "valorant": {
+                "map": {
+                    "no-map-found": "Aucune carte n'a été trouvée suite à votre recherche."
+                },
+                "agent": {
+                    "no-agent-found": "Aucun agent n'a été trouvé suite à votre recherche."
+                }
+            },
+            "clashofclans": {
+                "club": {
+                    "no-name": "Veuillez indiquer un nom.",
+                    "name-too-short": "Le nom doit comporter au moins 3 caractères.",
+                    "nothing-found": "Aucun club n'a été trouvé suite à votre recherche.",
+                    "ratelimit": "Je suis actuellement dans la limite du taux.",
+                    "api-503": "L'API n'est actuellement pas disponible."
+                }
+            }
+        }
+    },
+    "beta": {},
+    "buttons": {
+        "autoroles": {
+            "autorole-home-button": {
+                "label": "Back"
+            },
+            "debug": {
+                "debug": "## Debugger\n- The debugger is running since {runningSinceTimestamp}.",
+                "system-deactivated": "- The system is deactivated.",
+                "role-deleted": "- An autorole has been deleted ({roleId}). This role as been removed automatically.",
+                "role-everyone": "- {role}: This role is @everyone.",
+                "role-managed": "- {role}: The role is managed by an external service.",
+                "role-position": "- {role}: I cannot forgive this role (role position too high).",
+                "no-autoroles": "- There are no autoroles.",
+                "result": "Result",
+                "success": "- {role}: No errors found"
+            },
+            "home": {},
+            "list": {
+                "list": "## List\n- The following roles are autoroles:",
+                "list-no-autoroles": "## List\n- There are currently no autoroles."
+            },
+            "reset": {
+                "are-you-sure-button": {
+                    "label": "Are you sure?"
+                },
+                "cancel-button": {
+                    "label": "Cancel"
+                },
+                "continue-button": {
+                    "label": "Success"
+                },
+                "response": "## Toggle\n- Do you really want to reset the settings? You cannot undo this."
+            },
+            "reset2": {
+                "success": "## Success\n- The system has been successfully reset."
+            },
+            "toggle": {
+                "response-deactivate": "## Toggle\n- Deactivate the system by clicking on \"Deactivate\".",
+                "response-activate": "## Toggle\n- Activate the system by clicking on \"Activate\"."
+            },
+            "toggle2": {
+                "toggle-true": "## Success\n- The system has been successfully **activated**.",
+                "toggle-false": "## Success\n- The system has been successfully **deactivated**."
+            }
+        },
+        "logs": {
+            "leave": {
+                "default-message": "D_Gamet left the server.",
+                "delete": {
+                    "success": "{y} The settings have been reset."
+                },
+                "embed": {
+                    "mode-text": "{y} Message type changed: **Text message**.",
+                    "mode-embed": "{y} Message type changed: **Embed**."
+                },
+                "message": {
+                    "modal": {
+                        "title": "Change the leaving message",
+                        "label": "Message",
+                        "placeholder": "D_Gamet left the server."
+                    }
+                },
+                "test": {
+                    "no-leave-channel": "- There is no leave channel.",
+                    "leave-channel-not-set": "{x} The leave channel has been deleted or none has been set.",
+                    "system-deactivated": "- The system is deactivated.",
+                    "success": "{y} The test message has been sent."
+                },
+                "toggle": {
+                    "success_activated": "{y} The leave system has been activated.",
+                    "success_deactivated": "{y} The leave system has been deactivated."
+                },
+                "update": {}
+            },
+            "logs": {
+                "resetdata": {
+                    "success": "{y} The data has been reset."
+                },
+                "test": {
+                    "no-logging-channel": "- {a} The logging channel was not set.",
+                    "system-deactivated": "- {i} The system is deactivated.",
+                    "logging-channel-deleted": "- {a} The logging channel has been deleted.",
+                    "success": "{y} No problems were found."
+                },
+                "toggle": {
+                    "success_activated": "{y} The logging system has been activated.",
+                    "success_deactivated": "{y} The logging system has been deactivated."
+                },
+                "update": {
+                    "embed": {
+                        "title": "Manage the settings"
+                    }
+                }
+            },
+            "welcome": {
+                "default-message": "D_Gamet joined the server.",
+                "delete": {
+                    "success": "{y} The settings have been reset."
+                },
+                "embed": {
+                    "mode-text": "{y} Message type changed: **Text message**.",
+                    "mode-embed": "{y} Message type changed: **Embed**."
+                },
+                "message": {
+                    "modal": {
+                        "title": "Change the leaving message",
+                        "label": "Message",
+                        "placeholder": "D_Gamet joined the server."
+                    }
+                },
+                "test": {
+                    "no-leave-channel": "- There is no leave channel.",
+                    "leave-channel-not-set": "{x} The leave channel has been deleted or none has been set.",
+                    "system-deactivated": "- The system is deactivated.",
+                    "success": "{y} The test message has been sent."
+                },
+                "toggle": {
+                    "success_activated": "{y} The welcome system has been activated.",
+                    "success_deactivated": "{y} The welcome system has been deactivated."
+                },
+                "update": {}
+            }
+        },
+        "other": {
+            "bot_setup_finish": {
+                "embed": {
+                    "title": "Set up Dat Bot",
+                    "description": "**Setup**\n- {y} Setup started.\n- {y} Check permissions.\n- {y} Check logging channel.\n- {y} Setup finished. This took `{durationTimestamp}` seconds."
+                }
+            },
+            "emojiquiz_skip": {
+                "system-deactivated": "{x} The emojiquiz is deactivated.",
+                "message-error": "{x} The current emojiquiz takes place here: {messageLink}",
+                "skips-missing": "{x} You have too few skips.",
+                "channel-deleted": "{x} The channel for the emoji quiz no longer exists.",
+                "success-singular": "{y} Emojiquiz skipped. You can now use 1 more skip.",
+                "success-plural": "{y} Emojiquiz skipped. You can now use {size} Skips."
+            },
+            "emojiquiz_tip": {
+                "system-deactivated": "{x} The emoji quiz is deactivated.",
+                "no-data": "{x} No data exists.",
+                "success": "- Tip: {tip}",
+                "first-letters": "The first letters are {letters}"
+            },
+            "endelon_create_post": {
+                "modal": {
+                    "title": "Create a post",
+                    "inputs": {
+                        "issue": {
+                            "label": "The issue",
+                            "placeholder": "Describe the issue."
+                        },
+                        "serverurl": {
+                            "label": "Server URL",
+                            "placeholder": "Provide an Endelon Server URL."
+                        },
+                        "tries": {
+                            "label": "Tries to solve the issue",
+                            "placeholder": "Describe attempts to solve the problem"
+                        },
+                        "name": {
+                            "label": "Name of the post",
+                            "placeholder": "Enter a name for the post."
+                        }
+                    }
+                }
+            },
+            "export_json": {
+                "success": "{y} Get your embed here: {url}",
+                "error": "{x} Export of the embed failed."
+            },
+            "flaggenquiz_skip": {
+                "system-deactivated": "{x} The flag quiz is deactivated.",
+                "message-error": "{x} The current flag quiz takes place here: {messageLink}",
+                "skips-missing": "{x} You have too few skips.",
+                "channel-deleted": "{x} The channel for the emoji quiz no longer exists.",
+                "success-singular": "{y} Flag quiz skipped. You can now use 1 more skip.",
+                "success-plural": "{y} Flag quiz skipped. You can now use {size} Skips."
+            },
+            "import_json": {
+                "modal": {
+                    "title": "Import JSON",
+                    "label": "Import your JSON code here."
+                }
+            },
+            "next_meme": {
+                "next-meme-button": {
+                    "label": "Next meme"
+                },
+                "requested-by": "Requested by {user}"
+            },
+            "update_embed": {
+                "embed-deleted": "{x} The embed from this interaction has been deleted."
+            },
+            "delete_message": {
+                "not_your_message": "{x} This message does not belong to you."
+            },
+            "verify_coc_token": {
+                "modal": {
+                    "title": "Verify your account",
+                    "label": "Token",
+                    "placeholder": "Provide the API-Token."
+                }
+            },
+            "fortnite_shophistory": {
+                "embed": {
+                    "title": "{name}'s shop history"
+                }
+            }
+        },
+        "poll": {
+            "addoption": {
+                "modal": {
+                    "title": "Add option",
+                    "label": "Name / Text",
+                    "placeholder": "Describe your option here."
+                }
+            },
+            "send": {
+                "selector": {
+                    "placeholder": "Select a channel on which the poll is sent"
+                }
+            },
+            "setdescription": {
+                "modal": {
+                    "title": "Set the description",
+                    "label": "Description",
+                    "placeholder": "Pizza with or without pineapple?"
+                }
+            }
+        }
+    },
+    "commands": {
+        "entertainment": {
+            "emojiquiz": {
+                "vote": {
+                    "embed": {
+                        "title": "Vote-Link",
+                        "description": "You can vote on [Top.gg](https://top.gg/bot/965903240384376872/vote). With every vote you get {plusVoteTokens} more skips.\nYou have {votes} through votes."
+                    },
+                    "votebutton": {
+                        "label": "Vote here!"
+                    }
+                },
+                "help": {
+                    "embed": {
+                        "title": "Emojiquiz Help",
+                        "fields": {
+                            "howtouse": {
+                                "name": "How to use the emojiquiz?",
+                                "value": "1. Use </emojiquiz setup:{commandId}>.\n2. Use </emojiquiz toggle:{commandId}>\nThen everything starts."
+                            },
+                            "whynotworking": {
+                                "name": "Why does the emoji quiz no longer work?",
+                                "value": "Please use </emojiquiz fix:{commandId}>. If it still does not work after that, please contact support [here](https://discord.gg/BQumAujuvk)."
+                            },
+                            "howtoskip": {
+                                "name": "What can you do if you can't find the term?",
+                                "value": "You can use the \"Skip\" button. If you have no more skips, you must vote [here](https://top.gg/bot/965903240384376872/vote). With every vote you get {plusVoteTokens} skips. You currently have {votes} skips."
+                            },
+                            "whereissupport": {
+                                "name": "Where can I contact the support team?",
+                                "value": "You can contact support [here](https://discord.gg/BQumAujuvk)."
+                            }
+                        }
+                    }
+                },
+                "fix": {
+                    "channel-not-set": "{x} There is no emojiquiz channel. Set one with </emojiquiz setup:{commandId}>.",
+                    "quiz-deactivated": "- The emoji quiz is deactivated",
+                    "embed": {
+                        "title": "{amount} errors were found."
+                    },
+                    "success": "{y} No errors were found.",
+                    "permissions": {
+                        "SendMessages": "- I am missing the permission \"Send messages\" in {channel}.",
+                        "ViewChannel": "- I do not have permission to view {channel}.",
+                        "EmbedLinks": "- I am missing the permission \"Embed links\" in {channel}."
+                    }
+                },
+                "guess": {
+                    "embed": {
+                        "title": "Guess the word",
+                        "description": "- Searched word・{emojis}\n\n*Deactivate the emojiquiz with </emojiquiz toggle:1117220757957779506>*"
+                    },
+                    "content": {
+                        "skip": "{user} skipped the emoji quiz!",
+                        "sol": "💡・{user} has guessed the solution."
+                    },
+                    "buttons": {
+                        "clue": {
+                            "label": "Tip"
+                        },
+                        "skip": {
+                            "label": "Skip"
+                        }
+                    },
+                    "success": "{y} The emoji quiz was successfully launched."
+                },
+                "settings": {
+                    "embed": {
+                        "title": "Settings",
+                        "fields": {
+                            "channel": {
+                                "name": "Channel"
+                            },
+                            "message": {
+                                "name": "Message"
+                            },
+                            "toggle": {
+                                "name": "Toggle",
+                                "value_activated": "> Activated",
+                                "value_deactivated": "> Deactivated"
+                            }
+                        }
+                    }
+                },
+                "toggle": {
+                    "channel-not-set": "{x} Please set a new channel with the command </emojiquiz setup:{commandId}>.",
+                    "success_deactivated": "{y} The emoji quiz has been deactivated.",
+                    "success_activated": "{y} The emoji quiz has been activated."
+                }
+            },
+            "flagquiz": {
+                "vote": {
+                    "embed": {
+                        "title": "Vote-Link",
+                        "description": "You can vote on [Top.gg](https://top.gg/bot/965903240384376872/vote). With every vote you get {plusVoteTokens} more skips.\nYou have {votes} through votes."
+                    },
+                    "votebutton": {
+                        "label": "Vote here!"
+                    }
+                },
+                "help": {
+                    "embed": {
+                        "title": "Flag quiz help",
+                        "fields": {
+                            "howtouse": {
+                                "name": "How to use the flagquiz?",
+                                "value": "1. Use </flagquiz setup:{commandId}>.\n2. Use </flagquiz toggle:{commandId}>\nThen everything starts."
+                            },
+                            "whynotworking": {
+                                "name": "Why does the flag quiz no longer work?",
+                                "value": "Please use </flagquiz fix:{commandId}>. If it still does not work after that, please contact support [here](https://discord.gg/BQumAujuvk)."
+                            },
+                            "howtoskip": {
+                                "name": "What can you do if you can't find the term?",
+                                "value": "You can use the \"Skip\" button. If you have no more skips, you must vote [here](https://top.gg/bot/965903240384376872/vote). With every vote you get {plusVoteTokens} skips. You currently have {votes} skips."
+                            },
+                            "whereissupport": {
+                                "name": "Where can I contact the support team?",
+                                "value": "You can contact support [here](https://discord.gg/BQumAujuvk)."
+                            }
+                        }
+                    }
+                },
+                "fix": {
+                    "channel-not-set": "{x} There is no flag quiz channel. Set one with </flagquiz setup:{commandId}>.",
+                    "quiz-deactivated": "- The flag quiz is deactivated",
+                    "embed": {
+                        "title": "{amount} errors were found."
+                    },
+                    "success": "{y} No errors were found.",
+                    "permissions": {
+                        "SendMessages": "- I am missing the permission \"Send messages\" in {channel}.",
+                        "ViewChannel": "- I do not have permission to view {channel}.",
+                        "EmbedLinks": "- I am missing the permission \"Embed links\" in {channel}."
+                    }
+                },
+                "guess": {
+                    "embed": {
+                        "title": "Guess the flag"
+                    },
+                    "content": {
+                        "skip": "{user} skipped the flag quiz!",
+                        "sol": "💡・{user} has guessed the solution."
+                    },
+                    "buttons": {
+                        "clue": {
+                            "label": "Tip"
+                        },
+                        "skip": {
+                            "label": "Skip"
+                        }
+                    },
+                    "success": "{y} The flag quiz was successfully launched."
+                },
+                "settings": {
+                    "embed": {
+                        "title": "Settings",
+                        "fields": {
+                            "channel": {
+                                "name": "Channel"
+                            },
+                            "message": {
+                                "name": "Message"
+                            },
+                            "toggle": {
+                                "name": "Toggle",
+                                "value_activated": "> Activated",
+                                "value_deactivated": "> Deactivated"
+                            }
+                        }
+                    }
+                },
+                "toggle": {
+                    "channel-not-set": "{x} Please set a new channel with the command </flagquiz setup:{commandId}>.",
+                    "success_deactivated": "{y} The flag quiz has been deactivated.",
+                    "success_activated": "{y} The flag quiz has been activated."
+                }
+            }
+        },
+        "fun": {
+            "cookie": {
+                "embed": {
+                    "title": "Cookies 🍪",
+                    "description": "> Click on the button below to add a cookie. There are currently {cookies} 🍪."
+                }
+            },
+            "echo": {
+                "success": "{y} Your message has been sent.\n> ℹ️・Note that no users, roles or that will be pinged. This is a security precaution. ^^"
+            },
+            "iq": {
+                "success": "{user} has an IQ of {iq}."
+            },
+            "meme": {
+                "error": "{x} I could not load a meme.",
+                "nextmeme-button": {
+                    "label": "Next meme"
+                }
+            }
+        },
+        "games": {
+            "account": {
+                "already-linked": "{x} You have already linked your account. To remove them, use </account logout clashofclans:{accountCommandId}>.",
+                "not-linked": "{x} You have not linked your account. Use </account login clashofclans:{accountCommandId}> to link your account.",
+                "link-remove-success": "{y} The account details have been removed",
+                "clashofclans": {
+                    "api": {
+                        "404": "{x} I have not found the specified account."
+                    },
+                    "embed": {
+                        "title": "Link your account",
+                        "description": "- You must now verify that this account belongs to you. To do this, go to the game. Settings > More settings > API token > Display. If you now have this token, you must click on the green button \"Specify API token\" and enter it there. Then click on \"Submit\".",
+                        "fields": {
+                            "account-details": {
+                                "name": "⭐・Account Details",
+                                "value": "> {name}・{tag}・{trophies} trophies"
+                            }
+                        }
+                    },
+                    "button": {
+                        "label": "Specify API Token"
+                    }
+                }
+            },
+            "brawlstars": {
+                "club": {
+                    "api": {
+                        "404": "{x} This club was not found. Did you enter a valid club tag? 🤔"
+                    },
+                    "embed": {
+                        "description": "<:datbot_bs_chat:1095002339045281895>・Description",
+                        "type": {
+                            "name": "<:datbot_bs_id:1095000683209560156>・Type",
+                            "value-open": "Open",
+                            "value-inviteonly": "Invite only",
+                            "value-closed": "Closed",
+                            "value-unknown": "Unknown"
+                        },
+                        "required-throphies": "<:datbot_bs_thropie:1094954801407737936>・Required trophies",
+                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Trophies",
+                        "leader": "<:datbot_bs_crown:1095001236979323013>・Leader",
+                        "best-member": {
+                            "name": "<:datbot_bs_clubleague:1095001796419784755>・Highest member ({total} in total)",
+                            "value": "- {name}・{tag}\n- Trophies: {throphies}\n- Role: {role}"
+                        }
+                    }
+                },
+                "profile": {
+                    "api": {
+                        "404": "{x} I did not find this account. Please enter a valid in-game shortcut.\n> ℹ️・[How to find an in-game shortcut](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
+                    },
+                    "embed": {
+                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Trophies",
+                        "exp-level": "<:datbot_player_level:1095000959358357636>・EXP Level",
+                        "solo-wins": "<:datbot_bs_solo:1095008405996961924>・Solo wins",
+                        "duo-wins": "<:datbot_bs_duo:1095007929503068230>・Duo wins",
+                        "3vs3-wins": "<:datbot_bs_trio:1095009330442543145>・3vs3 wins",
+                        "club": "<:datbot_bs_club:1094955757985857637>・Club",
+                        "highest-brawler": {
+                            "name": "<:brawlstars_icon:1095013107912425606>・Highest Brawler ({total} in total)",
+                            "value": "- {name}\n- Power {power}\n- Trophies: {throphies} (Rank {rank})"
+                        }
+                    }
+                }
+            },
+            "clashofclans": {
+                "club": {
+                    "api": {
+                        "404": "{x} This club was not found. Did you enter a valid club tag? 🤔"
+                    },
+                    "embed": {
+                        "clan": "<:datbot_bs_id:1095000683209560156>・Club",
+                        "description": "<:datbot_bs_chat:1095002339045281895>・Description",
+                        "locale": "<:coc_cl1:1121410510122913823>・Locale",
+                        "xp": {
+                            "name": "<:datbot_player_level:1095000959358357636>・XP",
+                            "value": "> Level {level}"
+                        },
+                        "labels": "<:coc_ri1:1121401676557996194>・Labels",
+                        "throphies": {
+                            "name": "<:datbot_bs_thropie:1094954801407737936>・Trophies",
+                            "value": "> Required {required}・Total {total}"
+                        },
+                        "best-member": {
+                            "name": "<:coc_su1:1121402165701902336>・Highest member ({total} in total)",
+                            "value": "> {name}・{tag}・{throphies} Trophies"
+                        }
+                    }
+                },
+                "profile": {
+                    "api": {
+                        "404": "{x} I did not find this account. Please enter a valid in-game shortcut.\n> ℹ️・[How to find an in-game shortcut](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
+                    },
+                    "embed": {
+                        "title": "{username}'s Account",
+                        "throphies": {
+                            "name": "<:coc_fi1:1121400453083697183>・Trophies",
+                            "value": "> {throphies} (Best: {best})"
+                        },
+                        "exp-level": {
+                            "name": "<:datbot_player_level:1095000959358357636>・EXP Level",
+                            "value": "> Level {level}"
+                        },
+                        "account": "<:datbot_bs_id:1095000683209560156>・Account",
+                        "townhall-level": {
+                            "name": "<:coc_wo1:1121399380138791043>・Townhall level",
+                            "value": "> Level {level}"
+                        },
+                        "labels": "<:coc_ri1:1121401676557996194>・Labels",
+                        "best-troop": {
+                            "name": "<:coc_su1:1121402165701902336>・Best unit ({total} in total)",
+                            "value": "> {name}・Level {level} / {maxLevel}"
+                        },
+                        "best-spell": {
+                            "name": "<:coc_pe1:1121407676363046922>・Best spell ({total} in total)",
+                            "value": "Level"
+                        },
+                        "best-hero": {
+                            "name": "<:coc_br1:1121407640606613534>・Best hero ({total} in total)",
+                            "value": "Level"
+                        }
+                    },
+                    "account": {
+                        "notsaved": "{x} Your account is not yet saved. To do this, use </account login clashofclans:{accountcommandid}>.",
+                        "notfound": "{x} The saved account was not found."
+                    }
+                }
+            },
+            "fortnite": {
+                "creatorcode": {
+                    "api": {
+                        "404": "{x} This creator was not found. Did you spell the name correctly? 🤔"
+                    },
+                    "embed": {
+                        "description": "- **Code:** {code}\n- **Status:** {status}\n- **Account:** {account}\n- **Verified:** {verified}",
+                        "title": "Creator Code - {code}"
+                    }
+                },
+                "map": {
+                    "embed": {
+                        "title": "Fortnite Map"
+                    }
+                },
+                "news": {
+                    "embed": {
+                        "title": "Fortnite News"
+                    }
+                },
+                "shopitem": {
+                    "invalid-choice": "{x} This selection is not valid.",
+                    "notoccurredyet": "Never seen before",
+                    "notknown": "Not known",
+                    "api": {
+                        "404": "{x} I have not found the specified item."
+                    },
+                    "embed": {
+                        "description": "- **Name:** {name}\n- **Description:** {description}\n- **Type:** {type}\n- **Rarity:** {rarity}\n- **Set:** {set}\n- **Added:** {added}\n- **Last occurence ({total} in total):** {last_occurrence}"
+                    },
+                    "button": {
+                        "shophistory": {
+                            "label": "Shop history"
+                        }
+                    }
+                },
+                "stats": {
+                    "api": {
+                        "403": "{x} The account settings of {username} do not allow you to view the statistics.\n> ℹ️・Activate the public match statistics: Settings > Account and Privacy > Public match statistics.",
+                        "404": "{x} I did not find {username}. Check whether you have entered the correct name.",
+                        "401": "{x} The command is no longer functional, but I have already notified my developer."
+                    }
+                }
+            },
+            "rocketleague": {},
+            "tictactoe": {
+                "opponent-notonserver": "{x} The opponent you have selected is not on this server.",
+                "opponent-isabot": "{x} Unfortunately, you cannot play against bots.",
+                "opponent-yourself": "{x} If you play against yourself, you can only lose."
+            },
+            "valorant": {
+                "agents": {
+                    "embed": {
+                        "andmore": "and {length} more",
+                        "notshown": "- {length} could not be displayed.",
+                        "description": "- Role: {role}\n- [Icon]({url})"
+                    }
+                },
+                "agent": {
+                    "api": {
+                        "404": "{x} I have not found the requested agent."
+                    },
+                    "embed": {
+                        "name": "Name",
+                        "description": "Description",
+                        "uuid": "UUID",
+                        "tags": "Tags",
+                        "role": "Role",
+                        "abilites": "Abilites ({total} insgesamt)",
+                        "description-embed": "- Name・{name}\n- Description・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Role・{role}\n- Abilites ({total} insgesamt)・{abilities}"
+                    }
+                },
+                "map": {
+                    "api": {
+                        "404": "{x} The requested card was not found."
+                    },
+                    "embed": {
+                        "name": "Name",
+                        "coordinates": "Coordinates",
+                        "callouts": "Callouts",
+                        "description": "- Name・{name}\n- Coordinates・{coordinates}\n- Callouts・{length}\n{callouts}"
+                    }
+                },
+                "maps": {
+                    "description": "- Coordinates・{coordinates}\n- UUID・{uuid}\n- Callouts・{callouts}",
+                    "andmore": "und {length} mehr",
+                    "mapsnotshown": "{length} maps could not be displayed."
+                },
+                "version": {
+                    "current-version": "Current version",
+                    "last-update": "Last update",
+                    "buildversion": "Buildversion"
+                }
+            }
+        },
+        "info": {
+            "avatar": {
+                "server": {
+                    "no-avatar": "{x} This server has no profile picture.",
+                    "embed": {
+                        "title": "The profile picture of {name}"
+                    }
+                },
+                "user": {
+                    "embed": {
+                        "title": "🖼️ | {name}'s Avatar",
+                        "title-serveravatar": "🖼️ | {name}'s Server avatar",
+                        "description": "*Note that this user does not have a server avatar.*"
+                    },
+                    "button": {
+                        "label-useravatar": "User avatar",
+                        "label-serveravatar": "Server avatar"
+                    }
+                }
+            },
+            "help": {
+                "embed": {
+                    "title": "Help Menu",
+                    "description": "- The bot is based on `/`-Commands. Therefore, it is much easier to use the bot.\n- You have to choose an option from the select menu.\n- If you have a question, bug or something like that, feel free to join the [Support Server](https://discord.gg/BQumAujuvk)."
+                },
+                "select": {
+                    "homepage": "Homepage",
+                    "moderation": "Moderation",
+                    "auto": "Autoroles & Autopublish",
+                    "level": "Levels",
+                    "games": "Games & Statistics",
+                    "info": "Information",
+                    "welcome-leave": "Welcome & Goodbye",
+                    "logging": "Logging",
+                    "poll": "Polls",
+                    "twitch": "Twitch",
+                    "quiz": "Quizzes",
+                    "embeds": "Embeds",
+                    "endelon": "Endelon Hosting",
+                    "fun": "Fun",
+                    "random": "Random",
+                    "uncategorised": "Uncategorized commands",
+                    "end": "Exit menu"
+                },
+                "components": {
+                    "privacy-policy": {
+                        "label": "Privacy Policy"
+                    },
+                    "docs": {
+                        "label": "Documentation"
+                    }
+                }
+            },
+            "info": {
+                "server": {
+                    "embed": {
+                        "fields": {
+                            "name": "✨・Name",
+                            "id": "🪪・ID",
+                            "membercount": "👤・Membercount",
+                            "booster": {
+                                "name": "💎・Booster",
+                                "value-singular": "> Level {levelinfo} ({length} Boost)",
+                                "value-plural": "> Level {levelinfo} ({length} Boosts)"
+                            },
+                            "created": "🕙・Created",
+                            "channels": {
+                                "name": "📚・Channels"
+                            },
+                            "owner": "👑・Owner",
+                            "roles": {
+                                "name": "📊・Roles (Without managed roles)",
+                                "value": "> {roles} (Shows {info})"
+                            },
+                            "emojis": {
+                                "name": "🎨・Emojis",
+                                "value": "> {emojis} (Shows {info})"
+                            },
+                            "first-members": "👀・First users",
+                            "top-badges": "⭐・Top Badges",
+                            "banner": "🖼️・Banner"
+                        }
+                    },
+                    "user": "User",
+                    "user-plural": "Users"
+                },
+                "user": {
+                    "embed": {
+                        "fields": {
+                            "name": "🌍・Name",
+                            "id": "🪪・ID",
+                            "created": "🕙・Account created",
+                            "joined": {
+                                "name": "👤・Joined server",
+                                "value": "> {timestamp} | {timestamp1} ({joinrank} user)"
+                            },
+                            "roles": {
+                                "name": "📚・Roles",
+                                "shows": "Shows",
+                                "value-none": "None"
+                            },
+                            "badges": {
+                                "name": "🎨・Badges",
+                                "value-none": "None"
+                            },
+                            "permissions": {
+                                "name": "🛡️・Permissions",
+                                "value-owner": "Owner",
+                                "value-administrator": "Administrator"
+                            },
+                            "suspect": {
+                                "name": "🔎・Suspect",
+                                "value-yes-spammer": "Yes・Spammer",
+                                "value-yes-quarantined": "Yes・Quarantined",
+                                "value-no": "No"
+                            }
+                        },
+                        "description": "Note: Use </bot info:1058376602515411061> to get more information about me."
+                    },
+                    "not-on-guild": "{x} This user is not on this server."
+                },
+                "role": {
+                    "embed": {
+                        "fields": {
+                            "name": "✨・Name",
+                            "id": "🪪・ID",
+                            "created": "🕙・Created",
+                            "position": "🔢・Position",
+                            "color": "🎨・Color",
+                            "membercount": "👤・Membercount",
+                            "permissions": {
+                                "name": "🛡️・Permissions",
+                                "value-owner": "Owner",
+                                "value-administrator": "Administrator"
+                            }
+                        }
+                    }
+                },
+                "channel": {
+                    "name": "📚・Name",
+                    "id": "🪪・ID",
+                    "created": "🕙・Created",
+                    "nsfw": "🚫・NSFW",
+                    "description": {
+                        "name": "✨・Topic",
+                        "value-no-description": "No topic given"
+                    },
+                    "position": "🔢・Position",
+                    "threads": {
+                        "name": "🔦・Threads",
+                        "value-one": "1 Thread",
+                        "value-notone": "{size} Threads"
+                    },
+                    "lastmessage": {
+                        "name": "🗨️・Last message",
+                        "value": "> [message link]({link})"
+                    },
+                    "category": "Category",
+                    "channel": "Channel"
+                },
+                "invite": {
+                    "not-valid": "{x} The invitation link provided is not valid.",
+                    "embed": {
+                        "fields": {
+                            "code": "🎨・Code",
+                            "expires-never": "never",
+                            "expires": "🗑️・Expires",
+                            "server": "🌍・Server",
+                            "channel": "⭐・Channel",
+                            "created-by": "👤・Created by",
+                            "vanity": "❓・Vanity",
+                            "value-true": "- Yes, this is the vanity code.",
+                            "value-false": "- No, this is not the vanity code."
+                        }
+                    }
+                }
+            }
+        },
+        "moderation": {
+            "logging": {
+                "welcome": {
+                    "message": {
+                        "modal": {
+                            "label": "Message",
+                            "title": "Change the welcome message",
+                            "placeholder": "D_Gamet joined the server."
+                        }
+                    },
+                    "channel": {
+                        "success": "{y} The welcome channel has been updated."
+                    },
+                    "toggle": {
+                        "success_activated": "{y} The welcome system has been activated.",
+                        "success_deactivated": "{y} The welcome system has been deactivated."
+                    },
+                    "test": {
+                        "no-welcome-message": "D_Gamet joined the server.",
+                        "no-channel-set": "- No welcome channel has been set.",
+                        "bot-permissions-welcome-channel": "- The bot cannot access the welcome channel or it has been deleted.",
+                        "toggle-deactivated": "- The welcome system is deactivated.",
+                        "testmessage-sent-success": "{y} The test message has been sent."
+                    },
+                    "mention": {
+                        "mention-success-user": "{y} The mention was set to: **user**.",
+                        "role-not-provided": "{x} You must specify a role.",
+                        "role-everyone": "You cannot use the `@everyone` role.",
+                        "mention-success-role": "{y} The mention was set to: `{rolename}`",
+                        "mention-success-remove": "{y} The welcome mention has been removed."
+                    },
+                    "settings": {
+                        "no-welcome-message": "D_Gamet joined the server.",
+                        "no-welcome-channel": "No welcome channel set",
+                        "embed": {
+                            "title": "The settings",
+                            "fields": {
+                                "channel": {
+                                    "name": "Channel",
+                                    "value": "- No channel set"
+                                },
+                                "message": {
+                                    "name": "Message",
+                                    "value": "D_Gamet joined the server."
+                                },
+                                "toggle": {
+                                    "name": "Toggle",
+                                    "value_activated": "> Activated",
+                                    "value_deactivated": "> Deactivated"
+                                }
+                            }
+                        },
+                        "components": {
+                            "welcome-message-button": {
+                                "label": "Set welcome message"
+                            },
+                            "welcome-embed-button": {
+                                "label": "Select the message type"
+                            },
+                            "update-message-button": {
+                                "label": "Update message"
+                            },
+                            "welcome-test-button": {
+                                "label": "Test the system"
+                            },
+                            "welcome-toggle-button": {
+                                "label": "Toggle the system"
+                            },
+                            "welcome-delete-button": {
+                                "label": "Reset settings"
+                            },
+                            "welcome-embed-change-button": {
+                                "label": "Configure embed"
+                            },
+                            "welcome-mention-select": {
+                                "placeholder": "Set mention",
+                                "options": {
+                                    "user": "Mention the user",
+                                    "role": "Mention a role",
+                                    "none": "Remove the mention"
+                                }
+                            },
+                            "welcome-channel-select": {
+                                "placeholder": "Set the welcome channel"
+                            }
+                        }
+                    }
+                },
+                "leave": {
+                    "message": {
+                        "modal": {
+                            "label": "Message",
+                            "title": "Change the leave message",
+                            "placeholder": "D_Gamet joined the server."
+                        }
+                    },
+                    "channel": {
+                        "success": "{y} The leave channel has been updated."
+                    },
+                    "toggle": {
+                        "success_activated": "{y} The leave system has been activated.",
+                        "success_deactivated": "{y} The leave system has been deactivated."
+                    },
+                    "test": {
+                        "no-leave-message": "D_Gamet joined the server.",
+                        "no-channel-set": "- No leave channel has been set.",
+                        "bot-permissions-leave-channel": "- The bot cannot access the leave channel or it has been deleted.",
+                        "toggle-deactivated": "- The leave system is deactivated.",
+                        "testmessage-sent-success": "{y} The test message has been sent."
+                    },
+                    "mention": {
+                        "mention-success-user": "{y} The mention was set to: **user**.",
+                        "role-not-provided": "{x} You must specify a role.",
+                        "role-everyone": "You cannot use the `@everyone` role.",
+                        "mention-success-role": "{y} The mention was set to: `{rolename}`",
+                        "mention-success-remove": "{y} The leave mention has been removed."
+                    },
+                    "settings": {
+                        "no-leave-message": "D_Gamet joined the server.",
+                        "no-leave-channel": "No leave channel set",
+                        "embed": {
+                            "title": "The settings",
+                            "fields": {
+                                "channel": {
+                                    "name": "Channel",
+                                    "value": "- No channel set"
+                                },
+                                "message": {
+                                    "name": "Message",
+                                    "value": "D_Gamet joined the server."
+                                },
+                                "toggle": {
+                                    "name": "Toggle",
+                                    "value_activated": "> Activated",
+                                    "value_deactivated": "> Deactivated"
+                                }
+                            }
+                        },
+                        "components": {
+                            "leave-message-button": {
+                                "label": "Set leave message"
+                            },
+                            "leave-embed-button": {
+                                "label": "Select the message type"
+                            },
+                            "update-message-button": {
+                                "label": "Update message"
+                            },
+                            "leave-test-button": {
+                                "label": "Test the system"
+                            },
+                            "leave-toggle-button": {
+                                "label": "Toggle the system"
+                            },
+                            "leave-delete-button": {
+                                "label": "Reset settings"
+                            },
+                            "leave-embed-change-button": {
+                                "label": "Configure embed"
+                            },
+                            "leave-mention-select": {
+                                "placeholder": "Set mention",
+                                "options": {
+                                    "user": "Mention the user",
+                                    "role": "Mention a role",
+                                    "none": "Remove the mention"
+                                }
+                            },
+                            "leave-channel-select": {
+                                "placeholder": "Set the leave channel"
+                            }
+                        }
+                    }
+                },
+                "logs": {
+                    "channel": {
+                        "success": "{y} The channel for logs has been updated.",
+                        "success-toggle": "{y} The channel for logs has been updated.\n> {i} I have automatically activated the system for you. Deactivate the logs with </logs toggle:{commandId}>."
+                    },
+                    "toggle": {
+                        "no-channel-set": "{x} No logging channel has been set. To set one, use </logs channel:{commandId}>.",
+                        "success_deactivated": "{y} The logs are now deactivated.",
+                        "success_activated": "{y} The logs are now activated."
+                    },
+                    "setup": {
+                        "embed": {
+                            "title": "Logging channel",
+                            "description": "- Please select a logging channel."
+                        },
+                        "select": {
+                            "placeholder": "Select a logging channel."
+                        },
+                        "success": "{i} Everything is already set up. To manage the settings, use </logging settings:{commandId}>."
+                    },
+                    "settings": {
+                        "embed": {
+                            "title": "Manage the settings",
+                            "fields": {
+                                "channel": {
+                                    "name": "Channel",
+                                    "value-nochannel": "- No channel set"
+                                },
+                                "toggle": {
+                                    "name": "Toggle",
+                                    "value_activated": "> Activated",
+                                    "value_deactivated": "> Deactivated"
+                                }
+                            }
+                        },
+                        "components": {
+                            "logging-toggle-button": {
+                                "label-activate": "Activate system",
+                                "label-deactivate": "Deactivate system"
+                            },
+                            "logging-test-button": {
+                                "label": "Test system"
+                            },
+                            "update-message-button": {
+                                "label": "Update message"
+                            },
+                            "logging-resetdata-button": {
+                                "label": "Reset settings"
+                            },
+                            "logging-channel-select": {
+                                "placeholder": "Set the logging channel."
+                            }
+                        }
+                    }
+                }
+            },
+            "moderation": {
+                "setnick": {
+                    "user-not-on-guild": "{x} This user is not on this server.",
+                    "user-not-manageable": "{x} I can't manage this user's nickname.",
+                    "nickname-changed": "{y} The nickname of {user} has been changed."
+                },
+                "reset": {
+                    "user-no-nickname": "{x} This user has no nickname.",
+                    "nickname-reset-success": "{y} The nickname of {user} has been successfully reset."
+                },
+                "movechannel": {},
+                "disconnect": {},
+                "voiceinfo": {},
+                "ban": {
+                    "invalid-time": "{x} Please enter a valid time. This must be between 1 second and 7 days.",
+                    "ban-datbot": "{x} You can't ban me.",
+                    "provideduser-higher-role-user": "{x} The user has an equal or higher role than you.",
+                    "provideduser-higherrole-me": "{x} The user has an equal or higher role than me.",
+                    "ban-yourself": "{x} You cannot ban yourself.",
+                    "ban-administrator": "{x} I cannot ban administrators.",
+                    "ban-notbannable": "{x} I cannot ban this user.",
+                    "no-reason": "No reason given",
+                    "banembed": {
+                        "title": "You have been banned!",
+                        "description": "**Guild:** {guild}\n**Reason:** ${reason}",
+                        "footer": {
+                            "text": "Banned since"
+                        }
+                    },
+                    "ban-success": "{y} {user} was successfully banned.\n- DM requested: {dmRequested}\n- DM sent successfully: {dmSent}"
+                },
+                "kick": {
+                    "kick-user-not-on-server": "{x} This user is not on this server.",
+                    "kick-datbot": "{x} You can't kick me.",
+                    "provideduser-higher-role-user": "{x} The user has an equal or higher role than you.",
+                    "provideduser-higherrole-me": "{x} The user has an equal or higher role than me.",
+                    "kick-yourself": "{x} You can't kick yourself.",
+                    "kick-administrator": "{x} I can't kick administrators.",
+                    "kick-notkickable": "{x} I can't kick this user.",
+                    "no-reason": "No reason given",
+                    "kickembed": {
+                        "title": "You have been kicked!",
+                        "description": "**Guild:** {guild}\n**Reason:** ${reason}",
+                        "footer": {
+                            "text": "Kicked"
+                        }
+                    },
+                    "kick-success": "{y} {user} was successfully kicked.\n- DM requested: {dmRequested}\n- DM sent successfully: {dmSent}"
+                },
+                "unban": {
+                    "user-not-banned": "{x} The specified user is not banned.",
+                    "no-reason": "No reason given",
+                    "user-unknown": "The user",
+                    "success": "{y} {user} has been unbanned."
+                },
+                "mute": {
+                    "mute-user-not-on-server": "{x} This user is not on this server.",
+                    "mute-bot": "{x} You can't mute me.",
+                    "mute-administrator": "{x} You cannot mute an administrator.",
+                    "mute-yourself": "{x} You cannot mute yourself.",
+                    "mute-user-role-higher": "{x} The user has an equal or higher role than you.",
+                    "mute-user-role-higher-bot": "{x} The user has an equal or higher role than me.",
+                    "time-invalid": "{x} The specified time is invalid. This must be between 1 second and 28 days.",
+                    "success": "{y} {user} was successfully muted until {timestamp}."
+                },
+                "unmute": {
+                    "user-not-on-guild": "{x} This user is not on this server.",
+                    "user-not-muted": "{x} The user is not in timeout.",
+                    "success": "{y} The timeout of {user} has been removed."
+                },
+                "clear": {
+                    "success-channel-user": "{y} I have deleted {user} messages in {channel} {size}.",
+                    "success-channel": "{y} I have deleted {size} messages in {channel}.",
+                    "no-reason": "No reason given"
+                },
+                "lock": {
+                    "no-reason": "No reason given",
+                    "success-lock": "{y} {channel} was successfully blocked.",
+                    "time-invalid": "{x} The specified time is invalid. This must be between 5 seconds and 60 minutes."
+                },
+                "unlock": {
+                    "channel-notlocked": "{x} {channel} is not locked.",
+                    "success-unlock": "{y} {channel} has been successfully unlocked."
+                },
+                "banreason": {
+                    "invalid-choice": "{x} This selection is not valid.",
+                    "user-not-banned": "{x} The specified user is not banned.",
+                    "new-reason": "Updating the reason (used by {user})",
+                    "success": "{y} The reason for the ban has been changed."
+                }
+            },
+            "security": {
+                "toggle": {
+                    "no-channel-set": "{x} No channel has been set. Use </security joingate channel:{commandId}> for this..",
+                    "success_activated": "{y} The logs have been activated.",
+                    "success_deactivated": "{y} The logs have been deactivated."
+                },
+                "channel": {
+                    "success": "{y} The channel for logs is now {channel}."
+                },
+                "minage": {
+                    "success": "{y} The minimum age has been updated.\n> ℹ️・Accounts that do not reach the minimum age will not be banned or similar. Only a message will be sent to the logging channel."
+                },
+                "suspicious_accounts": {
+                    "account-suspicious": "{user} - Account suspect",
+                    "very-young": "{user} - Account very new",
+                    "no-avatar": "{user} - No avatar and quite new",
+                    "embed": {
+                        "title": "Suspicious accounts",
+                        "footer": {
+                            "text-plural": "{size} Accounts checked.",
+                            "text-singular": "1 account checked."
+                        }
+                    },
+                    "too-many-accounts": "{x} There are too many suspicious accounts to report.",
+                    "success-singular": "{y} 1 account was checked.",
+                    "success-plural": "{y} {size} Accounts were checked."
+                }
+            }
+        },
+        "other": {
+            "bot": {
+                "info": {
+                    "embed": {
+                        "title": "Information",
+                        "description": "<:discord_member:1029008701027266611>・{usercount} Users\n<:discord_servers:1029009256592195594>・{servercount} Servers\n<:datbot_shard:1061322798049542145>・Shard for {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Developer: D_Gamet (`754246997266923571`)",
+                        "fields": {
+                            "most-used-commands": {
+                                "name": "<:datbot_slash_command:1104329595110576159> Popular commands",
+                                "value-nodata": "No data"
+                            },
+                            "shardinfo": {
+                                "name": "{status}・Shard {shardid}",
+                                "value": "- Servers・{servercount}\n- Users・{usercount}\n- Uptime・{uptime}\n- Ping・{ping}ms"
+                            }
+                        }
+                    }
+                },
+                "status": {
+                    "embed": {
+                        "title": "Status",
+                        "description": "- You can check my status on [my website](https://status.datbot.xyz)."
+                    }
+                },
+                "links": {
+                    "embed": {
+                        "title": "Important links",
+                        "description": "- <:verified_bot:1030502994497777684>・[Invite](https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=bot%20applications.commands)\n- <a:level:993599873771380776>・[Support Server](https://discord.gg/BQumAujuvk)\n- <:discord_online:1029009583127134228>・[Status](https://status.datbot.xyz/)\n- 📚・[Documentation](https://docs.datbot.xyz/)\n- <:topgg:1030585172753657956>・[Top.gg](https://top.gg/bot/965903240384376872)"
+                    },
+                    "buttons": {
+                        "docs-button": {
+                            "label": "Documentation"
+                        },
+                        "topgg-button": {
+                            "label": "Top.gg"
+                        }
+                    }
+                },
+                "ping": {
+                    "embed": {
+                        "shard": "Shard",
+                        "description": "🏓 Pong! My ping is currently at {ping} milliseconds.\n\n- Shards:\n{shardinfo}"
+                    }
+                },
+                "setup": {
+                    "embed": {
+                        "title": "Set up Dat Bot",
+                        "description": {
+                            "stage-1": "**Setup**\n- {y} Setup started.",
+                            "stage-2": "**Setup**\n- {y} Setup started.\n- {t} Check permissions.",
+                            "stage-3": "**Setup**\n- {y} Setup started.\n- {y} Check permissions.",
+                            "stage-4": "**Setup**\n- {y} Setup started.\n- {y} Check permissions.\n- {y} Check logging channel.\n- {i} No channel for DatBot updates has been set. If you want, you can select one. If not, click on \"Finish setup\".",
+                            "stage-5": "**Setup**\n- {y} Setup started.\n- {y} Check permissions.\n- {y} Check logging channel.\n- {y} Setup finished. This took `{time}` seconds."
+                        },
+                        "error-permissions": {
+                            "send-messages": "**Setup**\n- {y} Setup started.\n- {y} Check permissions.\n- {x} An error has occurred.\n> I do not have the permission \"Send messages\".",
+                            "embed-links": "**Setup**\n- {y} Setup started.\n- {y} Check permissions.\n- {x} An error has occurred.\n> I do not have the permission \"Embed links\".",
+                            "view-channel": "**Setup**\n- {y} Setup started.\n- {y} Check permissions.\n- {x} An error has occurred.\n> I do not have the permission \"View channel\"."
+                        }
+                    },
+                    "components": {
+                        "channel": {
+                            "placeholder": "Select the channel for the updates."
+                        },
+                        "finish": {
+                            "label": "Finish setup"
+                        }
+                    }
+                },
+                "staff": {
+                    "embed": {
+                        "title": "Dat Bot - Team",
+                        "description": "- Developer\n - <@754246997266923571> (D_Gamet)\n- Staff\n - <@872558311931797545> (Insulaner02)\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
+                    }
+                },
+                "support": {
+                    "response": "{i} If you need help, you can contact the [Support Server](https://discord.gg/BQumAujuvk)."
+                }
+            },
+            "embeds": {
+                "default-embed": {
+                    "title": "Title",
+                    "description": "Description",
+                    "author": {
+                        "name": "Author"
+                    },
+                    "footer": {
+                        "text": "Footer text"
+                    },
+                    "color": "Color",
+                    "image": "Image",
+                    "thumbnail": "Thumbnail",
+                    "field": "Field",
+                    "timestamp": "Timestamp"
+                },
+                "default-components": {
+                    "change-select": {
+                        "placeholder": "Edit your embed!"
+                    },
+                    "delete-select": {
+                        "placeholder": "Delete something from your embed!"
+                    },
+                    "import-json-button": {
+                        "label": "Import JSON"
+                    },
+                    "export-json-button": {
+                        "label": "Export JSON"
+                    },
+                    "send-embed-select": {
+                        "label": "Send the embed"
+                    }
+                },
+                "edit": {
+                    "not-valid-message-link": "{x} Enter a valid message link.",
+                    "message-not-found": "{x} The specified message was not found.",
+                    "no-embeds-size": "{x} This message does not contain an embed.",
+                    "author-not-datbot": "{x} This message is not my message.",
+                    "commit-changes-button": {
+                        "label": "Save changes"
+                    }
+                },
+                "copy": {
+                    "not-valid-message-link": "{x} Enter a valid message link.",
+                    "message-not-found": "{x} The specified message was not found.",
+                    "no-embeds-size": "{x} This message does not contain an embed.",
+                    "copy-embed-select": {
+                        "placeholder": "Select an embed.",
+                        "embed": "Embed #{size}"
+                    }
+                },
+                "export": {
+                    "not-valid-message-link": "{x} Enter a valid message link.",
+                    "message-not-found": "{x} The specified message was not found.",
+                    "no-embeds-size": "{x} This message does not contain an embed.",
+                    "copy-embed-select": {
+                        "placeholder": "Select an embed.",
+                        "embed#": "Embed #{size}"
+                    },
+                    "success": "{y} Here is your embed: {url}",
+                    "error": "{x} Export of the embed failed."
+                }
+            },
+            "endelon": {
+                "login": "Login",
+                "account-not-linked": "{x} You have not linked your Endelon account to your Discord account.",
+                "account-no-servers": "{x} You do not own any servers.",
+                "servers": {
+                    "components": {
+                        "placeholder": "Select a server.",
+                        "choices": {
+                            "description": "ID: {id}・CPU: {cpu}・Memory: {memory}・Disk: {disk}"
+                        }
+                    },
+                    "embed": {
+                        "title": "Manage your servers",
+                        "description": "> Manage your Endelon servers via DatBot. Select your server from the SelectMenu at the bottom. If it does not appear, there is probably an error. Please contact the support team. If you have any questions, you can also contact support."
+                    }
+                },
+                "links": {
+                    "embed": {
+                        "title": "Endelon Hosting",
+                        "description": "- [Website](https://endelon-hosting.de)\n- [Status](https://status.endelon-hosting.de)\n- [Discord](https://endelon.chat/)\n- [Manage](https://my.endelon-hosting.de/)\n- [MySQL Admin](https://mysqladmin.endelon-hosting.de/)\n- [Documentation](https://docs.endelon-hosting.de/)\n- [Donate (voluntary!)](https://www.paypal.me/masusniper)"
+                    }
+                },
+                "everyone": {
+                    "embed": {
+                        "description": "**Manage the server [{name}](url)**\n- You can start this server with the lower button called \"Start\"."
+                    },
+                    "components": {
+                        "start-button": {
+                            "label": "Start"
+                        },
+                        "delete-message-button": {
+                            "label": "Delete message"
+                        }
+                    },
+                    "url-not-valid": "{x} The URL is not valid.",
+                    "not-your-server": "{x} You have not linked your account to Endelon or this server does not belong to you.",
+                    "not-your-server-2": "{x} You do not own this server."
+                }
+            },
+            "level": {
+                "system-deactivated": "{x} The level system is deactivated on this server.",
+                "no-levelroles": "{x} There are no level roles.",
+                "roles": {
+                    "levelroles-deactivated": "{x} The level roles are deactivated on this server.",
+                    "add": {
+                        "success": "{y} The role {role} is now assigned when level {level} is reached.",
+                        "role_higher_position": "{x} I lack the permission to assign the role {role} because the role is my highest or a higher one.",
+                        "role_managed": "{x} This role {role} is managed by an external service."
+                    },
+                    "list": {
+                        "embed": {
+                            "title": "Level roles",
+                            "description": "- Level {level}・Role {role}"
+                        }
+                    },
+                    "deleteall": {
+                        "success": "{y} All level roles have been removed."
+                    },
+                    "remove": {
+                        "success": "{y} The role {role} has been removed from the database."
+                    },
+                    "toggle": {
+                        "success_activated": "{y} The level roles have been activated.",
+                        "success_deactivated": "{y} The level roles have been deactivated."
+                    },
+                    "fix": {
+                        "success-singular": "{y} The system has been checked.\n> {i} 1 role has been removed.",
+                        "success-plural": "{y} The system has been checked.\n> {i} {length} roles has been removed."
+                    }
+                },
+                "ignore": {
+                    "no-ignored-channels": "{x} There are no ignored channels in this server.",
+                    "add": {
+                        "channel-already-ignored": "{x} This channel is already ignored.",
+                        "success": "{y} The channel has been added."
+                    },
+                    "list": {
+                        "embed": {
+                            "title": "Ignored channels"
+                        }
+                    },
+                    "remove": {
+                        "channel-not-ignored": "{x} This channel is not ignored.",
+                        "success": "{y} The channel has been removed."
+                    }
+                },
+                "message": {
+                    "modal": {
+                        "label": "message",
+                        "placeholder": "GG, Dat Bot! You are now level 2!",
+                        "title": "Change the level-up message"
+                    }
+                },
+                "channel": {
+                    "reset-success": "{y} The levelup channel has been reset.",
+                    "success": "{y} The LevelUp messages are now sent in {channel}"
+                },
+                "test": {
+                    "no-levelup-message": "GG, Dat Bot! You are now level 2!",
+                    "success": "{y} The test message has been sent."
+                },
+                "leaderboard": {
+                    "no-data1": "No data",
+                    "no-data": "{x} Nobody has collected XP yet.",
+                    "page-total": "Page {page} of {total}",
+                    "page": "Page {page}"
+                },
+                "rank": {
+                    "user-bot": "{x} Bots cannot collect XP",
+                    "not-on-guild": "{x} this user is not on this server."
+                },
+                "toggle": {
+                    "success_activated": "{y} The level system has been activated.",
+                    "success_deactivated": "{y} The level system has been deactivated."
+                },
+                "noxprole": {
+                    "success": "{y} The \"No XP role\" has been changed.",
+                    "remove-success": "{y} The \"No XP role\" has been removed from the database."
+                }
+            },
+            "random": {
+                "number": {
+                    "success": "{random} is the random number (minimum: {min}, maximum: {max})."
+                },
+                "user": {
+                    "success": "{user} is the random user: {userinfo}"
+                },
+                "coinflip": {
+                    "success-head": "🔮・This time it was || head  ||.",
+                    "success-tail": "🔮・This time it was || tails ||."
+                }
+            }
+        },
+        "socialmedia": {
+            "twitch": {
+                "notification-embed": {
+                    "fields": {
+                        "game": "Game",
+                        "viewercount": "Viewercount"
+                    }
+                },
+                "info": {
+                    "account-not-found": "{x} I have not found the account with this username.",
+                    "account-no-information": "{x} There is no information available about the account.",
+                    "embed": {
+                        "fields": {
+                            "name": "🖊️・Name",
+                            "id": "🪪・ID",
+                            "created": "🕙・Created",
+                            "description": "🗨️・Description",
+                            "last-game": "🎮・Last game",
+                            "follower-count": "✨・Follower",
+                            "live": {
+                                "name": "📺・Live",
+                                "value-true": "> Yes",
+                                "value-false": "> No"
+                            },
+                            "title": "🎨・Titel",
+                            "game": "🎮・Game",
+                            "viewer-count": "👀・Viewercount",
+                            "livestream-started": "🎭・Livestream launched"
+                        }
+                    }
+                },
+                "add": {
+                    "default-twitch-message": "{name} is now live! {url}",
+                    "limit-reached": "{x} The limit of {limit} has already been reached.",
+                    "already-followed": "{x} This user is already being followed.",
+                    "account-not-found": "{x} I have not found the account with this username.",
+                    "success": "{y} The notification has been added.",
+                    "watch-stream-button": {
+                        "label": "Watch stream"
+                    }
+                },
+                "list": {
+                    "no-data": "{x} There are no Twitch notifications for this server.",
+                    "embed": {
+                        "title": "Twitch notifications",
+                        "description-activated": "- {channel}・Activated・{discord_channel}",
+                        "description-deactivated": "- {channel}・Deactivated・{discord_channel}"
+                    }
+                },
+                "remove": {
+                    "not-followed": "{x} The user is not followed.",
+                    "success": "{y} The notification has been removed."
+                },
+                "toggle": {
+                    "not-followed": "{x} The user is not followed.",
+                    "success_activated": "{y} The notifications from **{name}** have been activated.",
+                    "success_deactivated": "{y} The notifications from **{name}** have been deactivated."
+                }
+            }
+        },
+        "utility": {
+            "autopublish": {
+                "none-existing": "{x} There are no autopublish channels.",
+                "add": {
+                    "channel-already-autopublish": "{x} This channel is already in the database.",
+                    "success": "{y} {channel} was added."
+                },
+                "list": {
+                    "embed": {
+                        "title": "Autopublish channels"
+                    }
+                },
+                "remove": {
+                    "channel-not-autopublish": "{x} This channel is not in the database.",
+                    "success": "{y} {channel} was removed."
+                },
+                "toggle": {
+                    "success_activated": "{y} The system has been activated.",
+                    "success_deactivated": "{y} The system has been deactivated."
+                },
+                "test": {
+                    "toggle-false": "Toggle: System is deactivated",
+                    "have-been-removed": "were successfully removed",
+                    "success": "{y} No errors have occurred.",
+                    "channel-not-type-5": "{channel} is not an announcement channel"
+                },
+                "embed": {
+                    "description": "## Manage the system\n- List: Get a list of current channels\n- Debug: Test and fix errors\n- Reset: Reset the settings\n- Toggle: Activate or deactivate the system\n- Add channel: Add a channel\n- Remove channel: Remove a channel"
+                },
+                "components": {
+                    "liste-button": {
+                        "label": "List"
+                    },
+                    "debug-button": {
+                        "label": "Debug"
+                    },
+                    "reset-button": {
+                        "label": "Reset"
+                    },
+                    "toggle-button": {
+                        "label": "Toggle"
+                    },
+                    "addchannel-select": {
+                        "placeholder": "Add channel"
+                    },
+                    "removechannel-select": {
+                        "placeholder": "Remove channel"
+                    }
+                }
+            },
+            "autorole": {
+                "embed": {
+                    "description": "## Autoroles\n- List: Get a list of current autoroles\n- Debug: Test and fix errors\n- Reset: Reset the settings\n- Toggle: Activate or deactivate the autoroles\n- Add roles: Add an autorole\n- Remove roles: Remove an autorole"
+                },
+                "components": {
+                    "liste-button": {
+                        "label": "List"
+                    },
+                    "debug-button": {
+                        "label": "Debug"
+                    },
+                    "reset-button": {
+                        "label": "Reset"
+                    },
+                    "toggle-button": {
+                        "label": "Toggle"
+                    },
+                    "addchannel-select": {
+                        "placeholder": "Add autorole"
+                    },
+                    "removechannel-select": {
+                        "placeholder": "Remove autorole"
+                    }
+                }
+            },
+            "emoji": {
+                "emoji-notvalid": "{x} Please enter a valid emoji.",
+                "emoji-default": "{x} This is a standard emoji.",
+                "emoji-guild": "{x} This emoji is not from this server.",
+                "copy": {
+                    "limit-reached": "{x} You can no longer add emojis because the limit has been reached.",
+                    "buttons": {
+                        "emoji-as-emoji-button": {
+                            "label": "Add emoji as emoji."
+                        },
+                        "emoji-as-sticker-button": {
+                            "label": "Add emoji as sticker."
+                        },
+                        "url-link-button": {
+                            "label": "URL"
+                        }
+                    },
+                    "embed": {
+                        "title": "Add emoji",
+                        "description": "- Add this emoji as a sticker by clicking on \"Add emoji as sticker\".\n- Add this emoji as an emoji by clicking on \"Add emoji as emoji\"."
+                    },
+                    "success": "{y} {name} was added.",
+                    "has-been-added": "was added"
+                },
+                "info": {
+                    "embed": {
+                        "title": "Emoji Info",
+                        "description-managed-true": "- **Name:** {name}\n- **ID:** `{id}`\n- **Managed:** Ja",
+                        "description-managed-false": "- **Name:** {name}\n- **ID:** `{id}`\n- **Managed:** Nein"
+                    }
+                }
+            },
+            "poll": {
+                "create": {
+                    "embed": {
+                        "title": "Create a poll!",
+                        "fields": {
+                            "current-options": {
+                                "name": "Current options",
+                                "value": "No options set"
+                            }
+                        }
+                    },
+                    "components": {
+                        "delete-option-select": {
+                            "placeholder": "Delete an option"
+                        },
+                        "add-option-button": {
+                            "label": "Add an option"
+                        },
+                        "set-description-button": {
+                            "label": "Set description"
+                        },
+                        "send-poll-button": {
+                            "label": "Send poll"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "config": {
+        "developer_name": "D_Gamet",
+        "developer_id": "754246997266923571",
+        "support_invite": "https://discord.gg/BQumAujuvk",
+        "invite_link": "https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=applications.commands%20bot"
+    },
+    "contextmenus": {
+        "avatar": {},
+        "end_poll": {
+            "message-not-poll": "{x} This message is not a poll. Create a poll using </poll create:1114289709099798578>."
+        },
+        "levelrank": {
+            "system-deactivated": "{x} The level system is deactivated on this server.",
+            "user-bot": "{x} Bots cannot collect XP.",
+            "not-on-guild": "{x} This user is not on this server."
+        },
+        "pollcreate": {},
+        "userinfo": {},
+        "voiceinfo": {
+            "not-on-guild": "{x} This user is not on this server.",
+            "not-in-vc": "{x} This user is not in any voice channel.",
+            "embed": {
+                "self": "Self",
+                "moderator": "Moderator",
+                "user": "User",
+                "id": "ID",
+                "voice-connection": "Voice channel connection",
+                "voice-channel": "Voice channel",
+                "deaf": "Headphones muted",
+                "mute": "Microphone muted"
+            }
+        }
+    },
+    "events": {
+        "logging": {},
+        "emojiquiz": {},
+        "flagquiz": {}
+    },
+    "modals": {
+        "embeds": {
+            "embed-message-not-found": "{x} I can no longer find the embed message.",
+            "embed-not-existing": "{x} The embed message no longer exists.",
+            "embed-not-found": "{x} I can no longer find the embed.",
+            "url-invalid": "{x} The specification must be a valid URL.",
+            "author": {
+                "name": {},
+                "url": {},
+                "icon": {}
+            },
+            "color": {
+                "not-hex-code": "{x} The specification is not a hex code"
+            },
+            "description": {},
+            "fields_add": {},
+            "footer": {
+                "text": {},
+                "icon": {}
+            },
+            "image": {},
+            "thumbnail": {},
+            "timestamp": {
+                "not-timestamp": "{x} The specified time is invalid. `YYYY-MM-DD HH:MM:SS` would be correct.\n> Example: `2023-03-15 15:37:12` -> 15.03.2023 15:37:12"
+            },
+            "title": {
+                "title": {},
+                "url": {}
+            },
+            "import_json": {
+                "not-json-code": "{x} The JSON code is not valid."
+            }
+        },
+        "games": {
+            "clashofclans": {
+                "api_verify": {
+                    "api": {
+                        "404": "{x} I have not found the account."
+                    },
+                    "token-invalid": "{x} The token is invalid.",
+                    "success": "{y} The token is valid. Your account has been saved in the database.\n> {i} Only your in-game abbreviation ({tag}) has been saved."
+                }
+            }
+        },
+        "logs": {
+            "leave_message": {
+                "success": "{y} The message has been updated."
+            },
+            "welcome_message": {
+                "success": "{y} The message has been updated."
+            }
+        },
+        "other": {
+            "endelon_post_create": {
+                "url-not-valid": "{x} The URL is not valid."
+            },
+            "level_message": {
+                "success": "{y} The message has been updated."
+            }
+        },
+        "poll": {
+            "add_option": {
+                "current-options": "Current option(s)",
+                "embed-deleted": "{x} The embed has been deleted.",
+                "option-twice": "{x} You cannot use any option more than once.",
+                "fields-size-error": "{x} You cannot add more than 25 options."
+            },
+            "set_description": {
+                "embed-deleted": "{x} The embed has been deleted."
+            }
+        }
+    },
+    "other": {
+        "yes": "Yes",
+        "no": "No",
+        "active": "Active",
+        "no-data": "No data",
+        "deactive": "Not active",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "no-channel": "No channel",
+        "day": "Day",
+        "channel": "Channel",
+        "channels": "Channels",
+        "days": "Days",
+        "none": "None",
+        "api": {
+            "not-functionable": "{x} This command is no longer functional. Please contact my developer D_Gamet.",
+            "401": "{x} The command is no longer functional, but I have already notified my developer.",
+            "403": "{x} This command is no longer functional. Please contact my developer D_Gamet.",
+            "429": "{x} I am currently within the rate limit.",
+            "500": "{x} The external server had an error.",
+            "502": "{x} The external server is currently not available.",
+            "503": "{x} The external server is currently not available."
+        },
+        "general": {
+            "notspecific": "{x} An error has occurred.",
+            "notyourmenu": "{x} This is not your menu.",
+            "currently-not-available": "{x} Currently not available.",
+            "translation-error": "{i} I automatically recognized that a translation was not loaded correctly. I have already informed my developer automatically.",
+            "menutimeover": "{x} The menu has expired. Please open a new menu.",
+            "components": {
+                "buttons": {
+                    "support-button": {
+                        "label": "Support"
+                    },
+                    "invite-button": {
+                        "label": "Invite"
+                    },
+                    "status-button": {
+                        "label": "Status"
+                    },
+                    "docs-button": {
+                        "label": "Documentation"
+                    },
+                    "topgg-button": {
+                        "label": "Top.gg"
+                    },
+                    "privacy-policy-button": {
+                        "label": "Privacy Policy"
+                    }
+                }
+            }
+        },
+        "permissions": {
+            "user_permission": "{x} You are missing the permission {permission}.",
+            "user_permission_channel": "{x} You are missing the permission {permission} in {channel}",
+            "user_channel": "{x} You missing the permission to view the channel {channel}.",
+            "bot_permission": "{x} I am missing the permission {permission}.",
+            "bot_permission_channel": "{x} I am missing the {permission} permission in {channel}",
+            "bot_channel": "{x} I do not have permission to view the {channel} channel."
+        },
+        "grammar": {
+            "singular": "One error has occurred",
+            "plural": "{size} errors have occurred"
+        },
+        "restrictions": {
+            "server-banned": "{x} This server has been banned. More information: https://discord.gg/BQumAujuvk.",
+            "user-banned": "{x} You have been banned from Dat Bot's system. You can find more information here: https://discord.gg/BQumAujuvk.",
+            "cooldown": "{x} You can use this command again {lastexecuted}.",
+            "command-developer": "{x} This command is only for developers.",
+            "command-unloaded": "{x} This command is not loaded. Please contact the support server: https://discord.gg/BQumAujuvk",
+            "use-command-again": "{x} Please use the command again.",
+            "user-banned-command": "{x}You are not allowed to use this command."
+        },
+        "endelon": {
+            "runtime": "🕐・Runtime",
+            "status": {
+                "offline": "🔴・Status",
+                "online": "🟢・Status",
+                "installing": "🟤・Status",
+                "unknown": "⚫・Status"
+            },
+            "status-label": {
+                "offline": "Offline",
+                "starting": "Starting",
+                "online": "Online",
+                "installing": "Installing",
+                "stopping": "Stopping",
+                "running": "Running",
+                "unknown": "Unknown",
+                "restart": "Restarting"
+            },
+            "server-not-found": "{x} This server was not found.",
+            "manage-your-server": "Manage your server",
+            "server-started": "{y} Server started.",
+            "api": {
+                "400": "{x} You have not linked your Endelon account to your Discord account.",
+                "404": "{x} The server does not belong to you."
+            },
+            "update": "Update",
+            "start": "Start",
+            "restart": "Restart",
+            "stop": "Stop",
+            "kill": "Kill"
+        },
+        "quiz": {
+            "emojiquiz": {
+                "embed": {
+                    "title": "Guess the word"
+                }
+            },
+            "flagquiz": {
+                "embed": {
+                    "title": "Guess the flag"
+                }
+            }
+        }
+    },
+    "permissions": {
+        "AddReactions": "Add Reactions",
+        "Administrator": "Administrator",
+        "AttachFiles": "Attach Files",
+        "BanMembers": "Ban Members",
+        "ChangeNickname": "Change Nickname",
+        "Connect": "Connect",
+        "CreateInstantInvite": "Create Invite",
+        "CreatePrivateThreads": "Create Private Threads",
+        "CreatePublicThreads": "Create Public Threads",
+        "DeafenMembers": "Server Deafen",
+        "EmbedLinks": "Embed Links",
+        "KickMembers": "Kick Members",
+        "ManageChannels": "Manage Channels",
+        "ManageEmojisAndStickers": "Manage Emojis and Stickers",
+        "ManageEvents": "Manage Events",
+        "ManageGuild": "Manage Server",
+        "ManageGuildExpressions": "Manage Expressions",
+        "ManageMessages": "Manage Messages",
+        "ManageNicknames": "Manage Nicknames",
+        "ManageRoles": "Manage Roles",
+        "ManageThreads": "Manage Threads",
+        "ManageWebhooks": "Manage Webhooks",
+        "MentionEveryone": "Mention @everyone, @here and All Roles",
+        "ModerateMembers": "Time out members",
+        "MoveMembers": "Move Members",
+        "MuteMembers": "Mute Members",
+        "PrioritySpeaker": "Very Important Speaker",
+        "ReadMessageHistory": "Read Message History",
+        "RequestToSpeak": "Request to Speak",
+        "SendMessages": "Send Messages",
+        "SendMessagesInThreads": "Send Messages in Threads",
+        "SendTTSMessages": "Send Text-to-speech messages",
+        "SendVoiceMessages": "Semd Voice Messages",
+        "Speak": "Speak",
+        "Stream": "Video",
+        "UseApplicationCommands": "Use Application Commands",
+        "UseEmbeddedActivities": "Use (Embedded) Activities",
+        "UseExternalEmojis": "Use External Emojis",
+        "UseExternalSounds": "Use External Sounds",
+        "UseExternalStickers": "Use External Stickers",
+        "UseSoundboard": "Use Soundboard",
+        "UseVAD": "Use Voice-activity-detection",
+        "ViewAuditLog": "View Audit Log",
+        "ViewChannel": "View Channel",
+        "ViewCreatorMonetizationAnalytics": "View Creator Monetization Analytics",
+        "ViewGuildInsights": "View Server Insights"
+    },
+    "selectors": {
+        "embeds": {
+            "embed-message-not-found": "{x} I can no longer find the embed message.",
+            "embed-not-existing": "{x} The embed message no longer exists.",
+            "embed-not-found": "{x} I can no longer find the embed.",
+            "embed-deleted": "{x} The embed has been deleted.",
+            "url-invalid": "{x} The specification must be a valid URL.",
+            "author": {
+                "name": {
+                    "modal": {
+                        "title": "Change the author name",
+                        "label": "Author Name"
+                    }
+                },
+                "icon": {
+                    "modal": {
+                        "title": "Change the author icon",
+                        "label": "Author Icon",
+                        "placeholder": "A cool icon."
+                    }
+                },
+                "url": {
+                    "modal": {
+                        "title": "Change the author url",
+                        "label": "URL",
+                        "placeholder": "https://discord.gg/BQumAujuvk"
+                    }
+                }
+            },
+            "delete": {},
+            "footer": {
+                "text": {
+                    "modal": {
+                        "title": "Change the footer text",
+                        "label": "Footer Text",
+                        "placeholder": "Dat Bot is a great Bot."
+                    }
+                },
+                "icon": {
+                    "modal": {
+                        "title": "Change the footer icon",
+                        "label": "Footer Icon",
+                        "placeholder": "A cool Icon."
+                    }
+                }
+            },
+            "title": {
+                "title": {
+                    "modal": {
+                        "title": "Change the title",
+                        "label": "Title",
+                        "placeholder": "A very cool title."
+                    }
+                },
+                "url": {
+                    "modal": {
+                        "title": "Change the Title URL",
+                        "label": "URL",
+                        "placeholder": "https://discord.gg/BQumAujuvk"
+                    }
+                }
+            },
+            "delete-part": {
+                "requirements-missing": "{x} The embed must contain one of the following: Title, Author Name, Footer Text, Description, Image or Thumbnail.",
+                "embed-size": "{x} You cannot add more than 25 fields.",
+                "selector": {
+                    "placeholder": "Select a field to delete."
+                }
+            },
+            "select-embed": {
+                "title": {
+                    "selector": {
+                        "placeholder": "Edit the title!",
+                        "options": {
+                            "text": "Text",
+                            "url": "URL"
+                        }
+                    }
+                },
+                "author": {
+                    "selector": {
+                        "placeholder": "Edit the author!",
+                        "options": {
+                            "name": "Name",
+                            "url": "URL",
+                            "icon": "Icon URL"
+                        }
+                    }
+                },
+                "description": {
+                    "modal": {
+                        "title": "Change the description",
+                        "label": "Description",
+                        "placeholder": "A very cool description."
+                    }
+                },
+                "timestamp": {
+                    "modal": {
+                        "title": "Change the timestamp",
+                        "label": "Timestamp",
+                        "placeholder": "YYYY-MM-DD HH:MM"
+                    }
+                },
+                "thumbnail": {
+                    "modal": {
+                        "title": "Change the Thumbnail",
+                        "label": "Thumbnail",
+                        "placeholder": "A cool Thumbnail."
+                    }
+                },
+                "image": {
+                    "modal": {
+                        "title": "Change the Image",
+                        "label": "Image",
+                        "placeholder": "A cool Image."
+                    }
+                },
+                "footer": {
+                    "selector": {
+                        "placeholder": "Change the Footer!",
+                        "options": {
+                            "name": "Name",
+                            "icon": "Icon URL"
+                        }
+                    }
+                },
+                "color": {
+                    "modal": {
+                        "title": "Change the Color",
+                        "label": "Color",
+                        "placeholder": "#2ef024"
+                    }
+                },
+                "field": {
+                    "embed-size": "{x} You cannot add more than 25 fields.",
+                    "modal": {
+                        "title": "Add a field!",
+                        "inputs": {
+                            "information": {
+                                "label": "Name",
+                                "placeholder": "Information"
+                            },
+                            "value": {
+                                "label": "Value",
+                                "placeholder": "Information is very important."
+                            },
+                            "inline": {
+                                "label": "Inline",
+                                "placeholder": "true/talse"
+                            }
+                        }
+                    }
+                }
+            },
+            "send-embed": {}
+        },
+        "logs": {
+            "leave": {
+                "channel": {
+                    "success": "{y} Leave messages are now sent in {channel}."
+                },
+                "mention-setrole": {
+                    "success": "{y} The role mention was set to {role}."
+                },
+                "mention": {
+                    "user": {
+                        "success": "{y} The mention was set to: **User**."
+                    },
+                    "role": {
+                        "selector": {
+                            "placeholder": "Set the role"
+                        },
+                        "success": "{i} Please select a role."
+                    },
+                    "none": {
+                        "success": "{y} The leave mention has been removed"
+                    }
+                }
+            },
+            "logs": {
+                "channel": {
+                    "success": "{y} The logging channel was set to {channel}."
+                },
+                "channel_setup": {
+                    "success": "{y} The logging channel was set to {channel}."
+                }
+            },
+            "welcome": {
+                "channel": {
+                    "success": "{y} The channel for welcome messages has been set to {channel}."
+                },
+                "mention-setrole": {
+                    "success": "{y} The role mention was set to {role}."
+                },
+                "mention": {
+                    "user": {
+                        "success": "{y} The mention was set to: **User**."
+                    },
+                    "role": {
+                        "selector": {
+                            "placeholder": "Set the role"
+                        },
+                        "success": "{i} Please select a role."
+                    },
+                    "none": {
+                        "success": "{y} The welcome mention has been removed."
+                    }
+                }
+            }
+        },
+        "other": {
+            "autorole_addrole": {
+                "buttons": {
+                    "autorole-home": {
+                        "label": "Back"
+                    }
+                },
+                "limit-reached": "- {role}: The limit of 15 rolls has been reached",
+                "already-autorole": "- {role}: This role is already an author role.",
+                "role-everyone": "- {role}: This role is @everyone.",
+                "role-managed": "- {role}: Role is managed by an external service.",
+                "role-position": "- {role}: I cannot assign this role (role position).",
+                "role-administrator": "- {a} {role}: This role has the administrator permission.",
+                "role-success": "- {role}: Success",
+                "result": "Result",
+                "added-roles": "Added roles",
+                "log": "Log",
+                "success": "- {role}: Success"
+            },
+            "autorole_removerole": {
+                "buttons": {
+                    "autorole-home": {
+                        "label": "Back"
+                    }
+                },
+                "not-autorole": "- {role}: This role is not an autorole.",
+                "result": "Result",
+                "removed-roles": "Added roles",
+                "success": "- {role}: Success",
+                "log": "Log"
+            },
+            "datbot_channel": {
+                "embed": {
+                    "title": "Set up Dat Bot",
+                    "description": "- {y} Setup started.\n- {y} Check permissiosn.\n- {y} Check logging channel.\n- {y} Setup finished."
+                }
+            }
+        },
+        "poll": {
+            "embed-deleted": "{x} The embed has been deleted.",
+            "poll_delete_option": {
+                "embed": {
+                    "fields": {
+                        "current-options": {
+                            "name": "Current option(s)",
+                            "value": "No options"
+                        }
+                    }
+                }
+            },
+            "send_poll": {
+                "poll-message-not-found": "{x} The poll message was not found.",
+                "embed-deleted": "{x} The embed has been deleted."
+            }
+        }
+    }
+}

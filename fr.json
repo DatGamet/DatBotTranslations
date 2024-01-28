@@ -236,6 +236,12 @@
                 "embed": {
                     "title": "{name}'s shop history"
                 }
+            },
+            "send_with_webhook": {
+                "title": "Webhook URL",
+                "url": "Provide a Webhook URL.",
+                "name": "Provide a name.",
+                "avatar": "Provide an avatar."
             }
         },
         "poll": {
@@ -1751,6 +1757,10 @@
             },
             "import_json": {
                 "not-json-code": "{x} The JSON code is not valid."
+            },
+            "sendwithwebhook": {
+                "not-valid": "{x} The provided Webhook URL is not valid.",
+                "thread-id": "{x} This webhook is for a forum, therefore it cannot be used."
             }
         },
         "games": {

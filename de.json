@@ -236,6 +236,12 @@
                 "embed": {
                     "title": "{name}s Shopgeschichte"
                 }
+            },
+            "send_with_webhook": {
+                "title": "Webhook URL",
+                "url": "Gebe eine Webhook URL an.",
+                "name": "Gebe einen Namen an.",
+                "avatar": "Gebe eine Avatar URL an."
             }
         },
         "poll": {
@@ -1751,6 +1757,10 @@
             },
             "import_json": {
                 "not-json-code": "{x} Der JSON Code ist nicht valid."
+            },
+            "sendwithwebhook": {
+                "not-valid": "{x} Die angegebene Webhook URL ist nicht valid.",
+                "thread-id": "{x} Dieses Webhook ist für ein Forum, deswegen kann es nicht verwendet werden."
             }
         },
         "games": {

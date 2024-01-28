@@ -46,7 +46,7 @@
             },
             "home": {},
             "list": {
-                "list": "`## Liste\n- Die folgenden Rollen sind zurzeit Autorollen:",
+                "list": "## Liste\n- Die folgenden Rollen sind zurzeit Autorollen:",
                 "list-no-autoroles": "## Liste\n- Es gibt zurzeit keine Autorollen."
             },
             "reset": {
@@ -767,7 +767,8 @@
                             "banner": "🖼️・Banner"
                         }
                     },
-                    "user": "Nutzer"
+                    "user": "Nutzer",
+                    "user-plural": "Nutzer"
                 },
                 "user": {
                     "embed": {
@@ -1120,7 +1121,7 @@
                             "text": "Banned since"
                         }
                     },
-                    "ban-success": "{y} {user} wurde erfolgreich gebannt."
+                    "ban-success": "{y} {user} wurde erfolgreich gebannt.\n- Privatnachricht angefragt: {dmRequested}\n- Privatnachricht erfolgreich versendet: {dmSent}"
                 },
                 "kick": {
                     "kick-user-not-on-server": "{x} Dieser Nutzer ist nicht auf diesem Server.",
@@ -1138,7 +1139,7 @@
                             "text": "Kicked"
                         }
                     },
-                    "kick-success": "{y} {user} erfolgreich wurde gekickt."
+                    "kick-success": "{y} {user} erfolgreich wurde gekickt.\n- DM requested: {dmRequested}\n- DM sent successfully: {dmSent}"
                 },
                 "unban": {
                     "user-not-banned": "{x} Der angegebene Nutzer ist nicht gebannt.",
@@ -1836,6 +1837,9 @@
                     },
                     "topgg-button": {
                         "label": "Top.gg"
+                    },
+                    "privacy-policy-button": {
+                        "label": "Datenschutzerklärung"
                     }
                 }
             }

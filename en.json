@@ -46,7 +46,7 @@
             },
             "home": {},
             "list": {
-                "list": "`## List\n- The following roles are autoroles:",
+                "list": "## List\n- The following roles are autoroles:",
                 "list-no-autoroles": "## List\n- There are currently no autoroles."
             },
             "reset": {
@@ -762,11 +762,12 @@
                                 "value": "> {emojis} (Shows {info})"
                             },
                             "first-members": "👀・First users",
-                            "top-badges": "⭐・Top Bagdes",
+                            "top-badges": "⭐・Top Badges",
                             "banner": "🖼️・Banner"
                         }
                     },
-                    "user": "User"
+                    "user": "User",
+                    "user-plural": "Users"
                 },
                 "user": {
                     "embed": {
@@ -823,7 +824,7 @@
                 "channel": {
                     "name": "📚・Name",
                     "id": "🪪・ID",
-                    "created": "🕙・Crated",
+                    "created": "🕙・Created",
                     "nsfw": "🚫・NSFW",
                     "description": {
                         "name": "✨・Topic",
@@ -1119,7 +1120,7 @@
                             "text": "Banned since"
                         }
                     },
-                    "ban-success": "{y} {user} was successfully banned."
+                    "ban-success": "{y} {user} was successfully banned.\n- DM requested: {dmRequested}\n- DM sent successfully: {dmSent}"
                 },
                 "kick": {
                     "kick-user-not-on-server": "{x} This user is not on this server.",
@@ -1137,7 +1138,7 @@
                             "text": "Kicked"
                         }
                     },
-                    "kick-success": "{y} {user} was successfully kicked."
+                    "kick-success": "{y} {user} was successfully kicked.\n- DM requested: {dmRequested}\n- DM sent successfully: {dmSent}"
                 },
                 "unban": {
                     "user-not-banned": "{x} The specified user is not banned.",
@@ -1206,7 +1207,7 @@
                     },
                     "too-many-accounts": "{x} There are too many suspicious accounts to report.",
                     "success-singular": "{y} 1 account was checked.",
-                    "success-plural": "{y} Accounts were {size} checked."
+                    "success-plural": "{y} {size} Accounts were checked."
                 }
             }
         },
@@ -1837,7 +1838,7 @@
                     "topgg-button": {
                         "label": "Top.gg"
                     },
-                    "privacy-police-button": {
+                    "privacy-policy-button": {
                         "label": "Privacy Policy"
                     }
                 }

@@ -1327,6 +1327,9 @@
                     },
                     "send-embed-select": {
                         "label": "Send the embed"
+                    },
+                    "send-with-webhook-button": {
+                        "label": "Send with webhook"
                     }
                 },
                 "edit": {

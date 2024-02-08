@@ -3,26 +3,25 @@
         "games": {
             "fortnite": {
                 "shopitem": {
-                    "no-name": "Por favor, introduce un nombre",
-                    "no-matching-items": "No se encontraron coincidencias",
-                    "no-shopitem-found": "No se ha encontrado ningún artículo basado en tu búsqueda"
+                    "no-name": "Por favor, introduce un nombre.",
+                    "no-matching-items": "No se encontraron coincidencias.",
+                    "no-shopitem-found": "No se ha encontrado ningún artículo basado en tu búsqueda."
                 }
             },
             "valorant": {
                 "map": {
-                    "no-map-found": "Es wurde keine Karte basierend auf deiner Suche gefunden."
+                    "no-map-found": "No se ha encontrado ningún mapa basado en su búsqueda."
                 },
                 "agent": {
-                    "no-agent-found": "Es wurde kein Agent basierend auf deiner Suche gefunden."
+                    "no-agent-found": "No se ha encontrado ningún agente en su búsqueda."
                 }
             },
             "clashofclans": {
                 "club": {
-                    "no-name": "Bitte gebe einen Namen an.",
-                    "name-too-short": "Der Name muss mindestens 3 Zeichen lang sein.",
-                    "nothing-found": "Es wurde nichts basierend auf deiner Suche gefunden.",
-                    "ratelimit": "Ich befinde mich zurzeit im Rate-Limit.",
-                    "api-503": "Die API ist zurzeit nicht erreichbar."
+                    "name-too-short": "El nombre debe tener al menos 3 caracteres.",
+                    "nothing-found": "No se ha encontrado nada basado en tu búsqueda.",
+                    "ratelimit": "Actualmente estoy en el límite de tarifa.",
+                    "api-503": "La API no está disponible actualmente."
                 }
             }
         }
@@ -34,39 +33,39 @@
                 "label": "Zurück"
             },
             "debug": {
-                "debug": "## Debuggen\n- Das Debuggen läuft seit {runningSinceTimestamp}.",
-                "system-deactivated": "- Das System ist deaktiviert.",
-                "role-deleted": "- Eine Autorolle wurde gelöscht ({roleId}). Diese Rolle wurde automatisch entfernt.",
-                "role-everyone": "- {role}: Diese Rolle ist @everyone.",
-                "role-managed": "- {role}: Rolle wird von einem externen Service verwaltet.",
-                "role-position": "- {role}: Ich kann diese Rolle nicht vergeben (Rollenposition).",
-                "no-autoroles": "- Es gibt keine Autorollen.",
-                "result": "Ergebnis",
-                "success": "- {role}: Keine Fehler"
+                "debug": "## Debugging\n- La depuración se ha estado ejecutando desde {runningSinceTimestamp}.",
+                "system-deactivated": "- El sistema está desactivado.",
+                "role-deleted": "- Se ha eliminado un rol de autor ({roleId}). Este rol se ha eliminado automáticamente.",
+                "role-everyone": "- {role}: Este papel es @everyone.",
+                "role-managed": "- {role}: La función es gestionada por un servicio externo.",
+                "role-position": "- {role}: No puedo asignar este rol (posición del rol).",
+                "no-autoroles": "- No hay tiradas de coches.",
+                "result": "Resultado",
+                "success": "- {role}: Sin errores"
             },
             "home": {},
             "list": {
-                "list": "## Liste\n- Die folgenden Rollen sind zurzeit Autorollen:",
-                "list-no-autoroles": "## Liste\n- Es gibt zurzeit keine Autorollen."
+                "list": "## Liste\n- Las siguientes funciones son actualmente funciones de coche:",
+                "list-no-autoroles": "## Liste\n- Actualmente no hay tiradas de coches."
             },
             "reset": {
                 "are-you-sure-button": {
-                    "label": "Bist du dir sicher?"
+                    "label": "¿Seguro?"
                 },
                 "cancel-button": {
-                    "label": "Abbrechen"
+                    "label": "Cancelar"
                 },
                 "continue-button": {
-                    "label": "Fortfahren"
+                    "label": "Continúe en"
                 },
-                "response": "## Toggle\n- Möchtest du wirklich die Einstellungen zurücksetzen? Du kannst dies nicht rückgängig machen."
+                "response": "## Toggle\n- ¿De verdad quieres restablecer la configuración? No puedes deshacerlo."
             },
             "reset2": {
-                "success": "## Erfolg\n- Das System wurde erfolgreich zurückgesetzt."
+                "success": "## Éxito\n- El sistema se ha restablecido correctamente."
             },
             "toggle": {
-                "response-deactivate": "## Toggle\n- Deaktiviere das System, indem du auf \"Deaktivieren\" klickst.",
-                "response-activate": "## Toggle\n- Aktiviere das System, indem du auf \"Aktivieren\" klickst."
+                "response-deactivate": "## Toggle\n- Desactive el sistema haciendo clic en \"Desactivar\".",
+                "response-activate": "## Toggle\n- Active el sistema haciendo clic en \"Activar\"."
             },
             "toggle2": {
                 "toggle-true": "## Erfolg\n- Das System wurde erfolgreich **aktiviert.**",

@@ -159,53 +159,53 @@
         }
       },
       "emojiquiz_skip": {
-        "system-deactivated": "{x} Das Emojiquiz ist deaktiviert.",
-        "message-error": "{x} Das aktuelle Emojiquiz findet hier statt: {messageLink}",
-        "skips-missing": "{x} Du hast zu wenig Skips.",
-        "channel-deleted": "{x} Den Kanal für das Emojiquiz gibt es nicht mehr.",
-        "success-singular": "{y} Emojiquiz geskippt. Du kannst nun noch 1 Skip nutzen.",
-        "success-plural": "{y} Emojiquiz geskippt. Du kannst nun noch {size} Skip nutzen."
+        "system-deactivated": "{x} Il quiz emoji è disattivato.",
+        "message-error": "{x} L'emojiquiz attuale si svolge qui: {messaggioLink}",
+        "skips-missing": "{x} Il numero di skip è insufficiente.",
+        "channel-deleted": "{x} Il canale per il quiz delle emoji non esiste più.",
+        "success-singular": "{y} Emojiquiz saltato. Ora è possibile utilizzare 1 altro skip.",
+        "success-plural": "{y} Emojiquiz saltato. Ora è possibile utilizzare {size} skip."
       },
       "emojiquiz_tip": {
-        "system-deactivated": "{x} Das Emojiquiz ist deaktiviert.",
-        "no-data": "{x} Es gibt keine Daten.",
-        "success": "- Tipp: {tip}",
-        "first-letters": "Die ersten Buchstaben sind {letters}"
+        "system-deactivated": "{x} Il quiz emoji è disattivato.",
+        "no-data": "{x} Non ci sono dati.",
+        "success": "- Tip: {tip}",
+        "first-letters": "Le prime lettere sono {letters}"
       },
       "endelon_create_post": {
         "modal": {
-          "title": "Erstelle einen Post",
+          "title": "Creare un post",
           "inputs": {
             "issue": {
-              "label": "Das Problem",
-              "placeholder": "Beschreibe das Problem."
+              "label": "Il problema",
+              "placeholder": "Descrivere il problema."
             },
             "serverurl": {
-              "label": "Server URL",
-              "placeholder": "Gebe eine Endelon Server URL an."
+              "label": "URL del server",
+              "placeholder": "Inserire l'URL di un server Endelon."
             },
             "tries": {
-              "label": "Versuche",
-              "placeholder": "Beschreibe Versuche, das Problem zu beheben"
+              "label": "Tentativi",
+              "placeholder": "Descrivere i tentativi di risolvere il problema."
             },
             "name": {
-              "label": "Postname",
-              "placeholder": "Gebe einen Postnamen an."
+              "label": "Nome del post",
+              "placeholder": "Inserire un nome per il post."
             }
           }
         }
       },
       "export_json": {
-        "success": "{y} Bekomme dein Embed hier: {url}",
-        "error": "{x} Export des Embeds fehlgeschlagen."
+        "success": "{y} Vedi il tuo embed qui: {url}",
+        "error": "{x} Export dell'embed fallito."
       },
       "flaggenquiz_skip": {
-        "system-deactivated": "{x} Das Flaggenquiz ist deaktiviert.",
-        "message-error": "{x} Das aktuelle Flaggenquiz findet hier statt: {messageLink}",
-        "skips-missing": "{x} Du hast zu wenig Skips.",
-        "channel-deleted": "{x} Den Kanal für das Flaggenquiz gibt es nicht mehr.",
-        "success-singular": "{y} Flaggenquiz geskippt. Du kannst nun noch 1 Skip nutzen.",
-        "success-plural": "{y} Flaggenquiz geskippt. Du kannst nun noch {size} Skips nutzen."
+        "system-deactivated": "{x} Il quiz delle  bandiere è disattivato.",
+        "message-error": "{x} L'attuale quiz delle  bandiere si svolge qui: {messageLink}",
+        "skips-missing": "{x} I skip sono insufficienti.",
+        "channel-deleted": "{x} Il canale per il quiz delle bandiere non esiste più.",
+        "success-singular": "{y} Quiz delle bandiere saltato. Ora è possibile utilizzare 1 altro skip.",
+        "success-plural": "{y} Quiz delle bandiere saltato. Ora è possibile utilizzare {size} altri skip."
       },
       "import_json": {
         "modal": {

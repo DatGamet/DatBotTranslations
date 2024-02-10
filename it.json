@@ -123,30 +123,30 @@
         }
       },
       "welcome": {
-        "default-message": "D_Gamet hat diesen Server verlassen.",
+        "default-message": "D_Gamet è entrato in questo server.",
         "delete": {
-          "success": "{y} Die Einstellungen wurden zurückgesetzt."
+          "success": "{y} Le impostazioni sono state resettate."
         },
         "embed": {
-          "mode-text": "{y} Nachrichtentyp geändert: **Textnachricht**.",
-          "mode-embed": "{y} Nachrichtentyp geändert: **Embed**."
+          "mode-text": "{y} Il tipo di messaggio è cambiato: **Messaggio normale**.",
+          "mode-embed": "{y} Il tipo di messaggio è cambiato: **Embed**."
         },
         "message": {
           "modal": {
-            "title": "Ändere die Verlassensnachricht",
-            "label": "Nachricht",
-            "placeholder": "D_Gamet hat diesen Server verlassen."
+            "title": "Cambia il messaggio di benvenuto",
+            "label": "Messaggio",
+            "placeholder": "D_Gamet ha abbandonato il server."
           }
         },
         "test": {
-          "no-welcome-channel": "- Es gibt keinen Verlassenskanal.",
-          "welcome-channel-not-set": "{x} Der Verlassenskanal wurde gelöscht oder keiner wurde gesetzt.",
-          "system-deactivated": "- Das System ist deaktiviert.",
-          "success": "{y} Die Testnachricht wurde versendet."
+          "no-welcome-channel": "- Non esiste un canale di benvenuto.",
+          "welcome-channel-not-set": "{x} Il canale di benvenuto è stato eliminato o non è stato impostato.",
+          "system-deactivated": "- Il Sistema è disattivato.",
+          "success": "{y} Il messaggio test è stato inviato."
         },
         "toggle": {
-          "success_activated": "{y} Das Willkommenssystem wurde aktiviert.",
-          "success_deactivated": "{y} Das Willkommenssystem wurde deaktiviert."
+          "success_activated": "{y} Il sistema di benvenuto è stato attivato.",
+          "success_deactivated": "{y} Il sistema di benvenuto è stato disattivato."
         },
         "update": {}
       }

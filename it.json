@@ -97,28 +97,28 @@
           "success": "{y} Il messaggio test è stato inviato."
         },
         "toggle": {
-          "success_activated": "{y} Das Willkommenssystem wurde aktiviert.",
-          "success_deactivated": "{y} Das Willkommenssystem wurde deaktiviert."
+          "success_activated": "{y} Il sistema di benvenuto è stato attivato.",
+          "success_deactivated": "{y} Il sistema di benvenuto è stato disattivato."
         },
         "update": {}
       },
       "logs": {
         "resetdata": {
-          "success": "{y} Die Daten wurden zurückgesetzt."
+          "success": "{y} I dati sono stati resettati."
         },
         "test": {
-          "no-logging-channel": "- {a} Der Logging Kanal wurde nicht gesetzt.",
-          "system-deactivated": "- {i} Das System ist deaktiviert.",
-          "logging-channel-deleted": "- {a} Der Logging Kanal wurde gelöscht.",
-          "success": "{y} Es wurden keine Probleme gefunden."
+          "no-logging-channel": "- {a} Il canale di logging non è stato impostato.",
+          "system-deactivated": "- {i} Il sistema è disattivato.",
+          "logging-channel-deleted": "- {a} Il canale di logging è stato eliminato.",
+          "success": "{y} Non sono stati identificati problemi."
         },
         "toggle": {
-          "success_activated": "{y} Das Logging System wurde aktiviert.",
-          "success_deactivated": "{y} Das Logging System wurde deaktiviert."
+          "success_activated": "{y} Il sistema logging è stato attivato.",
+          "success_deactivated": "{y} Il sistema logging è stato disattivato."
         },
         "update": {
           "embed": {
-            "title": "Verwalte die Einstellungen"
+            "title": "Gestione delle impostazioni"
           }
         }
       },

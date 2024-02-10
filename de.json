@@ -489,7 +489,14 @@
           "button": {
             "label": "API Token angeben"
           }
-        }
+        },
+        "valorant": {
+                    "already-linked": "{x} Du hast bereits dein Konto verlinkt.",
+                    "title": "Verlinke dein VALORANT Konto",
+                    "description": "- Klicke auf den Button \"Verlinken\", um das Konto zu verlinken.\n- Am Ende siehst du eine JSON Seite, die einen Parameter namens \"Code\" hat. Kopiere diesen, klicke auf \"Code angeben\" und gebe diesen dort anschließend an.\n- Du kannst die Verknüpfung mit </unlink valorant:{commandId}> entfernen.",
+                    "link": "Verlinken",
+                    "provide_code": "Code angeben"
+                }
       },
       "brawlstars": {
         "club": {
@@ -2235,5 +2242,54 @@
         "embed-deleted": "{x} Das Embed wurde gelöscht."
       }
     }
-  }
+  },
+  "valorant": {
+        "code_submit": {
+            "label": "Gebe den Code an",
+            "title": "Code"
+        },
+        "rank": {
+            "no-arguments": "{x} Bitte gebe einen Riot-namen (Als Beispiel DGamet#1687) an oder logge dich mit </link valorant:{commandId} ein.",
+            "invalid-username": "{x} Der angegebene Nutzername ist nicht valid. Bitte überprüfe deine Eingabe.",
+            "user-no-data": "{x} Zu diesem Nutzer wurden keine Daten gefunden.",
+            "description": "## Kompeteiv - {username}\n- Zurzeit\n - Rang: {rank}\n - MMR: {mmr}\n - Elo: {elo}\n - Letztes Spiel: {last_game} RR {result}\n - Spiele für das Einranken benötigt: {games_required} benötigt\n\n- Alltime\n - Zeitpunkt: Episode {episode} Akt {act}\n - Rang: {alltime_rang}",
+            "won": "gewonnen",
+            "lost": "verloren"
+        },
+        "matchhistory": {
+            "red": "Rot",
+            "blue": "Blau",
+            "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </link valorant:{commandId}>, um dein Konto zu verlinken.",
+            "wrong-shard": "{x} Bitte logge dich erneut ein. Vorher musst du dich mit </unlink valorant:{commandId}> wieder ausloggen.",
+            "account-not-found": "{x} Ich habe das verlinkte Konto nicht gefunden.",
+            "defaultDescription": "## Wähle ein Match aus\n- Wähle eines der Matches aus.\n- Aufgrund einer Limitierung von Discord kann Dat Bot nur die letzten 25 Matches anzeigen.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
+            "defaultSelectPlaceholder": "Wähle ein Match aus.",
+            "buttons": {
+                "playerandqueues": "Spieler & Queues",
+                "resultandteams": "Ergebnis & Teams",
+                "back": "Zurück"
+            },
+            "selectors": {
+                "match": "Wähle eine Runde aus.",
+                "player": "Wähle einen Spieler aus."
+            },
+            "descriptions": {
+                "defaultInMenu": "## Wähle etwas aus\n- Wähle einen der unteren Buttons, um Informationen über dieses Spiel zu erhalten\n - Spieler & Queues: Informationen über die einzelnen Spieler und wer mit wem gequeuet hat.\n - Ergebnis & Teams: Informationen zu den jeweiligen Teams und das Endergebnis.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
+                "valo_players": "{mode}・{region}\n- Spieler - Blau\n - {playersBlue}\n\n- Spieler - Rot\n - {playersRed}\n\n- Queues\n - {queues}\n\n- AFK\n - {afk}",
+                "valo_match": "## Spiel\n- Gestartet: <t:{started}:R>・<t:{started}:F>\n- Modus: {mode\\n- Rundenanzahl: {rounds_played}\n - Von {team1} gewonnen: {team1wins}/{rounds_played}\n - Von {team2} gewonnen: {team2wins}/{rounds_played}\n- Gewinner: {winner} ({yourteam})\n- Arten an Rundenenden\n - Eliminierung: {elim}/{rounds_played}\n - Rundentimer abgelaufen: {roundtimer}/{rounds_played}\n- Defuse: {defuse}/{rounds_played}}\n - Explosion: {detonation}/{rounds_played}\n- Spielerarten\n - Team Rot: {redPlayers}\n - Team Blau: {bluePlayers}\n - Coaches: {coaches}\n - Zuschauer: {spectators}",
+                "your-team": "Dein Team",
+                "not-your-team": "Nicht dein Team",
+                "valo_matchinfo": "## Ergebnis & Runde\n- Rundennummer: {roundNum}\n- Zwischenergebnis (Blau:Rot): {blueWon}:{redWon}\nRundenende: {roundResultCode}\n- Gewinner: {winnerTeam}\n- Spike Plant\n - Ausführender Spieler: {planter}\n - Zeitpunkt: Nach {plantTimestamp} Sekunden\n - Plantsite: {plantSide}\n- Spike Defuse\n - Ausführender Spieler: {defuser}\n - Zeitpunkt: Nach {defuseTimestamp} Sekunden\n## Kill Log\n - {killLog}",
+                "killog": "{killer} hat {player} getötet.",
+                "not-defused": "Nicht entschärft",
+                "not-planted": "Nicht platziert",
+                "valo_matchinfoplayers": "## Informationen zu {player} in Runde {roundNumber}\n- Agent: {agent}\n- Score: {score}\n- Kills: {kills}\n- Damage verteilt: {damage}\n- Economy\n - Insgesamt: {€conomyTotal}\n - Ausgegeben: {economySpent}\n - Schild: {armor}\n- Waffe: {weapon}",
+                "shield": {
+                    "big": "Großer Schild",
+                    "light": "Leichter Schild"
+                },
+                "damageinfo": "{damageAmount} Schaden, {head} Headshots, {body} Bodyshots, {leg} Legshots"
+            },
+            "footerdata": "{played} Runden gespielt - Gewinner: {winner}"
+        }
 }

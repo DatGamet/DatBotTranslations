@@ -154,8 +154,8 @@
     "other": {
       "bot_setup_finish": {
         "embed": {
-          "title": "Dat Bot einrichten",
-          "description": "**Einrichtung**\n- {y} Einrichtung gestartet.\n- {y} Überprüfe Rechte.\n- {y} Überprüfe Logging-Kanal.\n- {y} Setup fertig. Dies hat `{durationTimestamp}` Sekunden gedauert."
+          "title": "Configurare Dat Bot",
+          "description": "**Configurazione**\n- {y} Configurazione avviata.\n- {y} Verifica permessi.\n- {y} Verifica canale di logging.\n- {y} Configurazione terminata. Durato `{durationTimestamp}` secondi.."
         }
       },
       "emojiquiz_skip": {

@@ -46,48 +46,48 @@
       },
       "home": {},
       "list": {
-        "list": "## Liste\n- Die folgenden Rollen sind zurzeit Autorollen:",
-        "list-no-autoroles": "## Liste\n- Es gibt zurzeit keine Autorollen."
+        "list": "## Elenco\n- I seguenti ruoli sono autorole:",
+        "list-no-autoroles": "## Elenco\n- Es gibt zurzeit keine Autorollen."
       },
       "reset": {
         "are-you-sure-button": {
-          "label": "Bist du dir sicher?"
+          "label": "Sei sicuro?"
         },
         "cancel-button": {
-          "label": "Abbrechen"
+          "label": "Cancella"
         },
         "continue-button": {
-          "label": "Fortfahren"
+          "label": "Continuare"
         },
-        "response": "## Toggle\n- Möchtest du wirklich die Einstellungen zurücksetzen? Du kannst dies nicht rückgängig machen."
+        "response": "## Toggle\n- Vuoi davvero resettare le impostazioni? Non è possibile annullarlo."
       },
       "reset2": {
-        "success": "## Erfolg\n- Das System wurde erfolgreich zurückgesetzt."
+        "success": "## Sucesso\n- Il sistema è stato resettato con successo."
       },
       "toggle": {
-        "response-deactivate": "## Toggle\n- Deaktiviere das System, indem du auf \"Deaktivieren\" klickst.",
-        "response-activate": "## Toggle\n- Aktiviere das System, indem du auf \"Aktivieren\" klickst."
+        "response-deactivate": "## Toggle\n- Disattiva il sistema facendo clic su \"Disattivare\".",
+        "response-activate": "## Toggle\n- Attiva il sistema facendo clic su \"Attivare\"."
       },
       "toggle2": {
-        "toggle-true": "## Erfolg\n- Das System wurde erfolgreich **aktiviert.**",
-        "toggle-false": "## Erfolg\n- Das System wurde erfolgreich **deaktiviert.**"
+        "toggle-true": "## Sucesso\n- Il sistema è stato **attivato** con successo.",
+        "toggle-false": "## Sucesso\n- Il sistema è stato **disattivato** con successo."
       }
     },
     "logs": {
       "leave": {
-        "default-message": "D_Gamet hat diesen Server verlassen.",
+        "default-message": "D_Gamet ha abbandonato il server.",
         "delete": {
-          "success": "{y} Die Einstellungen wurden zurückgesetzt."
+          "success": "{y} Le impostazioni sono state resettate."
         },
         "embed": {
-          "mode-text": "{y} Nachrichtentyp geändert: **Textnachricht**.",
-          "mode-embed": "{y} Nachrichtentyp geändert: **Embed**."
+          "mode-text": "{y} Tipo di messaggio cambiato: **Messaggio normale**.",
+          "mode-embed": "{y} Tipo di messaggio cambiato: **Embed**."
         },
         "message": {
           "modal": {
-            "title": "Ändere die Verlassensnachricht",
-            "label": "Nachricht",
-            "placeholder": "D_Gamet hat diesen Server verlassen."
+            "title": "Modificare il messaggio di abbandono",
+            "label": "Messaggio",
+            "placeholder": "D_Gamet ha abbandonato il server."
           }
         },
         "test": {
@@ -1582,11 +1582,11 @@
           "channel-not-type-5": "{channel} ist kein Ankündugungskanal"
         },
         "embed": {
-          "description": "## Verwalte das System\n- Liste: Erhalte einer Liste der aktuellen Kanäle\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere das System\n- Kanal hinzufügen: Füge einen Kanal hinzu\n- Kanal entfernen: Entferne einen Kanal"
+          "description": "## Verwalte das System\n- Elenco: Erhalte einer Elenco der aktuellen Kanäle\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere das System\n- Kanal hinzufügen: Füge einen Kanal hinzu\n- Kanal entfernen: Entferne einen Kanal"
         },
         "components": {
           "liste-button": {
-            "label": "Liste"
+            "label": "Elenco"
           },
           "debug-button": {
             "label": "Debuggen"
@@ -1607,7 +1607,7 @@
       },
       "autorole": {
         "embed": {
-          "description": "## Autorollen\n- Liste: Erhalte einer Liste der aktuellen Autorollen\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere die Autorollen\n- Rollen hinzufügen: Füge eine Autorolle hinzu\n- Rollen entfernen: Entferne eine Autorolle"
+          "description": "## Autorollen\n- Elenco: Erhalte einer Elenco der aktuellen Autorollen\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere die Autorollen\n- Rollen hinzufügen: Füge eine Autorolle hinzu\n- Rollen entfernen: Entferne eine Autorolle"
         },
         "components": {
           "liste-button": {

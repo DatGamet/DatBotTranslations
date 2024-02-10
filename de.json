@@ -133,14 +133,14 @@
         },
         "message": {
           "modal": {
-            "title": "Ändere die Verlassensnachricht",
+            "title": "Ändere die Beitrittsnachricht",
             "label": "Nachricht",
             "placeholder": "D_Gamet hat diesen Server verlassen."
           }
         },
         "test": {
-          "no-welcome-channel": "- Es gibt keinen Verlassenskanal.",
-          "welcome-channel-not-set": "{x} Der Verlassenskanal wurde gelöscht oder keiner wurde gesetzt.",
+          "no-welcome-channel": "- Es gibt keinen Beitrittskanal.",
+          "welcome-channel-not-set": "{x} Der Beitrittskanal wurde gelöscht oder keiner wurde gesetzt.",
           "system-deactivated": "- Das System ist deaktiviert.",
           "success": "{y} Die Testnachricht wurde versendet."
         },

@@ -3,7 +3,7 @@
     "games": {
       "fortnite": {
         "shopitem": {
-          "no-name": "Inserire un nome.",
+          "no-name": "Devi inserire un nome.",
           "no-matching-items": "Non è stata trovata alcuna corrispondenza.",
           "no-shopitem-found": "Non è stato trovato alcun item in base alla ricerca effettuata."
         }

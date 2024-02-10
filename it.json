@@ -31,18 +31,18 @@
   "buttons": {
     "autoroles": {
       "autorole-home-button": {
-        "label": "Zurück"
+        "label": "Indietro"
       },
       "debug": {
-        "debug": "## Debuggen\n- Das Debuggen läuft seit {runningSinceTimestamp}.",
-        "system-deactivated": "- Das System ist deaktiviert.",
-        "role-deleted": "- Eine Autorolle wurde gelöscht ({roleId}). Diese Rolle wurde automatisch entfernt.",
-        "role-everyone": "- {role}: Diese Rolle ist @everyone.",
-        "role-managed": "- {role}: Rolle wird von einem externen Service verwaltet.",
-        "role-position": "- {role}: Ich kann diese Rolle nicht vergeben (Rollenposition).",
-        "no-autoroles": "- Es gibt keine Autorollen.",
-        "result": "Ergebnis",
-        "success": "- {role}: Keine Fehler"
+        "debug": "## Debugging\n- Il debug è in corso da {runningSinceTimestamp}.",
+        "system-deactivated": "- Il Sistema è disattivato.",
+        "role-deleted": "- Un autorole è stato cancellato ({roleId}). Questo ruolo è stato eliminato automaticamente.",
+        "role-everyone": "- {role}: Questo ruolo è @everyone.",
+        "role-managed": "- {role}: Il ruolo è gestito da un server esterno.",
+        "role-position": "- {role}: Non posso assegnare questo ruolo (posizione del ruolo).",
+        "no-autoroles": "- Non ci sono dei autorole.",
+        "result": "Risulto",
+        "success": "- {role}: Nessun Errore"
       },
       "home": {},
       "list": {

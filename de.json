@@ -135,7 +135,7 @@
           "modal": {
             "title": "Ändere die Beitrittsnachricht",
             "label": "Nachricht",
-            "placeholder": "D_Gamet hat diesen Server verlassen."
+            "placeholder": "D_Gamet hat diesen Server betreten."
           }
         },
         "test": {

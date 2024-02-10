@@ -498,7 +498,9 @@
                     "provide_code": "Code angeben",
                     "code-not-valid": "{x} Der angegebene Code ist nicht valid.",
                     "scope-error": "{x} Du hast nicht alle Scopes akzeptiert. Logge dich erneut ein.",
-                    "success": "{y} Du hast dein Discord Konto mit {riotname} verlinkt."
+                    "success": "{y} Du hast dein Discord Konto mit {riotname} verlinkt.",
+                    "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </link valorant:{accountCommandId}>, um dein Konto zu verlinken.",
+                    "remove-success": "{y} Deine Kontoverbindung wurde entfernt."
                 }
             },
             "brawlstars": {
@@ -2267,6 +2269,8 @@
             "account-not-found": "{x} Ich habe das verlinkte Konto nicht gefunden.",
             "defaultDescription": "## Wähle ein Match aus\n- Wähle eines der Matches aus.\n- Aufgrund einer Limitierung von Discord kann Dat Bot nur die letzten 25 Matches anzeigen.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
             "defaultSelectPlaceholder": "Wähle ein Match aus.",
+            "defaultFooter": "{matches} Matches erhalten",
+            "no-matches": "{x} Ich habe keine Matches gefunden.",
             "buttons": {
                 "playerandqueues": "Spieler & Queues",
                 "resultandteams": "Ergebnis & Teams",

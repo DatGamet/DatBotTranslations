@@ -497,7 +497,9 @@
                     "provide_code": "Specify code",
                     "code-not-valid": "{x} The specified code is not valid.",
                     "scope-error": "{x} You have not accepted all scopes. Log in again.",
-                    "success": "{y} You have linked your Discord account with {riotname}."
+                    "success": "{y} You have linked your Discord account with {riotname}.",
+                    "not-linked": "{x} You have not linked your account. Use </link valorant:{accountCommandId}> to link your account.",
+                    "remove-success": "{y} Your connection has been removed."
                 }
             },
             "brawlstars": {
@@ -2267,6 +2269,8 @@
             "account-not-found": "{x} I have not found the linked account.",
             "defaultDescription": "## Select a match\n- Select one of the matches.\n- Due to a limitation of Discord, Dat Bot can only display the last 25 matches.\n\n- Note: Anyone can view the information about the game as long as that person can read this message.",
             "defaultSelectPlaceholder": "Select a match.",
+            "defaultFooter": "{matches} Matches recieved",
+            "no-matches": "{x} I did not recieve any matches.",
             "buttons": {
                 "playerandqueues": "Players & Queues",
                 "resultandteams": "Result & Teams",

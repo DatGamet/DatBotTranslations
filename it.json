@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
     "autocomplete": {
         "games": {
             "fortnite": {
@@ -6,6 +7,933 @@
                     "no-name": "Inserire un nome.",
                     "no-matching-items": "Non è stata trovata alcuna corrispondenza.",
                     "no-shopitem-found": "Non è stato trovato alcun item in base alla ricerca effettuata."
+=======
+  "autocomplete": {
+    "games": {
+      "fortnite": {
+        "shopitem": {
+          "no-name": "Devi inserire un nome.",
+          "no-matching-items": "Non è stata trovata alcuna corrispondenza.",
+          "no-shopitem-found": "Non è stato trovato alcun item in base alla ricerca effettuata."
+        }
+      },
+      "valorant": {
+        "map": {
+          "no-map-found": "Non è stata trovata alcuna mappa in base alla tua ricerca."
+        },
+        "agent": {
+          "no-agent-found": "Non è stato trovato un agente in base alla vostra ricerca."
+        }
+      },
+      "clashofclans": {
+        "club": {
+          "no-name": "Inserire un nome.",
+          "name-too-short": "Il nome deve essere lungo almeno 3 caratteri.",
+          "nothing-found": "Non è stato trovato niente in base alla vostra ricerca.",
+          "ratelimit": "Attualmente sto rispettando il ratelimit.",
+          "api-503": "L'API non è disponibile al momento."
+        }
+      }
+    }
+  },
+  "beta": {},
+  "buttons": {
+    "autoroles": {
+      "autorole-home-button": {
+        "label": "Indietro"
+      },
+      "debug": {
+        "debug": "## Debugging\n- Il debug è in corso da {runningSinceTimestamp}.",
+        "system-deactivated": "- Il Sistema è disattivato.",
+        "role-deleted": "- Un autorole è stato cancellato ({roleId}). Questo ruolo è stato eliminato automaticamente.",
+        "role-everyone": "- {role}: Questo ruolo è @everyone.",
+        "role-managed": "- {role}: Il ruolo è gestito da un server esterno.",
+        "role-position": "- {role}: Non posso assegnare questo ruolo (posizione del ruolo).",
+        "no-autoroles": "- Non ci sono dei autorole.",
+        "result": "Risulto",
+        "success": "- {role}: Nessun Errore"
+      },
+      "home": {},
+      "list": {
+        "list": "## Elenco\n- I seguenti ruoli sono autorole:",
+        "list-no-autoroles": "## Elenco\n- Es gibt zurzeit keine Autorollen."
+      },
+      "reset": {
+        "are-you-sure-button": {
+          "label": "Sei sicuro?"
+        },
+        "cancel-button": {
+          "label": "Cancella"
+        },
+        "continue-button": {
+          "label": "Continuare"
+        },
+        "response": "## Toggle\n- Vuoi davvero resettare le impostazioni? Non è possibile annullarlo."
+      },
+      "reset2": {
+        "success": "## Sucesso\n- Il sistema è stato resettato con successo."
+      },
+      "toggle": {
+        "response-deactivate": "## Toggle\n- Disattiva il sistema facendo clic su \"Disattivare\".",
+        "response-activate": "## Toggle\n- Attiva il sistema facendo clic su \"Attivare\"."
+      },
+      "toggle2": {
+        "toggle-true": "## Sucesso\n- Il sistema è stato **attivato** con successo.",
+        "toggle-false": "## Sucesso\n- Il sistema è stato **disattivato** con successo."
+      }
+    },
+    "logs": {
+      "leave": {
+        "default-message": "D_Gamet ha abbandonato il server.",
+        "delete": {
+          "success": "{y} Le impostazioni sono state resettate."
+        },
+        "embed": {
+          "mode-text": "{y} Tipo di messaggio cambiato: **Messaggio normale**.",
+          "mode-embed": "{y} Tipo di messaggio cambiato: **Embed**."
+        },
+        "message": {
+          "modal": {
+            "title": "Modificare il messaggio di abbandono",
+            "label": "Messaggio",
+            "placeholder": "D_Gamet ha abbandonato il server."
+          }
+        },
+        "test": {
+          "no-leave-channel": "- Non esiste un canale di uscita.",
+          "leave-channel-not-set": "{x} Il canale di uscita è stato eliminato o non è stato impostato.",
+          "system-deactivated": "- Il sistema è disattivato.",
+          "success": "{y} Il messaggio test è stato inviato."
+        },
+        "toggle": {
+          "success_activated": "{y} Il sistema di benvenuto è stato attivato.",
+          "success_deactivated": "{y} Il sistema di benvenuto è stato disattivato."
+        },
+        "update": {}
+      },
+      "logs": {
+        "resetdata": {
+          "success": "{y} I dati sono stati resettati."
+        },
+        "test": {
+          "no-logging-channel": "- {a} Il canale di logging non è stato impostato.",
+          "system-deactivated": "- {i} Il sistema è disattivato.",
+          "logging-channel-deleted": "- {a} Il canale di logging è stato eliminato.",
+          "success": "{y} Non sono stati identificati problemi."
+        },
+        "toggle": {
+          "success_activated": "{y} Il sistema logging è stato attivato.",
+          "success_deactivated": "{y} Il sistema logging è stato disattivato."
+        },
+        "update": {
+          "embed": {
+            "title": "Gestione delle impostazioni"
+          }
+        }
+      },
+      "welcome": {
+        "default-message": "D_Gamet è entrato in questo server.",
+        "delete": {
+          "success": "{y} Le impostazioni sono state resettate."
+        },
+        "embed": {
+          "mode-text": "{y} Il tipo di messaggio è cambiato: **Messaggio normale**.",
+          "mode-embed": "{y} Il tipo di messaggio è cambiato: **Embed**."
+        },
+        "message": {
+          "modal": {
+            "title": "Cambia il messaggio di benvenuto",
+            "label": "Messaggio",
+            "placeholder": "D_Gamet ha abbandonato il server."
+          }
+        },
+        "test": {
+          "no-welcome-channel": "- Non esiste un canale di benvenuto.",
+          "welcome-channel-not-set": "{x} Il canale di benvenuto è stato eliminato o non è stato impostato.",
+          "system-deactivated": "- Il Sistema è disattivato.",
+          "success": "{y} Il messaggio test è stato inviato."
+        },
+        "toggle": {
+          "success_activated": "{y} Il sistema di benvenuto è stato attivato.",
+          "success_deactivated": "{y} Il sistema di benvenuto è stato disattivato."
+        },
+        "update": {}
+      }
+    },
+    "other": {
+      "bot_setup_finish": {
+        "embed": {
+          "title": "Configurare Dat Bot",
+          "description": "**Configurazione**\n- {y} Configurazione avviata.\n- {y} Verifica permessi.\n- {y} Verifica canale di logging.\n- {y} Configurazione terminata. Durato `{durationTimestamp}` secondi.."
+        }
+      },
+      "emojiquiz_skip": {
+        "system-deactivated": "{x} Il quiz emoji è disattivato.",
+        "message-error": "{x} L'emojiquiz attuale si svolge qui: {messaggioLink}",
+        "skips-missing": "{x} Il numero di skip è insufficiente.",
+        "channel-deleted": "{x} Il canale per il quiz delle emoji non esiste più.",
+        "success-singular": "{y} Emojiquiz saltato. Ora è possibile utilizzare 1 altro skip.",
+        "success-plural": "{y} Emojiquiz saltato. Ora è possibile utilizzare {size} skip."
+      },
+      "emojiquiz_tip": {
+        "system-deactivated": "{x} Il quiz emoji è disattivato.",
+        "no-data": "{x} Non ci sono dati.",
+        "success": "- Tip: {tip}",
+        "first-letters": "Le prime lettere sono {letters}"
+      },
+      "endelon_create_post": {
+        "modal": {
+          "title": "Creare un post",
+          "inputs": {
+            "issue": {
+              "label": "Il problema",
+              "placeholder": "Descrivere il problema."
+            },
+            "serverurl": {
+              "label": "URL del server",
+              "placeholder": "Inserire l'URL di un server Endelon."
+            },
+            "tries": {
+              "label": "Tentativi",
+              "placeholder": "Descrivere i tentativi di risolvere il problema."
+            },
+            "name": {
+              "label": "Nome del post",
+              "placeholder": "Inserire un nome per il post."
+            }
+          }
+        }
+      },
+      "export_json": {
+        "success": "{y} Vedi il tuo embed qui: {url}",
+        "error": "{x} Export dell'embed fallito."
+      },
+      "flaggenquiz_skip": {
+        "system-deactivated": "{x} Il quiz delle  bandiere è disattivato.",
+        "message-error": "{x} L'attuale quiz delle  bandiere si svolge qui: {messageLink}",
+        "skips-missing": "{x} I skip sono insufficienti.",
+        "channel-deleted": "{x} Il canale per il quiz delle bandiere non esiste più.",
+        "success-singular": "{y} Quiz delle bandiere saltato. Ora è possibile utilizzare 1 altro skip.",
+        "success-plural": "{y} Quiz delle bandiere saltato. Ora è possibile utilizzare {size} altri skip."
+      },
+      "import_json": {
+        "modal": {
+          "title": "Importare JSON",
+          "label": "Importare qui il codice JSON."
+        }
+      },
+      "next_meme": {
+        "next-meme-button": {
+          "label": "Prossimo meme"
+        },
+        "requested-by": "Richiesto da {user}"
+      },
+      "update_embed": {
+        "embed-deleted": "{x} L'embed di questa interazione è stato eliminato."
+      },
+      "delete_message": {
+        "not_your_message": "{x} Questo messaggio non ti appartiene."
+      },
+      "verify_coc_token": {
+        "modal": {
+          "title": "Verifica del tuo account",
+          "label": "Token",
+          "placeholder": "Inserire il token API."
+        }
+      },
+      "fortnite_shophistory": {
+        "embed": {
+          "title": "Storia del negozio di {name}"
+        }
+      },
+      "send_with_webhook": {
+        "title": "Webhook URL",
+        "url": "Inserire un URL di webhook.",
+        "name": "Inserire un nome.",
+        "avatar": "Gebe eine Avatar URL an."
+      }
+    },
+    "poll": {
+      "addoption": {
+        "modal": {
+          "title": "Aggiungi opzione",
+          "label": "Nome / Testo",
+          "placeholder": "Descrivi qui la tua opzione."
+        }
+      },
+      "send": {
+        "selector": {
+          "placeholder": "Selezionare un canale."
+        }
+      },
+      "setdescription": {
+        "modal": {
+          "title": "Impostare la descrizione",
+          "label": "descrizione",
+          "placeholder": "Nutella con o senza burro?"
+        }
+      }
+    }
+  },
+  "commands": {
+    "entertainment": {
+      "emojiquiz": {
+        "vote": {
+          "embed": {
+            "title": "Link al voto",
+            "description": "Puoi votare su [Top.gg](https://top.gg/bot/965903240384376872/vote). Con ogni voto si ottengono {plusVoteTokens} più skip.\nTu hai {votes}."
+          },
+          "votebutton": {
+            "label": "Votate qui!"
+          }
+        },
+        "help": {
+          "embed": {
+            "title": "Aiuto emojiquiz",
+            "fields": {
+              "howtouse": {
+                "name": "Come si usa l'emojiquiz?",
+                "value": "1. Utilizzare </emojiquiz setup:{commandId}>.\n2. Utilizzare </emojiquiz toggle:{commandId}>.\nDopo di che, tutto ha inizio."
+              },
+              "whynotworking": {
+                "name": "Perché il quiz sulle emoji non funziona più?",
+                "value": "Utilizzare </emojiquiz fix:{commandId}>. Se ancora non funziona, contattate l'assistenza [qui] (https://discord.gg/BQumAujuvk)."
+              },
+              "howtoskip": {
+                "name": "Cosa si può fare se non si trova il termine?",
+                "value": "È possibile utilizzare il pulsante \"Skip\". Se non hai più salti, devi votare [qui](https://top.gg/bot/965903240384376872/vote). Con ogni voto si ottengono {plusVoteTokens} salti. Attualmente hai {votes} salti."
+              },
+              "whereissupport": {
+                "name": "Dove posso contattare l'assistenza?",
+                "value": "Potete contattare l'assistenza [qui](https://discord.gg/BQumAujuvk)"
+              }
+            }
+          }
+        },
+        "fix": {
+          "channel-not-set": "{x} Non esiste un canale emojiquiz. Impostarne uno con </emojiquiz setup:{commandId}>.",
+          "quiz-deactivated": "- Il quiz emoji è disattivato.",
+          "embed": {
+            "title": "Sono stati trovati {amount} errori."
+          },
+          "success": "{y} Non sono stati trovati errori.",
+          "permissions": {
+            "SendMessages": "- Mi manca l'autorizzazione \"Invia messaggi\" in {channel}.",
+            "ViewChannel": "- Non ho l'autorizzazione a vedere {channel}.",
+            "EmbedLinks": "- Mi manca l'autorizzazione \"Incorpora link\" in {channel}."
+          }
+        },
+        "guess": {
+          "embed": {
+            "title": "Indovina la parola",
+            "description": "- Cercato・{emojis}\n\n*Disattiva l'emojiquiz con </emojiquiz toggle:1117220757957779506>*"
+          },
+          "content": {
+            "skip": "{user} ha saltato il quiz sulle emoji!",
+            "sol": "💡・{user} ha indovinato la soluzione."
+          },
+          "buttons": {
+            "clue": {
+              "label": "Tip"
+            },
+            "skip": {
+              "label": "Skip"
+            }
+          },
+          "success": "{y} Il quiz sulle emoji ha iniziato con successo."
+        },
+        "settings": {
+          "embed": {
+            "title": "Impostazioni",
+            "fields": {
+              "channel": {
+                "name": "Canale"
+              },
+              "message": {
+                "name": "Messagio"
+              },
+              "toggle": {
+                "name": "Toggle",
+                "value_activated": "> Attivato",
+                "value_deactivated": "> Disattivato"
+              }
+            }
+          }
+        },
+        "toggle": {
+          "channel-not-set": "{x} Impostare un nuovo canale con il comando </emojiquiz setup:{commandId}>",
+          "success_deactivated": "{y} L'emojiquiz è stato disattivatot.",
+          "success_activated": "{y} Il quiz sulle emoji è stato attivato."
+        }
+      },
+      "flagquiz": {
+        "vote": {
+          "embed": {
+            "title": "Link al voto",
+            "description": "Puoi votare su [Top.gg](https://top.gg/bot/965903240384376872). Con ogni voto ottieni {plusVoteTokens} più skip.\nHai già guadagnato {votes} Voteskips. Grazie ✨"
+          },
+          "button": {
+            "label": "Votate qui!"
+          }
+        },
+        "help": {
+          "embed": {
+            "title": "Aiuto per il quiz sulle bandiere",###
+            "fields": {
+              "howtouse": {
+                "name": "Wie nutze ich das Flaggenquiz?",
+                "value": "1. Nutze </flagquiz setup:{commandId}>.\n2. Nutze </flagquiz toggle:{commandId}>\nDanach startet alles."
+              },
+              "whynotworking": {
+                "name": "Warum funktioniert das Flaggenquiz nicht mehr?",
+                "value": "Bitte nutze </flagquiz fix:{commandId}>. Wenn es danach noch nicht funktioniert, bitte kontaktiere den Support [hier](https://discord.gg/BQumAujuvk)."
+              },
+              "howtoskip": {
+                "name": "Was kann man machen, wenn man den Namen nicht findet?",
+                "value": "Man kann den Button \"Skip\" nutzen. Wenn du keine Skips mehr hast, musst du [hier](https://top.gg/bot/965903240384376872/vote) voten. Mit jedem Vote bekommst du {plusVoteTokens} Skips. Zurzeit hast du {votes} Skips."
+              },
+              "whereissupport": {
+                "name": "Wo kann ich den Support kontaktieren?",
+                "value": "Du kannst den Support [hier](https://discord.gg/BQumAujuvk) kontaktieren"
+              }
+            }
+          }
+        },
+        "fix": {
+          "channel-not-set": "{x} Es gibt keinen Flaggenquiz Kanal. Setze einen mit </flagquiz setup:{commandId}>.",
+          "quiz-deactivated": "- Das Flaggenquiz ist deaktiviert.",
+          "embed": {
+            "title": "{amount} Fehler wurden gefunden."
+          },
+          "permissions": {
+            "SendMessages": "- Mir fehlt die Berechtigung \"Nachrichten Senden\" in {channel}.",
+            "ViewChannel": "- Mir fehlt die Berechtigung, {channel} zu sehen.",
+            "EmbedLinks": "- Mir fehlt die Berechtigung \"Links einbetten\" in {channel}."
+          },
+          "success": "{y} Es wurden keine Fehler gefunden."
+        },
+        "guess": {
+          "embed": {
+            "title": "Errate die Flagge",
+            "description": "- Gesucht・{emojis}\n\n*Deaktiviere das Flaggenquiz mit </flagquiz toggle:1117220757957779506>*"
+          },
+          "content": {
+            "skip": "{user} hat das Flaggenquiz übersprungen!",
+            "sol": "💡・{user} hat die Lösung erraten."
+          },
+          "buttons": {
+            "clue": {
+              "label": "Tipp"
+            },
+            "skip": {
+              "label": "Skip"
+            }
+          },
+          "success": "{y} Das Flaggenquiz wurde erfolgreich gestartet."
+        },
+        "settings": {
+          "embed": {
+            "title": "Einstellungen",
+            "fields": {
+              "channel": {
+                "name": "Kanal"
+              },
+              "message": {
+                "name": "Nachricht"
+              },
+              "toggle": {
+                "name": "Toggle",
+                "value_activated": "> Aktiviert",
+                "value_deactivated": "> Deaktiviert"
+              }
+            }
+          }
+        },
+        "toggle": {
+          "channel-not-set": "{x} Bitte setze einen neuen Kanal mit dem Befehl </flagquiz setup:{commandId}>",
+          "success_deactivated": "{y} Das Flaggenquiz wurde deaktiviert.",
+          "success_activated": "{y} Das Flaggenquiz wurde aktiviert."
+        }
+      }
+    },
+    "fun": {
+      "cookie": {
+        "embed": {
+          "title": "Cookies 🍪",
+          "description": "> Klicke auf den Button unten, um ein Cookie hinzuzufügen. Es gibt zurzeit {cookies} 🍪."
+        }
+      },
+      "echo": {
+        "success": "{y} Deine Nachricht wurde gesendet.\n> ℹ️・Bemerke, dass keine Nutzer, Rollen oder jenes gepingt wird. Dies ist eine Sicherheitsvorkehrung. ^^"
+      },
+      "iq": {
+        "success": "{user} hat einen IQ von {iq}."
+      },
+      "meme": {
+        "error": "{x} Ich konnte kein Meme laden.",
+        "nextmeme-button": {
+          "label": "Nächstes Meme"
+        }
+      }
+    },
+    "games": {
+      "account": {
+        "already-linked": "{x} Du hast bereits dein Konto verlinkt. Um diese zu entfernen, nutze </account logout clashofclans:{accountCommandId}>.",
+        "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </account login clashofclans:{accountCommandId}>, um dein Konto zu verlinken.",
+        "link-remove-success": "{y} Die Kontoverbindung wurde entfernt.",
+        "clashofclans": {
+          "api": {
+            "404": "{x} Ich habe das angegebene Konto nicht gefunden."
+          },
+          "embed": {
+            "title": "Verlinke dein Konto",
+            "description": "- Du musst nun verifizieren, dass dieses Konto dir gehört. Gehe dazu in das Spiel. Einstellungen > Mehr Einstellungen > API-Token > Anzeigen. Wenn du diesen Token nun hast, musst du auf den grünen Button \"API-Token angeben\" klicken und diesen dort angeben. Danach klicke auf \"Absenden\".",
+            "fields": {
+              "account-details": {
+                "name": "⭐・Konto Details",
+                "value": "> {name}・{tag}・Trophäen {trophies}"
+              }
+            }
+          },
+          "button": {
+            "label": "API Token angeben"
+          }
+        },
+        "valorant": {
+          "already-linked": "{x} Du hast bereits dein Konto verlinkt.",
+          "title": "Verlinke dein VALORANT Konto",
+          "description": "- Klicke auf den Button \"Verlinken\", um das Konto zu verlinken.\n- Am Ende siehst du eine JSON Seite, die einen Parameter namens \"Code\" hat. Kopiere diesen, klicke auf \"Code angeben\" und gebe diesen dort anschließend an.\n- Du kannst die Verknüpfung mit </unlink valorant:{commandId}> entfernen.",
+          "link": "Verlinken",
+          "provide_code": "Code angeben"
+        }
+      },
+      "brawlstars": {
+        "club": {
+          "api": {
+            "404": "{x} Dieser Klub wurde nicht gefunden. Hast du ein valides Klub-Kürzel angegeben? 🤔"
+          },
+          "embed": {
+            "description": "<:datbot_bs_chat:1095002339045281895>・Beschreibung",
+            "type": {
+              "name": "<:datbot_bs_id:1095000683209560156>・Typ",
+              "value-open": "Offen",
+              "value-inviteonly": "Nur Einladung",
+              "value-closed": "Geschlossen",
+              "value-unknown": "Unbekannt"
+            },
+            "required-throphies": "<:datbot_bs_thropie:1094954801407737936>・Benötigte Throphäen",
+            "throphies": "<:datbot_bs_thropie:1094954801407737936>・Throphäen",
+            "leader": "<:datbot_bs_crown:1095001236979323013>・Anführer",
+            "best-member": {
+              "name": "<:datbot_bs_clubleague:1095001796419784755>・Höchstes Mitglied ({total} insgesamt)",
+              "value": "- {name}・{tag}\n- Throphäen: {throphies}\n- Rolle: {role}"
+            }
+          }
+        },
+        "profile": {
+          "api": {
+            "404": "{x} Dieses Konto habe ich nicht gefunden. Bitte gebe ein gültiges InGame-Kürzel an.\n> ℹ️・[Wie man ein InGame-Kürzel findet](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
+          },
+          "embed": {
+            "throphies": "<:datbot_bs_thropie:1094954801407737936>・Throphäen",
+            "exp-level": "<:datbot_player_level:1095000959358357636>・EXP Level",
+            "solo-wins": "<:datbot_bs_solo:1095008405996961924>・Solo Siege",
+            "duo-wins": "<:datbot_bs_duo:1095007929503068230>・Duo Siege",
+            "3vs3-wins": "<:datbot_bs_trio:1095009330442543145>・3vs3 Siege",
+            "club": "<:datbot_bs_club:1094955757985857637>・Klub",
+            "highest-brawler": {
+              "name": "<:brawlstars_icon:1095013107912425606>・Höchster Brawler ({total} insgesamt)",
+              "value": "- {name}\n- Power {power}\n- Throphäen: {throphies} (Rang {rank})"
+            }
+          }
+        }
+      },
+      "clashofclans": {
+        "club": {
+          "api": {
+            "404": "{x} Dieser Klub wurde nicht gefunden. Hast du ein valides Klub-Kürzel angegeben? 🤔"
+          },
+          "embed": {
+            "clan": "<:datbot_bs_id:1095000683209560156>・Klan",
+            "description": "<:datbot_bs_chat:1095002339045281895>・Beschreibung",
+            "locale": "<:coc_cl1:1121410510122913823>・Lokalisierung",
+            "xp": {
+              "name": "<:datbot_player_level:1095000959358357636>・XP",
+              "value": "> Level {level}"
+            },
+            "labels": "<:coc_ri1:1121401676557996194>・Labels",
+            "throphies": {
+              "name": "<:datbot_bs_thropie:1094954801407737936>・Throphäen",
+              "value": "> Benötigt {required}・Insgesamt {total}"
+            },
+            "best-member": {
+              "name": "<:coc_su1:1121402165701902336>・Höchstes Mitglied ({total} insgesamt)",
+              "value": "> {name}・{tag}・{throphies} Throphäen"
+            }
+          }
+        },
+        "profile": {
+          "api": {
+            "404": "{x} Dieses Konto habe ich nicht gefunden. Bitte gebe ein gültiges InGame-Kürzel an.\n> ℹ️・[Wie man ein InGame-Kürzel findet](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
+          },
+          "embed": {
+            "title": "{username}s Konto",
+            "throphies": {
+              "name": "<:coc_fi1:1121400453083697183>・Throphäen",
+              "value": "> {throphies} (Bestes: {best})"
+            },
+            "exp-level": {
+              "name": "<:datbot_player_level:1095000959358357636>・EXP Level",
+              "value": "> Level {level}"
+            },
+            "account": "<:datbot_bs_id:1095000683209560156>・Konto",
+            "townhall-level": {
+              "name": "<:coc_wo1:1121399380138791043>・Rathaus Level",
+              "value": "> Level {level}"
+            },
+            "labels": "<:coc_ri1:1121401676557996194>・Labels",
+            "best-troop": {
+              "name": "<:coc_su1:1121402165701902336>・Beste Truppe ({total} insgesamt)",
+              "value": "> {name}・Level {level} / {maxLevel}"
+            },
+            "best-spell": {
+              "name": "<:coc_pe1:1121407676363046922>・Bester Trank ({total} insgesamt)",
+              "value": "Level"
+            },
+            "best-hero": {
+              "name": "<:coc_br1:1121407640606613534>・Bester Held ({total} insgesamt)",
+              "value": "Level"
+            }
+          },
+          "account": {
+            "notsaved": "{x} Dein Konto ist noch nicht gespeichert. Um dies zu machen, nutze </account login clashofclans:{accountcommandid}>.",
+            "notfound": "{x} Das gespeicherte Konto wurde nicht gefunden."
+          }
+        }
+      },
+      "fortnite": {
+        "creatorcode": {
+          "api": {
+            "404": "{x} Dieser Creator wurde nicht gefunden. Hast du den Namen richtig geschrieben? 🤔"
+          },
+          "embed": {
+            "description": "- **Code:** {code}\n- **Status:** {status}\n- **Konto:** {account}\n- **Verifiziert:** {verified}",
+            "title": "Creator Code - {code}"
+          }
+        },
+        "map": {
+          "embed": {
+            "title": "Fortnite Karte"
+          }
+        },
+        "news": {
+          "embed": {
+            "title": "Fortnite Neuigkeiten"
+          }
+        },
+        "shopitem": {
+          "invalid-choice": "{x} Diese Auswahl ist nicht gültig.",
+          "notoccurredyet": "Noch nie gesehen",
+          "notknown": "Nicht bekannt",
+          "api": {
+            "404": "{x} Ich habe das angegebene Item nicht gefunden."
+          },
+          "embed": {
+            "description": "- **Name:** {name}\n- **Beschreibung:** {description}\n- **Typ:** {type}\n- **Seltenheit:** {rarity}\n- **Set:** {set}\n- **Hinzugefügt:** {added}\n- **Letztes mal gesehen ({total}):** {last_occurrence}"
+          },
+          "button": {
+            "shophistory": {
+              "label": "Shopauftreten"
+            }
+          }
+        },
+        "stats": {
+          "api": {
+            "403": "{x} Die Kontoeinstellungen von {username} lassen es nicht zu, die Statistiken einzusehen.\n> ℹ️・Aktiviere die Öffentliche Spielstatistik: Einstellungen > Konto und Datenschutz > Öffentliche Matchstatistik.",
+            "404": "{x} {username} habe ich nicht gefunden. Prüfe, ob du den richtigen Namen angegeben hast.",
+            "401": "{x} Der Befehl ist nicht mehr funktionsfähig, ich habe meinen Entwickler aber schon benachrichtigt."
+          }
+        }
+      },
+      "rocketleague": {},
+      "tictactoe": {
+        "opponent-notonserver": "{x} Der von dir ausgewählt Gegner ist nicht auf diesem Server.",
+        "opponent-isabot": "{x} Du kannst leider nicht gegen Bots spielen.",
+        "opponent-yourself": "{x} Wenn du gegen dich selber spielst, kannst du nur verlieren."
+      },
+      "valorant": {
+        "agents": {
+          "embed": {
+            "andmore": "und {length} mehr",
+            "notshown": "- {length} wurden nicht angezeigt.",
+            "description": "- Rolle: {role}\n- [Icon]({url})"
+          }
+        },
+        "agent": {
+          "api": {
+            "404": "{x} Den angeforderten Agenten habe ich nicht gefunden."
+          },
+          "embed": {
+            "name": "Name",
+            "description": "Beschreibung",
+            "uuid": "UUID",
+            "tags": "Tags",
+            "role": "Rolle",
+            "abilites": "Abilites ({total} insgesamt)",
+            "description-embed": "- Name・{name}\n- Beschreibung・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Rolle・{role}\n- Abilites ({total} insgesamt)・{abilities}"
+          }
+        },
+        "map": {
+          "api": {
+            "404": "{x} Die angeforderte Karte wurde nicht gefunden."
+          },
+          "embed": {
+            "name": "Name",
+            "coordinates": "Koordinaten",
+            "callouts": "Callouts",
+            "description": "- Name・{name}\n- Koordinaten・{coordinates}\n- Callouts・{length}\n{callouts}"
+          }
+        },
+        "maps": {
+          "description": "- Koordinaten・{coordinates}\n- UUID・{uuid}\n- Callouts・{callouts}",
+          "andmore": "und {length} mehr",
+          "mapsnotshown": "{length} Karten konnten nicht angezeigt werden."
+        },
+        "version": {
+          "current-version": "Aktuelle Version",
+          "last-update": "Letztes Update",
+          "buildversion": "Buildversion"
+        }
+      }
+    },
+    "info": {
+      "avatar": {
+        "server": {
+          "no-avatar": "{x} Dieser Server hat kein Profilbild.",
+          "embed": {
+            "title": "Das Profilbild von {name}"
+          }
+        },
+        "user": {
+          "embed": {
+            "title": "🖼️ | {name}s Avatar",
+            "title-serveravatar": "🖼️ | {name}s Serveravatar",
+            "description": "*Bemerke, dass dieser Nutzer kein Serveravatar hat.*"
+          },
+          "button": {
+            "label-useravatar": "Nutzeravatar",
+            "label-serveravatar": "Serveravatar"
+          }
+        }
+      },
+      "help": {
+        "embed": {
+          "title": "Hilfe Menu",
+          "description": "## Allgemeines\n- Der Bot funktioniert mit `/`-Befehlen. Dies macht es einfacher, den Bot zu nutzen.\n- Ihr müsst in dem Menu unten die jeweilige Kategorie auswählen.\n- Wenn du eine Frage hast, melde dich gerne im [Support Server](https://discord.gg/BQumAujuvk), dort könnt ihr Fragen rund um den Bot stellen oder Support erhalten. Dort wird auch über Infos, Downtimes und Updates informiert.\n\n## Ankündigungen\n{announcements}"
+        },
+        "select": {
+          "homepage": "Startseite",
+          "moderation": "Moderation",
+          "auto": "Autorollen & Autopublish",
+          "level": "Levelsystem",
+          "games": "Spiele & Statistiken",
+          "info": "Informationen",
+          "welcome-leave": "Willkommen & Verlassen",
+          "logging": "Logging",
+          "poll": "Umfragen",
+          "twitch": "Twitch",
+          "quiz": "Quizze",
+          "embeds": "Embeds",
+          "endelon": "Endelon Hosting",
+          "fun": "Spaß",
+          "random": "Zufällig",
+          "uncategorised": "Unkategorisierte Befehle",
+          "end": "Menu beenden"
+        },
+        "components": {
+          "privacy-policy": {
+            "label": "Datenschutzerklärung"
+          },
+          "docs": {
+            "label": "Dokumentation"
+          }
+        }
+      },
+      "info": {
+        "server": {
+          "embed": {
+            "fields": {
+              "name": "✨・Name",
+              "id": "🪪・ID",
+              "membercount": "👤・Nutzer",
+              "booster": {
+                "name": "💎・Booster",
+                "value-singular": "> Level {levelinfo} ({length} Boost)",
+                "value-plural": "> Level {levelinfo} ({length} Boosts)"
+              },
+              "created": "🕙・Erstellt",
+              "channels": {
+                "name": "📚・Kanäle"
+              },
+              "owner": "👑・Eigentümer",
+              "roles": {
+                "name": "📊・Rollen (Ohne Botrollen)",
+                "value": "> {roles} (Zeigt {info})"
+              },
+              "emojis": {
+                "name": "🎨・Emojis",
+                "value": "> {emojis} (Zeigt {info})"
+              },
+              "first-members": "👀・Erste Nutzer",
+              "top-badges": "⭐・Top Abzeichen",
+              "banner": "🖼️・Banner"
+            }
+          },
+          "user": "Nutzer",
+          "user-plural": "Nutzer"
+        },
+        "user": {
+          "embed": {
+            "fields": {
+              "name": "🌍・Name",
+              "id": "🪪・ID",
+              "created": "🕙・Konto erstellt",
+              "joined": {
+                "name": "👤・Server beigetreten",
+                "value": "> {timestamp} | {timestamp1} ({joinrank}. Nutzer)"
+              },
+              "roles": {
+                "name": "📚・Rollen",
+                "shows": "Zeigt",
+                "value-none": "Keine"
+              },
+              "badges": {
+                "name": "🎨・Abzeichen",
+                "value-none": "Keine"
+              },
+              "permissions": {
+                "name": "🛡️・Berechtigungen",
+                "value-owner": "Servereigentümer",
+                "value-administrator": "Administrator"
+              },
+              "suspect": {
+                "name": "🔎・Suspekt",
+                "value-yes-spammer": "Ja・Spammer",
+                "value-yes-quarantined": "Ja・Quarantined",
+                "value-no": "Nein"
+              }
+            },
+            "description": "Bemerke: Nutze </bot info:1058376602515411061>, um mehr Informationen über mich zu bekommen."
+          },
+          "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server."
+        },
+        "role": {
+          "embed": {
+            "fields": {
+              "name": "✨・Name",
+              "id": "🪪・ID",
+              "created": "🕙・Erstellt",
+              "position": "🔢・Position",
+              "color": "🎨・Farbe",
+              "membercount": "👤・Nutzeranzahl",
+              "permissions": {
+                "name": "🛡️・Berechtigungen",
+                "value-owner": "Servereigentümer",
+                "value-administrator": "Administrator"
+              }
+            }
+          }
+        },
+        "channel": {
+          "name": "📚・Name",
+          "id": "🪪・ID",
+          "created": "🕙・Erstellt",
+          "nsfw": "🚫・NSFW",
+          "description": {
+            "name": "✨・Beschreibung",
+            "value-no-description": "Keine Beschreibung angegeben"
+          },
+          "position": "🔢・Position",
+          "threads": {
+            "name": "🔦・Threads",
+            "value-one": "1 Thread",
+            "value-notone": "{size} Threads"
+          },
+          "lastmessage": {
+            "name": "🗨️・Letzte Nachricht",
+            "value": "> [Nachrichtenlink]({link})"
+          },
+          "category": "Kategorie",
+          "channel": "Kanal"
+        },
+        "invite": {
+          "not-valid": "{x} Der angegebene Einladungslink ist nicht gültig.",
+          "embed": {
+            "fields": {
+              "code": "🎨・Code",
+              "expires-never": "Nie",
+              "expires": "🗑️・Verfällt",
+              "server": "🌍・Server",
+              "channel": "⭐・Kanal",
+              "created-by": "👤・Erstellt von",
+              "vanity": "❓・Vanity",
+              "value-true": "- Ja, dies ist der Vanity Code.",
+              "value-false": "- Nein, dies ist nicht der Vanity Code."
+            }
+          }
+        }
+      }
+    },
+    "moderation": {
+      "logging": {
+        "welcome": {
+          "message": {
+            "modal": {
+              "label": "Nachricht",
+              "title": "Ändere die Willkommensnachricht",
+              "placeholder": "Herzlich Willkommen, {username}! Wir hoffen, dass du auf {guildname} Spaß hast."
+            }
+          },
+          "channel": {
+            "success": "{y} Der Willkommenskanal wurde aktualisiert"
+          },
+          "toggle": {
+            "success_activated": "{y} Die Willkommensnachrichten wurde aktiviert.",
+            "success_deactivated": "{y} Die Willkommensnachrichten wurde deaktiviert."
+          },
+          "test": {
+            "no-welcome-message": "Jemand ist dem Server beigetreten.",
+            "no-channel-set": "- Es wurde kein Willkommenskanal gesetzt.",
+            "bot-permissions-welcome-channel": "- Der Bot kann nicht auf den Willkommenskanal zugreifen oder diese wurde gelöscht",
+            "toggle-deactivated": "- Das Willkommenssystem ist deaktiviert.",
+            "testmessage-sent-success": "{y} Die Testnachricht wurde versendet."
+          },
+          "mention": {
+            "mention-success-user": "{y} Die Erwähnung wurde gesetzt zu: **Nutzer**.",
+            "role-not-provided": "{x} Du musst eine Rolle angeben.",
+            "role-everyone": "Du kannst nicht die Rolle `@everyone` verwenden.",
+            "mention-success-role": "{y} Die Erwähnung wurde gesetzt zu: `{rolename}`",
+            "mention-success-remove": "{y} Die Willkommenserwähnung wurde entfernt."
+          },
+          "settings": {
+            "no-welcome-message": "Jemand ist dem Server beigetreten.",
+            "no-welcome-channel": "Kein Willkommenskanal gesetzt",
+            "embed": {
+              "title": "Die Einstellungen",
+              "fields": {
+                "channel": {
+                  "name": "Kanal",
+                  "value": "- Kein Kanal gesetzt"
+                },
+                "message": {
+                  "name": "Nachricht",
+                  "value": "Jemand ist dem Server beigetreten."
+                },
+                "toggle": {
+                  "name": "Toggle",
+                  "value_activated": "> Aktiviert",
+                  "value_deactivated": "> Deaktiviert"
+>>>>>>> Stashed changes
                 }
             },
             "valorant": {

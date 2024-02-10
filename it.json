@@ -271,11 +271,11 @@
       "emojiquiz": {
         "vote": {
           "embed": {
-            "title": "Vote-Link",
-            "description": "Man kann auf [Top.gg](https://top.gg/bot/965903240384376872/vote) voten. Mit jedem Vote bekommt man {plusVoteTokens} weitere Skips.\nDu hast durch Votes {votes}."
+            "title": "Link al voto",
+            "description": "Puoi votare su [Top.gg](https://top.gg/bot/965903240384376872/vote). Con ogni voto si ottengono {plusVoteTokens} più skip.\nTu hai {votes}."
           },
           "votebutton": {
-            "label": "Vote hier!"
+            "label": "Votate qui!"
           }
         },
         "help": {

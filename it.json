@@ -3,26 +3,26 @@
     "games": {
       "fortnite": {
         "shopitem": {
-          "no-name": "Bitte gebe einen Namen an.",
-          "no-matching-items": "Es wurden keine Übereinstimmungen gefunden.",
-          "no-shopitem-found": "Es wurde kein Item basierend auf deiner Suche gefunden."
+          "no-name": "Inserire un nome.",
+          "no-matching-items": "Non è stata trovata alcuna corrispondenza.",
+          "no-shopitem-found": "Non è stato trovato alcun item in base alla ricerca effettuata."
         }
       },
       "valorant": {
         "map": {
-          "no-map-found": "Es wurde keine Karte basierend auf deiner Suche gefunden."
+          "no-map-found": "Non è stata trovata alcuna mappa in base alla tua ricerca."
         },
         "agent": {
-          "no-agent-found": "Es wurde kein Agent basierend auf deiner Suche gefunden."
+          "no-agent-found": "Non è stato trovato un agente in base alla vostra ricerca."
         }
       },
       "clashofclans": {
         "club": {
-          "no-name": "Bitte gebe einen Namen an.",
-          "name-too-short": "Der Name muss mindestens 3 Zeichen lang sein.",
-          "nothing-found": "Es wurde nichts basierend auf deiner Suche gefunden.",
-          "ratelimit": "Ich befinde mich zurzeit im Rate-Limit.",
-          "api-503": "Die API ist zurzeit nicht erreichbar."
+          "no-name": "Inserire un nome.",
+          "name-too-short": "Il nome deve essere lungo almeno 3 caratteri.",
+          "nothing-found": "Non è stato trovato niente in base alla vostra ricerca.",
+          "ratelimit": "Attualmente sto rispettando il ratelimit.",
+          "api-503": "L'API non è disponibile al momento."
         }
       }
     }

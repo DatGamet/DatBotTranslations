@@ -91,10 +91,10 @@
           }
         },
         "test": {
-          "no-leave-channel": "- Es gibt keinen Verlassenskanal.",
-          "leave-channel-not-set": "{x} Der Verlassenskanal wurde gelöscht oder keiner wurde gesetzt.",
-          "system-deactivated": "- Das System ist deaktiviert.",
-          "success": "{y} Die Testnachricht wurde versendet."
+          "no-leave-channel": "- Non esiste un canale di uscita.",
+          "leave-channel-not-set": "{x} Il canale di uscita è stato eliminato o non è stato impostato.",
+          "system-deactivated": "- Il sistema è disattivato.",
+          "success": "{y} Il messaggio test è stato inviato."
         },
         "toggle": {
           "success_activated": "{y} Das Willkommenssystem wurde aktiviert.",

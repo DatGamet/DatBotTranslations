@@ -2270,6 +2270,7 @@
       "defaultDescription": "## Select a match\n- Select one of the matches.\n- Due to a limitation of Discord, Dat Bot can only display the last 25 matches.\n\n- Note: Anyone can view the information about the game as long as that person can read this message.",
       "defaultSelectPlaceholder": "Select a match.",
       "defaultFooter": "{matches} Matches recieved",
+      "match": "Round",
       "no-matches": "{x} I did not recieve any matches.",
       "buttons": {
         "playerandqueues": "Spieler & Queues",

@@ -494,7 +494,10 @@
                     "title": "Link your VALORANT account",
                     "description": "Click on the \"Link\" button to link the account.\n- At the end you will see a JSON page that has a parameter called \"Code\". Copy this, click on \"Specify code\" and then enter it there.\n- You can remove the link with </unlink valorant:{commandId}>.",
                     "link": "Link",
-                    "provide_code": "Specify code"
+                    "provide_code": "Specify code",
+                    "code-not-valid": "{x} The specified code is not valid.",
+                    "scope-error": "{x} You have not accepted all scopes. Log in again.",
+                    "success": "{y} You have linked your Discord account with {riotname}."
                 }
             },
             "brawlstars": {

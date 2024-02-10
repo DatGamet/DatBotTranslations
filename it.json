@@ -280,81 +280,81 @@
         },
         "help": {
           "embed": {
-            "title": "Emojiquiz Hilfe",
+            "title": "Aiuto emojiquiz",
             "fields": {
               "howtouse": {
-                "name": "Wie nutze ich das Emojiquiz?",
-                "value": "1. Nutze </emojiquiz setup:{commandId}>.\n2. Nutze </emojiquiz toggle:{commandId}>\nDanach startet alles."
+                "name": "Come si usa l'emojiquiz?",
+                "value": "1. Utilizzare </emojiquiz setup:{commandId}>.\n2. Utilizzare </emojiquiz toggle:{commandId}>.\nDopo di che, tutto ha inizio."
               },
               "whynotworking": {
-                "name": "Warum funktioniert das Emojiquiz nicht mehr?",
-                "value": "Bitte nutze </emojiquiz fix:{commandId}>. Wenn es danach noch nicht funktioniert, bitte kontaktiere den Support [hier](https://discord.gg/BQumAujuvk)."
+                "name": "Perché il quiz sulle emoji non funziona più?",
+                "value": "Utilizzare </emojiquiz fix:{commandId}>. Se ancora non funziona, contattate l'assistenza [qui] (https://discord.gg/BQumAujuvk)."
               },
               "howtoskip": {
-                "name": "Was kann man machen, wenn man den Begriff nicht findet?",
-                "value": "Man kann den Button \"Skip\" nutzen. Wenn du keine Skips mehr hast, musst du [hier](https://top.gg/bot/965903240384376872/vote) voten. Mit jedem Vote bekommst du {plusVoteTokens} Skips. Zurzeit hast du {votes} Skips."
+                "name": "Cosa si può fare se non si trova il termine?",
+                "value": "È possibile utilizzare il pulsante \"Skip\". Se non hai più salti, devi votare [qui](https://top.gg/bot/965903240384376872/vote). Con ogni voto si ottengono {plusVoteTokens} salti. Attualmente hai {votes} salti."
               },
               "whereissupport": {
-                "name": "Wo kann ich den Support kontaktieren?",
-                "value": "Du kannst den Support [hier](https://discord.gg/BQumAujuvk) kontaktieren"
+                "name": "Dove posso contattare l'assistenza?",
+                "value": "Potete contattare l'assistenza [qui](https://discord.gg/BQumAujuvk)"
               }
             }
           }
         },
         "fix": {
-          "channel-not-set": "{x} Es gibt keinen Emojiquiz Kanal. Setze einen mit </emojiquiz setup:{commandId}>.",
-          "quiz-deactivated": "- Das Emojiquiz ist deaktiviert.",
+          "channel-not-set": "{x} Non esiste un canale emojiquiz. Impostarne uno con </emojiquiz setup:{commandId}>.",
+          "quiz-deactivated": "- Il quiz emoji è disattivato.",
           "embed": {
-            "title": "{amount} Fehler wurden gefunden."
+            "title": "Sono stati trovati {amount} errori."
           },
-          "success": "{y} Es wurden keine Fehler gefunden.",
+          "success": "{y} Non sono stati trovati errori.",
           "permissions": {
-            "SendMessages": "- Mir fehlt die Berechtigung \"Nachrichten Senden\" in {channel}.",
-            "ViewChannel": "- Mir fehlt die Berechtigung, {channel} zu sehen.",
-            "EmbedLinks": "- Mir fehlt die Berechtigung \"Links einbetten\" in {channel}."
+            "SendMessages": "- Mi manca l'autorizzazione \"Invia messaggi\" in {channel}.",
+            "ViewChannel": "- Non ho l'autorizzazione a vedere {channel}.",
+            "EmbedLinks": "- Mi manca l'autorizzazione \"Incorpora link\" in {channel}."
           }
         },
         "guess": {
           "embed": {
-            "title": "Errate das Wort",
-            "description": "- Gesucht・{emojis}\n\n*Deaktiviere das Emojiquiz mit </emojiquiz toggle:1117220757957779506>*"
+            "title": "Indovina la parola",
+            "description": "- Cercato・{emojis}\n\n*Disattiva l'emojiquiz con </emojiquiz toggle:1117220757957779506>*"
           },
           "content": {
-            "skip": "{user} hat das Emojiquiz übersprungen!",
-            "sol": "💡・{user} hat die Lösung erraten."
+            "skip": "{user} ha saltato il quiz sulle emoji!",
+            "sol": "💡・{user} ha indovinato la soluzione."
           },
           "buttons": {
             "clue": {
-              "label": "Tipp"
+              "label": "Tip"
             },
             "skip": {
               "label": "Skip"
             }
           },
-          "success": "{y} Das Emojiquiz wurde erfolgreich gestartet."
+          "success": "{y} Il quiz sulle emoji ha iniziato con successo."
         },
         "settings": {
           "embed": {
-            "title": "Einstellungen",
+            "title": "Impostazioni",
             "fields": {
               "channel": {
-                "name": "Kanal"
+                "name": "Canale"
               },
               "message": {
-                "name": "Nachricht"
+                "name": "Messagio"
               },
               "toggle": {
                 "name": "Toggle",
-                "value_activated": "> Aktiviert",
-                "value_deactivated": "> Deaktiviert"
+                "value_activated": "> Attivato",
+                "value_deactivated": "> Disattivato"
               }
             }
           }
         },
         "toggle": {
-          "channel-not-set": "{x} Bitte setze einen neuen Kanal mit dem Befehl </emojiquiz setup:{commandId}>",
-          "success_deactivated": "{y} Das Emojiquiz wurde deaktiviert.",
-          "success_activated": "{y} Das Emojiquiz wurde aktiviert."
+          "channel-not-set": "{x} Impostare un nuovo canale con il comando </emojiquiz setup:{commandId}>",
+          "success_deactivated": "{y} L'emojiquiz è stato disattivatot.",
+          "success_activated": "{y} Il quiz sulle emoji è stato attivato."
         }
       },
       "flagquiz": {
@@ -364,7 +364,7 @@
             "description": "Puoi votare su [Top.gg](https://top.gg/bot/965903240384376872). Con ogni voto ottieni {plusVoteTokens} più skip.\nHai già guadagnato {votes} Voteskips. Grazie ✨"
           },
           "button": {
-            "label": "Vote hier!"
+            "label": "Votate qui!"
           }
         },
         "help": {
@@ -489,6 +489,13 @@
           "button": {
             "label": "API Token angeben"
           }
+        },
+        "valorant": {
+          "already-linked": "{x} Du hast bereits dein Konto verlinkt.",
+          "title": "Verlinke dein VALORANT Konto",
+          "description": "- Klicke auf den Button \"Verlinken\", um das Konto zu verlinken.\n- Am Ende siehst du eine JSON Seite, die einen Parameter namens \"Code\" hat. Kopiere diesen, klicke auf \"Code angeben\" und gebe diesen dort anschließend an.\n- Du kannst die Verknüpfung mit </unlink valorant:{commandId}> entfernen.",
+          "link": "Verlinken",
+          "provide_code": "Code angeben"
         }
       },
       "brawlstars": {
@@ -1582,11 +1589,11 @@
           "channel-not-type-5": "{channel} ist kein Ankündugungskanal"
         },
         "embed": {
-          "description": "## Verwalte das System\n- Elenco: Erhalte einer Elenco der aktuellen Kanäle\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere das System\n- Kanal hinzufügen: Füge einen Kanal hinzu\n- Kanal entfernen: Entferne einen Kanal"
+          "description": "## Verwalte das System\n- Liste: Erhalte einer Liste der aktuellen Kanäle\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere das System\n- Kanal hinzufügen: Füge einen Kanal hinzu\n- Kanal entfernen: Entferne einen Kanal"
         },
         "components": {
           "liste-button": {
-            "label": "Elenco"
+            "label": "Liste"
           },
           "debug-button": {
             "label": "Debuggen"
@@ -1607,7 +1614,7 @@
       },
       "autorole": {
         "embed": {
-          "description": "## Autorollen\n- Elenco: Erhalte einer Elenco der aktuellen Autorollen\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere die Autorollen\n- Rollen hinzufügen: Füge eine Autorolle hinzu\n- Rollen entfernen: Entferne eine Autorolle"
+          "description": "## Autorollen\n- Liste: Erhalte einer Liste der aktuellen Autorollen\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere die Autorollen\n- Rollen hinzufügen: Füge eine Autorolle hinzu\n- Rollen entfernen: Entferne eine Autorolle"
         },
         "components": {
           "liste-button": {
@@ -2234,6 +2241,56 @@
         "poll-message-not-found": "{x} Die Umfrage Nachricht wurde nicht gefunden.",
         "embed-deleted": "{x} Das Embed wurde gelöscht."
       }
+    }
+  },
+  "valorant": {
+    "code_submit": {
+      "label": "Gebe den Code an",
+      "title": "Code"
+    },
+    "rank": {
+      "no-arguments": "{x} Bitte gebe einen Riot-namen (Als Beispiel DGamet#1687) an oder logge dich mit </link valorant:{commandId} ein.",
+      "invalid-username": "{x} Der angegebene Nutzername ist nicht valid. Bitte überprüfe deine Eingabe.",
+      "user-no-data": "{x} Zu diesem Nutzer wurden keine Daten gefunden.",
+      "description": "## Kompeteiv - {username}\n- Zurzeit\n - Rang: {rank}\n - MMR: {mmr}\n - Elo: {elo}\n - Letztes Spiel: {last_game} RR {result}\n - Spiele für das Einranken benötigt: {games_required} benötigt\n\n- Alltime\n - Zeitpunkt: Episode {episode} Akt {act}\n - Rang: {alltime_rang}",
+      "won": "gewonnen",
+      "lost": "verloren"
+    },
+    "matchhistory": {
+      "red": "Rot",
+      "blue": "Blau",
+      "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </link valorant:{commandId}>, um dein Konto zu verlinken.",
+      "wrong-shard": "{x} Bitte logge dich erneut ein. Vorher musst du dich mit </unlink valorant:{commandId}> wieder ausloggen.",
+      "account-not-found": "{x} Ich habe das verlinkte Konto nicht gefunden.",
+      "defaultDescription": "## Wähle ein Match aus\n- Wähle eines der Matches aus.\n- Aufgrund einer Limitierung von Discord kann Dat Bot nur die letzten 25 Matches anzeigen.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
+      "defaultSelectPlaceholder": "Wähle ein Match aus.",
+      "buttons": {
+        "playerandqueues": "Spieler & Queues",
+        "resultandteams": "Ergebnis & Teams",
+        "back": "Zurück"
+      },
+      "selectors": {
+        "match": "Wähle eine Runde aus.",
+        "player": "Wähle einen Spieler aus."
+      },
+      "descriptions": {
+        "defaultInMenu": "## Wähle etwas aus\n- Wähle einen der unteren Buttons, um Informationen über dieses Spiel zu erhalten\n - Spieler & Queues: Informationen über die einzelnen Spieler und wer mit wem gequeuet hat.\n - Ergebnis & Teams: Informationen zu den jeweiligen Teams und das Endergebnis.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
+        "valo_players": "{mode}・{region}\n- Spieler - Blau\n - {playersBlue}\n\n- Spieler - Rot\n - {playersRed}\n\n- Queues\n - {queues}\n\n- AFK\n - {afk}",
+        "valo_match": "## Spiel\n- Gestartet: <t:{started}:R>・<t:{started}:F>\n- Modus: {mode\\n- Rundenanzahl: {rounds_played}\n - Von {team1} gewonnen: {team1wins}/{rounds_played}\n - Von {team2} gewonnen: {team2wins}/{rounds_played}\n- Gewinner: {winner} ({yourteam})\n- Arten an Rundenenden\n - Eliminierung: {elim}/{rounds_played}\n - Rundentimer abgelaufen: {roundtimer}/{rounds_played}\n- Defuse: {defuse}/{rounds_played}}\n - Explosion: {detonation}/{rounds_played}\n- Spielerarten\n - Team Rot: {redPlayers}\n - Team Blau: {bluePlayers}\n - Coaches: {coaches}\n - Zuschauer: {spectators}",
+        "your-team": "Dein Team",
+        "not-your-team": "Nicht dein Team",
+        "valo_matchinfo": "## Ergebnis & Runde\n- Rundennummer: {roundNum}\n- Zwischenergebnis (Blau:Rot): {blueWon}:{redWon}\nRundenende: {roundResultCode}\n- Gewinner: {winnerTeam}\n- Spike Plant\n - Ausführender Spieler: {planter}\n - Zeitpunkt: Nach {plantTimestamp} Sekunden\n - Plantsite: {plantSide}\n- Spike Defuse\n - Ausführender Spieler: {defuser}\n - Zeitpunkt: Nach {defuseTimestamp} Sekunden\n## Kill Log\n - {killLog}",
+        "killog": "{killer} hat {player} getötet.",
+        "not-defused": "Nicht entschärft",
+        "not-planted": "Nicht platziert",
+        "valo_matchinfoplayers": "## Informationen zu {player} in Runde {roundNumber}\n- Agent: {agent}\n- Score: {score}\n- Kills: {kills}\n- Damage verteilt: {damage}\n- Economy\n - Insgesamt: {€conomyTotal}\n - Ausgegeben: {economySpent}\n - Schild: {armor}\n- Waffe: {weapon}",
+        "shield": {
+          "big": "Großer Schild",
+          "light": "Leichter Schild"
+        },
+        "damageinfo": "{damageAmount} Schaden, {head} Headshots, {body} Bodyshots, {leg} Legshots"
+      },
+      "footerdata": "{played} Runden gespielt - Gewinner: {winner}"
     }
   }
 }

@@ -360,8 +360,8 @@
       "flagquiz": {
         "vote": {
           "embed": {
-            "title": "Vote-Link",
-            "description": ""
+            "title": "Link al voto",
+            "description": "Puoi votare su [Top.gg](https://top.gg/bot/965903240384376872). Con ogni voto ottieni {plusVoteTokens} più skip.\nHai già guadagnato {votes} Voteskips. Grazie ✨"
           },
           "button": {
             "label": "Vote hier!"

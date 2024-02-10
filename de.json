@@ -361,7 +361,7 @@
         "vote": {
           "embed": {
             "title": "Vote-Link",
-            "description": ""
+            "description": "Du kannst auf [Top.gg](https://top.gg/bot/965903240384376872) voten. Mit jedem Vote bekommst du {plusVoteTokens} skips.\nDu hast bereits {votes} Voteskips erhalten. Danke ✨"
           },
           "button": {
             "label": "Vote hier!"

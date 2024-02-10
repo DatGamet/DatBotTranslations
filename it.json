@@ -209,59 +209,59 @@
       },
       "import_json": {
         "modal": {
-          "title": "JSON importieren",
-          "label": "Importiere dein JSON Code hier."
+          "title": "Importare JSON",
+          "label": "Importare qui il codice JSON."
         }
       },
       "next_meme": {
         "next-meme-button": {
-          "label": "Nächstes Meme"
+          "label": "Prossimo meme"
         },
-        "requested-by": "Angefragt von {user}"
+        "requested-by": "Richiesto da {user}"
       },
       "update_embed": {
-        "embed-deleted": "{x} Das Embed von dieser Interaktion ist gelöscht worden."
+        "embed-deleted": "{x} L'embed di questa interazione è stato eliminato."
       },
       "delete_message": {
-        "not_your_message": "{x} Diese Nachricht gehört dir nicht."
+        "not_your_message": "{x} Questo messaggio non ti appartiene."
       },
       "verify_coc_token": {
         "modal": {
-          "title": "Verifiziere deinen Account",
+          "title": "Verifica del tuo account",
           "label": "Token",
-          "placeholder": "Gebe den API-Token an."
+          "placeholder": "Inserire il token API."
         }
       },
       "fortnite_shophistory": {
         "embed": {
-          "title": "{name}s Shopgeschichte"
+          "title": "Storia del negozio di {name}"
         }
       },
       "send_with_webhook": {
         "title": "Webhook URL",
-        "url": "Gebe eine Webhook URL an.",
-        "name": "Gebe einen Namen an.",
+        "url": "Inserire un URL di webhook.",
+        "name": "Inserire un nome.",
         "avatar": "Gebe eine Avatar URL an."
       }
     },
     "poll": {
       "addoption": {
         "modal": {
-          "title": "Option hinzufügen",
-          "label": "Name / Text",
-          "placeholder": "Beschreibe hier deine Option."
+          "title": "Aggiungi opzione",
+          "label": "Nome / Testo",
+          "placeholder": "Descrivi qui la tua opzione."
         }
       },
       "send": {
         "selector": {
-          "placeholder": "Wähle einen Kanal aus."
+          "placeholder": "Selezionare un canale."
         }
       },
       "setdescription": {
         "modal": {
-          "title": "Beschreibung setzen",
-          "label": "Beschreibung",
-          "placeholder": "Pizza mit oder ohne Ananas?"
+          "title": "Impostare la descrizione",
+          "label": "descrizione",
+          "placeholder": "Nutella con o senza burro?"
         }
       }
     }

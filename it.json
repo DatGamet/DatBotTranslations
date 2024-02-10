@@ -369,7 +369,7 @@
         },
         "help": {
           "embed": {
-            "title": "Flaggenquiz Hilfe",
+            "title": "Aiuto per il quiz sulle bandiere",
             "fields": {
               "howtouse": {
                 "name": "Wie nutze ich das Flaggenquiz?",

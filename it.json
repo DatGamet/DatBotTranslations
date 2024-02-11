@@ -528,18 +528,18 @@
         },
         "profile": {
           "api": {
-            "404": "{x} Dieses Konto habe ich nicht gefunden. Bitte gebe ein gültiges InGame-Kürzel an.\n> ℹ️・[Wie man ein InGame-Kürzel findet](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
+            "404": "{x} Non ho trovato questo account. Inserisci un codice di gioco valido.\n> ℹ️・[Come trovare un codice di gioco](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
           },
           "embed": {
-            "throphies": "<:datbot_bs_thropie:1094954801407737936>・Throphäen",
-            "exp-level": "<:datbot_player_level:1095000959358357636>・EXP Level",
-            "solo-wins": "<:datbot_bs_solo:1095008405996961924>・Solo Siege",
-            "duo-wins": "<:datbot_bs_duo:1095007929503068230>・Duo Siege",
-            "3vs3-wins": "<:datbot_bs_trio:1095009330442543145>・3vs3 Siege",
-            "club": "<:datbot_bs_club:1094955757985857637>・Klub",
+            "throphies": "<:datbot_bs_thropie:1094954801407737936>・Trofei",
+            "exp-level": "<:datbot_player_level:1095000959358357636>・Level XP",
+            "solo-wins": "<:datbot_bs_solo:1095008405996961924>・Vittorie solo",
+            "duo-wins": "<:datbot_bs_duo:1095007929503068230>・Vittorie duo",
+            "3vs3-wins": "<:datbot_bs_trio:1095009330442543145>・Vittorie 3vs3",
+            "club": "<:datbot_bs_club:1094955757985857637>・club",
             "highest-brawler": {
-              "name": "<:brawlstars_icon:1095013107912425606>・Höchster Brawler ({total} insgesamt)",
-              "value": "- {name}\n- Power {power}\n- Throphäen: {throphies} (Rang {rank})"
+              "name": "<:brawlstars_icon:1095013107912425606>・Brawler maggiore ({total} insgesamt)",
+              "value": "- {name}\n- Power {power}\n- Trofei: {throphies} (Rank {rank})"
             }
           }
         }

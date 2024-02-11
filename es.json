@@ -3,24 +3,25 @@
         "games": {
             "fortnite": {
                 "shopitem": {
-                    "no-name": "Por favor, introduce un nombre.",
-                    "no-matching-items": "No se encontraron coincidencias.",
-                    "no-shopitem-found": "No se ha encontrado ningún artículo basado en tu búsqueda."
+                    "no-name": "Por favor, proporciona un nombre.",
+                    "no-matching-items": "No se encontraron elementos coincidentes.",
+                    "no-shopitem-found": "No se encontró ningún artículo basado en tu búsqueda."
                 }
             },
             "valorant": {
                 "map": {
-                    "no-map-found": "No se ha encontrado ningún mapa basado en su búsqueda."
+                    "no-map-found": "No se encontró ningún mapa basado en tu búsqueda."
                 },
                 "agent": {
-                    "no-agent-found": "No se ha encontrado ningún agente en su búsqueda."
+                    "no-agent-found": "No se encontró ningún agente basado en tu búsqueda."
                 }
             },
             "clashofclans": {
                 "club": {
+                    "no-name": "Por favor, proporciona un nombre.",
                     "name-too-short": "El nombre debe tener al menos 3 caracteres.",
-                    "nothing-found": "No se ha encontrado nada basado en tu búsqueda.",
-                    "ratelimit": "Actualmente estoy en el límite de tarifa.",
+                    "nothing-found": "No se encontró nada basado en tu búsqueda.",
+                    "ratelimit": "Actualmente me encuentro en el límite de velocidad.",
                     "api-503": "La API no está disponible actualmente."
                 }
             }
@@ -74,7 +75,7 @@
         },
         "logs": {
             "leave": {
-                "default-message": "D_Gamet ha abandonado este servidor.",
+                "default-message": "D_Gamet ha dejado este servidor.",
                 "delete": {
                     "success": "{y} Los ajustes han sido restablecidos."
                 },
@@ -84,14 +85,14 @@
                 },
                 "message": {
                     "modal": {
-                        "title": "Cambia el mensaje de salida",
+                        "title": "Cambiar el mensaje de salida",
                         "label": "Mensaje",
-                        "placeholder": "D_Gamet ha abandonado este servidor."
+                        "placeholder": "D_Gamet ha dejado este servidor."
                     }
                 },
                 "test": {
-                    "no-leave-channel": "- No hay canal de salida.",
-                    "leave-channel-not-set": "{x} El canal de salida ha sido eliminado o ninguno ha sido establecido.",
+                    "no-leave-channel": "- No hay un canal de salida configurado.",
+                    "leave-channel-not-set": "{x} El canal de salida ha sido eliminado o no ha sido configurado.",
                     "system-deactivated": "- El sistema está desactivado.",
                     "success": "{y} El mensaje de prueba ha sido enviado."
                 },
@@ -101,25 +102,55 @@
                 },
                 "update": {}
             },
-            "resetdata": {
-                "success": "{y} Los datos han sido restablecidos."
-            },
-            "test": {
-                "no-logging-channel": "- {a} El canal de registro no ha sido establecido.",
-                "system-deactivated": "- {i} El sistema está desactivado.",
-                "logging-channel-deleted": "- {a} El canal de registro ha sido eliminado.",
-                "success": "{y} No se encontraron problemas."
-            },
-            "toggle": {
-                "success_activated": "{y} El sistema de registro ha sido activado.",
-                "success_deactivated": "{y} El sistema de registro ha sido desactivado."
-            },
-            "update": {
-                "embed": {
-                    "title": "Administrar la configuración"
+            "logs": {
+                "resetdata": {
+                    "success": "{y} Los datos han sido restablecidos."
+                },
+                "test": {
+                    "no-logging-channel": "- {a} El canal de registro no ha sido configurado.",
+                    "system-deactivated": "- {i} El sistema está desactivado.",
+                    "logging-channel-deleted": "- {a} El canal de registro ha sido eliminado.",
+                    "success": "{y} No se encontraron problemas."
+                },
+                "toggle": {
+                    "success_activated": "{y} El sistema de registro ha sido activado.",
+                    "success_deactivated": "{y} El sistema de registro ha sido desactivado."
+                },
+                "update": {
+                    "embed": {
+                        "title": "Administrar la configuración"
+                    }
                 }
+            },
+            "welcome": {
+                "default-message": "D_Gamet ha entrado en este servidor.",
+                "delete": {
+                    "success": "{y} Los ajustes han sido restablecidos."
+                },
+                "embed": {
+                    "mode-text": "{y} Tipo de mensaje cambiado a: **Mensaje de texto**.",
+                    "mode-embed": "{y} Tipo de mensaje cambiado a: **Embed**."
+                },
+                "message": {
+                    "modal": {
+                        "title": "Cambiar el mensaje de bienvenida",
+                        "label": "Mensaje",
+                        "placeholder": "D_Gamet ha entrado en este servidor."
+                    }
+                },
+                "test": {
+                    "no-welcome-channel": "- No hay un canal de bienvenida configurado.",
+                    "welcome-channel-not-set": "{x} El canal de bienvenida ha sido eliminado o no ha sido configurado.",
+                    "system-deactivated": "- El sistema está desactivado.",
+                    "success": "{y} El mensaje de prueba ha sido enviado."
+                },
+                "toggle": {
+                    "success_activated": "{y} El sistema de bienvenida ha sido activado.",
+                    "success_deactivated": "{y} El sistema de bienvenida ha sido desactivado."
+                },
+                "update": {}
             }
-        },        
+        },
         "other": {
             "bot_setup_finish": {
                 "embed": {
@@ -212,7 +243,7 @@
                 "name": "Ingresa un nombre.",
                 "avatar": "Ingresa una URL de avatar."
             }
-        },        
+        },
         "poll": {
             "addoption": {
                 "modal": {
@@ -233,7 +264,7 @@
                     "placeholder": "¿Pizza con o sin piña?"
                 }
             }
-        }        
+        }
     },
     "commands": {
         "entertainment": {
@@ -241,7 +272,7 @@
                 "vote": {
                     "embed": {
                         "title": "Enlace de Votación",
-                        "description": "Puedes votar en [Top.gg](https://top.gg/bot/965903240384376872/vote). Con cada voto, obtienes {plusVoteTokens} Skips adicionales.\nTienes {votes} votos gracias a los votos."
+                        "description": "Puedes votar en [Top.gg](https://top.gg/bot/965903240384376872/vote). Con cada voto, obtienes {plusVoteTokens} skips adicionales.\nTienes {votes} votos hasta ahora."
                     },
                     "votebutton": {
                         "label": "¡Vota aquí!"
@@ -249,19 +280,19 @@
                 },
                 "help": {
                     "embed": {
-                        "title": "Ayuda de Emojiquiz",
+                        "title": "Ayuda del Emojiquiz",
                         "fields": {
                             "howtouse": {
-                                "name": "¿Cómo uso el Emojiquiz?",
-                                "value": "1. Usa </emojiquiz setup:{commandId}>.\n2. Usa </emojiquiz toggle:{commandId}>\nLuego, todo está listo para empezar."
+                                "name": "¿Cómo usar el Emojiquiz?",
+                                "value": "1. Usa </emojiquiz setup:{commandId}>.\n2. Usa </emojiquiz toggle:{commandId}>\nDespués, todo comenzará."
                             },
                             "whynotworking": {
                                 "name": "¿Por qué el Emojiquiz ya no funciona?",
                                 "value": "Por favor, usa </emojiquiz fix:{commandId}>. Si aún no funciona después de eso, por favor contacta al soporte [aquí](https://discord.gg/BQumAujuvk)."
                             },
                             "howtoskip": {
-                                "name": "¿Qué hacer si no encuentro la respuesta?",
-                                "value": "Puedes usar el botón \"Skip\". Si te quedan sin Skips, debes votar [aquí](https://top.gg/bot/965903240384376872/vote). Con cada voto, obtienes {plusVoteTokens} Skips adicionales. Actualmente tienes {votes} Skips."
+                                "name": "¿Qué puedo hacer si no encuentro la palabra?",
+                                "value": "Puedes usar el botón de \"Skip\". Si te quedas sin skips, debes votar [aquí](https://top.gg/bot/965903240384376872/vote). Con cada voto, obtendrás {plusVoteTokens} skips adicionales. Actualmente tienes {votes} skips."
                             },
                             "whereissupport": {
                                 "name": "¿Dónde puedo contactar al soporte?",
@@ -271,22 +302,22 @@
                     }
                 },
                 "fix": {
-                    "channel-not-set": "{x} No hay ningún canal de Emojiquiz. Configura uno con </emojiquiz setup:{commandId}>.",
+                    "channel-not-set": "{x} No hay un canal de Emojiquiz. Establece uno con </emojiquiz setup:{commandId}>.",
                     "quiz-deactivated": "- El Emojiquiz está desactivado.",
                     "embed": {
                         "title": "Se encontraron {amount} errores."
                     },
                     "success": "{y} No se encontraron errores.",
                     "permissions": {
-                        "SendMessages": "- Me falta el permiso \"Enviar Mensajes\" en {channel}.",
+                        "SendMessages": "- Me falta el permiso de \"Enviar Mensajes\" en {channel}.",
                         "ViewChannel": "- Me falta el permiso de ver {channel}.",
-                        "EmbedLinks": "- Me falta el permiso \"Incrustar Enlaces\" en {channel}."
+                        "EmbedLinks": "- Me falta el permiso de \"Incrustar Enlaces\" en {channel}."
                     }
                 },
                 "guess": {
                     "embed": {
                         "title": "Adivina la Palabra",
-                        "description": "- Buscado・{emojis}\n\n*Desactiva el Emojiquiz con </emojiquiz toggle:1117220757957779506>*"
+                        "description": "- Buscando・{emojis}\n\n*Desactiva el Emojiquiz con </emojiquiz toggle:1117220757957779506>*"
                     },
                     "content": {
                         "skip": "{user} ¡ha saltado el Emojiquiz!",
@@ -304,7 +335,7 @@
                 },
                 "settings": {
                     "embed": {
-                        "title": "Configuraciones",
+                        "title": "Ajustes",
                         "fields": {
                             "channel": {
                                 "name": "Canal"
@@ -313,7 +344,7 @@
                                 "name": "Mensaje"
                             },
                             "toggle": {
-                                "name": "Toggle",
+                                "name": "Alternar",
                                 "value_activated": "> Activado",
                                 "value_deactivated": "> Desactivado"
                             }
@@ -321,9 +352,9 @@
                     }
                 },
                 "toggle": {
-                    "channel-not-set": "{x} Por favor, configura un nuevo canal con el comando </emojiquiz setup:{commandId}>",
-                    "success_deactivated": "{y} El Emojiquiz se ha desactivado.",
-                    "success_activated": "{y} El Emojiquiz se ha activado."
+                    "channel-not-set": "{x} Por favor, establece un nuevo canal con el comando </emojiquiz setup:{commandId}>",
+                    "success_deactivated": "{y} El Emojiquiz ha sido desactivado.",
+                    "success_activated": "{y} El Emojiquiz ha sido activado."
                 }
             },
             "flagquiz": {
@@ -332,25 +363,25 @@
                         "title": "Enlace de Votación",
                         "description": ""
                     },
-                    "button": {
+                    "votebutton": {
                         "label": "¡Vota aquí!"
                     }
                 },
                 "help": {
                     "embed": {
-                        "title": "Ayuda de Flagquiz",
+                        "title": "Ayuda del Flaggenquiz",
                         "fields": {
                             "howtouse": {
-                                "name": "¿Cómo uso el Flagquiz?",
-                                "value": "1. Usa </flagquiz setup:{commandId}>.\n2. Usa </flagquiz toggle:{commandId}>\nLuego, todo está listo para empezar."
+                                "name": "¿Cómo usar el Flaggenquiz?",
+                                "value": "1. Usa </flagquiz setup:{commandId}>.\n2. Usa </flagquiz toggle:{commandId}>\nDespués, todo comenzará."
                             },
                             "whynotworking": {
-                                "name": "¿Por qué el Flagquiz ya no funciona?",
+                                "name": "¿Por qué el Flaggenquiz ya no funciona?",
                                 "value": "Por favor, usa </flagquiz fix:{commandId}>. Si aún no funciona después de eso, por favor contacta al soporte [aquí](https://discord.gg/BQumAujuvk)."
                             },
                             "howtoskip": {
-                                "name": "¿Qué hacer si no encuentro la respuesta?",
-                                "value": "Puedes usar el botón \"Skip\". Si te quedan sin Skips, debes votar [aquí](https://top.gg/bot/965903240384376872/vote). Con cada voto, obtienes {plusVoteTokens} Skips adicionales. Actualmente tienes {votes} Skips."
+                                "name": "¿Qué puedo hacer si no encuentro el nombre?",
+                                "value": "Puedes usar el botón de \"Skip\". Si te quedas sin skips, debes votar [aquí](https://top.gg/bot/965903240384376872/vote). Con cada voto, obtendrás {plusVoteTokens} skips adicionales. Actualmente tienes {votes} skips."
                             },
                             "whereissupport": {
                                 "name": "¿Dónde puedo contactar al soporte?",
@@ -360,25 +391,24 @@
                     }
                 },
                 "fix": {
-                    "channel-not-set": "{x} No hay ningún canal de Flagquiz. Configura uno con </flagquiz setup:{commandId}>.",
-                    "quiz-deactivated": "- El Flagquiz está desactivado.",
+                    "channel-not-set": "{x} No hay un canal de Flaggenquiz. Establece uno con </flagquiz setup:{commandId}>.",
+                    "quiz-deactivated": "- El Flaggenquiz está desactivado.",
                     "embed": {
                         "title": "Se encontraron {amount} errores."
                     },
                     "permissions": {
-                        "SendMessages": "- Me falta el permiso \"Enviar Mensajes\" en {channel}.",
+                        "SendMessages": "- Me falta el permiso de \"Enviar Mensajes\" en {channel}.",
                         "ViewChannel": "- Me falta el permiso de ver {channel}.",
-                        "EmbedLinks": "- Me falta el permiso \"Incrustar Enlaces\" en {channel}."
+                        "EmbedLinks": "- Me falta el permiso de \"Incrustar Enlaces\" en {channel}."
                     },
                     "success": "{y} No se encontraron errores."
                 },
                 "guess": {
                     "embed": {
-                        "title": "Adivina la Bandera",
-                        "description": "- Buscada・{emojis}\n\n*Desactiva el Flagquiz con </flagquiz toggle:1117220757957779506>*"
+                        "title": "Adivina la Bandera"
                     },
                     "content": {
-                        "skip": "{user} ¡ha saltado el Flagquiz!",
+                        "skip": "{user} ¡ha saltado el Flaggenquiz!",
                         "sol": "💡・{user} ha adivinado la solución."
                     },
                     "buttons": {
@@ -389,11 +419,11 @@
                             "label": "Saltar"
                         }
                     },
-                    "success": "{y} El Flagquiz se ha iniciado correctamente."
+                    "success": "{y} El Flaggenquiz se ha iniciado correctamente."
                 },
                 "settings": {
                     "embed": {
-                        "title": "Configuraciones",
+                        "title": "Ajustes",
                         "fields": {
                             "channel": {
                                 "name": "Canal"
@@ -402,7 +432,7 @@
                                 "name": "Mensaje"
                             },
                             "toggle": {
-                                "name": "Toggle",
+                                "name": "Alternar",
                                 "value_activated": "> Activado",
                                 "value_deactivated": "> Desactivado"
                             }
@@ -410,12 +440,12 @@
                     }
                 },
                 "toggle": {
-                    "channel-not-set": "{x} Por favor, configura un nuevo canal con el comando </flagquiz setup:{commandId}>",
-                    "success_deactivated": "{y} El Flagquiz se ha desactivado.",
-                    "success_activated": "{y} El Flagquiz se ha activado."
+                    "channel-not-set": "{x} Por favor, establece un nuevo canal con el comando </flagquiz setup:{commandId}>",
+                    "success_deactivated": "{y} El Flaggenquiz ha sido desactivado.",
+                    "success_activated": "{y} El Flaggenquiz ha sido activado."
                 }
             }
-        },        
+        },
         "fun": {
             "cookie": {
                 "embed": {
@@ -440,24 +470,36 @@
             "account": {
                 "already-linked": "{x} Ya has vinculado tu cuenta. Para eliminarla, usa </account logout clashofclans:{accountCommandId}>.",
                 "not-linked": "{x} No has vinculado tu cuenta. Usa </account login clashofclans:{accountCommandId}> para vincular tu cuenta.",
-                "link-remove-success": "{y} La conexión de la cuenta ha sido eliminada.",
+                "link-remove-success": "{y} Se ha eliminado la conexión de la cuenta.",
                 "clashofclans": {
                     "api": {
-                        "404": "{x} No encontré la cuenta especificada."
+                        "404": "{x} No se encontró la cuenta especificada."
                     },
                     "embed": {
                         "title": "Vincula tu cuenta",
-                        "description": "- Ahora debes verificar que esta cuenta te pertenece. Ve al juego. Configuración > Configuración avanzada > Token de API > Mostrar. Una vez que tengas este token, debes hacer clic en el botón verde 'Proporcionar token de API' y proporcionarlo allí. Luego haz clic en 'Enviar'.",
+                        "description": "- Ahora debes verificar que esta cuenta te pertenece. Para hacerlo, ve al juego. Ajustes > Más ajustes > Token de API > Mostrar. Una vez que tengas este token, debes hacer clic en el botón verde \"Proporcionar token de API\" y pegarlo allí. Luego, haz clic en \"Enviar\".",
                         "fields": {
                             "account-details": {
                                 "name": "⭐・Detalles de la cuenta",
-                                "value": "> {name}・{tag}・Trophies {trophies}"
+                                "value": "> {name}・{tag}・Trofeos {trophies}"
                             }
                         }
                     },
                     "button": {
                         "label": "Proporcionar token de API"
                     }
+                },
+                "valorant": {
+                    "already-linked": "{x} Ya has vinculado tu cuenta.",
+                    "title": "Vincula tu cuenta de VALORANT",
+                    "description": "- Haz clic en el botón \"Vincular\" para vincular la cuenta.\n- Al final, verás una página JSON que tiene un parámetro llamado \"Código\". Cópialo, haz clic en \"Proporcionar código\" y pégalo allí. Luego, puedes eliminar el enlace con </unlink valorant:{commandId}>.",
+                    "link": "Vincular",
+                    "provide_code": "Proporcionar código",
+                    "code-not-valid": "{x} El código proporcionado no es válido.",
+                    "scope-error": "{x} No has aceptado todos los ámbitos. Inicia sesión nuevamente.",
+                    "success": "{y} Has vinculado tu cuenta de Discord con {riotname}.",
+                    "not-linked": "{x} No has vinculado tu cuenta. Usa </link valorant:{accountCommandId}> para vincular tu cuenta.",
+                    "remove-success": "{y} Se ha eliminado la conexión de tu cuenta."
                 }
             },
             "brawlstars": {
@@ -941,9 +983,9 @@
                         "success_deactivated": "{y} Los mensajes de despedida se han desactivado."
                     },
                     "test": {
-                        "no-welcome-message": "Alguien ha dejado el servidor.",
+                        "no-leave-message": "Alguien ha dejado el servidor.",
                         "no-channel-set": "- No se ha establecido un canal de despedida.",
-                        "bot-permissions-welcome-channel": "- El bot no puede acceder al canal de despedida o ha sido eliminado.",
+                        "bot-permissions-leave-channel": "- El bot no puede acceder al canal de despedida o ha sido eliminado.",
                         "toggle-deactivated": "- El sistema de despedida está desactivado.",
                         "testmessage-sent-success": "{y} Se ha enviado el mensaje de prueba correctamente."
                     },
@@ -955,8 +997,8 @@
                         "mention-success-remove": "{y} La mención de despedida ha sido eliminada."
                     },
                     "settings": {
-                        "no-welcome-message": "Alguien ha dejado el servidor.",
-                        "no-welcome-channel": "No se ha encontrado ningún canal",
+                        "no-leave-message": "Alguien ha dejado el servidor.",
+                        "no-leave-channel": "No se ha encontrado ningún canal",
                         "embed": {
                             "title": "Configuración",
                             "fields": {
@@ -1334,21 +1376,24 @@
             },
             "endelon": {
                 "login": "Iniciar sesión",
-                "account-not-linked": "{x} No has vinculado tu cuenta de Endelon a tu cuenta de Discord.",
+                "account-not-linked": "{x} No has vinculado tu cuenta de Endelon con tu cuenta de Discord.",
                 "account-no-servers": "{x} No tienes servidores.",
                 "servers": {
                     "components": {
-                        "placeholder": "Selecciona un servidor."
+                        "placeholder": "Selecciona un servidor.",
+                        "choices": {
+                            "description": "ID: {id}・CPU: {cpu}・Memoria: {memory}・Disco: {disk}"
+                        }
                     },
                     "embed": {
                         "title": "Administra tus servidores",
-                        "description": "> Administra tus servidores de Endelon a través de DatBot. Para ello, selecciona tu servidor a continuación en el menú desplegable. Si no aparece, probablemente haya un error. En ese caso, por favor, ponte en contacto con el soporte. Si tienes preguntas, también puedes contactar al soporte."
+                        "description": "> Administra tus servidores de Endelon a través de DatBot. Selecciona tu servidor a continuación en el menú desplegable. Si no aparece, probablemente haya un error. Por favor, ponte en contacto con soporte. Si tienes preguntas, también puedes contactar al soporte."
                     }
                 },
                 "links": {
                     "embed": {
                         "title": "Endelon Hosting",
-                        "description": "- [Sitio web](https://endelon-hosting.de)\n- [Estado](https://status.endelon-hosting.de)\n- [Discord](https://endelon.chat/)\n- [Administrar](https://my.endelon-hosting.de/)\n- [Administrador de MySQL](https://mysqladmin.endelon-hosting.de/)\n- [Documentación](https://docs.endelon-hosting.de/)\n- [Donaciones (opcional)](https://www.paypal.me/masusniper)"
+                        "description": "- [Sitio web](https://endelon-hosting.de)\n- [Estado](https://status.endelon-hosting.de)\n- [Discord](https://endelon.chat/)\n- [Administrar](https://my.endelon-hosting.de/)\n- [Administrar MySQL](https://mysqladmin.endelon-hosting.de/)\n- [Documentación](https://docs.endelon-hosting.de/)\n- [Donar (opcional)](https://www.paypal.me/masusniper)"
                     }
                 },
                 "everyone": {
@@ -1357,7 +1402,7 @@
                     },
                     "components": {
                         "start-button": {
-                            "label": "Inicio"
+                            "label": "Iniciar"
                         },
                         "delete-message-button": {
                             "label": "Eliminar mensaje"
@@ -1524,9 +1569,10 @@
         },
         "utility": {
             "autopublish": {
+                "none-existing": "{x} No hay canales de autopublicación.",
                 "add": {
                     "channel-already-autopublish": "{x} Este canal ya está en la base de datos.",
-                    "success": "{y} Se añadió {channel}."
+                    "success": "{y} Se ha añadido {channel}."
                 },
                 "list": {
                     "embed": {
@@ -1535,20 +1581,20 @@
                 },
                 "remove": {
                     "channel-not-autopublish": "{x} Este canal no está en la base de datos.",
-                    "success": "{y} Se eliminó {channel}."
+                    "success": "{y} Se ha eliminado {channel}."
                 },
                 "toggle": {
-                    "success_activated": "{y} El sistema fue activado.",
-                    "success_deactivated": "{y} El sistema fue desactivado."
+                    "success_activated": "{y} El sistema ha sido activado.",
+                    "success_deactivated": "{y} El sistema ha sido desactivado."
                 },
                 "test": {
                     "toggle-false": "Toggle: El sistema está desactivado",
-                    "have-been-removed": "se han eliminado con éxito",
-                    "success": "{y} No se produjeron errores.",
+                    "have-been-removed": "han sido eliminados exitosamente",
+                    "success": "{y} No se han encontrado errores.",
                     "channel-not-type-5": "{channel} no es un canal de anuncios"
                 },
                 "embed": {
-                    "description": "## Administra el Sistema\n- Lista: Obten una lista de los canales actuales\n- Depurar: Prueba y soluciona errores\n- Reiniciar: Restablece la configuración\n- Alternar: Activa o desactiva el sistema\n- Agregar canal: Agrega un canal\n- Eliminar canal: Elimina un canal"
+                    "description": "## Gestiona el Sistema\n- Lista: Obtiene una lista de los canales actuales\n- Depurar: Prueba y corrige errores\n- Restablecer: Restablece la configuración\n- Toggle: Activa o desactiva el sistema\n- Añadir canal: Añade un canal\n- Eliminar canal: Elimina un canal"
                 },
                 "components": {
                     "liste-button": {
@@ -1558,13 +1604,13 @@
                         "label": "Depurar"
                     },
                     "reset-button": {
-                        "label": "Reiniciar"
+                        "label": "Restablecer"
                     },
                     "toggle-button": {
-                        "label": "Alternar"
+                        "label": "Toggle"
                     },
                     "addchannel-select": {
-                        "placeholder": "Agregar canal"
+                        "placeholder": "Añadir canal"
                     },
                     "removechannel-select": {
                         "placeholder": "Eliminar canal"
@@ -2201,5 +2247,63 @@
                 "embed-deleted": "{x} Se ha eliminado la incrustación."
             }
         }
+    },
+    "valorant": {
+        "code_submit": {
+            "label": "Introduce el código",
+            "title": "Código"
+        },
+        "rank": {
+            "no-arguments": "{x} Por favor, proporciona un nombre de Riot válido (por ejemplo, DGamet#1687) o inicia sesión con </link valorant:{commandId}>.",
+            "invalid-username": "{x} El nombre de usuario especificado no es válido. Por favor, verifica tu entrada.",
+            "user-no-data": "{x} No se encontraron datos para este usuario.",
+            "description": "## Competitivo - {username}\n- Actualmente\n - Rango: {rank}\n - MMR: {mmr}\n - Elo: {elo}\n - Último juego: {last_game} RR {result}\n - Juegos necesarios para clasificar: {games_required}\n\n- Todo el tiempo\n - Episodio: {episode} Acto: {act}\n - Rango: {alltime_rank}",
+            "won": "ganado",
+            "lost": "perdido"
+        },
+        "matchhistory": {
+            "red": "Rojo",
+            "blue": "Azul",
+            "not-linked": "{x} No has vinculado tu cuenta. Usa </link valorant:{commandId}> para vincular tu cuenta.",
+            "wrong-shard": "{x} Por favor, vuelve a iniciar sesión. Antes de eso, debes cerrar sesión con </unlink valorant:{commandId}>.",
+            "account-not-found": "{x} No se encontró la cuenta vinculada.",
+            "defaultDescription": "## Selecciona un Partido\n- Selecciona uno de los partidos.\n- Debido a una limitación de Discord, Dat Bot solo puede mostrar los últimos 25 partidos.\n\n- Nota: Cualquier persona puede ver la información del juego mientras pueda leer este mensaje.",
+            "defaultSelectPlaceholder": "Selecciona un partido.",
+            "defaultFooter": "{matches} partidos recibidos",
+            "no-matches": "{x} No se encontraron partidos.",
+            "match": "Ronda",
+            "buttons": {
+                "playerandqueues": "Jugadores y Colas",
+                "resultandteams": "Resultado y Equipos",
+                "back": "Volver"
+            },
+            "selectors": {
+                "match": "Selecciona una ronda.",
+                "player": "Selecciona un jugador."
+            },
+            "descriptions": {
+                "defaultInMenu": "## Selecciona algo\n- Selecciona uno de los botones de abajo para obtener información sobre este juego\n - Jugadores y Colas: Información sobre los jugadores individuales y con quién jugaron.\n - Resultado y Equipos: Información sobre los equipos respectivos y el resultado final.\n\n- Nota: Cualquier persona puede ver la información del juego mientras pueda leer este mensaje.",
+                "valo_players": "## {mode}・{region}\n- Jugadores - Azul\n - {playersBlue}\n\n- Jugadores - Rojo\n - {playersRed}\n\n- Colas\n - {queues}\n\n- AFK\n - {afk}",
+                "valo_match": "## Partido\n- Comenzado: <t:{started}:R>・<t:{started}:F>\n- Modo: {mode}\n- Número de rondas: {rounds_played}\n - Ganadas por {team1}: {team1wins}/{rounds_played}\n - Ganadas por {team2}: {team2wins}/{rounds_played}\n- Ganador: {winner} ({yourteam})\n- Tipos de fin de ronda\n - Eliminación: {elim}/{rounds_played}\n - Temporizador de ronda finalizado: {roundtimer}/{rounds_played}\n - Defuse: {defuse}/{rounds_played}\n - Explosión: {detonation}/{rounds_played}\n- Tipos de jugadores\n - Equipo Rojo: {redPlayers}\n - Equipo Azul: {bluePlayers}\n - Entrenadores: {coaches}\n - Espectadores: {spectators}",
+                "your-team": "Tu Equipo",
+                "not-your-team": "No es tu Equipo",
+                "valo_matchinfo": "## Resultado y Ronda\n- Número de Ronda: {roundNum}\n- Resultado Parcial (Azul:Rojo): {blueWon}:{redWon}\n- Fin de Ronda: {roundResultCode}\n- Ganador: {winnerTeam}\n- Plantación de Spike\n - Jugador Ejecutante: {planter}\n - Tiempo: Después de {plantTimestamp} segundos\n - Sitio de Planta: {plantSide}\n- Desactivación de Spike\n - Jugador Ejecutante: {defuser}\n - Tiempo: Después de {defuseTimestamp} segundos\n## Registro de Eliminaciones\n - {killLog}",
+                "killlog": "{killer} ha matado a {player} ({type}).",
+                "not-defused": "No desactivado",
+                "not-planted": "No plantado",
+                "valo_matchinfoplayers": "## Información de {player} en Ronda {roundNumber}\n- Agente: {agent}\n- Puntuación: {score}\n- Eliminaciones: {kills}\n- Daño Distribuido: {damage}\n- Economía\n - Total: {economyTotal}\n - Gastado: {economySpent}\n - Armadura: {armor}\n- Arma: {weapon}",
+                "shield": {
+                    "big": "Escudo Grande",
+                    "light": "Escudo Ligero"
+                },
+                "damageinfo": "{damageAmount} Daño, {head} Headshots, {body} Bodyshots, {leg} Legshots"
+            },
+            "footerdata": "{played} rondas jugadas - Ganador: {winner}"
+        }
+    },
+    "tempvoice": {
+        "not-in-vc": "{x} No estás en un canal de voz.",
+        "not-in-tv-channel": "{x} No estás en un canal de voz temporal.",
+        "missing-permissions": "{x} Debes ser el propietario del canal de voz temporal o un administrador del servidor para realizar esta acción."
     }
 }

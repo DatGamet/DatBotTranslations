@@ -491,9 +491,9 @@
           }
         },
         "valorant": {
-          "already-linked": "{x} Your VALORANT account is already linked.",
-          "title": "Link your VALORANT account",
-          "description": "Click on the \"Link\" button to link the account.\n- At the end you will see a JSON page that has a parameter called \"Code\". Copy this, click on \"Specify code\" and then enter it there.\n- You can remove the link with </unlink valorant:{commandId}>.",
+          "already-linked": "{x} Il tuo account VALORANT è già collegato.",
+          "title": "Collegate il vostro account VALORANT",
+          "description": "Fare clic sul pulsante \"Link\" per collegare l'account.\n- Alla fine verrà visualizzata una pagina JSON con un parametro chiamato \"Code\". Copiare questo parametro, fare clic su \"Specifica codice\" e inserirlo lì.\n- È possibile rimuovere il collegamento con </unlink valorant:{commandId}>.",
           "link": "Link",
           "provide_code": "Specify code",
           "code-not-valid": "{x} The specified code is not valid.",

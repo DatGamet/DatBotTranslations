@@ -391,30 +391,30 @@
           }
         },
         "fix": {
-          "channel-not-set": "{x} Es gibt keinen Flaggenquiz Kanal. Setze einen mit </flagquiz setup:{commandId}>.",
-          "quiz-deactivated": "- Das Flaggenquiz ist deaktiviert.",
+          "channel-not-set": "{x} Non esiste un canale per il quiz bandiera. Impostarne uno con </flagquiz setup:{commandId}>.",
+          "quiz-deactivated": "- Il quiz bandiera è disattivato.",
           "embed": {
-            "title": "{amount} Fehler wurden gefunden."
+            "title": "Sono stati trovati {amount} errori."
           },
           "permissions": {
-            "SendMessages": "- Mir fehlt die Berechtigung \"Nachrichten Senden\" in {channel}.",
-            "ViewChannel": "- Mir fehlt die Berechtigung, {channel} zu sehen.",
-            "EmbedLinks": "- Mir fehlt die Berechtigung \"Links einbetten\" in {channel}."
+            "SendMessages": "- Mi manca l'autorizzazione \"Invia messaggi\" in {channel}.",
+            "ViewChannel": "- Non ho l'autorizzazione a vedere {canale}.",
+            "EmbedLinks": "- Mi manca l'autorizzazione \"Incorpora link\" in {canale}."
           },
-          "success": "{y} Es wurden keine Fehler gefunden."
+          "success": "{y} Non sono stati trovati errori."
         },
         "guess": {
           "embed": {
-            "title": "Errate die Flagge",
-            "description": "- Gesucht・{emojis}\n\n*Deaktiviere das Flaggenquiz mit </flagquiz toggle:1117220757957779506>*"
+            "title": "Indovina la bandiera",
+            "description": "-Cercasi・{emojis}\n\n*Disattivare il quiz della bandiera con </flagquiz toggle:1117220757957779506>*"
           },
           "content": {
-            "skip": "{user} hat das Flaggenquiz übersprungen!",
-            "sol": "💡・{user} hat die Lösung erraten."
+            "skip": "{user} ha saltato il quiz sulla bandiera!",
+            "sol": "💡・{user} ha indovinato la soluzione."
           },
           "buttons": {
             "clue": {
-              "label": "Tipp"
+              "label": "Tip"
             },
             "skip": {
               "label": "Skip"

@@ -420,30 +420,30 @@
               "label": "Skip"
             }
           },
-          "success": "{y} Das Flaggenquiz wurde erfolgreich gestartet."
+          "success": "{y} Il quiz delle bandiere è iniziato"
         },
         "settings": {
           "embed": {
-            "title": "Einstellungen",
+            "title": "Impostazioni",
             "fields": {
               "channel": {
-                "name": "Kanal"
+                "name": "Canale"
               },
               "message": {
-                "name": "Nachricht"
+                "name": "Messaggio"
               },
               "toggle": {
                 "name": "Toggle",
-                "value_activated": "> Aktiviert",
-                "value_deactivated": "> Deaktiviert"
+                "value_activated": "> Attivato",
+                "value_deactivated": "> Disattivato"
               }
             }
           }
         },
         "toggle": {
-          "channel-not-set": "{x} Bitte setze einen neuen Kanal mit dem Befehl </flagquiz setup:{commandId}>",
-          "success_deactivated": "{y} Das Flaggenquiz wurde deaktiviert.",
-          "success_activated": "{y} Das Flaggenquiz wurde aktiviert."
+          "channel-not-set": "{x} Impostare un nuovo canale con il comando </flagquiz setup:{commandId}>.",
+          "success_deactivated": "{y} Il quiz della bandiera è stato disattivato.",
+          "success_activated": "{y} Il quiz della bandiera è stato attivato."
         }
       }
     },
@@ -451,43 +451,43 @@
       "cookie": {
         "embed": {
           "title": "Cookies 🍪",
-          "description": "> Klicke auf den Button unten, um ein Cookie hinzuzufügen. Es gibt zurzeit {cookies} 🍪."
+          "description": "> Fare clic sul pulsante sotto per aggiungere un cookie. Attualmente ci sono {cookies} 🍪."
         }
       },
       "echo": {
-        "success": "{y} Deine Nachricht wurde gesendet.\n> ℹ️・Bemerke, dass keine Nutzer, Rollen oder jenes gepingt wird. Dies ist eine Sicherheitsvorkehrung. ^^"
+        "success": "{y} Il messaggio è stato inviato.\n> ℹ️・Nota che nessun account, ruolo riceve un ping. Si tratta di una misura di sicurezza. ^^"
       },
       "iq": {
-        "success": "{user} hat einen IQ von {iq}."
+        "success": "{user} ha un QI di {iq}."
       },
       "meme": {
-        "error": "{x} Ich konnte kein Meme laden.",
+        "error": "{x} Non sono riuscito a trovare un meme.",
         "nextmeme-button": {
-          "label": "Nächstes Meme"
+          "label": "Prossimo meme"
         }
       }
     },
     "games": {
       "account": {
-        "already-linked": "{x} Du hast bereits dein Konto verlinkt. Um diese zu entfernen, nutze </account logout clashofclans:{accountCommandId}>.",
-        "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </account login clashofclans:{accountCommandId}>, um dein Konto zu verlinken.",
-        "link-remove-success": "{y} Die Kontoverbindung wurde entfernt.",
+        "already-linked": "{x} Hai già collegato il tuo account. Per rimuoverlo, utilizzare </account logout clashofclans:{accountCommandId}>.",
+        "not-linked": "{x} Il suo account non è collegato. Utilizzare </account login clashofclans:{accountCommandId}> per collegare l'account.",
+        "link-remove-success": "{y} I dati dell'account sono stati eliminati.",
         "clashofclans": {
           "api": {
-            "404": "{x} Ich habe das angegebene Konto nicht gefunden."
+            "404": "{x} Non ho trovato l'account specificato."
           },
           "embed": {
-            "title": "Verlinke dein Konto",
-            "description": "- Du musst nun verifizieren, dass dieses Konto dir gehört. Gehe dazu in das Spiel. Einstellungen > Mehr Einstellungen > API-Token > Anzeigen. Wenn du diesen Token nun hast, musst du auf den grünen Button \"API-Token angeben\" klicken und diesen dort angeben. Danach klicke auf \"Absenden\".",
+            "title": "Collegare il tuo account",
+            "description": "- Ora dovete verificare che questo account sia tuo. Per farlo, andate nel gioco. Impostazioni > Altre impostazioni > Token API > Visualizza. Se si dispone di questo token, è necessario fare clic sul pulsante verde \"Specifica token API\" e inserirlo. Quindi fare clic su \"Invia\".",
             "fields": {
               "account-details": {
-                "name": "⭐・Konto Details",
-                "value": "> {name}・{tag}・Trophäen {trophies}"
+                "name": "⭐・Dettagli del conto",
+                "value": "> {name}・{tag}・Trofei {trofei}"
               }
             }
           },
           "button": {
-            "label": "API Token angeben"
+            "label": "Specificare il token API"
           }
         },
         "valorant": {

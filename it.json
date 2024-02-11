@@ -495,34 +495,34 @@
           "title": "Collegate il vostro account VALORANT",
           "description": "Fare clic sul pulsante \"Link\" per collegare l'account.\n- Alla fine verrà visualizzata una pagina JSON con un parametro chiamato \"Code\". Copiare questo parametro, fare clic su \"Specifica codice\" e inserirlo lì.\n- È possibile rimuovere il collegamento con </unlink valorant:{commandId}>.",
           "link": "Link",
-          "provide_code": "Specify code",
-          "code-not-valid": "{x} The specified code is not valid.",
-          "scope-error": "{x} You have not accepted all scopes. Log in again.",
-          "success": "{y} You have linked your Discord account with {riotname}.",
-          "not-linked": "{x} You have not linked your account. Use </link valorant:{accountCommandId}> to link your account.",
-          "remove-success": "{y} Your connection has been removed."
+          "provide_code": "Specifica codice",
+          "code-not-valid": "{x} Il codice specificato non è valido.",
+          "scope-error": "{x} Non sono stati accettati tutti gli scopi. Accedi di nuovo.",
+          "success": "{y} Hai collegato il tuo account Discord con {riotname}.",
+          "not-linked": "{x} Non hai collegato il tuo account. Utilizzare </link valorant:{accountCommandId}> per collegare l'account.",
+          "remove-success": "{y} La connessione è stata rimossa."
         }
       },
       "brawlstars": {
         "club": {
           "api": {
-            "404": "{x} Dieser Klub wurde nicht gefunden. Hast du ein valides Klub-Kürzel angegeben? 🤔"
+            "404": "{x} Questo club non è stato trovato. Hai inserito una abbreviazione di club valida? 🤔"
           },
           "embed": {
-            "description": "<:datbot_bs_chat:1095002339045281895>・Beschreibung",
+            "description": "<:datbot_bs_chat:1095002339045281895>・Descrizione ",
             "type": {
-              "name": "<:datbot_bs_id:1095000683209560156>・Typ",
-              "value-open": "Offen",
-              "value-inviteonly": "Nur Einladung",
-              "value-closed": "Geschlossen",
-              "value-unknown": "Unbekannt"
+              "name": "<:datbot_bs_id:1095000683209560156>・Tipo",
+              "value-open": "Aperto",
+              "value-inviteonly": "Solo su invito",
+              "value-closed": "Chiuso",
+              "value-unknown": "Sconosciuto"
             },
-            "required-throphies": "<:datbot_bs_thropie:1094954801407737936>・Benötigte Throphäen",
-            "throphies": "<:datbot_bs_thropie:1094954801407737936>・Throphäen",
-            "leader": "<:datbot_bs_crown:1095001236979323013>・Anführer",
+            "required-throphies": "<:datbot_bs_thropie:1094954801407737936>・Trofei richiestin",
+            "throphies": "<:datbot_bs_thropie:1094954801407737936>・Trofei",
+            "leader": "<:datbot_bs_crown:1095001236979323013>・Capo",
             "best-member": {
-              "name": "<:datbot_bs_clubleague:1095001796419784755>・Höchstes Mitglied ({total} insgesamt)",
-              "value": "- {name}・{tag}\n- Throphäen: {throphies}\n- Rolle: {role}"
+              "name": "<:datbot_bs_clubleague:1095001796419784755>・Membro maggiore ({total} in totale)",
+              "value": "- {name}・{tag}\n- Trofei: {throphies}\n- Ruolo: {role}"
             }
           }
         },

@@ -139,8 +139,8 @@
                     }
                 },
                 "test": {
-                    "no-leave-channel": "- There is no leave channel.",
-                    "leave-channel-not-set": "{x} The leave channel has been deleted or none has been set.",
+                    "no-welcome-channel": "- There is no welcome channel.",
+                    "welcome-channel-not-set": "{x} The welcome channel has been deleted or none has been set.",
                     "system-deactivated": "- The system is deactivated.",
                     "success": "{y} The test message has been sent."
                 },
@@ -2299,6 +2299,430 @@
                 "damageinfo": "{damageAmount} damage, {head} headshots, {body} bodyshots, {leg} legshots"
             },
             "footerdata": "{played} rounds played - winner: {winner}"
+        }
+    },
+    "tempvoice": {
+        "interface": {
+            "footer": "Join the Creator channel to create a TempVoice channel.",
+            "description": "- <:1lock:1201576417897488535>・Privacy\n- <:1bolt:1201576407965376533>・Manage Channel\n- <:1users:1201580813574230188>・Manage Users\n- <:1ban:1201576397798379600>・Moderation\n- <:1check:1201578213831356517>・Help"
+        },
+        "beta": {
+            "closed": "{x} This feature is currently in a closed beta. If you would like to try out the feature, you can request this on the [Support Server](https://discord.gg/BQumAujuvk).",
+            "open": "This feature is currently in open beta."
+        },
+        "missing-permissions-setup": "{x} To be able to use the TempVoice system, I still need the following permissions:\n{permissions}",
+        "not-in-vc": "{x} You are not in a voice channel.",
+        "more-info": "More information",
+        "not-possible-ban": "{x} You cannot block this user.",
+        "not-in-tv-channel": "{x} You are not in a temporary voice channel.",
+        "missing-permissions": "{x} You must either be the owner of the temporary voice channel or a server administrator to perform this action.",
+        "feature-not-available": "{x} This feature is not yet available.",
+        "user-not-on-guild": "{x} This user is not on this server.",
+        "user-bot": "{x} This user is a bot.",
+        "permissions-admin": "{x} To do this, you must be a server administrator.",
+        "permissions-mod": "{x} To do this, you must be a server administrator, the owner of this channel or a channel moderator.",
+        "permissions-owner": "{x} To do this, you must own the channel.",
+        "is-owner": "{x} This user is the owner of this server.",
+        "is-admin": "{x} This user is an administrator of this server.",
+        "infinity": "infinite",
+        "blocked": "{x} You have been blocked from the TempVoice system and can no longer use it.\n- This was done by a member of the server and is **not** global.\n- You can find more information [here](https://docs.datbot.xyz/features/our-features/tempvoice).",
+        "logs": {
+            "info": "## The logs for this channel will be sent here from now on.",
+            "lock": "{i}・{user} has **locked** the channel.",
+            "unlock": "{i}・{user} has **unlocked** the channel",
+            "inactivity": "{i}・Since the last user ({user}) has **left** {channel}, it has been deleted.",
+            "visible": "{i}・{user}has made the channel **visible**.",
+            "invisible": "{i}・{user} has made the channel **invisible**.",
+            "bitrate": "{i}・{user} has set the bit rate to **{bitrate}**.",
+            "name": "{i}・{user} has set the name to **{name}**.",
+            "status": "{i}・{user} has set the status to **{status}**.",
+            "region": "{i}・{user} has set the region to **{region}**.",
+            "userlimit": "{i}・{user} has set the user limit to **{userlimit}**.",
+            "nsfw-1": "{i}・{user} **activated** NSFW.",
+            "nsfw-2": "{i}・{user} **deactivated** NSFW.",
+            "delete": "{i}・{user} **deleted** {channel}.",
+            "create": "{i}・{user} has **created** the channel {channel}.",
+            "invite": "{i}・{user} has **invited** {member}.",
+            "uninvite": "{i}・{user} has **removed** the invitation for {member}.",
+            "ban": "{i}・{user} has {member} **banned**.",
+            "unban": "{i}・{user} has {member} **unbanned**.",
+            "kick": "{i}・{user} has {member} **kicked**.",
+            "owner": "{i}・{user} has **transferred ownership rights** to {member}.",
+            "modadd": "{i}・{user} has **added** {member} as a **moderator**.",
+            "modrem": "{i}・{user} has removed {member} as moderator **removed**.",
+            "takeover": "{i}・{user} has **taken over** the channel. {member} was the previous owner.",
+            "removeallmoderators": "{i}・{user} has **removed** all channel moderators. The channel moderators were: {mods}",
+            "created": "{i}・{user} has created the {channel} **channel**.",
+            "deleted": "{i}・Since {user} has left the channel, {channel} has been **deleted**. There were no more users in the channel.",
+            "videoquality": "{i}・{user} has set the video quality to **{videoquality}**."
+        },
+        "lock": {
+            "already": "{x} The channel is already locked.",
+            "success": "{y} The channel has been locked."
+        },
+        "unlock": {
+            "already": "{x} The channel is already unlocked.",
+            "success": "{y} The channel has been unlocked."
+        },
+        "visible": {
+            "already": "{x} The channel is already visible.",
+            "success": "{y} The channel has been made visible."
+        },
+        "invisible": {
+            "already": "{x} The channel is already invisible.",
+            "success": "{y} The channel has been made invisible."
+        },
+        "bitrate": {
+            "title": "Set the bit rate (in Kbps)",
+            "label": "Bitrate",
+            "placeholder": "64",
+            "bitrate-update-success": "{y} The bit rate was set to **{bitrate}kbps**.",
+            "bitrate-update-info": "{y} The bit rate was set to **{bitrate}kbps**, as a higher boost level is required for {reqBitrate} or this bit rate is not available.",
+            "bitrate-update-info-1": "{y} The bit rate was set to **8kbps** as this is the minimum number."
+        },
+        "name": {
+            "title": "Set the name of the channel",
+            "label": "Name",
+            "placeholder": "great-channel-name",
+            "set-success": "{y} The name has been updated."
+        },
+        "slowmode": {
+            "title": "Set the slow mode (s/m/h)",
+            "label": "Slowmode",
+            "placeholder": "1 hour 2 seconds 35 minutes"
+        },
+        "status": {
+            "title": "Set the channel status",
+            "label": "Status",
+            "placeholder": "Partytime! 🎉"
+        },
+        "userlimit": {
+            "title": "Set the user limit",
+            "label": "User limit",
+            "placeholder": "∞",
+            "success": "{y} The user limit has been set to **{limit}**.",
+            "success-without-limit": "{y} The user limit has been set to **infinite**."
+        },
+        "nsfw": {
+            "success-deactivated": "{y} NSFW has been **deactivated**.",
+            "success-activated": "{y} NSFW has been **activated**."
+        },
+        "delete": {
+            "continue-success": "{y} The channel has been deleted.",
+            "continue-deleteable-error": "{x} I do not have permission to delete the channel.",
+            "embed": {
+                "description": "## Delete channel\n- Are you sure you want to delete this TempVoice channel? If so, click on <:1check:1201578213831356517>. If you want to cancel this process, click on <:1ban:1201576397798379600>.\n- Note that you cannot undo the deletion of a TempVoice channel.",
+                "footer": "You cannot undo this."
+            }
+        },
+        "manage": {
+            "description": "## Erklärung\n- <:volume:1202705024057081856>・Set bit rate\n- <:image4:1202697412012154890>・Set name\n- <:note:1202703281055604787>・Set status\n- <:globe:1202703306527481917>・Set region\n- <:user:1202704216041455677>・Set userlimit\n- <:image7:1202697417326338078>・Set NSFW\n- <:camera:1202703995014094888>・Set video quality\n- <:trash:1202716962489110609>・Delete channel"
+        },
+        "moderate": {
+            "description": "## Quick actions\n- <:crown:1202717638447468605>・Take over channel\n- <:trash:1202716962489110609>・Delete channel\n- <:1lock:1201576417897488535>・Ban channel\n- <:ban:1202712066394423326>・Ban user\n- <: unmod:1202716452860461087>・Remove all channel moderators\n## Advanced moderation\n- Click on the <:1users:1201580813574230188> emoji in the interface to manage users. \n- Click on the <:1bolt:1201576407965376533> emoji in the interface to manage the channel.\n## Note\n- To be able to remove all channel moderators at the same time, you must first take over the channel."
+        },
+        "privacy": {
+            "description": "## Explanation\n- <:1lock:1201576417897488535>・Lock the channel\n- <:1lockopen:1201585638609272832>・Unlock the channel\n- <:1eye:1201585529431527434>・Make the channel visible\n- <:1eyeslash:1201585541402079302>・Make the channel invisible"
+        },
+        "region": {
+            "description": "## Set the channel region\n- Select the new region in the lower select menu. The old region is selected by default.\n## What changes the channel region?\n- To answer this question, I recommend reading the [Support article](https://support.discord.com/hc/en-us/articles/1500007645701-Voice-Regions-on-Discord-FAQ).",
+            "placeholder": "Select a region.",
+            "regions": {
+                "description-auto": "Discord automatically selects the region.",
+                "description-region": "RTC Region: {region}",
+                "automatic": "Automatic",
+                "brazil": "Brazil",
+                "hongkong": "Hong Kong",
+                "india": "India",
+                "japan": "Japan",
+                "rotterdam": "Rotterdam",
+                "russia": "Russia",
+                "southafrica": "South Africa",
+                "sydney": "Sydney",
+                "us-east": "US East",
+                "us-south": "US South",
+                "us-west": "US West",
+                "us-central": "US Central",
+                "singapore": "Singapur",
+                "south-korea": "South Korea"
+            },
+            "set-success": "{y} The region has been changed."
+        },
+        "users": {
+            "description": "## explanation\n- <:invite:1202708818392522853>・Invite user\n- <:uninvite:1202708805851414539>・Remove invitation\n- <:ban:1202712066394423326>・Ban user\n- <:unban:1202712377175449730>・Unban user\n- <: kick:1202714648990720071>・Kick user\n- <:user:1202704216041455677>・Transfer ownership\n- <:modadd:1202713237964062841>・Add moderator\n- <:unmod:1202716452860461087>・Remove moderator"
+        },
+        "videoquality": {
+            "description": "## Set the video quality\n- Select the new quality in the lower select menu. The old quality is selected by default.",
+            "placeholder": "Select a quality.",
+            "automatic": {
+                "label": "Automatic",
+                "description": "Discord automatically selects the quality."
+            },
+            "720p": {
+                "label": "720p",
+                "description": "Video quality: 720p"
+            },
+            "success": "{y} The video quality has been set to **{mode}**."
+        },
+        "help": {
+            "description": {
+                "no-creator-channel": "## How to create a channel\n- You need to join the creator channel to create a temporary voice channel. The bot will automatically create a voice channel for you.\n- Note: This server does not have a Creator Channel\n## How does the interface work?\n- Privacy: Here you can lock, unlock, make the channel visible and invisible.\n- Manage channel: Manage name, region, user limit, status and bitrate.\n- Manage users: Ban, unban or kick users. You can also invite users and transfer the owner.\n- Moderation: Only for server moderators: They can use this to manage the channel.\n- Help: This is this menu. It should help you to understand the system.\n## Your permissions\n- Owner of a channel: {tempvoiceOwner}\n- Server moderator: {serverMod}\n- Has moderation role: {modrole}\n- Blocked: {blocked}",
+                "creator-channel": "## How to create a channel?\n- You need to join the {creatorChannel} channel to create a temporary voice channel. The bot will automatically create a voice channel for you.\n## How does the interface work?\n- Privacy: Here you can lock, unlock, make the channel visible and invisible.\n- Manage the channel: Manage name, region, user limit, status and bitrate.\n- Manage users: Ban, unban or kick users. You can also invite users and transfer the owner.\n- Moderation: Only for server moderators: They can use this to manage the channel.\n- Help: This is this menu. It should help you to understand the system.\n## Your permissions\n- Owner of a channel: {tempvoiceOwner}\n- Server moderator: {serverMod}\n- Has moderation role: {modrole}\n- Blocked: {blocked}"
+            }
+        },
+        "setup": {
+            "too-many-channels-1": "{x} This server has too many channels. Please delete **1 channel** so that the system can be used or select an existing channel.",
+            "too-many-channels-2": "{x} This server has too many channels. Please delete **{amount} channels** so that the system can be used or select an existing channel.",
+            "type": {
+                "description": "## Select the type from\n- Quick: Use the default settings and create a new category and two new channels, one for interface (text channel) and another for creating (voice channel).\n- Manual: Set the creator channel.\n## Information\n- You can continue to change the settings afterwards with </tempvoice settings:0>.",
+                "placeholder": "Select a type.",
+                "quick": {
+                    "label": "Select a type",
+                    "description": "Creates the channels and uses the default settings."
+                },
+                "manuel": {
+                    "label": "Manuel",
+                    "description": "Set everything manually."
+                }
+            },
+            "success": "{y} The system has been set up. Now create your own voice channel in {channel}! 🎉",
+            "description": "## Set up TempVoice\n- This system allows you to create temporary voice channels that are deleted when they are no longer in use.\n- The user who created it has full control without having permissions over other channels.\n- Server moderators still have the ability to take over and moderate the channel.",
+            "continue": "Continue",
+            "manuel": {
+                "defaultdescription": "## Select the Creator channel\n- This channel will become the Creator channel.\n- You must join the Creator channel to create a temporary voice channel.",
+                "description": "## Information\n- Success. The Creator channel is now {channel}.\n- Now select the channel in which the interface message is to be sent.",
+                "description-1": "## Information\n- Success. The interface message was sent in {channel}.\n- To change other settings, such as category, system settings or similar, use </tempvoice settings:0>.\n- To manage the system, you must be an administrator.",
+                "placeholder-1": "Select the Creator channel.",
+                "placeholder-2": "Select channel for sending the interface."
+            }
+        },
+        "invite": {
+            "placeholder": "Select a user to invite.",
+            "description": "## Invite a user\n- If you want a user to be able to join even if the channel is blocked, use the select menu under this embed to select the user.\n- You can also enter the name in the select menu, then the user will be suggested to you.\n- To remove the invitation, click on the emoji <:uninvite:1202708805851414539> under Manage users and enter the user there.",
+            "already": "{x} The user has already been invited.",
+            "success": "{y} {user} was invited.",
+            "banned": "{x} I cannot invite {user} because he has been banned from the voice channel."
+        },
+        "ban": {
+            "placeholder": "Select a user to ban.",
+            "description": "## Ban a user\n- If you want to ban a user, enter them in the Select menu below.\n - They can then no longer enter the voice channel and, if they are currently in this voice channel, will be kicked from it.\n- You can also search for the user name, so the user will be suggested.\n- To unban a user, you can click on the emoji <:unban:1202712377175449730> in the Manage users menu and enter the user there.",
+            "already": "{x} The user is already banned.",
+            "success": "{y} {user} was banned from the voice channel.",
+            "success-info": "{y} {user} has been banned from the voice channel.\n- I have removed {user} from this voice channel because he was in it.",
+            "user-admin": "{x} You cannot ban administrators from a TempVoice channel.",
+            "user-disconnect-error": "{x} I could not remove {user} from this voice channel.",
+            "error-singular": "{x} An error has occurred\n{error}",
+            "error-plural": "{x} There are {amount} errors\n{error}",
+            "user-yourself": "{x} You cannot ban yourself from the TempVoice channel."
+        },
+        "kick": {
+            "placeholder": "Select a user to kick.",
+            "description": "## Kick a user\n- If you want to kick a user, enter them in the select menu below.\n - They **can** then **re-enter** the voice channel, but if they are currently in this voice channel, they will be kicked from it.\n- You can also search for the user name, so the user will be suggested.",
+            "already": "{x} {user} is not in this voice channel.",
+            "success": "{y} {user} has been kicked. However, they can rejoin as long as they can see the channel and join it."
+        },
+        "modadd": {
+            "placeholder": "Select a user to become a moderator.",
+            "description": "## Add moderator\n- If you want a user to become a moderator, use the select menu below this embed to choose them. \n- Add moderators\n - Kick users\n - Lock and unlock the channel\n - Change the name\n - Change the user limit\n - Invite users\n - Remove invitations\n- You can also enter the name in the select menu, then the user will be suggested to you.\n- To remove the moderator status, click on the emoji <:unmod:1202716452860461087> under Manage users and enter the user there.",
+            "already": "{x} {user} is already a TempVoice moderator.",
+            "success": "{y} {user} is now a TempVoice moderator.",
+            "owner-you": "{x} You are the owner and are therefore automatically a channel moderator.",
+            "max-reached": "{x} You can only add a maximum of {limit} channel moderators."
+        },
+        "modrem": {
+            "placeholder": "Select a user to be removed as a moderator",
+            "description": "## Remove moderator\n- If you want to remove the moderator status of a user, use the select menu under this embed to select the user.\n- The user will no longer have moderation permissions.\n- You can also enter the name in the select menu, then the user will be suggested to you.",
+            "already": "{x} {user} is not a TempVoice moderator.",
+            "success": "{y} {user} is no longer a TempVoice moderator.",
+            "owner-you": "{x} You are the owner and are therefore automatically a channel moderator."
+        },
+        "ownerset": {
+            "placeholder": "Select the new owner.",
+            "description": "## Transfer ownership rights\n- If you want to transfer ownership rights to a user, use the select menu under this embed to select them.\n- You **will** lose **all permissions**.\n- You can also enter the name in the select menu, then the user will be suggested to you.",
+            "not-owner": "{x} You are not the owner of the channel. If you want to take it over, click on \"Moderation\" in the interface and then on the emoji <:crown:1202717638447468605>.",
+            "success": "{y} {user} is now the new owner and therefore you no longer have permissions if you are not an administrator on the server anyway.",
+            "not-in-channel": "{x} {user} must be in this channel to become the new owner."
+        },
+        "unban": {
+            "placeholder": "Select a user to unban.",
+            "description": "## Unban a user\n- If you want to unban a user, enter them in the select menu below.\n - They can then re-enter the voice channel.\n- You can also search for the user name and the user will be suggested.",
+            "already": "{x} The user is not banned.",
+            "success": "{y} {user} has been unbanned."
+        },
+        "uninvite": {
+            "placeholder": "Select a user from whom you want to remove the invitation.",
+            "description": "## Remove invitation\n- If you want a user's invitation to be removed, use the select menu under this embed to select them.\n- They will no longer be able to join the channel if it is blocked.\n- You can also enter the name in the select menu and the user will be suggested to you.",
+            "already": "{x} The user is not invited.",
+            "success": "{y} The invitation from {user} has been removed."
+        },
+        "takeover": {
+            "already": "{x} You are already the owner of the channel {channel}.",
+            "success": "{y} You have **taken over**\n- {user} no longer has permissions."
+        },
+        "removeallmods": {
+            "already": "{x} There are no TempVoice channel moderators.",
+            "success": "{y} All channel moderators have been removed:\n{mods}"
+        },
+        "resetsystem": {
+            "success": "{y} The settings were successfully reset.",
+            "description": "## Reset the settings\n- You no longer want to use this system? If so, reset the settings with this.\n- You cannot undo this.\n- Feel free to give feedback on why you no longer want to use the system.\n\n- If you are sure and want to reset the settings, click on <:1check:1201578213831356517>. If you want to cancel this process, click on <:1ban:1201576397798379600>."
+        },
+        "settings": {
+            "defaultname": {
+                "success-1": "{y} The default name has been updated.",
+                "success-2": "{y} The default name has been reset."
+            },
+            "defaultuserlimit": {
+                "success-1": "{y} The default user limit has been updated.",
+                "success-2": "{y} The default user limit has been reset.",
+                "not-valid": "{x} The specified user limit is not valid. Please enter a number between **1** and **99** or enter \"max\" to allow an infinite number of users."
+            },
+            "command": {
+                "description": "## Manage the settings\n- <:1bolt:1201576407965376533>・Manage the channel that is created when you join the creator channel: name, permissions, bitrate, category & user limit.\n- <:1check:1201578213831356517>・Manage the system: set this back, disable/enable this, test the system or view the settings.\n- <:user:1202704216041455677>・Moderation settings: Logging, block user and moderation role"
+            }
+        },
+        "block": {
+            "already": "{x} {user} is already blocked.",
+            "success": "{y} {user} has been blocked.",
+            "placeholder": "Select the user to block.",
+            "description": "## Block a user\n- This user can then no longer manage settings and create TempVoice channels.\n- The user must not be an administrator, must not have the moderation role and must not be the owner.\n- Select the user to block in the user select menu. You can also search by username or ID."
+        },
+        "category": {
+            "already": "{x} The category is already the default category or fallback category.",
+            "success": "{y} The default category has been updated.",
+            "reset": "{y} The default category has been **reset**."
+        },
+        "fallback": {
+            "already": "{x} The category is already the default category or fallback category.",
+            "no-default": "{x} There is no default category. A default category must first be set.",
+            "success": "{y} The fallback category has been updated.",
+            "reset": "{y} The fallback category has been **reset**."
+        },
+        "channelset": {
+            "success": "{y} The creator channel was set."
+        },
+        "loggingchannel": {
+            "success": "{y} The logging channel was set to {channel}."
+        },
+        "moderationrole": {
+            "role-is-everyone": "{x} This role is `@everyone` and can therefore not be used.",
+            "success": "{y} The moderation role was set to {role}.",
+            "description": "## Moderation role\n- <:note:1202703281055604787>・Set the moderation role back\n- <:1eye:1201585529431527434>・See the current moderation role\n## Information\n- The moderation role has all authorizations and can therefore manage TempVoice channels completely. Exceptions: Set owner, add channel moderators and remove channel moderators. However, you can take over the channel and thus also manage this.",
+            "placeholder": "Select a moderation role"
+        },
+        "unblock": {
+            "already": "{x} {user} is not blocked.",
+            "success": "{y} The user {user} has been unblocked.",
+            "placeholder": "Select the user to remove the block.",
+            "description": "## Remove the block\n- Banned users can no longer manage settings or create TempVoice channels.\n- Unban a user by specifying them in the user select menu under this embed. You can also search by username or ID."
+        },
+        "defaultname": {
+            "success-reset": "{y} The default name has been reset.",
+            "success-1": "{y} The default name has been updated.",
+            "title": "Set the default name",
+            "label": "Name",
+            "placeholder": "tempvoice-{username}"
+        },
+        "defaultbitrate": {
+            "not-valid": "{x} The specified bitrate is not valid. It must be between **8kbps** and **384kbps**.",
+            "success-reset": "{y} The default bit rate has been reset.",
+            "success-1": "{y} The default bit rate **{set}kbps** was set because **{input}kbps** is not possible. This may be due to the boost level, among other things.",
+            "success-2": "{y} The default bit rate was set to **{input}kbps**.",
+            "title": "Set the default bitrate",
+            "label": "Bitrate"
+        },
+        "defaultuserlimit": {
+            "not-valid": "{x} The specified user limit is not valid. This must be between **1** and **99**. If you want to have infinite, enter \"max\" in the form.",
+            "success-reset": "{y} The default user limit has been reset.",
+            "success-1": "{y} The user limit was set to **{limit}**.",
+            "title": "Set the default user limit",
+            "label": "User limit"
+        },
+        "defaultcategory": {
+            "description": "## Set the category for temporary voice channels\n- Due to a limitation of Discord to have only 50 channels per category, Dat Bot offers the function to use a category if the first one is full. This function is called \"Fallback\".\n\n- To select the default category, use the Select Menu \"Select the default category.\"\n- To select the fallback category, use the Select Menu \"Select a fallback category.\"",
+            "placeholder-1": "Select a standard category.",
+            "placeholder-2": "Select a fallback category.",
+            "label-1": "Reset default category",
+            "label-2": "Reset fallback category"
+        },
+        "blockshow": {
+            "description-1": "## Blocked users\n- {blocked}",
+            "description-2": "## Blocked users\n- There are no banned users."
+        },
+        "loggingreset": {
+            "success": "{y} The logging settings have been reset."
+        },
+        "loggingsettings": {
+            "description": "## Logging - Settings\n- Status: {toggle}\n- Channel: {channel}",
+            "deleted": "Deleted (Old ID: {id})",
+            "none": "None"
+        },
+        "loggingtest": {
+            "label-1": "Activate system",
+            "label-2": "System activated",
+            "toggle-error": "- Toggle: The system is deactivated",
+            "toggle-fix": "- Toggle: Use </tempvoice settings:0>, click on the button with the emoji <:user:1202704216041455677> and then on the emoji <:image4:1202697412012154890>, then on <:note:1202703281055604787> or click on the button \"Activate system\" at the bottom.",
+            "logging-not-existing-error": "- Logging channel: There is none.",
+            "logging-not-existing-fix": "- Logging channel: Select a logging channel by using </tempvoice settings:0>, <:user:1202704216041455677> and then on the emoji <:image4:1202697412012154890>, then on \"Select a channel for logging.\"",
+            "logging-deleted-error": "- Logging channel: This was deleted (Old ID: {id}).",
+            "logging-deleted-fix": "- Creator channel: Select the new logging channel by using </tempvoice settings:0>, <:user:1202704216041455677> and then on the emoji <:image4:1202697412012154890>, then select the Select Menu \"Select a channel for logging.\"",
+            "permissions-error": "- I am missing the following permissions in {channel}: {missing}",
+            "permissions-fix": "- Permissions: You have to give the bot the permissions.",
+            "no-errors": "- **No** errors were found.",
+            "no-fixes": "- There are **no** errors to fix.",
+            "description": "## Errors\n{errors}\n## Fix errors\n{fixes}\n## More information\n- If the system still does not work after this, you can join the [Support Server](https://discord.gg/BQumAujuvk)."
+        },
+        "loggingtoggle": {
+            "success-1": "{y} The logging system has been **activated**.",
+            "success-2": "{y} The logging system has been **deactivated**."
+        },
+        "logging": {
+            "description": "## Logging\n- <:note:1202703281055604787>・Enable or disable logging\n- <:1ban:1201576397798379600>・Reset the logging settings\n- <:1check:1201578213831356517>・Test the logging system for errors\n- <:1eye:1201585529431527434>・See the logging settings\n- Set logging channel: Use the Select Menu \"Choose a channel for logging\".\n## Information\n- Logging works like the Discord Audit Log, except that it is all actions involving a TempVoice channel.\n- If the system is disabled, the logs will not be sent.",
+            "placeholder": "Select a channel for logging."
+        },
+        "moderationrole_reset": {
+            "success": "{y} The moderation role was successfully **reset**."
+        },
+        "moderationrole_show": {
+            "description-1": "## Moderation role\n- The moderation role is currently {role}.",
+            "description-2": "## Moderation role\n- There is currently no moderation role."
+        },
+        "settings_channel": {
+            "description": "## Manage the default channel\n- <:image4:1202697412012154890>・Set the default name\n- <:volume:1202705024057081856>・Set the default bitrate\n- <:user:1202704216041455677>・Set the default user limit\n- <:globe:1202703306527481917>・Set the default category\n## Additional information\n- To set the creator channel, use the select menu \"Select the creator channel\". \n- The following variables can be used for the default name\n - {id}・The ID of the user\n - {username}・The name of the user\n - {servername}・The nickname. If none is specified, the user name is used.\n- For the bit rate, you can either specify the bit rate in kbps or \"max\". This will automatically select the maximum possible bit rate.",
+            "placeholder": "Select the creator channel."
+        },
+        "settings_moderation": {
+            "description": "## Moderation settings\n- <:image4:1202697412012154890>・Logging\n- <:image7:1202697417326338078>・Block user\n- <:user:1202704216041455677>・Remove block\n- <:1eye:1201585529431527434>・Display all blocked users\n- <: globe:1202703306527481917>・Set or remove moderation role\n## More info\n- Logging: It works in principle like the Discord Audit Log, but whenever something is changed on a TempVoice channel, a message is sent to this channel. \n- Moderation role: Members who have this role are basically treated like channel owners. They can set everything on a TempVoice channel, except:\n - Add channel moderators\n - Remove channel moderators\n - Transfer owner (but you can take over the channel)"
+        },
+        "settings_system": {
+            "description": "## Manage the system\n- <:trash:1202716962489110609>・Reset the system\n- <:1lock:1201576417897488535>・Activate or deactivate the system.\n- <:1check:1201578213831356517>・Test the system. \n- <:1eye:1201585529431527434>・See the settings.\n## More information\n## Toggle\n- If the system is currently activated, it will be deactivated.\n- The system will no longer function.\n- The data will not be deleted."
+        },
+        "showsettings": {
+            "description": "# The settings\n## Channel\n- Creator channel: {channel}\n- Default name: {name}\n- Default bitrate: {bitrate}\n- Default user limit: {userlimit}\n## Category\n- Default: {category}\n- Fallback: {fallback}\n## Moderation\n- Moderation role: {modrole}\n- Logging channel: {loggingchannel}\n- Logging toggle: {loggingtoggle}\n- {emoji}toggle: {toggle}\n- Blocked users: {blocked}",
+            "none-1": "None",
+            "none-2": "None",
+            "infinity": "Infinity",
+            "kbps": "kbps"
+        },
+        "testsystem": {
+            "permissions-error": "- Permissions: The following permissions are missing: {missing}",
+            "permissions-fix": "- Permissions: You have to give the bot the permissions.",
+            "label-1": "Activate system",
+            "label-2": "System activated",
+            "toggle-error": "- Toggle: The system is deactivated.",
+            "toggle-fix": "- Toggle: Use </tempvoice settings:0>, click on the button with the emoji <:1check:1201578213831356517> and then on the emoji <:1lock:1201576417897488535> or click on the button \"Activate system\" at the bottom.",
+            "no-creator-channel-error": "- Creator channel: None set.",
+            "no-creator-channel-fix": "- Creator channel: Set this </tempvoice setup:0>.",
+            "creator-channel-deleted-error": "- Creator channel: This has been deleted (Old ID: {id}).",
+            "creator-channel-deleted-fix": "- Creator channel: Select the new creator channel by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1201576407965376533> and then the select menu \"Select the creator channel\".",
+            "default-category-deleted-error": "- Default category: This has been deleted (Old ID: {id}).",
+            "default-category-deleted-fix": "- Default category: Select the new default category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1201576407965376533>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the default category\".",
+            "fallback-category-deleted-error": "- Fallback category: This has been deleted (Old ID: {id}).",
+            "fallback-category-deleted-fix": "- Fallback category: Select the new fallback category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1201576407965376533>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the fallback category\"."
+        },
+        "toggle": {
+            "success-1": "{y} The system has been **activated**.",
+            "success-2": "{y} The system has been **deactivated**."
         }
     }
 }

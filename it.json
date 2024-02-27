@@ -1884,11 +1884,17 @@
         "restrictions": {
             "server-banned": "{x} Dieser Server wurde gebannt. Mehr Informationen: https://discord.gg/BQumAujuvk.",
             "user-banned": "{x} Du wurdest aus dem System von Dat Bot gebannt. Mehr Informationen bekommst du hier: https://discord.gg/BQumAujuvk.",
-            "cooldown": "{x} Du kannst diesen Befehl wieder {lastexecuted} nutzen.",
             "command-developer": "{x} Dieser Befehl ist nur für Entwickler.",
             "command-unloaded": "{x} Dieser Befehl ist nicht geladen. Bitte kontaktiere den Support Server: https://discord.gg/BQumAujuvk",
             "use-command-again": "{x} Bitte nutze den Befehl erneut.",
-            "user-banned-command": "{x} Du darfst diesen Befehl nicht benutzen."
+            "user-banned-command": "{x} Du darfst diesen Befehl nicht benutzen.",
+            "cooldown": {
+                "button": "{x} You can use this button again {lastexecuted}.",
+                "command": "{x} You can use this command again {lastexecuted}.",
+                "contextmenu": "{x} You can use this app again {lastexecuted}.",
+                "modal": "{x} You can use this modal again {lastexecuted}.",
+                "selector": "{x} You can use this select menu again {lastexecuted}."
+            }
         },
         "endelon": {
             "runtime": "🕐・Laufzeit",
@@ -2416,10 +2422,10 @@
             }
         },
         "manage": {
-            "description": "## Erklärung\n- <:volume:1202705024057081856>・Set bit rate\n- <:image4:1202697412012154890>・Set name\n- <:note:1202703281055604787>・Set status\n- <:globe:1202703306527481917>・Set region\n- <:user:1202704216041455677>・Set userlimit\n- <:image7:1202697417326338078>・Set NSFW\n- <:camera:1202703995014094888>・Set video quality\n- <:trash:1202716962489110609>・Delete channel"
+            "description": "## Explanation\n- <:volume:1202705024057081856>・Set bit rate\n- <:image4:1202697412012154890>・Set name\n- <:note:1202703281055604787>・Set status\n- <:globe:1202703306527481917>・Set region\n- <:user:1202704216041455677>・Set userlimit\n- <:image7:1202697417326338078>・Set NSFW\n- <:camera:1202703995014094888>・Set video quality\n- <:trash:1202716962489110609>・Delete channel"
         },
         "moderate": {
-            "description": "## Quick actions\n- <:crown:1202717638447468605>・Take over channel\n- <:trash:1202716962489110609>・Delete channel\n- <:1lock:1201576417897488535>・Ban channel\n- <:ban:1202712066394423326>・Ban user\n- <: unmod:1202716452860461087>・Remove all channel moderators\n## Advanced moderation\n- Click on the <:1users:1201580813574230188> emoji in the interface to manage users. \n- Click on the <:1bolt:1201576407965376533> emoji in the interface to manage the channel.\n## Note\n- To be able to remove all channel moderators at the same time, you must first take over the channel."
+            "description": "## Quick actions\n- <:crown:1202717638447468605>・Take over channel\n- <:trash:1202716962489110609>・Delete channel\n- <:1lock:1201576417897488535>・Ban channel\n- <:ban:1202712066394423326>・Ban user\n- <:unmod:1202716452860461087>・Remove all channel moderators\n## Advanced moderation\n- Click on the <:1users:1201580813574230188> emoji in the interface to manage users. \n- Click on the <:1bolt:1201576407965376533> emoji in the interface to manage the channel.\n## Note\n- To be able to remove all channel moderators at the same time, you must first take over the channel."
         },
         "privacy": {
             "description": "## Explanation\n- <:1lock:1201576417897488535>・Lock the channel\n- <:1lockopen:1201585638609272832>・Unlock the channel\n- <:1eye:1201585529431527434>・Make the channel visible\n- <:1eyeslash:1201585541402079302>・Make the channel invisible"
@@ -2449,7 +2455,7 @@
             "set-success": "{y} The region has been changed."
         },
         "users": {
-            "description": "## explanation\n- <:invite:1202708818392522853>・Invite user\n- <:uninvite:1202708805851414539>・Remove invitation\n- <:ban:1202712066394423326>・Ban user\n- <:unban:1202712377175449730>・Unban user\n- <: kick:1202714648990720071>・Kick user\n- <:user:1202704216041455677>・Transfer ownership\n- <:modadd:1202713237964062841>・Add moderator\n- <:unmod:1202716452860461087>・Remove moderator"
+            "description": "## explanation\n- <:invite:1202708818392522853>・Invite user\n- <:uninvite:1202708805851414539>・Remove invitation\n- <:ban:1202712066394423326>・Ban user\n- <:unban:1202712377175449730>・Unban user\n- <:kick:1202714648990720071>・Kick user\n- <:user:1202704216041455677>・Transfer ownership\n- <:modadd:1202713237964062841>・Add moderator\n- <:unmod:1202716452860461087>・Remove moderator"
         },
         "videoquality": {
             "description": "## Set the video quality\n- Select the new quality in the lower select menu. The old quality is selected by default.",
@@ -2477,7 +2483,7 @@
                 "description": "## Select the type from\n- Quick: Use the default settings and create a new category and two new channels, one for interface (text channel) and another for creating (voice channel).\n- Manual: Set the creator channel.\n## Information\n- You can continue to change the settings afterwards with </tempvoice settings:0>.",
                 "placeholder": "Select a type.",
                 "quick": {
-                    "label": "Select a type",
+                    "label": "Quick",
                     "description": "Creates the channels and uses the default settings."
                 },
                 "manuel": {
@@ -2692,7 +2698,7 @@
             "placeholder": "Select the creator channel."
         },
         "settings_moderation": {
-            "description": "## Moderation settings\n- <:image4:1202697412012154890>・Logging\n- <:image7:1202697417326338078>・Block user\n- <:user:1202704216041455677>・Remove block\n- <:1eye:1201585529431527434>・Display all blocked users\n- <: globe:1202703306527481917>・Set or remove moderation role\n## More info\n- Logging: It works in principle like the Discord Audit Log, but whenever something is changed on a TempVoice channel, a message is sent to this channel. \n- Moderation role: Members who have this role are basically treated like channel owners. They can set everything on a TempVoice channel, except:\n - Add channel moderators\n - Remove channel moderators\n - Transfer owner (but you can take over the channel)"
+            "description": "## Moderation settings\n- <:image4:1202697412012154890>・Logging\n- <:image7:1202697417326338078>・Block user\n- <:user:1202704216041455677>・Remove block\n- <:1eye:1201585529431527434>・Display all blocked users\n- <:globe:1202703306527481917>・Set or remove moderation role\n## More info\n- Logging: It works in principle like the Discord Audit Log, but whenever something is changed on a TempVoice channel, a message is sent to this channel. \n- Moderation role: Members who have this role are basically treated like channel owners. They can set everything on a TempVoice channel, except:\n - Add channel moderators\n - Remove channel moderators\n - Transfer owner (but you can take over the channel)"
         },
         "settings_system": {
             "description": "## Manage the system\n- <:trash:1202716962489110609>・Reset the system\n- <:1lock:1201576417897488535>・Activate or deactivate the system.\n- <:1check:1201578213831356517>・Test the system. \n- <:1eye:1201585529431527434>・See the settings.\n## More information\n## Toggle\n- If the system is currently activated, it will be deactivated.\n- The system will no longer function.\n- The data will not be deleted."

@@ -1884,7 +1884,13 @@
         "restrictions": {
             "server-banned": "{x} Este servidor ha sido vetado. Más información: https://discord.gg/BQumAujuvk.",
             "user-banned": "{x} Has sido vetado del sistema de Dat Bot. Puedes obtener más información aquí: https://discord.gg/BQumAujuvk.",
-            "cooldown": "{x} Puedes usar este comando de nuevo en {lastexecuted}.",
+            "cooldown": {
+                "button": "{x} You can use this button again {lastexecuted}.",
+                "command": "{x} You can use this command again {lastexecuted}.",
+                "contextmenu": "{x} You can use this app again {lastexecuted}.",
+                "modal": "{x} You can use this modal again {lastexecuted}.",
+                "selector": "{x} You can use this select menu again {lastexecuted}."
+            },
             "command-developer": "{x} Este comando es solo para desarrolladores.",
             "command-unloaded": "{x} Este comando no está cargado. Por favor, contacta al servidor de soporte: https://discord.gg/BQumAujuvk",
             "use-command-again": "{x} Por favor, utiliza el comando de nuevo.",

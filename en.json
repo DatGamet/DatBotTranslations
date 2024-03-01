@@ -159,8 +159,8 @@
                 }
             },
             "emojiquiz_skip": {
-                "system-deactivated": "{x} The emojiquiz is deactivated.",
-                "message-error": "{x} The current emojiquiz takes place here: {messageLink}",
+                "system-deactivated": "{x} The emoji quiz is deactivated.",
+                "message-error": "{x} The current emoji quiz takes place here: {messageLink}",
                 "skips-missing": "{x} You have too few skips.",
                 "channel-deleted": "{x} The channel for the emoji quiz no longer exists.",
                 "success-singular": "{y} Emojiquiz skipped. You can now use 1 more skip.",
@@ -280,10 +280,10 @@
                 },
                 "help": {
                     "embed": {
-                        "title": "Emojiquiz Help",
+                        "title": "Emoji Quiz Help",
                         "fields": {
                             "howtouse": {
-                                "name": "How to use the emojiquiz?",
+                                "name": "How to use the emoji quiz?",
                                 "value": "1. Use </emojiquiz setup:{commandId}>.\n2. Use </emojiquiz toggle:{commandId}>\nThen everything starts."
                             },
                             "whynotworking": {
@@ -302,7 +302,7 @@
                     }
                 },
                 "fix": {
-                    "channel-not-set": "{x} There is no emojiquiz channel. Set one with </emojiquiz setup:{commandId}>.",
+                    "channel-not-set": "{x} There is no emoji quiz channel. Set one with </emojiquiz setup:{commandId}>.",
                     "quiz-deactivated": "- The emoji quiz is deactivated",
                     "embed": {
                         "title": "{amount} errors were found."
@@ -317,7 +317,7 @@
                 "guess": {
                     "embed": {
                         "title": "Guess the word",
-                        "description": "- Searched word・{emojis}\n\n*Deactivate the emojiquiz with </emojiquiz toggle:1117220757957779506>*"
+                        "description": "- Searched word・{emojis}\n\n*Deactivate the emoji quiz with </emojiquiz toggle:1117220757957779506>*"
                     },
                     "content": {
                         "skip": "{user} skipped the emoji quiz!",
@@ -372,7 +372,7 @@
                         "title": "Flag quiz help",
                         "fields": {
                             "howtouse": {
-                                "name": "How to use the flagquiz?",
+                                "name": "How to use the flag quiz?",
                                 "value": "1. Use </flagquiz setup:{commandId}>.\n2. Use </flagquiz toggle:{commandId}>\nThen everything starts."
                             },
                             "whynotworking": {
@@ -634,7 +634,7 @@
                         "404": "{x} I have not found the specified item."
                     },
                     "embed": {
-                        "description": "- **Name:** {name}\n- **Description:** {description}\n- **Type:** {type}\n- **Rarity:** {rarity}\n- **Set:** {set}\n- **Added:** {added}\n- **Last occurence ({total} in total):** {last_occurrence}"
+                        "description": "- **Name:** {name}\n- **Description:** {description}\n- **Type:** {type}\n- **Rarity:** {rarity}\n- **Set:** {set}\n- **Added:** {added}\n- **Last occurrence ({total} in total):** {last_occurrence}"
                     },
                     "button": {
                         "shophistory": {
@@ -674,8 +674,8 @@
                         "uuid": "UUID",
                         "tags": "Tags",
                         "role": "Role",
-                        "abilites": "Abilites ({total} insgesamt)",
-                        "description-embed": "- Name・{name}\n- Description・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Role・{role}\n- Abilites ({total} insgesamt)・{abilities}"
+                        "abilites": "Abilities ({total} insgesamt)",
+                        "description-embed": "- Name・{name}\n- Description・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Role・{role}\n- Abilities ({total} insgesamt)・{abilities}"
                     }
                 },
                 "map": {
@@ -1468,7 +1468,7 @@
                     }
                 },
                 "channel": {
-                    "reset-success": "{y} The levelup channel has been reset.",
+                    "reset-success": "{y} The LevelUp channel has been reset.",
                     "success": "{y} The LevelUp messages are now sent in {channel}"
                 },
                 "test": {
@@ -1512,7 +1512,7 @@
                 "notification-embed": {
                     "fields": {
                         "game": "Game",
-                        "viewercount": "Viewercount"
+                        "viewercount": "Viewer Count"
                     }
                 },
                 "info": {
@@ -1533,7 +1533,7 @@
                             },
                             "title": "🎨・Titel",
                             "game": "🎮・Game",
-                            "viewer-count": "👀・Viewercount",
+                            "viewer-count": "👀・Viewer Count",
                             "livestream-started": "🎭・Livestream launched"
                         }
                     }
@@ -1569,14 +1569,14 @@
         },
         "utility": {
             "autopublish": {
-                "none-existing": "{x} There are no autopublish channels.",
+                "none-existing": "{x} There are no auto publish channels.",
                 "add": {
                     "channel-already-autopublish": "{x} This channel is already in the database.",
                     "success": "{y} {channel} was added."
                 },
                 "list": {
                     "embed": {
-                        "title": "Autopublish channels"
+                        "title": "Auto Publish channels"
                     }
                 },
                 "remove": {
@@ -1973,7 +1973,7 @@
         "SendMessages": "Send Messages",
         "SendMessagesInThreads": "Send Messages in Threads",
         "SendTTSMessages": "Send Text-to-speech messages",
-        "SendVoiceMessages": "Semd Voice Messages",
+        "SendVoiceMessages": "Send Voice Messages",
         "Speak": "Speak",
         "Stream": "Video",
         "UseApplicationCommands": "Use Application Commands",
@@ -2136,7 +2136,7 @@
                             },
                             "inline": {
                                 "label": "Inline",
-                                "placeholder": "true/talse"
+                                "placeholder": "true/false"
                             }
                         }
                     }
@@ -2232,7 +2232,7 @@
             "datbot_channel": {
                 "embed": {
                     "title": "Set up Dat Bot",
-                    "description": "- {y} Setup started.\n- {y} Check permissiosn.\n- {y} Check logging channel.\n- {y} Setup finished."
+                    "description": "- {y} Setup started.\n- {y} Check permissions.\n- {y} Check logging channel.\n- {y} Setup finished."
                 }
             }
         },
@@ -2275,9 +2275,9 @@
             "account-not-found": "{x} I have not found the linked account.",
             "defaultDescription": "## Select a match\n- Select one of the matches.\n- Due to a limitation of Discord, Dat Bot can only display the last 25 matches.\n\n- Note: Anyone can view the information about the game as long as that person can read this message.",
             "defaultSelectPlaceholder": "Select a match.",
-            "defaultFooter": "{matches} Matches recieved",
+            "defaultFooter": "{matches} Matches received",
             "match": "Runde",
-            "no-matches": "{x} I did not recieve any matches.",
+            "no-matches": "{x} I did not receive any matches.",
             "buttons": {
                 "playerandqueues": "Players & Queues",
                 "resultandteams": "Result & Teams",
@@ -2394,13 +2394,13 @@
         },
         "slowmode": {
             "title": "Set the slow mode (s/m/h)",
-            "label": "Slowmode",
+            "label": "Slow Mode",
             "placeholder": "1 hour 2 seconds 35 minutes"
         },
         "status": {
             "title": "Set the channel status",
             "label": "Status",
-            "placeholder": "Partytime! 🎉"
+            "placeholder": "Party Time! 🎉"
         },
         "userlimit": {
             "title": "Set the user limit",
@@ -2732,3 +2732,5 @@
         }
     }
 }
+
+

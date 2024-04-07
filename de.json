@@ -1844,6 +1844,7 @@
             "currently-not-available": "{x} Zurzeit nicht verfügbar.",
             "notspecific": "{x} Ein Fehler ist aufgetreten.",
             "notyourmenu": "{x} Dies ist nicht dein Menu.",
+            "option-not-valid": "{x} Die angegebene Option ist nicht valid. Bitte suche dir eine aus, die dir vorgeschlagen wird.",
             "translation-error": "{i} Ich habe automatisch erkannt, dass eine Übersetzung nicht richtig geladen wurde. Ich habe meinen Entwickler bereits automatisch informiert.",
             "menutimeover": "{x} Das Menu ist abgelaufen. Bitte öffne ein neues Menu.",
             "components": {
@@ -2260,7 +2261,7 @@
             "title": "Code"
         },
         "rank": {
-            "no-arguments": "{x} Bitte gebe einen Riot-namen (Als Beispiel DGamet#1687) an oder logge dich mit </link valorant:{commandId} ein.",
+            "no-arguments": "{x} Bitte gebe einen Riot-namen (Als Beispiel DGamet#1687) an oder logge dich mit </link valorant:{commandId}> ein.",
             "invalid-username": "{x} Der angegebene Nutzername ist nicht valid. Bitte überprüfe deine Eingabe.",
             "user-no-data": "{x} Zu diesem Nutzer wurden keine Daten gefunden.",
             "description": "## Kompetiv - {username}\n- Zurzeit\n - Rang: {rank}\n - MMR: {mmr}\n - Elo: {elo}\n - Letztes Spiel: {last_game} RR {result}\n - Spiele für das Einranken benötigt: {games_required} benötigt\n\n- Alltime\n - Zeitpunkt: Episode {episode} Akt {act}\n - Rang: {alltime_rank}",

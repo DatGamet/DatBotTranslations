@@ -926,8 +926,8 @@
                                 },
                                 "toggle": {
                                     "name": "Toggle",
-                                    "value_activated": "> Activated",
-                                    "value_deactivated": "> Deactivated"
+                                    "value_activated": "- Activated",
+                                    "value_deactivated": "- Deactivated"
                                 }
                             }
                         },

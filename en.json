@@ -57,7 +57,7 @@
                     "label": "Cancel"
                 },
                 "continue-button": {
-                    "label": "Success"
+                    "label": "Continue"
                 },
                 "response": "## Toggle\n- Do you really want to reset the settings? You cannot undo this."
             },
@@ -163,8 +163,8 @@
                 "message-error": "{x} The current emoji quiz takes place here: {messageLink}",
                 "skips-missing": "{x} You have too few skips.",
                 "channel-deleted": "{x} The channel for the emoji quiz no longer exists.",
-                "success-singular": "{y} Emojiquiz skipped. You can now use 1 more skip.",
-                "success-plural": "{y} Emojiquiz skipped. You can now use {size} Skips."
+                "success-singular": "{y} Emoji quiz skipped. You can now use 1 more skip.",
+                "success-plural": "{y} Emoji quiz skipped. You can now use {size} Skips."
             },
             "emojiquiz_tip": {
                 "system-deactivated": "{x} The emoji quiz is deactivated.",
@@ -1180,7 +1180,7 @@
                     "success": "{y} The timeout of {user} has been removed."
                 },
                 "clear": {
-                    "success-channel-user": "{y} I have deleted {user} messages in {channel} {size}.",
+                    "success-channel-user": "{y} I have deleted {size} messages in {channel} written by {user}.",
                     "success-channel": "{y} I have deleted {size} messages in {channel}.",
                     "no-reason": "No reason given"
                 },
@@ -1843,6 +1843,7 @@
         "general": {
             "notspecific": "{x} An error has occurred.",
             "notyourmenu": "{x} This is not your menu.",
+            "option-not-valid": "{x} The specified option is not valid. Please choose one that is suggested to you.",
             "currently-not-available": "{x} Currently not available.",
             "translation-error": "{i} I automatically recognized that a translation was not loaded correctly. I have already informed my developer automatically.",
             "menutimeover": "{x} The menu has expired. Please open a new menu.",
@@ -2206,7 +2207,7 @@
                     }
                 },
                 "limit-reached": "- {role}: The limit of 15 rolls has been reached",
-                "already-autorole": "- {role}: This role is already an author role.",
+                "already-autorole": "- {role}: This role is already an autorole.",
                 "role-everyone": "- {role}: This role is @everyone.",
                 "role-managed": "- {role}: Role is managed by an external service.",
                 "role-position": "- {role}: I cannot assign this role (role position).",
@@ -2225,7 +2226,7 @@
                 },
                 "not-autorole": "- {role}: This role is not an autorole.",
                 "result": "Result",
-                "removed-roles": "Added roles",
+                "removed-roles": "Removed roles",
                 "success": "- {role}: Success",
                 "log": "Log"
             },
@@ -2260,7 +2261,7 @@
             "title": "Code"
         },
         "rank": {
-            "no-arguments": "{x} Please enter a riot name (for example DGamet#1687) or log in with </link valorant:{commandId}.",
+            "no-arguments": "{x} Please enter a riot name (for example DGamet#1687) or log in with </link valorant:{commandId}>.",
             "invalid-username": "{x} The specified username is not valid. Please check your input.",
             "user-no-data": "{x} No data was found for this user.",
             "description": "## Competitive - {username}\n- Current\n - Rank: {rank}\n - MMR: {mmr}\n - Elo: {elo}\n - Last game: {last_game} RR {result}\n - Games required for the rank: {games_required} required\n\n- Alltime\n - Time: Episode {episode} Act {act}\n - Rank: {alltime_rank}",
@@ -2732,5 +2733,3 @@
         }
     }
 }
-
-

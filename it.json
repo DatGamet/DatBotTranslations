@@ -1844,6 +1844,7 @@
       "currently-not-available": "{x} Al momento non disponibile.",
       "notspecific": "{x} Si è verificato un errore.",
       "notyourmenu": "{x} Questo non è il tuo menu.",
+      "option-not-valid": "{x} L'opzione specificata non è valida. Per favore, scegliene una tra quelle suggerite.",
       "translation-error": "{i} Ho rilevato automaticamente un errore di traduzione. Ho già informato automaticamente il mio sviluppatore.",
       "menutimeover": "{x} Il menu è scaduto. Si prega di aprire un nuovo menu.",
       "components": {
@@ -1920,7 +1921,12 @@
       "api": {
         "400": "{x} Non hai collegato il tuo account Endelon al tuo account Discord.",
         "404": "{x} Il server non ti appartiene."
-      }
+      },
+      "update": "Aggiornare",
+      "start": "Avviare",
+      "restart": "Riavviare",
+      "stop": "Fermare",
+      "kill": "Uccidere"
     },
     "quiz": {
       "emojiquiz": {

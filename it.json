@@ -1375,135 +1375,135 @@
         }
       },
       "endelon": {
-        "login": "Einloggen",
-        "account-not-linked": "{x} Du hast dein Endelon Konto nicht mit deinem Discord Konto verknüpft.",
-        "account-no-servers": "{x} Du besitzt keine Server.",
+        "login": "Accedi",
+        "account-not-linked": "{x} Non hai collegato il tuo account Endelon al tuo account Discord.",
+        "account-no-servers": "{x} Non possiedi nessun server.",
         "servers": {
           "components": {
-            "placeholder": "Wähle einen Server aus.",
+            "placeholder": "Seleziona un server.",
             "choices": {
-              "description": "ID: {id}・CPU: {cpu}・Memory: {memory}・Disk: {disk}"
+              "description": "ID: {id}・CPU: {cpu}・Memoria: {memory}・Disco: {disk}"
             }
           },
           "embed": {
-            "title": "Verwalte deine Server",
-            "description": "> Verwalte deine Endelon Server über DatBot. Wähle dazu unten in dem SelectMenu deinen Server aus. Sollte dieser nicht auftauchen, gibt es wahrscheinlich einen Fehler. Kontaktiere dazu bitte den Support. Wenn du Fragen hast, kannst du dich auch gerne im Support melden."
+            "title": "Gestisci i tuoi server",
+            "description": "> Gestisci i tuoi server Endelon tramite DatBot. Seleziona il tuo server dall'elenco sottostante. Se non compare, potrebbe esserci un errore. Contatta il supporto. Per qualsiasi domanda, puoi contattare il supporto."
           }
         },
         "links": {
           "embed": {
             "title": "Endelon Hosting",
-            "description": "- [Webseite](https://endelon-hosting.de)\n- [Status](https://status.endelon-hosting.de)\n- [Discord](https://endelon.chat/)\n- [Verwalten](https://my.endelon-hosting.de/)\n- [MySQL Admin](https://mysqladmin.endelon-hosting.de/)\n- [Dokumentation](https://docs.endelon-hosting.de/)\n- [Spenden (freiwillig!)](https://www.paypal.me/masusniper)"
+            "description": "- [Sito Web](https://endelon-hosting.de)\n- [Stato](https://status.endelon-hosting.de)\n- [Discord](https://endelon.chat/)\n- [Gestione](https://my.endelon-hosting.de/)\n- [Amministrazione MySQL](https://mysqladmin.endelon-hosting.de/)\n- [Documentazione](https://docs.endelon-hosting.de/)\n- [Donazioni (facoltativo!)](https://www.paypal.me/masusniper)"
           }
         },
         "everyone": {
           "embed": {
-            "description": "**Verwalte den Server [{name}](url)**\n- Mit dem unteren Button namens \"Start\" kannst du diesen Server starten."
+            "description": "**Gestisci il server [{name}](url)**\n- Con il pulsante in basso chiamato \"Start\" puoi avviare questo server."
           },
           "components": {
             "start-button": {
-              "label": "Start"
+              "label": "Avvia"
             },
             "delete-message-button": {
-              "label": "Nachricht löschen"
+              "label": "Elimina messaggio"
             }
           },
-          "url-not-valid": "{x} Die URL ist nicht valid.",
-          "not-your-server": "{x} Du hast dein Konto nicht mit Endelon verlinkt oder dieser Server gehört dir nicht.",
-          "not-your-server-2": "{x} Diesen Server besitzt du nicht."
+          "url-not-valid": "{x} L'URL non è valido.",
+          "not-your-server": "{x} Non hai collegato il tuo account a Endelon o questo server non ti appartiene.",
+          "not-your-server-2": "{x} Questo server non è tuo."
         }
       },
       "level": {
-        "system-deactivated": "{x} Das Levelsystem ist auf diesem Server deaktiviert.",
-        "no-levelroles": "{x} Es gibt keine Levelrollen.",
+        "system-deactivated": "{x} Il sistema di livelli è disattivato su questo server.",
+        "no-levelroles": "{x} Non ci sono ruoli di livello.",
         "roles": {
-          "levelroles-deactivated": "{x} Die Levelrollen sind auf diesem Server deaktiviert",
+          "levelroles-deactivated": "{x} I ruoli di livello sono disattivati su questo server.",
           "add": {
-            "success": "{y} Die Rolle {role} wird ab sofort vergeben, wenn Level {level} erreicht wird.",
-            "role_higher_position": "{x} Mir fehlt die Berechtigung, die Rolle {role} zu vergeben, da die Rolle meine Höchste oder eine Höhere ist.",
-            "role_managed": "{x} Diese Rolle {role} wird von einem externen Service verwaltet."
+            "success": "{y} Il ruolo {role} verrà assegnato quando si raggiunge il livello {level}.",
+            "role_higher_position": "{x} Non ho i permessi per assegnare il ruolo {role} perché è il mio ruolo più alto o uno più alto.",
+            "role_managed": "{x} Questo ruolo {role} è gestito da un servizio esterno."
           },
           "list": {
             "embed": {
-              "title": "Levelrollen",
-              "description": "- Level {level}・Rolle {role}"
+              "title": "Ruoli di Livello",
+              "description": "- Livello {level}・Ruolo {role}"
             }
           },
           "deleteall": {
-            "success": "{y} Alle Levelrollen wurden entfernt."
+            "success": "{y} Tutti i ruoli di livello sono stati rimossi."
           },
           "remove": {
-            "success": "{y} Die Rolle {role} wurde aus der Datenbank entfernt."
+            "success": "{y} Il ruolo {role} è stato rimosso dal database."
           },
           "toggle": {
-            "success_activated": "{y} Die Levelrollen wurden aktiviert.",
-            "success_deactivated": "{y} Die Levelrollen wurden deaktiviert."
+            "success_activated": "{y} I ruoli di livello sono stati attivati.",
+            "success_deactivated": "{y} I ruoli di livello sono stati disattivati."
           },
           "fix": {
-            "success-singular": "{y} Das System wurde überprüft.\n> {i} Es wurde 1 Rolle entfernt.",
-            "success-plural": "{y} Das System wurde überprüft.\n> {i} Es wurden {length} Rollen entfernt."
+            "success-singular": "{y} Il sistema è stato corretto.\n> {i} È stato rimosso 1 ruolo.",
+            "success-plural": "{y} Il sistema è stato corretto.\n> {i} Sono stati rimossi {length} ruoli."
           }
         },
         "ignore": {
-          "no-ignored-channels": "{x} In diesem Server gibt es keine ignorierten Kanäle.",
+          "no-ignored-channels": "{x} In questo server non ci sono canali ignorati.",
           "add": {
-            "channel-already-ignored": "{x} Dieser Kanal wird bereits ignoriert.",
-            "success": "{y} Der Kanal wurde hinzugefügt."
+            "channel-already-ignored": "{x} Questo canale è già ignorato.",
+            "success": "{y} Il canale è stato aggiunto."
           },
           "list": {
             "embed": {
-              "title": "Ignorierte Kanäle"
+              "title": "Canali Ignorati"
             }
           },
           "remove": {
-            "channel-not-ignored": "{x} Dieser Kanal wird nicht ignoriert.",
-            "success": "{y} Der Kanal wurde entfernt."
+            "channel-not-ignored": "{x} Questo canale non è ignorato.",
+            "success": "{y} Il canale è stato rimosso."
           }
         },
         "message": {
           "modal": {
-            "label": "Nachricht",
-            "placeholder": "GG, Dat Bot! Du bist nun Level 2!",
-            "title": "Ändere die Level-Up Nachricht"
+            "label": "Messaggio",
+            "placeholder": "GG, Dat Bot! Ora sei livello 2!",
+            "title": "Modifica il messaggio di Livello"
           }
         },
         "channel": {
-          "reset-success": "{y} Der Levelup Kanal wurde zurückgesetzt.",
-          "success": "{y} Der LevelUp Nachrichten werden nun in {channel} gesendet."
+          "reset-success": "{y} Il canale di Livello è stato ripristinato.",
+          "success": "{y} I messaggi di Livello saranno ora inviati in {channel}."
         },
         "test": {
-          "no-levelup-message": "GG, DatBot! Du bist nun Level 2!",
-          "success": "{y} Die Testnachricht wurde versendet."
+          "no-levelup-message": "GG, DatBot! Ora sei livello 2!",
+          "success": "{y} Il messaggio di test è stato inviato."
         },
         "leaderboard": {
-          "no-data1": "Keine Daten",
-          "no-data": "{x} Niemand hat bisher XP gesammelt.",
-          "page-total": "Seite {page} von {total}",
-          "page": "Seite {page}"
+          "no-data1": "Nessun dato",
+          "no-data": "{x} Nessuno ha ancora accumulato esperienza.",
+          "page-total": "Pagina {page} di {total}",
+          "page": "Pagina {page}"
         },
         "rank": {
-          "user-bot": "{x} Bots können kein XP sammeln.",
-          "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server."
+          "user-bot": "{x} I bot non possono accumulare esperienza.",
+          "not-on-guild": "{x} Questo utente non è in questo server."
         },
         "toggle": {
-          "success_activated": "{y} Das Levelsystem wurde aktiviert.",
-          "success_deactivated": "{y} Das Levelsystem wurde deaktiviert."
+          "success_activated": "{y} Il sistema di livelli è stato attivato.",
+          "success_deactivated": "{y} Il sistema di livelli è stato disattivato."
         },
         "noxprole": {
-          "success": "{y} Die \"Keine XP Rolle\" wurde geändert.",
-          "remove-success": "{y} Die \"Keine XP Rolle\" wurde aus der Datenbank entfernt."
+          "success": "{y} Il ruolo \"Nessuna Esperienza\" è stato modificato.",
+          "remove-success": "{y} Il ruolo \"Nessuna Esperienza\" è stato rimosso dal database."
         }
       },
       "random": {
         "number": {
-          "success": "{random} ist die zufällige Zahl (Minimum: {min}, Maximum: {max})."
+          "success": "{random} è il numero casuale (Minimo: {min}, Massimo: {max})."
         },
         "user": {
-          "success": "{user} ist der zufällige Nutzer: {userinfo}"
+          "success": "{user} è l'utente casuale: {userinfo}"
         },
         "coinflip": {
-          "success-head": "🔮・Dieses Mal war es || Kopf ||.",
-          "success-tail": "🔮・Dieses Mal war es || Zahl ||."
+          "success-head": "🔮・Questa volta è uscito || Testa ||.",
+          "success-tail": "🔮・Questa volta è uscito || Croce ||."
         }
       }
     },
@@ -1511,192 +1511,192 @@
       "twitch": {
         "notification-embed": {
           "fields": {
-            "game": "Spiel",
-            "viewercount": "Zuschaueranzahl"
+            "game": "Gioco",
+            "viewercount": "Numero di spettatori"
           }
         },
         "info": {
-          "account-not-found": "{x} Ich habe das Konto mit diesem Nutzernamen nicht gefunden.",
-          "account-no-information": "{x} Es sind keine Informationen über das Konto verfügbar.",
+          "account-not-found": "{x} Non ho trovato l'account con questo nome utente.",
+          "account-no-information": "{x} Non ci sono informazioni disponibili sull'account.",
           "embed": {
             "fields": {
-              "name": "🖊️・Name",
+              "name": "🖊️・Nome",
               "id": "🪪・ID",
-              "created": "🕙・Erstellt",
-              "description": "🗨️・Beschreibung",
-              "last-game": "🎮・Letztes Spiel",
-              "follower-count": "✨・Follower",
+              "created": "🕙・Creato",
+              "description": "🗨️・Descrizione",
+              "last-game": "🎮・Ultimo gioco",
+              "follower-count": "✨・Seguaci",
               "live": {
-                "name": "📺・Live",
-                "value-true": "> Ja",
-                "value-false": "> Nein"
+                "name": "📺・In diretta",
+                "value-true": "> Sì",
+                "value-false": "> No"
               },
-              "title": "🎨・Titel",
-              "game": "🎮・Spiel",
-              "viewer-count": "👀・Zuschauer",
-              "livestream-started": "🎭・Livestream gestartet"
+              "title": "🎨・Titolo",
+              "game": "🎮・Gioco",
+              "viewer-count": "👀・Spettatori",
+              "livestream-started": "🎭・Inizio live"
             }
           }
         },
         "add": {
-          "default-twitch-message": "{name} ist jetzt live! {url}",
-          "limit-reached": "{x} Das Limit von {limit} wurde bereits erreicht.",
-          "already-followed": "{x} Diesem Nutzer wird bereits gefolgt.",
-          "account-not-found": "{x} Ich habe das Konto mit diesem Nutzernamen nicht gefunden.",
-          "success": "{y} Die Benachrichtigung wurde hinzugefügt.",
+          "default-twitch-message": "{name} è ora in diretta! {url}",
+          "limit-reached": "{x} È già stato raggiunto il limite di {limit}.",
+          "already-followed": "{x} Questo utente è già seguito.",
+          "account-not-found": "{x} Non ho trovato l'account con questo nome utente.",
+          "success": "{y} La notifica è stata aggiunta.",
           "watch-stream-button": {
-            "label": "Stream angucken"
+            "label": "Guarda lo stream"
           }
         },
         "list": {
-          "no-data": "{x} Es gibt keine Twitch Benachrichtigungen für diesen Server.",
+          "no-data": "{x} Non ci sono notifiche Twitch per questo server.",
           "embed": {
-            "title": "Twitch Benachrichtigungen",
-            "description-activated": "- {channel}・Aktiviert・{discord_channel}",
-            "description-deactivated": "- {channel}・Deaktiviert・{discord_channel}"
+            "title": "Notifiche Twitch",
+            "description-activated": "- {channel}・Attivate・{discord_channel}",
+            "description-deactivated": "- {channel}・Disattivate・{discord_channel}"
           }
         },
         "remove": {
-          "not-followed": "{x} Dem Nutzer wird nicht gefolgt.",
-          "success": "{y} Die Benachrichtigung wurde entfernt."
+          "not-followed": "{x} Questo utente non è seguito.",
+          "success": "{y} La notifica è stata rimossa."
         },
         "toggle": {
-          "not-followed": "{x} Dem Nutzer wird nicht gefolgt.",
-          "success_activated": "{y} Die Benachrichtigungen von **{name}** wurden aktiviert.",
-          "success_deactivated": "{y} Die Benachrichtigungen von **{name}** wurden deaktiviert."
+          "not-followed": "{x} Questo utente non è seguito.",
+          "success_activated": "{y} Le notifiche di **{name}** sono state attivate.",
+          "success_deactivated": "{y} Le notifiche di **{name}** sono state disattivate."
         }
       }
     },
     "utility": {
       "autopublish": {
-        "none-existing": "{x} Es gibt keine Autopublish Kanäle.",
+        "none-existing": "{x} Non ci sono canali di autopubblicazione.",
         "add": {
-          "channel-already-autopublish": "{x} Dieser Kanal ist bereits in der Datenbank.",
-          "success": "{y} {channel} wurde hinzugefügt."
+          "channel-already-autopublish": "{x} Questo canale è già nel database.",
+          "success": "{y} {channel} è stato aggiunto."
         },
         "list": {
           "embed": {
-            "title": "Autopublish-Kanäle"
+            "title": "Canali di Autopubblicazione"
           }
         },
         "remove": {
-          "channel-not-autopublish": "{x} Dieser Kanal ist nicht in der Datenbank.",
-          "success": "{y} {channel} wurde entfernt."
+          "channel-not-autopublish": "{x} Questo canale non è nel database.",
+          "success": "{y} {channel} è stato rimosso."
         },
         "toggle": {
-          "success_activated": "{y} Das System wurde aktiviert.",
-          "success_deactivated": "{y} Das System wurde deaktiviert."
+          "success_activated": "{y} Il sistema è stato attivato.",
+          "success_deactivated": "{y} Il sistema è stato disattivato."
         },
         "test": {
-          "toggle-false": "Toggle: System ist deaktiviert",
-          "have-been-removed": "wurden erfolgreich entfernt",
-          "success": "{y} Keine Fehler sind aufgetreten.",
-          "channel-not-type-5": "{channel} ist kein Ankündugungskanal"
+          "toggle-false": "Toggle: Sistema disattivato",
+          "have-been-removed": "sono stati rimossi con successo",
+          "success": "{y} Non sono stati riscontrati errori.",
+          "channel-not-type-5": "{channel} non è un canale di annuncio"
         },
         "embed": {
-          "description": "## Verwalte das System\n- Liste: Erhalte einer Liste der aktuellen Kanäle\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere das System\n- Kanal hinzufügen: Füge einen Kanal hinzu\n- Kanal entfernen: Entferne einen Kanal"
+          "description": "## Gestisci il Sistema\n- Lista: Ottieni un elenco dei canali attuali\n- Debug: Testa e risolvi errori\n- Ripristina: Ripristina le impostazioni\n- Attiva/disattiva: Attiva o disattiva il sistema\n- Aggiungi canale: Aggiungi un canale\n- Rimuovi canale: Rimuovi un canale"
         },
         "components": {
           "liste-button": {
-            "label": "Liste"
+            "label": "Lista"
           },
           "debug-button": {
-            "label": "Debuggen"
+            "label": "Debug"
           },
           "reset-button": {
-            "label": "Zurücksetzen"
+            "label": "Ripristina"
           },
           "toggle-button": {
-            "label": "Toggle"
+            "label": "Attiva/disattiva"
           },
           "addchannel-select": {
-            "placeholder": "Kanal hinzufügen"
+            "placeholder": "Aggiungi canale"
           },
           "removechannel-select": {
-            "placeholder": "Kanal entfernen"
+            "placeholder": "Rimuovi canale"
           }
         }
       },
       "autorole": {
         "embed": {
-          "description": "## Autorollen\n- Liste: Erhalte einer Liste der aktuellen Autorollen\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere die Autorollen\n- Rollen hinzufügen: Füge eine Autorolle hinzu\n- Rollen entfernen: Entferne eine Autorolle"
+          "description": "## Autoruoli\n- Lista: Ottieni un elenco dei ruoli automatici attuali\n- Debug: Testa e risolvi errori\n- Ripristina: Ripristina le impostazioni\n- Attiva/disattiva: Attiva o disattiva gli autoruoli\n- Aggiungi ruolo: Aggiungi un autoruolo\n- Rimuovi ruolo: Rimuovi un autoruolo"
         },
         "components": {
           "liste-button": {
-            "label": "Liste"
+            "label": "Lista"
           },
           "debug-button": {
-            "label": "Debuggen"
+            "label": "Debug"
           },
           "reset-button": {
-            "label": "Zurücksetzen"
+            "label": "Ripristina"
           },
           "toggle-button": {
-            "label": "Toggle"
+            "label": "Attiva/disattiva"
           },
           "addchannel-select": {
-            "placeholder": "Autorolle hinzufügen"
+            "placeholder": "Aggiungi autoruolo"
           },
           "removechannel-select": {
-            "placeholder": "Autorolle entfernen"
+            "placeholder": "Rimuovi autoruolo"
           }
         }
       },
       "emoji": {
-        "emoji-notvalid": "{x} Bitte gebe ein gültiges Emoji an.",
-        "emoji-default": "{x} Dies ist ein Standardemoji.",
-        "emoji-guild": "{x} Dieses Emoji ist nicht von diesem Server.",
+        "emoji-notvalid": "{x} Per favore inserisci un emoji valido.",
+        "emoji-default": "{x} Questo è un emoji predefinito.",
+        "emoji-guild": "{x} Questo emoji non è del server corrente.",
         "copy": {
-          "limit-reached": "{x} Du kannst keine Emojis mehr hinzufügen, da das Limit erreicht wurde.",
+          "limit-reached": "{x} Non puoi aggiungere più emoji poiché hai raggiunto il limite.",
           "buttons": {
             "emoji-as-emoji-button": {
-              "label": "Emoji als Emoji hinzufügen."
+              "label": "Aggiungi emoji come emoji."
             },
             "emoji-as-sticker-button": {
-              "label": "Emoji als Sticker hinzufügen."
+              "label": "Aggiungi emoji come adesivo."
             },
             "url-link-button": {
               "label": "URL"
             }
           },
           "embed": {
-            "title": "Emoji hinzufügen",
-            "description": "- Füge dieses Emoji als Sticker hinzu, indem du auf \"Emoji als Sticker hinzufügen\" klickst.\n- Füge dieses Emoji als Emoji hinzu, indem du auf \"Emoji als Emoji hinzufügen\" klickst."
+            "title": "Aggiungi Emoji",
+            "description": "- Aggiungi questo emoji come adesivo cliccando su \"Aggiungi emoji come adesivo\".\n- Aggiungi questo emoji come emoji cliccando su \"Aggiungi emoji come emoji\"."
           },
-          "success": "{y} {name} wurde hinzugefügt.",
-          "has-been-added": "wurde hinzugefügt"
+          "success": "{y} {name} è stato aggiunto.",
+          "has-been-added": "è stato aggiunto"
         },
         "info": {
           "embed": {
-            "title": "Emoji Info",
-            "description-managed-true": "- **Name:** {name}\n- **ID:** `{id}`\n- **Verwaltet:** Ja",
-            "description-managed-false": "- **Name:** {name}\n- **ID:** `{id}`\n- **Verwaltet:** Nein"
+            "title": "Informazioni sull'Emoji",
+            "description-managed-true": "- **Nome:** {name}\n- **ID:** `{id}`\n- **Gestito:** Sì",
+            "description-managed-false": "- **Nome:** {name}\n- **ID:** `{id}`\n- **Gestito:** No"
           }
         }
       },
       "poll": {
         "create": {
           "embed": {
-            "title": "Erstelle eine Umfrage!",
+            "title": "Crea un sondaggio!",
             "fields": {
               "current-options": {
-                "name": "Aktuelle Optionen",
-                "value": "Keine Optionen gesetzt"
+                "name": "Opzioni attuali",
+                "value": "Nessuna opzione impostata"
               }
             }
           },
           "components": {
             "delete-option-select": {
-              "placeholder": "Lösche eine Option"
+              "placeholder": "Elimina un'opzione"
             },
             "add-option-button": {
-              "label": "Option hinzufügen"
+              "label": "Aggiungi opzione"
             },
             "set-description-button": {
-              "label": "Beschreibung setzen"
+              "label": "Imposta descrizione"
             },
             "send-poll-button": {
-              "label": "Umfrage senden"
+              "label": "Invia sondaggio"
             }
           }
         }
@@ -1712,27 +1712,27 @@
   "contextmenus": {
     "avatar": {},
     "end_poll": {
-      "message-not-poll": "{x} Diese Nachricht ist keine Umfrage. Erstelle eine Umfrage mit </poll create:1114289709099798578>."
+      "message-not-poll": "{x} Questo messaggio non è un sondaggio. Crea un sondaggio con </poll create:1114289709099798578>."
     },
     "levelrank": {
-      "system-deactivated": "{x} Das Levelsystem ist auf diesem Server deaktiviert.",
-      "user-bot": "{x} Bots können kein XP sammeln.",
-      "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server."
+      "system-deactivated": "{x} Il sistema di livelli è disattivato su questo server.",
+      "user-bot": "{x} I bot non possono accumulare esperienza.",
+      "not-on-guild": "{x} Questo utente non è in questo server."
     },
     "pollcreate": {},
     "userinfo": {},
     "voiceinfo": {
-      "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server.",
-      "not-in-vc": "{x} Dieser Nutzer ist in keinem Sprachkanal.",
+      "not-on-guild": "{x} Questo utente non è in questo server.",
+      "not-in-vc": "{x} Questo utente non è in un canale vocale.",
       "embed": {
-        "self": "Selbst",
-        "moderator": "Moderator",
-        "user": "Nutzer",
+        "self": "Se stesso",
+        "moderator": "Moderatore",
+        "user": "Utente",
         "id": "ID",
-        "voice-connection": "Sprachkanalverbindung",
-        "voice-channel": "Sprachkanal",
-        "deaf": "Kopfhörer stummgeschaltet",
-        "mute": "Mikrofon stummgeschaltet"
+        "voice-connection": "Connessione vocale",
+        "voice-channel": "Canale vocale",
+        "deaf": "Sordo",
+        "mute": "Muto"
       }
     }
   },
@@ -1743,17 +1743,17 @@
   },
   "modals": {
     "embeds": {
-      "embed-message-not-found": "{x} Ich kann die Embed-Nachricht nicht mehr finden.",
-      "embed-not-existing": "{x} Die Embed-Nachricht gibt es nicht mehr",
-      "embed-not-found": "{x} Ich finde das Embed nicht mehr.",
-      "url-invalid": "{x} Die Angabe muss eine valide URL sein.",
+      "embed-message-not-found": "{x} Non riesco più a trovare il messaggio dell'embed.",
+      "embed-not-existing": "{x} L'embed non esiste più.",
+      "embed-not-found": "{x} Non trovo più l'embed.",
+      "url-invalid": "{x} La specifica deve essere un URL valido.",
       "author": {
         "name": {},
         "url": {},
         "icon": {}
       },
       "color": {
-        "not-hex-code": "{x} Die Angabe ist kein Hex-Code"
+        "not-hex-code": "{x} La specifica non è un codice esadecimale"
       },
       "description": {},
       "fields_add": {},
@@ -1764,254 +1764,249 @@
       "image": {},
       "thumbnail": {},
       "timestamp": {
-        "not-timestamp": "{x} Die angegebene Zeit ist ungültig. `YYYY-MM-DD HH:MM:SS` wäre richtig.\n> Beispiel: `2023-03-15 15:37:12` -> 15.03.2023 15:37:12"
+        "not-timestamp": "{x} Il tempo specificato non è valido. `YYYY-MM-DD HH:MM:SS` sarebbe corretto.\n> Esempio: `2023-03-15 15:37:12` -> 15.03.2023 15:37:12"
       },
       "title": {
         "title": {},
         "url": {}
       },
       "import_json": {
-        "not-json-code": "{x} Der JSON Code ist nicht valid."
+        "not-json-code": "{x} Il codice JSON non è valido."
       },
       "sendwithwebhook": {
-        "not-valid": "{x} Die angegebene Webhook URL ist nicht valid.",
-        "thread-id": "{x} Dieses Webhook ist für ein Forum, deswegen kann es nicht verwendet werden."
+        "not-valid": "{x} L'URL del webhook specificato non è valido.",
+        "thread-id": "{x} Questo webhook è per un thread, quindi non può essere utilizzato."
       }
     },
     "games": {
       "clashofclans": {
         "api_verify": {
           "api": {
-            "404": "{x} Ich habe das Konto nicht gefunden."
+            "404": "{x} Non ho trovato l'account."
           },
-          "token-invalid": "{x} Der Token ist ungültig.",
-          "success": "{y} Der Token ist valid. Dein Konto wurde in der Datenbank gespeichert.\n> {i} Es wurde nur dein InGame-Kürzel ({tag}) gespeichert."
+          "token-invalid": "{x} Il token non è valido.",
+          "success": "{y} Il token è valido. Il tuo account è stato salvato nel database.\n> {i} È stato salvato solo il tuo tag in-game ({tag})."
         }
       }
     },
     "logs": {
       "leave_message": {
-        "success": "{y} Die Nachricht wurde aktualisiert."
+        "success": "{y} Il messaggio è stato aggiornato."
       },
       "welcome_message": {
-        "success": "{y} Die Nachricht wurde aktualisiert."
+        "success": "{y} Il messaggio è stato aggiornato."
       }
     },
     "other": {
       "endelon_post_create": {
-        "url-not-valid": "{x} Die URL ist nicht valid."
+        "url-not-valid": "{x} L'URL non è valido."
       },
       "level_message": {
-        "success": "{y} Die Nachricht wurde aktualisiert."
+        "success": "{y} Il messaggio è stato aggiornato."
       }
     },
     "poll": {
       "add_option": {
-        "current-options": "Aktuelle Option(en)",
-        "embed-deleted": "{x} Das Embed wurde gelöscht.",
-        "option-twice": "{x} Du kannst keine Option mehrmals nutzen.",
-        "fields-size-error": "{x} Du kannst nicht mehr als 25 Optionen hinzufügen."
+        "current-options": "Opzione(i) attuale(i)",
+        "embed-deleted": "{x} L'embed è stato eliminato.",
+        "option-twice": "{x} Non puoi utilizzare un'opzione più volte.",
+        "fields-size-error": "{x} Non puoi aggiungere più di 25 opzioni."
       },
       "set_description": {
-        "embed-deleted": "{x} Das Embed wurde gelöscht."
+        "embed-deleted": "{x} L'embed è stato eliminato."
       }
     }
   },
   "other": {
-    "yes": "Ja",
-    "no": "Nein",
-    "active": "Aktiv",
-    "no-data": "Keine Daten",
-    "deactive": "Nicht aktiv",
-    "channel": "Kanal",
-    "channels": "Kanäle",
-    "activate": "Aktivieren",
-    "deactivate": "Deaktivieren",
-    "no-channel": "Kein Kanal",
-    "day": "Tag",
-    "days": "Tage",
-    "none": "Keine",
+    "yes": "Sì",
+    "no": "No",
+    "active": "Attivo",
+    "no-data": "Nessun Dato",
+    "deactive": "Non Attivo",
+    "channel": "Canale",
+    "channels": "Canali",
+    "activate": "Attivare",
+    "deactivate": "Disattivare",
+    "no-channel": "Nessun Canale",
+    "day": "Giorno",
+    "days": "Giorni",
+    "none": "Nessuno",
     "api": {
-      "not-functionable": "{x} Dieser Befehl ist nicht mehr funktionsfähig. Bitte kontaktiere meinen Entwickler D_Gamet.",
-      "401": "{x} Der Befehl ist nicht mehr funktionsfähig, ich habe meinen Entwickler aber schon benachrichtigt.",
-      "403": "{x} Dieser Befehl ist nicht mehr funktionabel. Bitte kontaktiere meinen Entwickler D_Gamet.",
-      "429": "{x} Ich befinde mich zurzeit im Rate Limit.",
-      "500": "{x} Der externe Server hatte einen Error.",
-      "502": "{x} Der externe Server ist zurzeit nicht erreichbar.",
-      "503": "{x} Der externe Server ist zurzeit nicht verfügbar."
+      "not-functionable": "{x} Questo comando non è più funzionante. Si prega di contattare il mio sviluppatore D_Gamet.",
+      "401": "{x} Il comando non è più funzionante, ma ho già informato il mio sviluppatore.",
+      "403": "{x} Questo comando non è più funzionante. Si prega di contattare il mio sviluppatore D_Gamet.",
+      "429": "{x} Al momento sono limitato dai tassi.",
+      "500": "{x} Il server esterno ha incontrato un errore.",
+      "502": "{x} Il server esterno non è attualmente raggiungibile.",
+      "503": "{x} Il server esterno non è attualmente disponibile."
     },
     "general": {
-      "currently-not-available": "{x} Zurzeit nicht verfügbar.",
-      "notspecific": "{x} Ein Fehler ist aufgetreten.",
-      "notyourmenu": "{x} Dies ist nicht dein Menu.",
-      "translation-error": "{i} Ich habe automatisch erkannt, dass eine Übersetzung nicht richtig geladen wurde. Ich habe meinen Entwickler bereits automatisch informiert.",
-      "menutimeover": "{x} Das Menu ist abgelaufen. Bitte öffne ein neues Menu.",
+      "currently-not-available": "{x} Al momento non disponibile.",
+      "notspecific": "{x} Si è verificato un errore.",
+      "notyourmenu": "{x} Questo non è il tuo menu.",
+      "translation-error": "{i} Ho rilevato automaticamente un errore di traduzione. Ho già informato automaticamente il mio sviluppatore.",
+      "menutimeover": "{x} Il menu è scaduto. Si prega di aprire un nuovo menu.",
       "components": {
         "buttons": {
           "support-button": {
-            "label": "Support"
+            "label": "Supporto"
           },
           "invite-button": {
-            "label": "Bot einladen"
+            "label": "Invita il Bot"
           },
           "status-button": {
-            "label": "Status"
+            "label": "Stato"
           },
           "docs-button": {
-            "label": "Documentation"
+            "label": "Documentazione"
           },
           "topgg-button": {
             "label": "Top.gg"
           },
           "privacy-policy-button": {
-            "label": "Datenschutzerklärung"
+            "label": "Informativa sulla Privacy"
           }
         }
       }
     },
     "permissions": {
-      "user_permission": "{x} Dir fehlt die Berechtigung {permission}.",
-      "user_permission_channel": "{x} Dir fehlt die Berechtigung {permission} in {channel}",
-      "user_channel": "{x} Dir fehlt die Berechtigung, den Kanal {channel} zu sehen.",
-      "bot_permission": "{x} Mir fehlt die Berechtigung {permission}.",
-      "bot_permission_channel": "{x} Mir fehlt die Berechtigung {permission} in {channel}",
-      "bot_channel": "{x} Mir fehlt die Berechtigung, den Kanal {channel} zu sehen."
+      "user_permission": "{x} Ti manca il permesso {permission}.",
+      "user_permission_channel": "{x} Ti manca il permesso {permission} nel canale {channel}",
+      "user_channel": "{x} Ti manca il permesso di visualizzare il canale {channel}.",
+      "bot_permission": "{x} Mi manca il permesso {permission}.",
+      "bot_permission_channel": "{x} Mi manca il permesso {permission} nel canale {channel}",
+      "bot_channel": "{x} Mi manca il permesso di visualizzare il canale {channel}."
     },
     "grammar": {
-      "singular": "Ein Fehler ist aufgetreten",
-      "plural": "{size} Fehler sind aufgetreten"
+      "singular": "Si è verificato un errore",
+      "plural": "Si sono verificati {size} errori"
     },
     "restrictions": {
-      "server-banned": "{x} Dieser Server wurde gebannt. Mehr Informationen: https://discord.gg/BQumAujuvk.",
-      "user-banned": "{x} Du wurdest aus dem System von Dat Bot gebannt. Mehr Informationen bekommst du hier: https://discord.gg/BQumAujuvk.",
-      "command-developer": "{x} Dieser Befehl ist nur für Entwickler.",
-      "command-unloaded": "{x} Dieser Befehl ist nicht geladen. Bitte kontaktiere den Support Server: https://discord.gg/BQumAujuvk",
-      "use-command-again": "{x} Bitte nutze den Befehl erneut.",
-      "user-banned-command": "{x} Du darfst diesen Befehl nicht benutzen.",
+      "server-banned": "{x} Questo server è stato bannato. Maggiori informazioni: https://discord.gg/BQumAujuvk.",
+      "user-banned": "{x} Sei stato bannato dal sistema di Dat Bot. Per ulteriori informazioni, visita: https://discord.gg/BQumAujuvk.",
+      "command-developer": "{x} Questo comando è solo per gli sviluppatori.",
+      "command-unloaded": "{x} Questo comando non è stato caricato. Per favore, contatta il server di supporto: https://discord.gg/BQumAujuvk",
+      "use-command-again": "{x} Per favore, usa di nuovo il comando.",
+      "user-banned-command": "{x} Non hai il permesso di utilizzare questo comando.",
       "cooldown": {
-        "button": "{x} You can use this button again {lastexecuted}.",
-        "command": "{x} You can use this command again {lastexecuted}.",
-        "contextmenu": "{x} You can use this app again {lastexecuted}.",
-        "modal": "{x} You can use this modal again {lastexecuted}.",
-        "selector": "{x} You can use this select menu again {lastexecuted}."
+        "button": "{x} Puoi utilizzare di nuovo questo pulsante {lastexecuted}.",
+        "command": "{x} Puoi utilizzare di nuovo questo comando {lastexecuted}.",
+        "contextmenu": "{x} Puoi utilizzare di nuovo questa app {lastexecuted}.",
+        "modal": "{x} Puoi utilizzare di nuovo questa finestra modale {lastexecuted}.",
+        "selector": "{x} Puoi utilizzare di nuovo questo menu a selezione {lastexecuted}."
       }
     },
     "endelon": {
-      "runtime": "🕐・Laufzeit",
+      "runtime": "🕐・Runtime",
       "status": {
-        "offline": "🔴・Status",
-        "online": "🟢・Status",
-        "installing": "🟤・Status",
-        "unknown": "⚫・Status"
+        "offline": "🔴・Stato",
+        "online": "🟢・Stato",
+        "installing": "🟤・Stato",
+        "unknown": "⚫・Stato"
       },
       "status-label": {
         "offline": "Offline",
-        "starting": "Startend",
+        "starting": "In avvio",
         "online": "Online",
-        "installing": "Installieren",
-        "stopping": "Stoppend",
-        "running": "Laufend",
-        "unknown": "Unbekannt",
-        "restart": "Neustarten"
+        "installing": "In fase di installazione",
+        "stopping": "In arresto",
+        "running": "In esecuzione",
+        "unknown": "Sconosciuto",
+        "restart": "Riavviare"
       },
-      "server-not-found": "{x} Dieser Server wurde nicht gefunden.",
-      "manage-your-server": "Verwalte deinen Server",
-      "server-started": "{y} Server gestartet.",
+      "server-not-found": "{x} Questo server non è stato trovato.",
+      "manage-your-server": "Gestisci il tuo server",
+      "server-started": "{y} Server avviato.",
       "api": {
-        "400": "{x} Du hast dein Endelon Konto nicht mit deinem Discord Konto verknüpft.",
-        "404": "{x} Der Server gehört dir nicht."
-      },
-      "update": "Update",
-      "start": "Start",
-      "restart": "Neustarten",
-      "stop": "Stoppen",
-      "kill": "Killen"
+        "400": "{x} Non hai collegato il tuo account Endelon al tuo account Discord.",
+        "404": "{x} Il server non ti appartiene."
+      }
     },
     "quiz": {
       "emojiquiz": {
         "embed": {
-          "title": "Errate den Begriff"
+          "title": "Indovina il termine"
         }
       },
       "flagquiz": {
         "embed": {
-          "title": "Errate die Flagge"
+          "title": "Indovina la bandiera"
         }
       }
     }
   },
   "permissions": {
-    "AddReactions": "Reaktionen hinzufügen",
-    "Administrator": "Administrator",
-    "AttachFiles": "Dateien anhängen",
-    "BanMembers": "Nutzer bannen",
-    "ChangeNickname": "Nickname ändern",
-    "Connect": "Verbinden",
-    "CreateInstantInvite": "Einladung erstellen",
-    "CreatePrivateThreads": "Private Threads erstellen",
-    "CreatePublicThreads": "Öffentliche Threads erstellen",
-    "DeafenMembers": "Kopfhörer stummschalten",
-    "EmbedLinks": "Links einbetten",
-    "KickMembers": "Nutzer kicken",
-    "ManageChannels": "Kanäle verwalten",
-    "ManageEmojisAndStickers": "Emojis und Sticker verwalten",
-    "ManageEvents": "Events verwalten",
-    "ManageGuild": "Server verwalten",
-    "ManageGuildExpressions": "Ausdrücke verwalten",
-    "ManageMessages": "Nachrichten verwalten",
-    "ManageNicknames": "Nickname ändern",
-    "ManageRoles": "Rollen verwalten",
-    "ManageThreads": "Threads verwalten",
-    "ManageWebhooks": "Webhooks verwalten",
-    "MentionEveryone": "@everyone, @here und alle Rollen erwähnen",
-    "ModerateMembers": "Mitglieder timeouten",
-    "MoveMembers": "Nutzer verschieben",
-    "MuteMembers": "Mikrofon stummschalten",
-    "PrioritySpeaker": "Very Important Speaker",
-    "ReadMessageHistory": "Nachrichtenverlauf einsehen",
-    "RequestToSpeak": "Redeanfrage senden",
-    "SendMessages": "Nachrichten versenden",
-    "SendMessagesInThreads": "Nachrichten in Threads versenden",
-    "SendTTSMessages": "Text-zu-Sprache-Nachricht senden",
-    "SendVoiceMessages": "Sprachnachrichten versenden",
-    "Speak": "Sprechen",
-    "Stream": "Bildschirmübertragung nutzen",
-    "UseApplicationCommands": "Applikationsbefehle nutzen",
-    "UseEmbeddedActivities": "Eingebettete Aktivitäten nutzen",
-    "UseExternalEmojis": "Externe Emojis verwenden",
-    "UseExternalSounds": "Externe Sounds verwenden",
-    "UseExternalStickers": "Externe Sticker verwenden",
-    "UseSoundboard": "Soundboard nutzen",
-    "UseVAD": "Voice-activity-detection nutzen",
-    "ViewAuditLog": "Auditlog einsehen",
-    "ViewChannel": "Kanal einsehen",
-    "ViewCreatorMonetizationAnalytics": "Rollenabonnements einblicken",
-    "ViewGuildInsights": "Server-Einblicke anzeigen"
+    "AddReactions": "Aggiungi reazioni",
+    "Administrator": "Amministratore",
+    "AttachFiles": "Allega file",
+    "BanMembers": "Bandisci membri",
+    "ChangeNickname": "Cambia nickname",
+    "Connect": "Connetti",
+    "CreateInstantInvite": "Crea invito istantaneo",
+    "CreatePrivateThreads": "Crea thread privati",
+    "CreatePublicThreads": "Crea thread pubblici",
+    "DeafenMembers": "Silenzia membri",
+    "EmbedLinks": "Incorpora collegamenti",
+    "KickMembers": "Espelli membri",
+    "ManageChannels": "Gestisci canali",
+    "ManageEmojisAndStickers": "Gestisci emoji e sticker",
+    "ManageEvents": "Gestisci eventi",
+    "ManageGuild": "Gestisci server",
+    "ManageGuildExpressions": "Gestisci espressioni del server",
+    "ManageMessages": "Gestisci messaggi",
+    "ManageNicknames": "Gestisci nickname",
+    "ManageRoles": "Gestisci ruoli",
+    "ManageThreads": "Gestisci thread",
+    "ManageWebhooks": "Gestisci webhook",
+    "MentionEveryone": "Menziona @everyone, @here e tutti i ruoli",
+    "ModerateMembers": "Modera membri",
+    "MoveMembers": "Sposta membri",
+    "MuteMembers": "Silenzia membri",
+    "PrioritySpeaker": "Priority Speaker",
+    "ReadMessageHistory": "Leggi cronologia messaggi",
+    "RequestToSpeak": "Richiedi di parlare",
+    "SendMessages": "Invia messaggi",
+    "SendMessagesInThreads": "Invia messaggi nei thread",
+    "SendTTSMessages": "Invia messaggi TTS",
+    "SendVoiceMessages": "Invia messaggi vocali",
+    "Speak": "Parla",
+    "Stream": "Utilizza trasmissione schermo",
+    "UseApplicationCommands": "Usa comandi dell'applicazione",
+    "UseEmbeddedActivities": "Usa attività incorporate",
+    "UseExternalEmojis": "Usa emoji esterni",
+    "UseExternalSounds": "Usa suoni esterni",
+    "UseExternalStickers": "Usa sticker esterni",
+    "UseSoundboard": "Usa soundboard",
+    "UseVAD": "Usa VAD (rilevamento attività vocale)",
+    "ViewAuditLog": "Visualizza registro audit",
+    "ViewChannel": "Visualizza canale",
+    "ViewCreatorMonetizationAnalytics": "Visualizza analisi monetizzazione del creatore",
+    "ViewGuildInsights": "Visualizza insight del server"
   },
   "selectors": {
     "embeds": {
-      "embed-message-not-found": "{x} Ich kann die Embed-Nachricht nicht mehr finden.",
-      "embed-not-existing": "{x} Die Embed-Nachricht gibt es nicht mehr",
-      "embed-not-found": "{x} Ich finde das Embed nicht mehr.",
-      "embed-deleted": "{x} Das Embed wurde gelöscht.",
-      "url-invalid": "{x} Die Angabe muss eine valide URL sein.",
+      "embed-message-not-found": "{x} Non riesco più a trovare il messaggio incorporato.",
+      "embed-not-existing": "{x} Il messaggio incorporato non esiste più.",
+      "embed-not-found": "{x} Non riesco più a trovare l'embed.",
+      "embed-deleted": "{x} L'embed è stato eliminato.",
+      "url-invalid": "{x} La specifica deve essere un URL valido.",
       "author": {
         "name": {
           "modal": {
-            "title": "Ändere den Autor Namen",
-            "label": "Autor Name"
+            "title": "Modifica il nome dell'autore",
+            "label": "Nome autore"
           }
         },
         "icon": {
           "modal": {
-            "title": "Ändere das Autor Icon",
-            "label": "Autor Icon",
-            "placeholder": "Ein cooles Icon."
+            "title": "Modifica l'icona dell'autore",
+            "label": "Icona autore",
+            "placeholder": "Un'icona fantastica."
           }
         },
         "url": {
           "modal": {
-            "title": "Ändere die Autor URL",
+            "title": "Modifica l'URL dell'autore",
             "label": "URL",
             "placeholder": "https://discord.gg/BQumAujuvk"
           }
@@ -2021,122 +2016,122 @@
       "footer": {
         "text": {
           "modal": {
-            "title": "Ändere den Fusszeilen Text",
-            "label": "Fusszeilen Text",
-            "placeholder": "Dat Bot ist ein toller Bot."
+            "title": "Modifica il testo del piè di pagina",
+            "label": "Testo del piè di pagina",
+            "placeholder": "Dat Bot è un ottimo bot."
           }
         },
         "icon": {
           "modal": {
-            "title": "Ändere das Fusszeilen Icon",
-            "label": "Fusszeilen Icon",
-            "placeholder": "Ein cooles Icon."
+            "title": "Modifica l'icona del piè di pagina",
+            "label": "Icona del piè di pagina",
+            "placeholder": "Un'icona fantastica."
           }
         }
       },
       "title": {
         "title": {
           "modal": {
-            "title": "Ändere den Titel",
-            "label": "Titel",
-            "placeholder": "Ein sehr toller Titel."
+            "title": "Modifica il titolo",
+            "label": "Titolo",
+            "placeholder": "Un titolo fantastico."
           }
         },
         "url": {
           "modal": {
-            "title": "Ändere die Titel URL",
+            "title": "Modifica l'URL del titolo",
             "label": "URL",
             "placeholder": "https://discord.gg/BQumAujuvk"
           }
         }
       },
       "delete-part": {
-        "requirements-missing": "{x} Das Embed muss eines der folgenden Dinge enthalten: Titel, Autor Name, Fusszeile - Text, Beschreibung, Image oder Thumbnail.",
-        "embed-size": "{x} Man kann nicht mehr als 25 Felder hinzufügen.",
+        "requirements-missing": "{x} L'embed deve contenere uno dei seguenti elementi: Titolo, Nome autore, Testo piè di pagina, Descrizione, Immagine o Miniatura.",
+        "embed-size": "{x} Non puoi aggiungere più di 25 campi.",
         "selector": {
-          "placeholder": "Wähle ein Feld zum Löschen aus."
+          "placeholder": "Seleziona un campo da eliminare."
         }
       },
       "select-embed": {
         "title": {
           "selector": {
-            "placeholder": "Editiere den Titel!",
+            "placeholder": "Modifica il titolo!",
             "options": {
-              "text": "Text",
+              "text": "Testo",
               "url": "URL"
             }
           }
         },
         "author": {
           "selector": {
-            "placeholder": "Editiere den Autor!",
+            "placeholder": "Modifica l'autore!",
             "options": {
-              "name": "Name",
+              "name": "Nome",
               "url": "URL",
-              "icon": "Icon URL"
+              "icon": "URL dell'icona"
             }
           }
         },
         "description": {
           "modal": {
-            "title": "Ändere die Beschreibung",
-            "label": "Beschreibung",
-            "placeholder": "Eine sehr tolle Beschreibung."
+            "title": "Modifica la descrizione",
+            "label": "Descrizione",
+            "placeholder": "Una descrizione fantastica."
           }
         },
         "timestamp": {
           "modal": {
-            "title": "Ändere den Zeitstempel",
-            "label": "Zeitstempel",
-            "placeholder": "YYYY-MM-DD HH:MM"
+            "title": "Modifica il timestamp",
+            "label": "Timestamp",
+            "placeholder": "AAAA-MM-GG Ora:Minuti"
           }
         },
         "thumbnail": {
           "modal": {
-            "title": "Ändere das Thumbnail",
-            "label": "Thumbnail",
-            "placeholder": "Ein tolles Thumbnail."
+            "title": "Modifica la miniatura",
+            "label": "Miniatura",
+            "placeholder": "Una miniatura fantastica."
           }
         },
         "image": {
           "modal": {
-            "title": "Ändere das Image",
-            "label": "Image",
-            "placeholder": "Ein tolles Image."
+            "title": "Modifica l'immagine",
+            "label": "Immagine",
+            "placeholder": "Un'immagine fantastica."
           }
         },
         "footer": {
           "selector": {
-            "placeholder": "Editiere die Fusszeile!",
+            "placeholder": "Modifica il piè di pagina!",
             "options": {
-              "name": "Name",
-              "icon": "Icon URL"
+              "name": "Nome",
+              "icon": "URL dell'icona"
             }
           }
         },
         "color": {
           "modal": {
-            "title": "Ändere die Farbe",
-            "label": "Farbe",
+            "title": "Modifica il colore",
+            "label": "Colore",
             "placeholder": "#2ef024"
           }
         },
         "field": {
-          "embed-size": "{x} Man kann nicht mehr als 25 Felder hinzufügen.",
+          "embed-size": "{x} Non è possibile aggiungere più di 25 campi.",
           "modal": {
-            "title": "Füge ein Feld hinzu!",
+            "title": "Aggiungi un campo!",
             "inputs": {
               "information": {
-                "label": "Name",
-                "placeholder": "Informationen"
+                "label": "Nome",
+                "placeholder": "Informazioni"
               },
               "value": {
-                "label": "Value",
-                "placeholder": "Informationen sind sehr toll!"
+                "label": "Valore",
+                "placeholder": "Le informazioni sono molto belle!"
               },
               "inline": {
                 "label": "Inline",
-                "placeholder": "true/talse"
+                "placeholder": "vero/falso"
               }
             }
           }
@@ -2147,53 +2142,53 @@
     "logs": {
       "leave": {
         "channel": {
-          "success": "{y} Verlassensnachrichten werden nun in {channel} gesendet."
+          "success": "{y} Messaggi di abbandono ora inviati in {channel}."
         },
         "mention-setrole": {
-          "success": "{y} Die Rollenerwähnung wurde zu {role} gesetzt."
+          "success": "{y} La menzione del ruolo è stata impostata su {role}."
         },
         "mention": {
           "user": {
-            "success": "{y} Die Erwähnung wurde gesetzt zu: **Nutzer**."
+            "success": "{y} La menzione è stata impostata su: **Utente**."
           },
           "role": {
             "selector": {
-              "placeholder": "Setze die Rolle"
+              "placeholder": "Imposta il ruolo"
             },
-            "success": "{i} Bitte wähle eine Rolle aus."
+            "success": "{i} Si prega di selezionare un ruolo."
           },
           "none": {
-            "success": "{y} Die Verlassenserwähnung wurde entfernt."
+            "success": "{y} La menzione di uscita è stata rimossa."
           }
         }
       },
       "logs": {
         "channel": {
-          "success": "{y} Der Logging Kanal wurde zu {channel} gesetzt."
+          "success": "{y} Il canale di registrazione è stato impostato su {channel}."
         },
         "channel_setup": {
-          "success": "{y} Der Logging Kanal wurde zu {channel} gesetzt."
+          "success": "{y} Il canale di registrazione è stato impostato su {channel}."
         }
       },
       "welcome": {
         "channel": {
-          "success": "{y} Der Kanal für Willkommensnachrichten wurde in {channel} gesetzt."
+          "success": "{y} Il canale per i messaggi di benvenuto è stato impostato su {channel}."
         },
         "mention-setrole": {
-          "success": "{y} Die Rollenerwähnung wurde zu {role} gesetzt."
+          "success": "{y} La menzione del ruolo è stata impostata su {role}."
         },
         "mention": {
           "user": {
-            "success": "{y} Die Erwähnung wurde gesetzt zu: **Nutzer**."
+            "success": "{y} La menzione è stata impostata su: **Utente**."
           },
           "role": {
             "selector": {
-              "placeholder": "Setze die Rolle"
+              "placeholder": "Imposta il ruolo"
             },
-            "success": "{i} Bitte wähle eine Rolle aus."
+            "success": "{i} Si prega di selezionare un ruolo."
           },
           "none": {
-            "success": "{y} Die Willkommenserwähnung wurde entfernt."
+            "success": "{y} La menzione di benvenuto è stata rimossa."
           }
         }
       }

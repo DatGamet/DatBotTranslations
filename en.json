@@ -674,8 +674,8 @@
                         "uuid": "UUID",
                         "tags": "Tags",
                         "role": "Role",
-                        "abilites": "Abilities ({total} insgesamt)",
-                        "description-embed": "- Name・{name}\n- Description・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Role・{role}\n- Abilities ({total} insgesamt)・{abilities}"
+                        "abilites": "Abilities ({total} in total)",
+                        "description-embed": "- Name・{name}\n- Description・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Role・{role}\n- Abilities ({total} in total)・{abilities}"
                     }
                 },
                 "map": {
@@ -686,11 +686,11 @@
                         "name": "Name",
                         "coordinates": "Coordinates",
                         "callouts": "Callouts",
-                        "description": "- Name・{name}\n- Coordinates・{coordinates}\n- Callouts・{length}\n{callouts}"
+                        "description": "- Name・{name}\n- Coordinates・{coordinates}"
                     }
                 },
                 "maps": {
-                    "description": "- Coordinates・{coordinates}\n- UUID・{uuid}\n- Callouts・{callouts}",
+                    "description": "- Coordinates・{coordinates}",
                     "andmore": "und {length} mehr",
                     "mapsnotshown": "{length} maps could not be displayed."
                 },
@@ -1301,7 +1301,7 @@
                 "staff": {
                     "embed": {
                         "title": "Dat Bot - Team",
-                        "description": "- Developer\n - <@754246997266923571> (D_Gamet)\n- Staff\n - <@872558311931797545> (Insulaner02)\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
+                        "description": "- Developer\n - <@754246997266923571> (D_Gamet)\n- Staff\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
                     }
                 },
                 "support": {
@@ -2731,5 +2731,6 @@
             "success-1": "{y} The system has been **activated**.",
             "success-2": "{y} The system has been **deactivated**."
         }
-    }
+    },
+    "economy": {}
 }

@@ -686,11 +686,11 @@
                         "name": "Name",
                         "coordinates": "Koordinaten",
                         "callouts": "Callouts",
-                        "description": "- Name・{name}\n- Koordinaten・{coordinates}\n- Callouts・{length}\n{callouts}"
+                        "description": "- Name・{name}\n- Koordinaten・{coordinates}"
                     }
                 },
                 "maps": {
-                    "description": "- Koordinaten・{coordinates}\n- UUID・{uuid}\n- Callouts・{callouts}",
+                    "description": "- Koordinaten・{coordinates}",
                     "andmore": "und {length} mehr",
                     "mapsnotshown": "{length} Karten konnten nicht angezeigt werden."
                 },
@@ -1301,7 +1301,7 @@
                 "staff": {
                     "embed": {
                         "title": "Dat Bot - Team",
-                        "description": "- Entwickler\n - <@754246997266923571> (D_Gamet)\n- Staff\n - <@872558311931797545> (Insulaner02)\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
+                        "description": "- Entwickler\n - <@754246997266923571> (D_Gamet)\n- Staff\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
                     }
                 },
                 "support": {

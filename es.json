@@ -686,11 +686,11 @@
                         "name": "Nombre",
                         "coordinates": "Coordenadas",
                         "callouts": "Llamados",
-                        "description": "- Nombre・{name}\n- Coordenadas・{coordinates}\n- Llamados・{length}\n{callouts}"
+                        "description": "- Coordenadas・{coordinates}"
                     }
                 },
                 "maps": {
-                    "description": "- Coordenadas・{coordinates}\n- UUID・{uuid}\n- Llamados・{callouts}",
+                    "description": "- Coordenadas・{coordinates}",
                     "andmore": "y {length} más",
                     "mapsnotshown": "{length} mapas no se pudieron mostrar."
                 },
@@ -1301,7 +1301,7 @@
                 "staff": {
                     "embed": {
                         "title": "Equipo de Dat Bot",
-                        "description": "- Desarrolladores\n - <@754246997266923571> (D_Gamet)\n- Personal\n - <@872558311931797545> (Insulaner02)\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
+                        "description": "- Desarrolladores\n - <@754246997266923571> (D_Gamet)\n- Personal\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
                     }
                 },
                 "support": {

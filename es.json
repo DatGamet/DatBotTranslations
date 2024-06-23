@@ -31,7 +31,7 @@
     "buttons": {
         "autoroles": {
             "autorole-home-button": {
-                "label": "Zurück"
+                "label": "Volver"
             },
             "debug": {
                 "debug": "## Debugging\n- La depuración se ha estado ejecutando desde {runningSinceTimestamp}.",
@@ -69,8 +69,8 @@
                 "response-activate": "## Toggle\n- Active el sistema haciendo clic en \"Activar\"."
             },
             "toggle2": {
-                "toggle-true": "## Erfolg\n- Das System wurde erfolgreich **aktiviert.**",
-                "toggle-false": "## Erfolg\n- Das System wurde erfolgreich **deaktiviert.**"
+                "toggle-true": "## Éxito\n- El sistema se ha **activado** con éxito.",
+                "toggle-false": "## Éxito\n- El sistema ha sido **desactivado** con éxito."
             }
         },
         "logs": {
@@ -361,7 +361,7 @@
                 "vote": {
                     "embed": {
                         "title": "Enlace de Votación",
-                        "description": ""
+                        "description": "Puedes votar en [Top.gg](https://top.gg/bot/965903240384376872/vote). Con cada voto obtienes {plusVoteTokens} más saltos.\nTienes {votes} a través de votos."
                     },
                     "votebutton": {
                         "label": "¡Vota aquí!"
@@ -686,11 +686,11 @@
                         "name": "Nombre",
                         "coordinates": "Coordenadas",
                         "callouts": "Llamados",
-                        "description": "- Nombre・{name}\n- Coordenadas・{coordinates}\n- Llamados・{length}\n{callouts}"
+                        "description": "- Coordenadas・{coordinates}"
                     }
                 },
                 "maps": {
-                    "description": "- Coordenadas・{coordinates}\n- UUID・{uuid}\n- Llamados・{callouts}",
+                    "description": "- Coordenadas・{coordinates}",
                     "andmore": "y {length} más",
                     "mapsnotshown": "{length} mapas no se pudieron mostrar."
                 },
@@ -1301,7 +1301,7 @@
                 "staff": {
                     "embed": {
                         "title": "Equipo de Dat Bot",
-                        "description": "- Desarrolladores\n - <@754246997266923571> (D_Gamet)\n- Personal\n - <@872558311931797545> (Insulaner02)\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
+                        "description": "- Desarrolladores\n - <@754246997266923571> (D_Gamet)\n- Personal\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
                     }
                 },
                 "support": {
@@ -1843,6 +1843,7 @@
         "general": {
             "currently-not-available": "{x} Actualmente no disponible.",
             "notspecific": "{x} Ha ocurrido un error.",
+            "option-not-valid": "{x} La opción especificada no es válida. Por favor, elija una que se le sugiera.",
             "notyourmenu": "{x} Este no es tu menú.",
             "translation-error": "{i} He detectado automáticamente que una traducción no se ha cargado correctamente. Ya he informado automáticamente a mi desarrollador.",
             "menutimeover": "{x} El menú ha caducado. Por favor, abre un nuevo menú.",

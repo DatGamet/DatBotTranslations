@@ -468,8 +468,8 @@
         },
         "games": {
             "account": {
-                "already-linked": "{x} You have already linked your account. To remove them, use </account logout clashofclans:{accountCommandId}>.",
-                "not-linked": "{x} You have not linked your account. Use </account login clashofclans:{accountCommandId}> to link your account.",
+                "already-linked": "{x} You have already linked your account. To remove them, use </unlink clashofclans:{accountCommandId}>.",
+                "not-linked": "{x} You have not linked your account. Use </link clashofclans:{accountCommandId}> to link your account.",
                 "link-remove-success": "{y} The account details have been removed",
                 "clashofclans": {
                     "api": {
@@ -601,7 +601,7 @@
                         }
                     },
                     "account": {
-                        "notsaved": "{x} Your account is not yet saved. To do this, use </account login clashofclans:{accountCommandId}>.",
+                        "notsaved": "{x} Your account is not yet saved. To do this, use </link clashofclans:{accountCommandId}>.",
                         "notfound": "{x} The saved account was not found."
                     }
                 }
@@ -1234,7 +1234,7 @@
                 "info": {
                     "embed": {
                         "title": "Information",
-                        "description": "<:discord_member:1029008701027266611>・{usercount} Users\n<:discord_servers:1029009256592195594>・{servercount} Servers\n<:datbot_shard:1061322798049542145>・Shard for {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Developer: D_Gamet (`754246997266923571`)",
+                        "description": "<:discord_member:1029008701027266611>・{usercount} Users\n<:discord_servers:1029009256592195594>・{servercount} Servers\n<:datbot_shard:1061322798049542145>・Shard for {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Developer: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
                         "fields": {
                             "most-used-commands": {
                                 "name": "<:datbot_slash_command:1104329595110576159> Popular commands",
@@ -1256,7 +1256,7 @@
                 "links": {
                     "embed": {
                         "title": "Important links",
-                        "description": "- <:verified_bot:1030502994497777684>・[Invite](https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=bot%20applications.commands)\n- <a:level:993599873771380776>・[Support Server](https://discord.gg/BQumAujuvk)\n- <:discord_online:1029009583127134228>・[Status](https://status.datbot.xyz/)\n- 📚・[Documentation](https://docs.datbot.xyz/)\n- <:topgg:1030585172753657956>・[Top.gg](https://top.gg/bot/965903240384376872)"
+                        "description": "- <:verified_bot:1030502994497777684>・[Invite](https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=bot%20applications.commands)\n- <a:level:993599873771380776>・[Support Server](https://discord.gg/BQumAujuvk)\n- <:discord_online:1029009583127134228>・[Status](https://status.datbot.xyz/)\n- 📚・[Documentation](https://en.docs.datbot.xyz/)\n- <:topgg:1030585172753657956>・[Top.gg](https://top.gg/bot/965903240384376872)"
                     },
                     "buttons": {
                         "docs-button": {
@@ -1301,7 +1301,7 @@
                 "staff": {
                     "embed": {
                         "title": "Dat Bot - Team",
-                        "description": "- Developer\n - <@754246997266923571> (D_Gamet)\n- Staff\n - <@880821630283173899> (Kiri)\n - <@801860642402467850> (Luamix)"
+                        "description": "### **Developer**\n {devs}\n### **Staff**\n {staffs}"
                     }
                 },
                 "support": {
@@ -1701,6 +1701,31 @@
                     }
                 }
             }
+        },
+        "automod": {
+            "server_not_community": "{x} This server is not a community server.",
+            "server_not_community_button": "How to activate the Discord Community",
+            "server_not_community_support_article": "https://support.discord.com/hc/de/articles/360047132851-Richte-deinen-Community-Server-ein",
+            "filter_word_added": "{y} The word was successfully added to the filter.",
+            "filter_limit_reached": "{x} The limit of `1000` nicknames has been reached.",
+            "filter_word_added_togglenotice": "{y} The word was successfully added to the filter.\n> {i} The automod rule is deactivated. Activate it with </automod nicknames toggle:{commandId}>!",
+            "filter_already_existing": "{x} The specified name already exists in the filter.",
+            "filter_not_existing": "{x} The specified name does not exist in the filter.",
+            "filter_word_removed": "{y} The word was successfully removed from the filter.",
+            "filter_reset": "{y} The filter was successfully reset.",
+            "filter_empty": "{x} There are no names in the filter.",
+            "list_embed_description": "# Automod - Nicknames\n\n## Completely disallowed\n- {1}\n## Exact name\n- {2}\n## Must not start with ...\n- {3}\n## Must not end with ...\n- {4}",
+            "toggle_deactivated": "{y} The automod rule has been deactivated.",
+            "toggle_activated": "{y} The automod rule has been activated.",
+            "allowlist_already": "{x} The role is already in the Allowlist.",
+            "allowlist_added": "{y} The role has been successfully added to the Allowlist.",
+            "allowlist_embed_description": "# Automod - Allowlist\n- {1}",
+            "allowlist_not": "{x} The role is not in the Allowlist.",
+            "allowlist_removed": "{y} The role was successfully removed from the Allowlist.",
+            "logchannel_already": "{x} The log channel is already <#{channel}>.",
+            "logchannel_set": "{y} The log channel has been set.",
+            "logchannel_notset": "{x} The log channel is not set.",
+            "logchannel_reset": "{y} The log channel was successfully reset."
         }
     },
     "config": {
@@ -2291,7 +2316,7 @@
             "descriptions": {
                 "defaultInMenu": "## Select something\n- Select one of the buttons below to get information about this game\n - Players & Queues: Information about the individual players and who has queued with whom.\n - Result & Teams: Information about the respective teams and the final result.\n\n- Note: Anyone can view the information about the game as long as that person can read this message.",
                 "valo_players": "## {mode}・{region}\n- Players - Blue\n - {playersBlue}\n\n- Players - Red\n - {playersRed}\n\n- Queues\n - {queues}\n\n- AFK\n - {afk}",
-                "valo_match": "## Game\n- Started: <t:{started}:R>・<t:{started}:F>\n- Mode: {mode}\n- Map: {map}\n- Number of rounds: {rounds_played}\n - Won by {team1}: {team1wins}/{rounds_played}\n - Won by {team2}: {team2wins}/{rounds_played}\n- Winner: {winner} ({yourteam})\n- Types of round endings\n - Elimination: {elim}/{rounds_played}\n - Round timer expired: {roundtimer}/{rounds_played}\n - Defuse: {defuse}/{rounds_played}\n - Explosion: {detonation}/{rounds_played}\n- Player types\n - Team Red: {redPlayers}\n - Team Blue: {bluePlayers}\n - Coaches: {coaches}\n - Spectators: {spectators}",
+                "valo_match": "## Game\n- Started: <t:{started}:R>・<t:{started}:F>\n- Ended: <t:{ended}:R>・<t:{ended}:F>\n- Mode: {mode}\n- Map: {map}\n- Number of rounds: {rounds_played}\n - Won by {team1}: {team1wins}/{rounds_played}\n - Won by {team2}: {team2wins}/{rounds_played}\n- Winner: {winner} ({yourteam})\n- Types of round endings\n - Elimination: {elim}/{rounds_played}\n - Round timer expired: {roundtimer}/{rounds_played}\n - Defuse: {defuse}/{rounds_played}\n - Explosion: {detonation}/{rounds_played}\n- Player types\n - Team Red: {redPlayers}\n - Team Blue: {bluePlayers}\n - Coaches: {coaches}\n - Spectators: {spectators}",
                 "your-team": "Your team",
                 "not-your-team": "Not your team",
                 "valo_matchinfo": "## Result & Round\n- Round number: {roundNum}\n- Intermediate result (blue:red): {blueWon}:{redWon}\n- Round end: {roundResultCode}\n- Winner: {winnerTeam}\n- Spike Plant\n - Performing player: {planter}\n - Timestamp: After {plantTimestamp} seconds\n - Plantsite: {plantSide}\n- Spike Defuse\n - Executing player: {defuser}\n - Time: After {defuseTimestamp} seconds\n## Kill Log\n - {killLog}",
@@ -2332,7 +2357,7 @@
         "is-owner": "{x} This user is the owner of this server.",
         "is-admin": "{x} This user is an administrator of this server.",
         "infinity": "infinite",
-        "blocked": "{x} You have been blocked from the TempVoice system and can no longer use it.\n- This was done by a member of the server and is **not** global.\n- You can find more information [here](https://docs.datbot.xyz/features/our-features/tempvoice).",
+        "blocked": "{x} You have been blocked from the TempVoice system and can no longer use it.\n- This was done by a member of the server and is **not** global.\n- You can find more information [here](https://en.docs.datbot.xyz/features/our-features/tempvoice).",
         "logs": {
             "info": "## The logs for this channel will be sent here from now on.",
             "lock": "{i}・{user} has **locked** the channel.",

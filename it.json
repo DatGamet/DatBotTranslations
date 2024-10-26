@@ -1705,7 +1705,7 @@
         "automod": {
             "server_not_community": "{x} This server is not a community server.",
             "server_not_community_button": "How to activate the Discord Community",
-            "server_not_community_support_article": "https://support.discord.com/hc/de/articles/360047132851-Richte-deinen-Community-Server-ein",
+            "server_not_community_support_article": "https://support.discord.com/hc/en-us/articles/360047132851-Enabling-Your-Community-Server",
             "filter_word_added": "{y} The word was successfully added to the filter.",
             "filter_limit_reached": "{x} The limit of `1000` nicknames has been reached.",
             "filter_word_added_togglenotice": "{y} The word was successfully added to the filter.\n> {i} The automod rule is deactivated. Activate it with </automod nicknames toggle:{commandId}>!",

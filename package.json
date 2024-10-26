@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "@types/node": "^20.14.11"
-  },
-  "dependencies": {
-    "chalk": "^4.1.2"
-  }
-}

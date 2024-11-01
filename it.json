@@ -1270,7 +1270,7 @@
                 "ping": {
                     "embed": {
                         "shard": "Shard",
-                        "description": "🏓 Pong! Attualmente il mio ping è di {ping} millisecondi.\n- RAM (utilizzata/totale): {ramone}/{ramtwo}\n\n- Shard:\n{shardinfo}"
+                        "description": "🏓 Pong! Attualmente il mio ping è di {ping} millisecondi.\n\n- Shard:\n{shardinfo}"
                     }
                 },
                 "setup": {

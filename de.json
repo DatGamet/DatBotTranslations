@@ -743,7 +743,7 @@
                     "fun": "Spaß",
                     "random": "Zufällig",
                     "uncategorised": "Unkategorisierte Befehle",
-                    "end": "Menü beenden"
+                    "end": "Menu beenden"
                 },
                 "components": {
                     "privacy-policy": {
@@ -2315,18 +2315,25 @@
             },
             "descriptions": {
                 "defaultInMenu": "## Wähle etwas aus\n- Wähle einen der unteren Buttons, um Informationen über dieses Spiel zu erhalten\n - Spieler & Queues: Informationen über die einzelnen Spieler und wer mit wem gequeuet hat.\n - Ergebnis & Teams: Informationen zu den jeweiligen Teams und das Endergebnis.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
-                "valo_players": "## {mode}・{region}\n- Spieler - Blau\n - {playersBlue}\n\n- Spieler - Rot\n - {playersRed}\n\n- Queues\n - {queues}\n\n- AFK\n - {afk}",
-                "valo_match": "## Spiel\n- Gestartet: <t:{started}:R>・<t:{started}:F>\n- Geendet: <t:{ended}:R>・<t:{ended}:F>\n- Modus: {mode}\n- Karte: {map}\n- Rundenanzahl: {rounds_played}\n - Von {team1} gewonnen: {team1wins}/{rounds_played}\n - Von {team2} gewonnen: {team2wins}/{rounds_played}\n- Gewinner: {winner} ({yourteam})\n- Arten an Rundenenden\n - Eliminierung: {elim}/{rounds_played}\n - Rundentimer abgelaufen: {roundtimer}/{rounds_played}\n - Defuse: {defuse}/{rounds_played}\n - Explosion: {detonation}/{rounds_played}\n- Spielerarten\n - Team Rot: {redPlayers}\n - Team Blau: {bluePlayers}\n - Coaches: {coaches}\n - Zuschauer: {spectators}",
+                "valo_players": "## {mode}・{region}\n## Spieler - Blau\n{playersBlue}\n## Spieler - Rot\n{playersRed}\n##Queues\n{queues}",
+                "valo_match": "## Game\n- Startzeitpunkt: <t:{started}:R>・<t:{started}:F>\n- Endzeitpunkt: <t:{ended}:R>・<t:{ended}:F>\n- Modus: {mode}\n- Karte: {map}\n## Ergebnis\n- Gewonnen von {team1}: {team1wins}/{rounds_played}\n- Gewonnen von{team2}: {team2wins}/{rounds_played}\n- Sieger: {winner} ({yourteam})\n## Rundenenden\n{endings}\n## Timeline\n{timeline}",
                 "your-team": "Dein Team",
+                "roundending_elimination": "Elimination: {elim}/{rounds_played}",
+                "roundending_defuse": "Entschärft: {defuse}/{rounds_played}",
+                "roundending_timer": "Zeit ausgelaufen: {roundtimer}/{rounds_played}",
+                "roundending_detonate": "Explosion: {detonation}/{rounds_played}",
                 "not-your-team": "Nicht dein Team",
-                "valo_matchinfo": "## Ergebnis & Runde\n- Rundennummer: {roundNum}\n- Zwischenergebnis (Blau:Rot): {blueWon}:{redWon}\n- Rundenende: {roundResultCode}\n- Gewinner: {winnerTeam}\n- Spike Plant\n - Ausführender Spieler: {planter}\n - Zeitpunkt: Nach {plantTimestamp} Sekunden\n - Plantsite: {plantSide}\n- Spike Defuse\n - Ausführender Spieler: {defuser}\n - Zeitpunkt: Nach {defuseTimestamp} Sekunden\n## Kill Log\n - {killLog}",
-                "killlog": "{killer} hat {player} getötet ({type}).",
-                "not-defused": "Nicht entschärft",
-                "not-planted": "Nicht platziert",
-                "valo_matchinfoplayers": "## Informationen zu {player} in Runde {roundNumber}\n- Agent: {agent}\n- Score: {score}\n- Kills: {kills}\n- Damage verteilt: {damage}\n- Economy\n - Insgesamt: {economyTotal}\n - Ausgegeben: {economySpent}\n - Schild: {armor}\n- Waffe: {weapon}",
+                "valo_matchinfo": "## Ergebnis in Runde {roundNum}\n- Vorheriges Ergebnis (blau:rot): {blueWon}:{redWon}\n- Rundenende: {roundResultCode}\n- Sieger: {winnerTeam}{plant}{defuse}\n## Spiellog\n{gameLog}",
+                "plantinfo": "## Spike Plant\n- Platziert vonn: {planter}\n- Zeitpunkt: {plantTimestamp}\n- Seite: {plantSide}",
+                "defuseinfo": "## Spike Defuse\n- Entschärft von: {defuser}\n- Zeitpunkt: {defuseTimestamp}",
+                "gamelog_kill": "{killer} eliminiert {player} ({type}).",
+                "gamelog_plant": "{planter} platzierte den Spike auf {site}.",
+                "gamelog_defuse": "{defuser} hat den Spike entschärft.",
+                "valo_matchinfoplayers": "## Information über {player} ({agent}) in Runde {roundNumber}\n- Score: {score}\n- Kills: {kills}\n- Schaden hinzugefügt: {damage}\n## Economy\n- Total: {economyTotal}\n- Ausgegeben: {economySpent}\n- Schild: {armor}\n- Waffe: {weapon}",
                 "shield": {
-                    "big": "Großer Schild",
-                    "light": "Leichter Schild"
+                    "big": "Schweres Schild",
+                    "light": "Leichtes Schild",
+                    "regen": "Regen Shield"
                 },
                 "damageinfo": "{damageAmount} Schaden, {head} Headshots, {body} Bodyshots, {leg} Legshots"
             },

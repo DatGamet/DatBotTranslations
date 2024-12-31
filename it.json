@@ -2315,13 +2315,13 @@
             },
             "descriptions": {
                 "defaultInMenu": "## Seleziona qualcosa\n- Seleziona uno dei pulsanti sottostanti per ottenere informazioni su questa partita\n - Giocatori e Code: Informazioni sui singoli giocatori e su chi ha giocato con chi.\n - Risultato e Squadre: Informazioni sulle squadre coinvolte e il risultato finale.\n\n- Nota: Chiunque può visualizzare le informazioni sulla partita fintanto che può leggere questo messaggio.",
-                "valo_players": "## {mode}・{region}\n## Giocatori - Blu\n{playersBlue}\n## Giocatori - Rosso\n{playersRed}\n\n- Code\n - {queues}",
+                "valo_players": "## {mode}・{region}\n## Giocatori - Blu\n{playersBlue}\n## Giocatori - Rosso\n{playersRed}\n## Queues\n{queues}",
                 "valo_match": "## Game\n- Ora di inizio: <t:{started}:R>・<t:{started}:F>\n- Ora di fine: <t:{ended}:R>・<t:{ended}:F>\n- Modalità: {mode}\n- Mappa: {map}\n## Risultato\n- Vinto da {team1}: {team1wins}/{rounds_played}}n- Vinto da{team2}: {team2wins}/{rounds_played}}n- Vincitore: {winner} ({yourteam})\n## Fine dei round {n{endings}\n# Timeline{timeline}",
                 "tua-squadra": "La tua squadra",
-                "roundending_elimination": "Eliminazione: {elim}/{rounds_played}",
-                "roundending_defuse": "Disinnescato: {defuse}/{rounds_played}",
-                "roundending_timer": "Tempo scaduto: {roundtimer}/{rounds_played}",
-                "roundending_detonate": "Esplosione: {detonazione}/{rounds_played}",
+                "roundending_elimination": "Eliminazione: {1}/{rounds_played}",
+                "roundending_defuse": "Disinnescato: {1}/{rounds_played}",
+                "roundending_timer": "Tempo scaduto: {1}/{rounds_played}",
+                "roundending_detonate": "Esplosione: {1}/{rounds_played}",
                 "not-your-team": "Non è la tua squadra",
                 "valo_matchinfo": "## Risultato nel round {roundNum}\n- Risultato precedente (blu:rosso): {blueWon}:{redWon}\n- Fine del turno: {roundResultCode}\n- Vincitore: {winnerTeam}{plant}{defuse}\n## GameLog\n{gameLog}",
                 "plantinfo": "## Spike Plant\n- Piazzato da: {planter}\n- Timestamp: {plantTimestamp}\n- Side: {plantSide}",
@@ -2329,13 +2329,16 @@
                 "gamelog_kill": "{killer} elimina {giocatore} ({tipo})",
                 "gamelog_plant": "{planter} ha piazzato lo spike su {sito}",
                 "gamelog_defuse": "{defuser} ha disinnescato lo spuntone",
-                "valo_matchinfoplayers": "## Informazioni su {giocatore} ({agente}) nel round {numero round}\n- Punteggio: {punteggio}\n- Uccisioni: {uccisioni}\n- Danno aggiunto: {danno}\n## Economia\n- Totale: {economiaTotale}\n- Spesa: {economySpent}}n- Scudo: {armor}}n- Arma: {weapon}",
+                "valo_matchinfoplayers": "## Informazioni su {giocatore} ({agente}) nel round {numero round}\n- Punteggio: {punteggio}\n## Uccisioni\n{uccisioni}\n## Danno aggiunto\n{danno}\n## Economia\n- Totale: {economiaTotale}\n- Spesa: {economySpent}\n- Scudo: {armor}\n- Arma: {weapon}",
                 "scudo": {
                     "grande": "Scudo pesante",
                     "light": "Scudo leggero",
                     "rain": "Scudo antipioggia"
                 },
-                "damageinfo": "{damageAmount} danni, {head} colpi in testa, {body} colpi al corpo, {leg} colpi alle gambe"
+                "damageinfo": "{damageAmount} danni: {dmg}",
+                "headshots": "{1} colpi in testa",
+                "bodyshots": "{1} colpi al corpo",
+                "legshots": "{1} colpi alle gambe"
             },
             "footerdata": "{played} round giocati - Vincitore: {winner}"
         }

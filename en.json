@@ -2315,13 +2315,13 @@
             },
             "descriptions": {
                 "defaultInMenu": "## Select something\n- Select one of the buttons below to get information about this game\n - Players & Queues: Information about the individual players and who has queued with whom.\n - Result & Teams: Information about the respective teams and the final result.\n\n- Note: Anyone can view the information about the game as long as that person can read this message.",
-                "valo_players": "## {mode}・{region}\n## Players - Blue\n{playersBlue}\n## Players - Red\n{playersRed}\n##Queues\n{queues}",
+                "valo_players": "## {mode}・{region}\n## Players - Blue\n{playersBlue}\n## Players - Red\n{playersRed}\n## Queues\n{queues}",
                 "valo_match": "## Game\n- Started: <t:{started}:R>・<t:{started}:F>\n- Ended: <t:{ended}:R>・<t:{ended}:F>\n- Mode: {mode}\n- Map: {map}\n## Result\n- Won by {team1}: {team1wins}/{rounds_played}\n- Won by {team2}: {team2wins}/{rounds_played}\n- Winner: {winner} ({yourteam})\n## Types of round endings\n{endings}\n## Timeline\n{timeline}",
                 "your-team": "Your team",
-                "roundending_elimination": "Elimination: {elim}/{rounds_played}",
-                "roundending_defuse": "Defuse: {defuse}/{rounds_played}",
-                "roundending_timer": "Round timer expired: {roundtimer}/{rounds_played}",
-                "roundending_detonate": "Detonation: {detonation}/{rounds_played}",
+                "roundending_elimination": "Elimination: {1}/{rounds_played}",
+                "roundending_defuse": "Defuse: {1}/{rounds_played}",
+                "roundending_timer": "Round timer expired: {1}/{rounds_played}",
+                "roundending_detonate": "Detonation: {1}/{rounds_played}",
                 "not-your-team": "Not your team",
                 "valo_matchinfo": "## Result in round {roundNum}\n- Intermediate result (blue:red): {blueWon}:{redWon}\n- Round end: {roundResultCode}\n- Winner: {winnerTeam}{plant}{defuse}\n## Game Log\n{gameLog}",
                 "plantinfo": "## Spike Plant\n- Performing player: {planter}\n- Time: {plantTimestamp}\n- Plantsite: {plantSide}",
@@ -2329,13 +2329,16 @@
                 "gamelog_kill": "{killer} has killed {player} ({type}).",
                 "gamelog_plant": "{planter} planted the Spike on {site}.",
                 "gamelog_defuse": "{defuser} defused the Spike.",
-                "valo_matchinfoplayers": "## Information about {player} ({agent}) in round {roundNumber}\n- Score: {score}\n- Kills: {kills}\n- Damage distributed: {damage}\n- Economy\n - Total: {economyTotal}\n - Spent: {economySpent}\n - Shield: {armor}\n- Weapon: {weapon}",
+                "valo_matchinfoplayers": "## Information about {player} ({agent}) in round {roundNumber}\n- Score: {score}\n## Kills\n{kills}\n## Damage distributed\n{damage}\n## Economy\n- Total: {economyTotal}\n- Spent: {economySpent}\n- Shield: {armor}\n- Weapon: {weapon}",
                 "shield": {
                     "big": "Heavy Armor",
                     "light": "Light Armor",
                     "regen": "Regen Shield"
                 },
-                "damageinfo": "{damageAmount} damage, {head} headshots, {body} bodyshots, {leg} legshots"
+                "damageinfo": "{damageAmount} damage: {dmg}",
+                "headshots": "{1} Headshot(s)",
+                "bodyshots": "{1} Bodyshot(s)",
+                "legshots": "{1} Legshot(s)"
             },
             "footerdata": "{played} rounds played - winner: {winner}"
         }

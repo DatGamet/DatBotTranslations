@@ -2315,13 +2315,13 @@
             },
             "descriptions": {
                 "defaultInMenu": "## Wähle etwas aus\n- Wähle einen der unteren Buttons, um Informationen über dieses Spiel zu erhalten\n - Spieler & Queues: Informationen über die einzelnen Spieler und wer mit wem gequeuet hat.\n - Ergebnis & Teams: Informationen zu den jeweiligen Teams und das Endergebnis.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
-                "valo_players": "## {mode}・{region}\n## Spieler - Blau\n{playersBlue}\n## Spieler - Rot\n{playersRed}\n##Queues\n{queues}",
+                "valo_players": "## {mode}・{region}\n## Spieler - Blau\n{playersBlue}\n## Spieler - Rot\n{playersRed}\n## Queues\n{queues}",
                 "valo_match": "## Game\n- Startzeitpunkt: <t:{started}:R>・<t:{started}:F>\n- Endzeitpunkt: <t:{ended}:R>・<t:{ended}:F>\n- Modus: {mode}\n- Karte: {map}\n## Ergebnis\n- Gewonnen von {team1}: {team1wins}/{rounds_played}\n- Gewonnen von{team2}: {team2wins}/{rounds_played}\n- Sieger: {winner} ({yourteam})\n## Rundenenden\n{endings}\n## Timeline\n{timeline}",
                 "your-team": "Dein Team",
-                "roundending_elimination": "Elimination: {elim}/{rounds_played}",
-                "roundending_defuse": "Entschärft: {defuse}/{rounds_played}",
-                "roundending_timer": "Zeit ausgelaufen: {roundtimer}/{rounds_played}",
-                "roundending_detonate": "Explosion: {detonation}/{rounds_played}",
+                "roundending_elimination": "Elimination: {1}/{rounds_played}",
+                "roundending_defuse": "Entschärft: {1}/{rounds_played}",
+                "roundending_timer": "Zeit ausgelaufen: {1}/{rounds_played}",
+                "roundending_detonate": "Explosion: {1}/{rounds_played}",
                 "not-your-team": "Nicht dein Team",
                 "valo_matchinfo": "## Ergebnis in Runde {roundNum}\n- Vorheriges Ergebnis (blau:rot): {blueWon}:{redWon}\n- Rundenende: {roundResultCode}\n- Sieger: {winnerTeam}{plant}{defuse}\n## Spiellog\n{gameLog}",
                 "plantinfo": "## Spike Plant\n- Platziert vonn: {planter}\n- Zeitpunkt: {plantTimestamp}\n- Seite: {plantSide}",
@@ -2329,13 +2329,16 @@
                 "gamelog_kill": "{killer} eliminiert {player} ({type}).",
                 "gamelog_plant": "{planter} platzierte den Spike auf {site}.",
                 "gamelog_defuse": "{defuser} hat den Spike entschärft.",
-                "valo_matchinfoplayers": "## Information über {player} ({agent}) in Runde {roundNumber}\n- Score: {score}\n- Kills: {kills}\n- Schaden hinzugefügt: {damage}\n## Economy\n- Total: {economyTotal}\n- Ausgegeben: {economySpent}\n- Schild: {armor}\n- Waffe: {weapon}",
+                "valo_matchinfoplayers": "## Information über {player} ({agent}) in Runde {roundNumber}\n- Score: {score}\n## Kills\n{kills}\n## Schaden hinzugefügt\n{damage}\n## Economy\n- Total: {economyTotal}\n- Ausgegeben: {economySpent}\n- Schild: {armor}\n- Waffe: {weapon}",
                 "shield": {
                     "big": "Schweres Schild",
                     "light": "Leichtes Schild",
                     "regen": "Regen Shield"
                 },
-                "damageinfo": "{damageAmount} Schaden, {head} Headshots, {body} Bodyshots, {leg} Legshots"
+                "damageinfo": "{damageAmount} Schaden: {dmg}",
+                "headshots": "{1} Headshot(s)",
+                "bodyshots": "{1} Bodyshot(s)",
+                "legshots": "{1} Legshot(s)"
             },
             "footerdata": "{played} Runden gespielt - Gewinner: {winner}"
         }

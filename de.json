@@ -674,7 +674,7 @@
                         "uuid": "UUID",
                         "tags": "Tags",
                         "role": "Rolle",
-                        "abilites": "Abilites ({total} insgesamt)",
+                        "abilites": "Fähigkeiten ({total} insgesamt)",
                         "description-embed": "- Name・{name}\n- Beschreibung・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Rolle・{role}\n- Abilites ({total} insgesamt)・{abilities}"
                     }
                 },

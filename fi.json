@@ -1,0 +1,2771 @@
+{
+    "autocomplete": {
+        "games": {
+            "fortnite": {
+                "shopitem": {
+                    "no-name": "Anna nimi.",
+                    "no-matching-items": "Tuloksia ei löytynyt.",
+                    "no-shopitem-found": "Kohdetta ei löytynyt hakusi perusteella."
+                }
+            },
+            "valorant": {
+                "map": {
+                    "no-map-found": "Karttaa ei löytynyt hakusi perusteella."
+                },
+                "agent": {
+                    "no-agent-found": "Agenttia ei löytynyt hakusi perusteella."
+                }
+            },
+            "clashofclans": {
+                "club": {
+                    "no-name": "Anna nimi.",
+                    "name-too-short": "Nimen pitää olla vähintään 3 merkkiä pitkä.",
+                    "nothing-found": "Klubia ei löytynyt hakusi perusteella.",
+                    "ratelimit": "Olen tällä hetkellä rajoitettu",
+                    "api-503": "API ei ole käytettävissä tällä hetkellä."
+                }
+            }
+        }
+    },
+    "beta": {},
+    "buttons": {
+        "autoroles": {
+            "autorole-home-button": {
+                "label": "Takaisin"
+            },
+            "debug": {
+                "debug": "## Vianmääritys\n- Vianmääritys on käynnissä, aloitettu {runningSinceTimestamp}.",
+                "system-deactivated": "- Järjestelmä on deaktivoitu.",
+                "role-deleted": "- Automaattinen rooli on poistettu ({roleId}). Tämä rooli poistettiin automaattisesti.",
+                "role-everyone": "- {role}: Tämä rooli on @everyone.",
+                "role-managed": "- {role}: Roolia hallinnoi ulkoinen palvelu.",
+                "role-position": "- {role}: En voi antaa tätä roolia (roolin sijainti liian korkealla).",
+                "no-autoroles": "- Automaattisia rooleja ei ole.",
+                "result": "Tulos",
+                "success": "- {role}: Virheitä ei löytynyt"
+            },
+            "home": {},
+            "list": {
+                "list": "## Lista\n- Seuraavat roolit ovat automaattisia rooleja:",
+                "list-no-autoroles": "## Lista\n- Tällä hetkellä ei ole automaattisia rooleja."
+            },
+            "reset": {
+                "are-you-sure-button": {
+                    "label": "Oletko sinä varma?"
+                },
+                "cancel-button": {
+                    "label": "Peruuta"
+                },
+                "continue-button": {
+                    "label": "Jatka"
+                },
+                "response": "## Kytkin\n- Haluatko todella nollata asetukset? Et voi peruuttaa tätä."
+            },
+            "reset2": {
+                "success": "## Onnistunut\n- Järjestelmä onnistuneesti palautettu."
+            },
+            "toggle": {
+                "response-deactivate": "## Kytkin\n- Deaktivoi järjestelmä napsauttamalla \"Deaktivoi\".",
+                "response-activate": "## Kytkin\n- Aktivoi järjestelmä napsauttamalla \"Aktivoi\"."
+            },
+            "toggle2": {
+                "toggle-true": "## Onnistunut\n- Järjestelmä on onnistuneesti **aktivoitu**.",
+                "toggle-false": "## Onnistunut\n- Järjestelmä on onnistuneesti **deaktivoitu**."
+            }
+        },
+        "logs": {
+            "leave": {
+                "default-message": "D_Gamet poistui palvelimelta.",
+                "delete": {
+                    "success": "{y} Asetukset on palautettu."
+                },
+                "embed": {
+                    "mode-text": "{y} Viestin tyyppi muuttui: **Tekstiviesti**.",
+                    "mode-embed": "{y} Viestin tyyppi muuttui: **Upotettu**."
+                },
+                "message": {
+                    "modal": {
+                        "title": "Vaihda poistumisviesti",
+                        "label": "Message",
+                        "placeholder": "D_Gamet poistui palvelimelta."
+                    }
+                },
+                "test": {
+                    "no-leave-channel": "- Poistumiskanavaa ei ole.",
+                    "leave-channel-not-set": "{x} Poistumiskanava on poistettu tai sitä ei ole asetettu.",
+                    "system-deactivated": "- Järjestelmä on deaktivoitu",
+                    "success": "{y} Testiviesti on lähetetty."
+                },
+                "toggle": {
+                    "success_activated": "{y} Poistumisjärjestelmä on aktivoitu.",
+                    "success_deactivated": "{y} Poistumisjärjestelmä on deaktivoitu."
+                },
+                "update": {}
+            },
+            "logs": {
+                "resetdata": {
+                    "success": "{y} Tiedot on palautettu."
+                },
+                "test": {
+                    "no-logging-channel": "- {a} Lokituskanava ei ole määritetty.",
+                    "system-deactivated": "- {i} Järjestelmä on deaktivoitu",
+                    "logging-channel-deleted": "- {a} Lokituskanava on poistettu.",
+                    "success": "{y} Ongelmia ei havaittu."
+                },
+                "toggle": {
+                    "success_activated": "{y} Lokitusjärjestelmä on aktivoitu.",
+                    "success_deactivated": "{y} Lokitusjärjestelmä on deaktivoitu."
+                },
+                "update": {
+                    "embed": {
+                        "title": "Hallitse asetuksia"
+                    }
+                }
+            },
+            "welcome": {
+                "default-message": "D_Gamet liittyi palvelimeen.",
+                "delete": {
+                    "success": "{y} Asetukset on palautettu."
+                },
+                "embed": {
+                    "mode-text": "{y} Viestin tyyppi muuttui: **Tekstiviesti**.",
+                    "mode-embed": "{y} Viestin tyyppi muuttui: **Upotettu**."
+                },
+                "message": {
+                    "modal": {
+                        "title": "Vaihda tervetuloviesti",
+                        "label": "Viesti",
+                        "placeholder": "D_Gamet liittyi palvelimeen."
+                    }
+                },
+                "test": {
+                    "no-welcome-channel": "- Tervetulokanava ei ole.",
+                    "welcome-channel-not-set": "{x} Tervetulokanava on poistettu tai sitä ei ole asetettu.",
+                    "system-deactivated": "- Järjestelmä on deaktivoitu",
+                    "success": "{y} Testiviesti on lähetetty."
+                },
+                "toggle": {
+                    "success_activated": "{y} Tervetulojärjestelmä on aktivoitu.",
+                    "success_deactivated": "{y} Tervetulojärjestelmä on deaktivoitu."
+                },
+                "update": {}
+            }
+        },
+        "other": {
+            "bot_setup_finish": {
+                "embed": {
+                    "title": "Asenna Dat Bot",
+                    "description": "**Asennus**\n- {y} Asennus aloitettu.\n- {y} Tarkista oikeudet.\n- {y} Tarkista lokituskanava.\n- {y} Asennus valmis. Tämä kesti `{durationTimestamp}` sekuntia."
+                }
+            },
+            "emojiquiz_skip": {
+                "system-deactivated": "{x} Emoji-tietovisa on deaktivoitu",
+                "message-error": "{x} Tämänhetkinen emoji-tietovisa järjestetään täällä: {messageLink}",
+                "skips-missing": "{x} Sinulla on liian vähän ohituksia.",
+                "channel-deleted": "{x} Emoji-tietovisan kanavaa ei ole enää olemassa.",
+                "success-singular": "{y} Emoji-tietovisa ohitettu. Voit nyt käyttää vielä yhden ohituksen.",
+                "success-plural": "{y} Emoji-tietovisa ohitettu. Voit nyt käyttää {size} ohitusta."
+            },
+            "emojiquiz_tip": {
+                "system-deactivated": "{x} Emoji-tietovisa on deaktivoitu",
+                "no-data": "{x} Tietoja ei ole olemassa.",
+                "success": "- Vinkki: {tip}",
+                "first-letters": "Ensimmäiset kirjaimet ovat {letters}"
+            },
+            "endelon_create_post": {
+                "modal": {
+                    "title": "Luo viesti",
+                    "inputs": {
+                        "issue": {
+                            "label": "Ongelma",
+                            "placeholder": "Kuvaile ongelmaa."
+                        },
+                        "serverurl": {
+                            "label": "Palvelimen URL-osoite",
+                            "placeholder": "Anna Endelon Server URL-osoite."
+                        },
+                        "tries": {
+                            "label": "Yrittää ratkaista ongelman",
+                            "placeholder": "Kuvaile yrityksiä ratkaista ongelma"
+                        },
+                        "name": {
+                            "label": "Viestin nimi",
+                            "placeholder": "Kirjoita viestin nimi."
+                        }
+                    }
+                }
+            },
+            "export_json": {
+                "success": "{y} Hanki upotus täältä: {url}",
+                "error": "{x} Upotuksen vienti epäonnistui."
+            },
+            "flaggenquiz_skip": {
+                "system-deactivated": "{x} Lipputietovisa on deaktivoitu",
+                "message-error": "{x} Tämänhetkinen lipputietovisa järjestetään täällä: {messageLink}",
+                "skips-missing": "{x} Sinulla on liian vähän ohituksia.",
+                "channel-deleted": "{x} Lipputietovisan kanavaa ei ole enää olemassa.",
+                "success-singular": "{y} Lipputietovisa ohitettu. Voit nyt käyttää vielä yhden ohituksen.",
+                "success-plural": "{y} Lipputietovisa ohitettu. Voit nyt käyttää {size} ohitusta."
+            },
+            "import_json": {
+                "modal": {
+                    "title": "Tuo JSON",
+                    "label": "Tuo JSON-koodisi tänne."
+                }
+            },
+            "next_meme": {
+                "next-meme-button": {
+                    "label": "Seuraava meemi"
+                },
+                "requested-by": "{user} pyynnöstä"
+            },
+            "update_embed": {
+                "embed-deleted": "{x} Tämän vuorovaikutuksen upotus on poistettu."
+            },
+            "delete_message": {
+                "not_your_message": "{x} Tämä viesti ei kuulu sinulle."
+            },
+            "verify_coc_token": {
+                "modal": {
+                    "title": "Vahvista tilisi",
+                    "label": "Tunniste",
+                    "placeholder": "Anna API-tunnus."
+                }
+            },
+            "fortnite_shophistory": {
+                "embed": {
+                    "title": "{name} kaupan historia"
+                }
+            },
+            "send_with_webhook": {
+                "title": "Webhookin URL-osoite",
+                "url": "Anna Webhookin URL-osoite.",
+                "name": "Anna nimi.",
+                "avatar": "Anna profiilikuva."
+            }
+        },
+        "poll": {
+            "addoption": {
+                "modal": {
+                    "title": "Lisää vaihtoehto",
+                    "label": "Nimi / Teksti",
+                    "placeholder": "Kuvaile vaihtoehtosi tässä."
+                }
+            },
+            "send": {
+                "selector": {
+                    "placeholder": "Valitse kanava, jolla kysely lähetetään"
+                }
+            },
+            "setdescription": {
+                "modal": {
+                    "title": "Aseta kuvaus",
+                    "label": "Kuvaus",
+                    "placeholder": "Pizza ananaksella vai ilman?"
+                }
+            }
+        }
+    },
+    "commands": {
+        "entertainment": {
+            "emojiquiz": {
+                "vote": {
+                    "embed": {
+                        "title": "Äänestyslinkki",
+                        "description": "Voit äänestää [Top.gg](https://top.gg/bot/965903240384376872/vote). Jokaisella äänellä saat {plusVoteTokens} lisää ohituksia.\nSinulla on {votes} ohitusta."
+                    },
+                    "votebutton": {
+                        "label": "Äänestä täällä!"
+                    }
+                },
+                "help": {
+                    "embed": {
+                        "title": "Emoji-tietovisa apu",
+                        "fields": {
+                            "howtouse": {
+                                "name": "Miten emoji-tietovisaa käytetään?",
+                                "value": "1. Käytä </emojiquiz setup:{commandId}>.\n2. Käytä </emojiquiz toggle:{commandId}>\nSitten kaikki alkaa."
+                            },
+                            "whynotworking": {
+                                "name": "Miksi emoji-tietovisa ei enää toimi?",
+                                "value": "Ole hyvä ja käytä </emojiquiz fix:{commandId}>. Jos se ei vieläkään toimi tämän jälkeen, ota yhteyttä tukeen [täällä].(https://discord.gg/BQumAujuvk)."
+                            },
+                            "howtoskip": {
+                                "name": "Mitä voit tehdä, jos et löydä termiä?",
+                                "value": "Voit äänestää [Top.gg](https://top.gg/bot/965903240384376872/vote). Jokaisella äänellä saat {plusVoteTokens} lisää ohituksia.\nSinulla on tällä hetkellä {votes} ohitusta."
+                            },
+                            "whereissupport": {
+                                "name": "Mistä voin ottaa yhteyttä tukitiimiin?",
+                                "value": "Voit ottaa yhteyttä tukeen [täällä](https://discord.gg/BQumAujuvk)."
+                            }
+                        }
+                    }
+                },
+                "fix": {
+                    "channel-not-set": "{x} Emoji-tietovisaa ei ole asetettu. Aseta sellainen komennolla </emojiquiz setup:{commandId}>.",
+                    "quiz-deactivated": "- Emoji-tietovisa on deaktivoitu.",
+                    "embed": {
+                        "title": "{amount} virheitä löytyi."
+                    },
+                    "success": "{y} Virheitä ei löytynyt.",
+                    "permissions": {
+                        "SendMessages": "- Minulta puuttuu lupa  \"Lähetä viestejä\" kanavassa {channel}.",
+                        "ViewChannel": "- Minulla ei ole lupaa nähdä {channel}.",
+                        "EmbedLinks": "- Minulta puuttuu lupa \"Upota linkkejä\" kanavassa {channel}."
+                    }
+                },
+                "guess": {
+                    "embed": {
+                        "title": "Arvaa sana",
+                        "description": "- Etsitty sana・{emojis}\n\n*Deaktivoi emoji-tietovisa </emojiquiz toggle:1117220757957779506>*"
+                    },
+                    "content": {
+                        "skip": "{user} ohitti emoji-tietokilpailun!",
+                        "sol": "💡・{user} on arvannut ratkaisun."
+                    },
+                    "buttons": {
+                        "clue": {
+                            "label": "Vinkki"
+                        },
+                        "skip": {
+                            "label": "Ohita"
+                        }
+                    },
+                    "success": "{y} Emoji-tietovisa käynnistettiin onnistuneesti."
+                },
+                "settings": {
+                    "embed": {
+                        "title": "Asetukset",
+                        "fields": {
+                            "channel": {
+                                "name": "Kanava"
+                            },
+                            "message": {
+                                "name": "Viesti"
+                            },
+                            "toggle": {
+                                "name": "Kytkin",
+                                "value_activated": "> Aktivoi",
+                                "value_deactivated": "> Deaktivoi"
+                            }
+                        }
+                    }
+                },
+                "toggle": {
+                    "channel-not-set": "{x} Aseta uusi kanava komennolla </emojiquiz setup:{commandId}>.",
+                    "success_deactivated": "{y} Emoji-tietovisa on deaktivoitu.",
+                    "success_activated": "{y} Emoji-tietovisa on aktivoitu."
+                }
+            },
+            "flagquiz": {
+                "vote": {
+                    "embed": {
+                        "title": "Äänestyslinkki",
+                        "description": "Voit äänestää [Top.gg](https://top.gg/bot/965903240384376872/vote). Jokaisella äänellä saat {plusVoteTokens} lisää ohituksia.\nSinulla on tällä hetkellä {votes} ohitusta."
+                    },
+                    "votebutton": {
+                        "label": "Äänestä täällä!"
+                    }
+                },
+                "help": {
+                    "embed": {
+                        "title": "Lipputietovisa apu",
+                        "fields": {
+                            "howtouse": {
+                                "name": "Miten lipputietovisaa käytetään?",
+                                "value": "1. Käytä </flagquiz setup:{commandId}>.\n2. Käytä </flagquiz toggle:{commandId}>\nSitten kaikki alkaa."
+                            },
+                            "whynotworking": {
+                                "name": "Miksi lipputietovisa ei enää toimi?",
+                                "value": "Ole hyvä ja käytä </flagquiz fix:{commandId}>. Jos se ei vieläkään toimi sen jälkeen, ota yhteyttä tukeen [täällä](https://discord.gg/BQumAujuvk)."
+                            },
+                            "howtoskip": {
+                                "name": "Mitä voit tehdä, jos et löydä termiä?",
+                                "value": "Voit käyttää  \"Ohitus\" nappia. Jos sinulla ei ole enää ohituksia, sinun on äänestettävä [täällä](https://top.gg/bot/965903240384376872/vote). Jokaisella äänellä saat {plusVoteTokens} lisää ohituksia. Sinulla on tällä hetkellä {votes} ohitusta."
+                            },
+                            "whereissupport": {
+                                "name": "Mistä voin ottaa yhteyttä tukitiimiin?",
+                                "value": "Voit ottaa yhteyttä tukeen [täällä](https://discord.gg/BQumAujuvk)."
+                            }
+                        }
+                    }
+                },
+                "fix": {
+                    "channel-not-set": "{x} Lipputietovisakanavaa ei ole asetettu. Aseta se komennolla </flagquiz setup:{commandId}>.",
+                    "quiz-deactivated": "- Lipputietovisa on poistettu käytöstä",
+                    "embed": {
+                        "title": "{amount} virheitä löytyi."
+                    },
+                    "success": "{y} Virheitä ei löytynyt.",
+                    "permissions": {
+                        "SendMessages": "- Minulta puuttuu lupa \"Lähetä viestejä\" kanavassa {channel}.",
+                        "ViewChannel": "- Minulla ei ole lupaa nähdä {channel}.",
+                        "EmbedLinks": "- Minulta puuttuu lupa \"Upota linkkejä\" kanavassa {channel}."
+                    }
+                },
+                "guess": {
+                    "embed": {
+                        "title": "Arvaa lippu"
+                    },
+                    "content": {
+                        "skip": "{user} ohitti lipputietovisan!",
+                        "sol": "💡・{user} on arvannut ratkaisun."
+                    },
+                    "buttons": {
+                        "clue": {
+                            "label": "Vinkki"
+                        },
+                        "skip": {
+                            "label": "Ohita"
+                        }
+                    },
+                    "success": "{y} Lippu-tietovisa käynnistettiin onnistuneesti."
+                },
+                "settings": {
+                    "embed": {
+                        "title": "Asetukset",
+                        "fields": {
+                            "channel": {
+                                "name": "Kanava"
+                            },
+                            "message": {
+                                "name": "Viesti"
+                            },
+                            "toggle": {
+                                "name": "Kytkin",
+                                "value_activated": "> Aktivoitu",
+                                "value_deactivated": "> Deaktivoitu"
+                            }
+                        }
+                    }
+                },
+                "toggle": {
+                    "channel-not-set": "{x} Ole hyvä ja aseta uusi kanava komennolla </flagquiz setup:{commandId}>.",
+                    "success_deactivated": "{y} Lippu-tietovisa on deaktivoitu",
+                    "success_activated": "{y} Lippu-tietovisa on aktivoitu"
+                }
+            }
+        },
+        "fun": {
+            "cookie": {
+                "embed": {
+                    "title": "Keksit 🍪",
+                    "description": "> Klikkaa alla olevaa painiketta lisätäksesi keksin. Tällä hetkellä on {cookies} 🍪."
+                }
+            },
+            "echo": {
+                "success": "{y} Viestisi on lähetetty.\n> ℹ️・Huomaa, että mitään käyttäjiä, rooleja tai sitä ei pingata. Tämä on varotoimenpide. ^^"
+            },
+            "iq": {
+                "success": "{user} älykkyysosamäärä on {iq}."
+            },
+            "meme": {
+                "error": "{x} En pystynyt lataamaan meemiä.",
+                "nextmeme-button": {
+                    "label": "Seuraava meemi"
+                }
+            }
+        },
+        "games": {
+            "account": {
+                "already-linked": "{x} Olet jo yhdistänyt tilisi. Voit poistaa ne käyttämällä </unlink clashofclans:{accountCommandId}>.",
+                "not-linked": "{x} Et ole yhdistänyt tiliäsi. Käytä </link clashofclans:{accountCommandId}> yhdistääksesi tilin.",
+                "link-remove-success": "{y} Tilin tiedot on poistettu",
+                "clashofclans": {
+                    "api": {
+                        "404": "{x} En ole löytänyt määritettyä tiliä."
+                    },
+                    "embed": {
+                        "title": "Yhdistä tilisi",
+                        "description": "- Sinun on nyt varmistettava, että tämä tili kuuluu sinulle. Tee tämä menemällä peliin. Asetukset > Lisää asetuksia > API-tunniste > Näytä. Jos sinulla on nyt tämä tunniste, sinun on napsautettava vihreää painiketta \"Määritä API-tunniste\" ja syötettävä se sinne. Napsauta sitten \"Lähetä\".",
+                        "fields": {
+                            "account-details": {
+                                "name": "⭐・Tilin tiedot",
+                                "value": "> {name}・{tag}・{Pokaalit} pokaalit"
+                            }
+                        }
+                    },
+                    "button": {
+                        "label": "Määritä API-tunniste"
+                    }
+                },
+                "valorant": {
+                    "already-linked": "{x} VALORANT-tilisi on jo yhdistetty.",
+                    "title": "Yhdistä VALORANT-tilisi",
+                    "description": "Yhdistä tili napsauttamalla \"Linkki\"-painiketta.\n- Lopussa näet JSON-sivun, jossa on parametri nimeltä \"Koodi\". Kopioi tämä, napsauta \"Määritä koodi\" ja syötä se sitten sinne.\n- Voit poistaa linkin valitsemalla </unlink valorant:{commandId}>.",
+                    "link": "Linkki",
+                    "provide_code": "Määritä koodi",
+                    "code-not-valid": "{x} Määritetty koodi ei ole voimassa.",
+                    "scope-error": "{x} Et ole hyväksynyt kaikkia soveltamisaloja. Kirjaudu sisään uudelleen.",
+                    "success": "{y} Olet yhdistänyt Discord-tilisi seuraavaan {riotname}.",
+                    "not-linked": "{x} Et ole yhdistänyt tiliäsi. Käytä </link valorant:{accountCommandId}> yhdistääksesi tilin.",
+                    "remove-success": "{y} Yhteytesi on poistettu."
+                }
+            },
+            "brawlstars": {
+                "club": {
+                    "api": {
+                        "404": "{x} Tätä klubia ei löydetty. Annoitko voimassa olevan klubitunnisteen? 🤔"
+                    },
+                    "embed": {
+                        "description": "<:datbot_bs_chat:1095002339045281895>・Kuvaus",
+                        "type": {
+                            "name": "<:datbot_bs_id:1095000683209560156>・Tyyppi",
+                            "value-open": "Auki",
+                            "value-inviteonly": "Vain kutsulla",
+                            "value-closed": "Suljettu",
+                            "value-unknown": "Tuntematon"
+                        },
+                        "required-throphies": "<:datbot_bs_thropie:1094954801407737936>・Vaaditut pokaalit",
+                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Pokaalit",
+                        "leader": "<:datbot_bs_crown:1095001236979323013>・Johtaja",
+                        "best-member": {
+                            "name": "<:datbot_bs_clubleague:1095001796419784755>・Korkein jäsen ({total} yhteensä)",
+                            "value": "- {name}・{tag}\n- Pokaalit: {throphies}\n- Rooli: {role}"
+                        }
+                    }
+                },
+                "profile": {
+                    "api": {
+                        "404": "{x} En löytänyt tätä tiliä. Kirjoita voimassa oleva pelin sisäinen pikakuvake.\n> ℹ️・[Mistä löydän pelaajatunnisteeni?](https://support.supercell.com/brawl-stars/fi/articles/player-tag.html#:~:text=mista%20loydan%20pelaajatunnisteeni%3F)"
+                    },
+                    "embed": {
+                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Pokaalit",
+                        "exp-level": "<:datbot_player_level:1095000959358357636>・EXP taso",
+                        "solo-wins": "<:datbot_bs_solo:1095008405996961924>・Soolovoitot",
+                        "duo-wins": "<:datbot_bs_duo:1095007929503068230>・Duo voitot",
+                        "3vs3-wins": "<:datbot_bs_trio:1095009330442543145>・3vs3 voitot",
+                        "club": "<:datbot_bs_club:1094955757985857637>・Klubi",
+                        "highest-brawler": {
+                            "name": "<:brawlstars_icon:1095013107912425606>・Korkein taistelija ({total} yhteensä)",
+                            "value": "- {name}\n- Voima {power}\n- Pokaalit: {throphies} (Rank {rank})"
+                        }
+                    }
+                }
+            },
+            "clashofclans": {
+                "club": {
+                    "api": {
+                        "404": "{x} Tätä klubia ei löydetty. Annoitko voimassa olevan klubitunnisteen? 🤔"
+                    },
+                    "embed": {
+                        "clan": "<:datbot_bs_id:1095000683209560156>・Klubi",
+                        "description": "<:datbot_bs_chat:1095002339045281895>・Kuvaus",
+                        "locale": "<:coc_cl1:1121410510122913823>・Sijainti",
+                        "xp": {
+                            "name": "<:datbot_player_level:1095000959358357636>・XP",
+                            "value": "> Level {level}"
+                        },
+                        "labels": "<:coc_ri1:1121401676557996194>・Etiketti",
+                        "throphies": {
+                            "name": "<:datbot_bs_thropie:1094954801407737936>・Pokaalit",
+                            "value": "> Vaadittu {required}・Kokonaismäärä {total}"
+                        },
+                        "best-member": {
+                            "name": "<:coc_su1:1121402165701902336>・Korkein jäsen ({total} yhteensä)",
+                            "value": "> {name}・{tag}・{throphies} Pokaalit"
+                        }
+                    }
+                },
+                "profile": {
+                    "api": {
+                        "404": "{x} En löytänyt tätä tiliä. Kirjoita voimassa oleva pelin sisäinen pikakuvake.\n> ℹ️・[Mistä löydän pelaajatunnisteeni?](https://support.supercell.com/brawl-stars/fi/articles/player-tag.html#:~:text=mista%20loydan%20pelaajatunnisteeni%3F)"
+                    },
+                    "embed": {
+                        "title": "{username} tili",
+                        "throphies": {
+                            "name": "<:coc_fi1:1121400453083697183>・Pokaalit",
+                            "value": "> {throphies} (Paras: {best})"
+                        },
+                        "exp-level": {
+                            "name": "<:datbot_player_level:1095000959358357636>・EXP taso",
+                            "value": "> Taso {level}"
+                        },
+                        "account": "<:datbot_bs_id:1095000683209560156>・Tili",
+                        "townhall-level": {
+                            "name": "<:coc_wo1:1121399380138791043>・Raatihuoneen taso",
+                            "value": "> Taso {level}"
+                        },
+                        "labels": "<:coc_ri1:1121401676557996194>・Etiketti",
+                        "best-troop": {
+                            "name": "<:coc_su1:1121402165701902336>・Paras yksikkö ({total} yhteensä)",
+                            "value": "> {name}・Taso {level} / {maxLevel}"
+                        },
+                        "best-spell": {
+                            "name": "<:coc_pe1:1121407676363046922>・Paras loitsu ({total} yhteensä)",
+                            "value": "Taso"
+                        },
+                        "best-hero": {
+                            "name": "<:coc_br1:1121407640606613534>・Paras sankari ({total} yhteensä)",
+                            "value": "Taso"
+                        }
+                    },
+                    "account": {
+                        "notsaved": "{x} Tiliäsi ei ole vielä tallennettu. Voit tehdä sen käyttämällä </link clashofclans:{accountCommandId}>.",
+                        "notfound": "{x} Tallennettua tiliä ei löytynyt."
+                    }
+                }
+            },
+            "fortnite": {
+                "creatorcode": {
+                    "api": {
+                        "404": "{x} Tätä luojaa ei löydetty. Kirjoititko nimen oikein? 🤔"
+                    },
+                    "embed": {
+                        "description": "- **Koodi:** {code}\n- **Tila:** {status}\n- **Tili:** {account}\n- **Vahvistettu:** {verified}",
+                        "title": "Luojan koodi - {code}"
+                    }
+                },
+                "map": {
+                    "embed": {
+                        "title": "Fortnite kartta"
+                    }
+                },
+                "news": {
+                    "embed": {
+                        "title": "Fortnite uutiset"
+                    }
+                },
+                "shopitem": {
+                    "invalid-choice": "{x} Tämä valinta ei ole voimassa.",
+                    "notoccurredyet": "Ei koskaan ennen nähty",
+                    "notknown": "Ei tiedossa",
+                    "api": {
+                        "404": "{x} En ole löytänyt määriteltyä tuotetta."
+                    },
+                    "embed": {
+                        "description": "- **- **Nimi:** {name}\n- **Kuvaus:** {description}\n- **Tyyppi:** {type}\n- **Harvinaisuus:** {rarity}\n- **Sarja:** {set}\n- **Lisätty:** {added}\n- **Viimeinen esiintymä ({total} yhteensä):** {last_occurrence}"
+                    },
+                    "button": {
+                        "shophistory": {
+                            "label": "Kaupan historia"
+                        }
+                    }
+                },
+                "stats": {
+                    "api": {
+                        "403": "{x} {username} -tilin asetukset eivät salli tilastojen tarkastelua.\n> ℹ️・Aktivoi julkiset ottelutilastot: Asetukset > Tili ja yksityisyys > Julkiset ottelutilastot.",
+                        "404": "{x} En löytänyt {username}. Tarkista, oletko antanut oikean nimen.",
+                        "401": "{x} Komento ei enää toimi, mutta olen jo ilmoittanut siitä kehittäjälleni."
+                    }
+                }
+            },
+            "rocketleague": {},
+            "tictactoe": {
+                "opponent-notonserver": "{x} Valitsemasi vastustaja ei ole tällä palvelimella.",
+                "opponent-isabot": "{x} Valitettavasti et voi pelata botteja vastaan.",
+                "opponent-yourself": "{x} Jos pelaat itseäsi vastaan, voit vain hävitä."
+            },
+            "valorant": {
+                "agents": {
+                    "embed": {
+                        "andmore": "ja {length} lisää",
+                        "notshown": "- {length} ei voitu näyttää.",
+                        "description": "- Rooli: {role}\n- [Kuvake]({url})"
+                    }
+                },
+                "agent": {
+                    "api": {
+                        "404": "{x} En ole löytänyt pyydettyä agenttia."
+                    },
+                    "embed": {
+                        "name": "Nimi",
+                        "description": "Kuvaus",
+                        "uuid": "UUID",
+                        "tags": "Tunnisteet",
+                        "role": "Rooli",
+                        "abilites": "Kyvyt ({total} yhteensä)",
+                        "description-embed": "- Nimi・{name}\n- Kuvaus・{description}\n- UUID・{uuid}\n- Tunnisteet・{tags}\n- Rooli・{role}\n- Kyvyt (yhteensä)・{abilities}"
+                    }
+                },
+                "map": {
+                    "api": {
+                        "404": "{x} Pyydettyä korttia ei löytynyt."
+                    },
+                    "embed": {
+                        "name": "Nimi",
+                        "coordinates": "Koordinaatit",
+                        "callouts": "Kutsut",
+                        "description": "- Nimi・{name}\n- Koordinaatit・{coordinates}"
+                    }
+                },
+                "maps": {
+                    "description": "- Koordinaatit・{coordinates}",
+                    "andmore": "ja {length} lisää",
+                    "mapsnotshown": "{length} karttoja ei voitu näyttää."
+                },
+                "version": {
+                    "current-version": "Tämänhetkinen versio",
+                    "last-update": "Viimeisin päivitys",
+                    "buildversion": "Rakennusversio"
+                }
+            }
+        },
+        "info": {
+            "avatar": {
+                "server": {
+                    "no-avatar": "{x} Tällä palvelimella ei ole profiilikuvaa.",
+                    "embed": {
+                        "title": "{name} profiilikuva"
+                    }
+                },
+                "user": {
+                    "embed": {
+                        "title": "🖼️ | {name} profiilikuva",
+                        "title-serveravatar": "🖼️ | {name} palvelin profiilikuva",
+                        "description": "*Huomaa, että tällä käyttäjällä ei ole palvelimen profiilikuvaa.*"
+                    },
+                    "button": {
+                        "label-useravatar": "Käyttäjän profiilikuva",
+                        "label-serveravatar": "Palvelimen profiilikuva"
+                    }
+                }
+            },
+            "help": {
+                "embed": {
+                    "title": "Ohjevalikko",
+                    "description": "- Botti perustuu `/`-komentoihin. Siksi botin käyttö on paljon helpompaa.\n- Sinun on valittava vaihtoehto valikkovalikosta.\n- Jos sinulla on kysymys, vika tai jotain muuta vastaavaa, liity rohkeasti [tukipalvelimeen](https://discord.gg/BQumAujuvk)."
+                },
+                "select": {
+                    "homepage": "Kotisivu",
+                    "moderation": "Valvonta",
+                    "auto": "Autoroolit & Autojulkaisu",
+                    "level": "Tasot",
+                    "games": "Pelit & Tilastot",
+                    "info": "Tietoja",
+                    "welcome-leave": "Tervetuloa & Hyvästi",
+                    "logging": "Kirjaukset",
+                    "poll": "Kyselyt",
+                    "twitch": "Twitch",
+                    "quiz": "Tietovisat",
+                    "embeds": "Upotukset",
+                    "endelon": "Endelon Hosting",
+                    "fun": "Hauska",
+                    "random": "Satunnainen",
+                    "uncategorised": "Luokittelemattomat komennot",
+                    "end": "Poistu valikosta"
+                },
+                "components": {
+                    "privacy-policy": {
+                        "label": "Tietosuojakäytäntö"
+                    },
+                    "docs": {
+                        "label": "Dokumentaatio"
+                    }
+                }
+            },
+            "info": {
+                "server": {
+                    "embed": {
+                        "fields": {
+                            "name": "✨・Nimi",
+                            "id": "🪪・ID",
+                            "membercount": "👤・Jäsenten määrä",
+                            "booster": {
+                                "name": "💎・Nostatus",
+                                "value-singular": "> Taso {levelinfo} ({length} Nostatus)",
+                                "value-plural": "> taso {levelinfo} ({length} Nostatusta)"
+                            },
+                            "created": "🕙・Luotu",
+                            "channels": {
+                                "name": "📚・Kanavat"
+                            },
+                            "owner": "👑・Omistaja",
+                            "roles": {
+                                "name": "📊・Roolit (ilman hallittuja rooleja)",
+                                "value": "> {roles} (Näyttää {info})"
+                            },
+                            "emojis": {
+                                "name": "🎨・Emojit",
+                                "value": "> {emojis} (Näyttää {info})"
+                            },
+                            "first-members": "👀・Ensimmäiset käyttäjät",
+                            "top-badges": "⭐・Ylimmät merkit",
+                            "banner": "🖼️・Banneri"
+                        }
+                    },
+                    "user": "Käyttäjä",
+                    "user-plural": "Käyttäjät"
+                },
+                "user": {
+                    "embed": {
+                        "fields": {
+                            "name": "🌍・Nimi",
+                            "id": "🪪・ID",
+                            "created": "🕙・Tili luotu",
+                            "joined": {
+                                "name": "👤・Liittynyt palvelimelle",
+                                "value": "> {timestamp} | {timestamp1} ({joinrank} käyttäjä)"
+                            },
+                            "roles": {
+                                "name": "📚・Roolit",
+                                "shows": "Näytä",
+                                "value-none": "Ei ole"
+                            },
+                            "badges": {
+                                "name": "🎨・Merkit",
+                                "value-none": "Ei ole"
+                            },
+                            "permissions": {
+                                "name": "🛡️・Käyttöoikeudet",
+                                "value-owner": "Omistaja",
+                                "value-administrator": "Järjestelmänvalvoja"
+                            },
+                            "suspect": {
+                                "name": "🔎・Epäilty",
+                                "value-yes-spammer": "Kyllä・Spammaaja",
+                                "value-yes-quarantined": "Kyllä・Karanteenissa",
+                                "value-no": "Ei"
+                            }
+                        },
+                        "description": "Huomautus: Käytä </bot info:1058376602515411061> saadaksesi lisätietoja minusta."
+                    },
+                    "not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella."
+                },
+                "role": {
+                    "embed": {
+                        "fields": {
+                            "name": "✨・Nimi",
+                            "id": "🪪・ID",
+                            "created": "🕙・Luotu",
+                            "position": "🔢・Sijainti",
+                            "color": "🎨・Väri",
+                            "membercount": "👤・Jäsenmäärä",
+                            "permissions": {
+                                "name": "🛡️・Käyttöoikeudet",
+                                "value-owner": "Omistaja",
+                                "value-administrator": "Järjestelmänvalvoja"
+                            }
+                        }
+                    }
+                },
+                "channel": {
+                    "name": "📚・Nimi",
+                    "id": "🪪・ID",
+                    "created": "🕙・Luotu",
+                    "nsfw": "🚫・NSFW",
+                    "description": {
+                        "name": "✨・Aihe",
+                        "value-no-description": "Ei annettua aihetta"
+                    },
+                    "position": "🔢・Sijainti",
+                    "threads": {
+                        "name": "🔦・Ketjut",
+                        "value-one": "1 ketju",
+                        "value-notone": "{size} ketjuja"
+                    },
+                    "lastmessage": {
+                        "name": "🗨️・Viimeisin viesti",
+                        "value": "> [viestilinkki]({link})"
+                    },
+                    "category": "Luokka",
+                    "channel": "Kanava"
+                },
+                "invite": {
+                    "not-valid": "{x} Annettu kutsulinkki ei ole voimassa.",
+                    "embed": {
+                        "fields": {
+                            "code": "🎨・Koodi",
+                            "expires-never": "Ei koskaan",
+                            "expires": "🗑️・Vanhentuu",
+                            "server": "🌍・Palvelin",
+                            "channel": "⭐・Kanava",
+                            "created-by": "👤・Luonut",
+                            "vanity": "❓・Personoitu",
+                            "value-true": "- Kyllä, tämä on personoitu koodi.",
+                            "value-false": "- Ei, tämä ei ole personoitu koodi."
+                        }
+                    }
+                }
+            }
+        },
+        "moderation": {
+            "logging": {
+                "welcome": {
+                    "message": {
+                        "modal": {
+                            "label": "Viesti",
+                            "title": "Muuta tervetuloviestiä",
+                            "placeholder": "D_Gamet liittyi palvelimelle."
+                        }
+                    },
+                    "channel": {
+                        "success": "{y} Tervetulokanava on päivitetty"
+                    },
+                    "toggle": {
+                        "success_activated": "{y} Tervetulojärjestelmä on aktivoitu.",
+                        "success_deactivated": "{y} Tervetulojärjestelmä on deaktivoitu."
+                    },
+                    "test": {
+                        "no-welcome-message": "D_Gamet liittyi palvelimeen.",
+                        "no-channel-set": "- Tervetulokanavaa ei ole asetettu.",
+                        "bot-permissions-welcome-channel": "- Botilla ei ole pääsyä tervetulokanavaan tai se on poistettu.",
+                        "toggle-deactivated": "- Tervetulojärjestelmä on poistettu käytöstä.",
+                        "testmessage-sent-success": "{y} Testiviesti on lähetetty."
+                    },
+                    "mention": {
+                        "mention-success-user": "{y} Maininta asetettiin: **käyttäjä**.",
+                        "role-not-provided": "{x} Sinun on määritettävä rooli.",
+                        "role-everyone": "Et voi käyttää `@everyone`-roolia.",
+                        "mention-success-role": "{y} Maininta asetettiin: `{rolename}`",
+                        "mention-success-remove": "{y} Tervetulomaininta on poistettu."
+                    },
+                    "settings": {
+                        "no-welcome-message": "D_Gamet liittyi palvelimeen.",
+                        "no-welcome-channel": "Tervetulokanavaa ei ole asetettu",
+                        "embed": {
+                            "title": "Asetukset",
+                            "fields": {
+                                "channel": {
+                                    "name": "Kanava",
+                                    "value": "- Kanavaa ei ole asetettu"
+                                },
+                                "message": {
+                                    "name": "Viesti",
+                                    "value": "D_Gamet liittyi palvelimeen."
+                                },
+                                "toggle": {
+                                    "name": "Kytkin",
+                                    "value_activated": "- Aktivoitu",
+                                    "value_deactivated": "- Deaktivoitu"
+                                }
+                            }
+                        },
+                        "components": {
+                            "welcome-message-button": {
+                                "label": "Aseta tervetuloviesti"
+                            },
+                            "welcome-embed-button": {
+                                "label": "Valitse viestin tyyppi"
+                            },
+                            "update-message-button": {
+                                "label": "Päivitä viesti"
+                            },
+                            "welcome-test-button": {
+                                "label": "Testaa järjestelmää"
+                            },
+                            "welcome-toggle-button": {
+                                "label": "Kytke järjestelmä"
+                            },
+                            "welcome-delete-button": {
+                                "label": "Palauta asetukset"
+                            },
+                            "welcome-embed-change-button": {
+                                "label": "Määritä upotus"
+                            },
+                            "welcome-mention-select": {
+                                "placeholder": "Aseta maininta",
+                                "options": {
+                                    "user": "Mainitse käyttäjä",
+                                    "role": "Mainitse rooli",
+                                    "none": "Poista maininta"
+                                }
+                            },
+                            "welcome-channel-select": {
+                                "placeholder": "Aseta tervetulokanava"
+                            }
+                        }
+                    }
+                },
+                "leave": {
+                    "message": {
+                        "modal": {
+                            "label": "Viesti",
+                            "title": "Vaihda poistumisviesti",
+                            "placeholder": "D_Gamet liittyi palvelimelle."
+                        }
+                    },
+                    "channel": {
+                        "success": "{y} Poistumiskanava on päivitetty."
+                    },
+                    "toggle": {
+                        "success_activated": "{y}  Poistumiskanava on aktivoitu.",
+                        "success_deactivated": "{y} Poistumiskanava on deaktivoitu."
+                    },
+                    "test": {
+                        "no-leave-message": "D_Gamet liittyi palvelimeen.",
+                        "no-channel-set": "- Mitään poistumiskanavaa ei ole asetettu.",
+                        "bot-permissions-leave-channel": "- Botilla ei ole pääsyä poistumiskanavaan tai se on poistettu.",
+                        "toggle-deactivated": "- Poistumisjärjestelmä on poistettu käytöstä.",
+                        "testmessage-sent-success": "{y} Testiviesti on lähetetty."
+                    },
+                    "mention": {
+                        "mention-success-user": "{y} Maininta asetettiin: **käyttäjä**.",
+                        "role-not-provided": "{x} Sinun on määritettävä rooli.",
+                        "role-everyone": "Et voi käyttää `@everyone`-roolia.",
+                        "mention-success-role": "{y}  Maininta asetettiin: `{rolename}`",
+                        "mention-success-remove": "{y} Poistumismaininta on poistettu."
+                    },
+                    "settings": {
+                        "no-leave-message": "D_Gamet liittyi palvelimeen.",
+                        "no-leave-channel": "- Poistumiskanavaa ei ole asetettu.",
+                        "embed": {
+                            "title": "Asetukset",
+                            "fields": {
+                                "channel": {
+                                    "name": "Kanava",
+                                    "value": "- Kanavaa ei ole asetettu"
+                                },
+                                "message": {
+                                    "name": "Viesti",
+                                    "value": "D_Gamet liittyi palvelimeen."
+                                },
+                                "toggle": {
+                                    "name": "Kytkin",
+                                    "value_activated": "- Aktivoitu",
+                                    "value_deactivated": "- Deaktivoitu"
+                                }
+                            }
+                        },
+                        "components": {
+                            "leave-message-button": {
+                                "label": "Aseta poistumisviesti"
+                            },
+                            "leave-embed-button": {
+                                "label": "Valitse viestin tyyppi"
+                            },
+                            "update-message-button": {
+                                "label": "Päivitä viesti"
+                            },
+                            "leave-test-button": {
+                                "label": "Testaa järjestelmää"
+                            },
+                            "leave-toggle-button": {
+                                "label": "Kytke järjestelmä"
+                            },
+                            "leave-delete-button": {
+                                "label": "Palauta asetukset"
+                            },
+                            "leave-embed-change-button": {
+                                "label": "Määritä upotus"
+                            },
+                            "leave-mention-select": {
+                                "placeholder": "Aseta maininta",
+                                "options": {
+                                    "user": "Mainitse käyttäjä",
+                                    "role": "Mainitse rooli",
+                                    "none": "Poista maininta"
+                                }
+                            },
+                            "leave-channel-select": {
+                                "placeholder": "Aseta poistumiskanava"
+                            }
+                        }
+                    }
+                },
+                "logs": {
+                    "channel": {
+                        "success": "{y} Lokituskanava on päivitetty.",
+                        "success-toggle": "{y} Kirjaukselle tarkoitettu kanava on päivitetty.\n> {i} Olen aktivoinut järjestelmän automaattisesti puolestasi. Deaktivoi kirjaus </logs toggle:{commandId}>."
+                    },
+                    "toggle": {
+                        "no-channel-set": "{x} Mitään lokituskanavaa ei ole asetettu. Voit asettaa sellaisen käyttämällä </logs channel:{commandId}>.",
+                        "success_deactivated": "{y} Kirjaukset on nyt poistettu käytöstä.",
+                        "success_activated": "{y} Kirjaukset on nyt aktivoitu."
+                    },
+                    "setup": {
+                        "embed": {
+                            "title": "Lokituskanava",
+                            "description": "- Valitse lokituskanava."
+                        },
+                        "select": {
+                            "placeholder": "Valitse lokituskanava."
+                        },
+                        "success": "{i} Kaikki on jo valmiina. Voit hallita asetuksia käyttämällä </logging settings:{commandId}>."
+                    },
+                    "settings": {
+                        "embed": {
+                            "title": "Hallinnoi asetuksia",
+                            "fields": {
+                                "channel": {
+                                    "name": "Kanava",
+                                    "value-nochannel": "- Kanavaa ei ole asetettu"
+                                },
+                                "toggle": {
+                                    "name": "Kytkin",
+                                    "value_activated": "> Aktivoitu",
+                                    "value_deactivated": "> Deaktivoitu"
+                                }
+                            }
+                        },
+                        "components": {
+                            "logging-toggle-button": {
+                                "label-activate": "Aktivoi järjestelmä",
+                                "label-deactivate": "Deaktivoi järjestelmä"
+                            },
+                            "logging-test-button": {
+                                "label": "Testaa järjestelmä"
+                            },
+                            "update-message-button": {
+                                "label": "Päivitä viesti"
+                            },
+                            "logging-resetdata-button": {
+                                "label": "Palauta asetukset"
+                            },
+                            "logging-channel-select": {
+                                "placeholder": "Aseta lokituskanava."
+                            }
+                        }
+                    }
+                }
+            },
+            "moderation": {
+                "setnick": {
+                    "user-not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella.",
+                    "user-not-manageable": "{x} En voi hallita tämän käyttäjän nimimerkkiä.",
+                    "nickname-changed": "{y} {user} nimimerkki on muutettu."
+                },
+                "reset": {
+                    "user-no-nickname": "{x} Tällä käyttäjällä ei ole nimimerkkiä.",
+                    "nickname-reset-success": "{y} {user} nimimerkki on onnistuneesti palautettu."
+                },
+                "movechannel": {},
+                "disconnect": {},
+                "voiceinfo": {},
+                "ban": {
+                    "invalid-time": "{x} Syötä kelvollinen aika. Sen on oltava 1 sekunnin ja 7 päivän välillä.",
+                    "ban-datbot": "{x} Et voi antaa minulle porttikieltoa.",
+                    "provideduser-higher-role-user": "{x} Käyttäjällä on sama tai korkeampi rooli kuin sinulla.",
+                    "provideduser-higherrole-me": "{x} Käyttäjällä on sama tai korkeampi rooli kuin minulla..",
+                    "ban-yourself": "{x} Et voi porttikieltää itseäsi.",
+                    "ban-administrator": "{x} En voi porttikieltää järjestelmänvalvojia.",
+                    "ban-notbannable": "{x} En voi porttikieltää tätä käyttäjää.",
+                    "no-reason": "Syytä ei ole annettu",
+                    "banembed": {
+                        "title": "Sinä olet porttikiellossa!",
+                        "description": "*Palvelin:** {guild}\n**Syy:** ${reason}",
+                        "footer": {
+                            "text": "Porttikiellossa"
+                        }
+                    },
+                    "ban-success": "{y} {user} on onnistuneesti porttikielletty.\n- DM pyydetty: {dmRequested}\n- DM lähetetty onnistuneesti: {dmSent}"
+                },
+                "kick": {
+                    "kick-user-not-on-server": "{x} Tämä käyttäjä ei ole tällä palvelimella.",
+                    "kick-datbot": "{x} Et voi erottaa minua.",
+                    "provideduser-higher-role-user": "{x} Käyttäjällä on sama tai korkeampi rooli kuin sinulla.",
+                    "provideduser-higherrole-me": "{x} Käyttäjällä on sama tai korkeampi rooli kuin minulla.",
+                    "kick-yourself": "{x} Et voi erottaa itseäsi.",
+                    "kick-administrator": "{x} En voi erottaa järjestelmänvalvojia.",
+                    "kick-notkickable": "{x} En voi erottaa tätä käyttäjää.",
+                    "no-reason": "Syytä ei ole annettu",
+                    "kickembed": {
+                        "title": "Sinut on erotettu!",
+                        "description": "**Palvelin:** {guild}\n**Syy:** ${reason}",
+                        "footer": {
+                            "text": "Erotettu"
+                        }
+                    },
+                    "kick-success": "{y} {user} erotettiin onnistuneesti.\n- DM pyydetty: {dmRequested}\n- DM lähetetty onnistuneesti: {dmSent}"
+                },
+                "unban": {
+                    "user-not-banned": "{x} Määritettyä käyttäjää ei ole porttikielletty.",
+                    "no-reason": "Syytä ei ole annettu",
+                    "user-unknown": "Käyttäjä",
+                    "success": "{y} {user} on vapautettu porttikiellosta."
+                },
+                "mute": {
+                    "mute-user-not-on-server": "{x} Tämä käyttäjä ei ole tällä palvelimella.",
+                    "mute-bot": "{x} Et voi mykistää minua.",
+                    "mute-administrator": "{x} Et voi mykistää järjestelmänvalvojaa.",
+                    "mute-yourself": "{x} Et voi mykistää itseäsi.",
+                    "mute-user-role-higher": "{x} Käyttäjällä on sama tai korkeampi rooli kuin sinulla.",
+                    "mute-user-role-higher-bot": "{x} Käyttäjällä on sama tai korkeampi rooli kuin minulla..",
+                    "time-invalid": "{x} Määritetty aika on virheellinen. Tämän on oltava 1 sekunnin ja 28 päivän välillä.",
+                    "success": "{y} {user} oli onnistuneesti mykistetty kunnes {timestamp}."
+                },
+                "unmute": {
+                    "user-not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella.",
+                    "user-not-muted": "{x} Käyttäjä ei ole jäähyllä.",
+                    "success": "{y} {user} jäähy on poistettu."
+                },
+                "clear": {
+                    "success-channel-user": "{y} Olen poistanut käyttäjän {user} {size} viestiä {channel} -kanavalta.",
+                    "success-channel": "{y} Olen poistanut {size} viestiä {channel} -kanavalta.",
+                    "no-reason": "Syytä ei ole annettu"
+                },
+                "lock": {
+                    "no-reason": "Syytä ei ole annettu",
+                    "success-lock": "{y} {channel} estettiin onnistuneesti.",
+                    "time-invalid": "{x} Määritetty aika on virheellinen. Tämän on oltava 5 sekunnin ja 60 minuutin välillä."
+                },
+                "unlock": {
+                    "channel-notlocked": "{x} {channel} ei ole lukittu.",
+                    "success-unlock": "{y} {channel} on onnistuneesti avattu."
+                },
+                "banreason": {
+                    "invalid-choice": "{x} Tämä valinta ei ole voimassa.",
+                    "user-not-banned": "{x} Määritettyä käyttäjää ei ole porttikielletty.",
+                    "new-reason": "Päivitetään syytä ({user} käyttämä)",
+                    "success": "{y} Porttikiellon syytä on muutettu."
+                }
+            },
+            "security": {
+                "toggle": {
+                    "no-channel-set": "{x} Kanavaa ei ole asetettu. Käytä </security joingate channel:{commandId}> tätä varten..",
+                    "success_activated": "{y} Kirjaukset ovat aktivoitu.",
+                    "success_deactivated": "{y} Kirjaukset ovat deaktivoitu."
+                },
+                "channel": {
+                    "success": "{y} Kirjausten kanava on nyt {channel}."
+                },
+                "minage": {
+                    "success": "{y} Vähimmäisikää on päivitetty.\n> ℹ️・Tilejä, jotka eivät saavuta vähimmäisikää, ei kielletä tai vastaavaa. Vain viesti lähetetään lokauskanavalle."
+                },
+                "suspicious_accounts": {
+                    "account-suspicious": "{user} - Epäilyttävä tili",
+                    "very-young": "{user} - Hyvin uusi tili",
+                    "no-avatar": "{user} - Ei profiilikuvaa ja melko uusi",
+                    "embed": {
+                        "title": "Epäilyttävät tilit",
+                        "footer": {
+                            "text-plural": "{size} tiliä tarkastettu.",
+                            "text-singular": "1 tili tarkistettu."
+                        }
+                    },
+                    "too-many-accounts": "{x} Raportoitavia epäilyttäviä tilejä on liikaa.",
+                    "success-singular": "{y} 1 tili on tarkistettu.",
+                    "success-plural": "{y} {size} tiliä olivat tarkistettu."
+                }
+            }
+        },
+        "other": {
+            "bot": {
+                "info": {
+                    "embed": {
+                        "title": "Tietoja",
+                        "description": "<:discord_member:1029008701027266611>・{usercount} Käyttäjiä\n<:discord_servers:1029009256592195594>・{servercount} Palvelimia\n<:datbot_shard:1061322798049542145>・{guildname} Osio: {shard}\n<:bot_developer:1028942737602514954>・Kehittäjä: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
+                        "fields": {
+                            "most-used-commands": {
+                                "name": "<:datbot_slash_command:1104329595110576159> Suosittu komento",
+                                "value-nodata": "Ei tietoja"
+                            },
+                            "shardinfo": {
+                                "name": "{status}・Osio {shardid}",
+                                "value": "- Palvelimet・{servercount}\n- Käyttäjiä・{usercount}\n- Käyttöaika・{uptime}\n- Yhteyspyyntö・{ping}ms"
+                            }
+                        }
+                    }
+                },
+                "status": {
+                    "embed": {
+                        "title": "Tila",
+                        "description": "- Voit tarkistaa tilani [verkkosivuiltani](https://status.datbot.xyz)."
+                    }
+                },
+                "links": {
+                    "embed": {
+                        "title": "Tärkeitä linkkejä",
+                        "description": "- <:verified_bot:1030502994497777684>・[Kutsu](https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=bot%20applications.commands)\n- <a:level:993599873771380776>・[Tukipalvelin](https://discord.gg/BQumAujuvk)\n- <:discord_online:1029009583127134228>・[Tila](https://status.datbot.xyz/)\n- 📚・[Dokumentaatio](https://en.docs.datbot.xyz/)\n- <:topgg:1030585172753657956>・[Top.gg](https://top.gg/bot/965903240384376872)"
+                    },
+                    "buttons": {
+                        "docs-button": {
+                            "label": "Dokumentaatio"
+                        },
+                        "topgg-button": {
+                            "label": "Top.gg"
+                        }
+                    }
+                },
+                "ping": {
+                    "embed": {
+                        "shard": "Osio",
+                        "description": "🏓 Pong! Pingini on tällä hetkellä {ping} millisekuntia.\n\n- Osio:\n{shardinfo}"
+                    }
+                },
+                "setup": {
+                    "embed": {
+                        "title": "Dat Botin asentaminen",
+                        "description": {
+                            "stage-1": "**Asennus**\n- {y} Asennus aloitettu.",
+                            "stage-2": "**Asennus**\n- {y} Asennus aloitettu.\n- {t} Tarkista käyttöoikeudet.",
+                            "stage-3": "**Asennus**\n- {y} Asennus aloitettu.\n- {y} Tarkista käyttöoikeudet.",
+                            "stage-4": "**Asennus**\n- {y} Asennus aloitettu.\n- {y} Tarkista käyttöoikeudet.\n- {y} Tarkista lokauskanava.\n- {i} DatBot-päivityksille ei ole asetettu kanavaa.Voit halutessasi valita sellaisen. Jos et valitse, napsauta \"Viimeistele asennus\".",
+                            "stage-5": "**Asennus**\n- {y} Asennus aloitettu.\n- {y} Tarkista käyttöoikeudet.\n- {y} Tarkista lokauskanava.\n- {y} Asennus valmis. Tämä kesti `{time}` sekuntia."
+                        },
+                        "error-permissions": {
+                            "send-messages": "**Asennus**\n- {y} Asennus aloitettu.\n- {y} Tarkista käyttöoikeudet.\n- {x} Tapahtui virhe.\n> Minulla ei ole käyttöoikeuksia \"Lähetä viestejä\".",
+                            "embed-links": "**Asennus**\n- {y} Asennus aloitettu.\n- {y} Tarkista käyttöoikeudet.\n- {x} Tapahtui virhe.\n> Minulla ei ole käyttöoikeuksia \"Upota linkkejä\".",
+                            "view-channel": "**Asennus**\n- {y} Asennus aloitettu.\n- {y} Tarkista käyttöoikeudet.\n- {x} Tapahtui virhe.\n> Minulla ei ole käyttöoikeuksia \"Näyttää kanavia\"."
+                        }
+                    },
+                    "components": {
+                        "channel": {
+                            "placeholder": "Valitse kanava päivityksiä varten."
+                        },
+                        "finish": {
+                            "label": "Viimeistele asennus"
+                        }
+                    }
+                },
+                "staff": {
+                    "embed": {
+                        "title": "Dat Bot - Tiimi",
+                        "description": "### **Kehittäjä**\n {devs}\n### **Henkilökunta**\n {staffs}"
+                    }
+                },
+                "support": {
+                    "response": "{i} Jos tarvitset apua, voit ottaa yhteyttä [tukipalvelimeen].(https://discord.gg/BQumAujuvk)."
+                }
+            },
+            "embeds": {
+                "default-embed": {
+                    "title": "Otsikko",
+                    "description": "Kuvaus",
+                    "author": {
+                        "name": "Kirjoittaja"
+                    },
+                    "footer": {
+                        "text": "Alatunnisteen teksti"
+                    },
+                    "color": "Väri",
+                    "image": "Kuva",
+                    "thumbnail": "Pikkukuva",
+                    "field": "Kenttä",
+                    "timestamp": "Aikaleima"
+                },
+                "default-components": {
+                    "change-select": {
+                        "placeholder": "Muokkaa upotusta!"
+                    },
+                    "delete-select": {
+                        "placeholder": "Poista jotain upotuksesta!"
+                    },
+                    "import-json-button": {
+                        "label": "Tuo JSON"
+                    },
+                    "export-json-button": {
+                        "label": "Vie JSON"
+                    },
+                    "send-embed-select": {
+                        "label": "Lähetä upotus"
+                    },
+                    "send-with-webhook-button": {
+                        "label": "Lähetä webhookilla"
+                    }
+                },
+                "edit": {
+                    "not-valid-message-link": "{x} Syötä kelvollinen viestilinkki.",
+                    "message-not-found": "{x} Määritettyä viestiä ei löytynyt.",
+                    "no-embeds-size": "{x} Tämä viesti ei sisällä upotusta.",
+                    "author-not-datbot": "{x} Tämä viesti ei ole minun.",
+                    "commit-changes-button": {
+                        "label": "Tallenna muutokset"
+                    }
+                },
+                "copy": {
+                    "not-valid-message-link": "{x} Syötä kelvollinen viestilinkki.",
+                    "message-not-found": "{x} Määritettyä viestiä ei löytynyt.",
+                    "no-embeds-size": "{x} Tämä viesti ei sisällä upotusta.",
+                    "copy-embed-select": {
+                        "placeholder": "Valitse upotus.",
+                        "embed": "Upotus #{size}"
+                    }
+                },
+                "export": {
+                    "not-valid-message-link": "{x} Syötä kelvollinen viestilinkki.",
+                    "message-not-found": "{x} Määritettyä viestiä ei löytynyt.",
+                    "no-embeds-size": "{x} Tämä viesti ei sisällä upotusta.",
+                    "copy-embed-select": {
+                        "placeholder": "Valitse upotus.",
+                        "embed#": "Upotus #{size}"
+                    },
+                    "success": "{y} Tässä on upotuksesi: {url}",
+                    "error": "{x} Upotuksen vienti epäonnistui."
+                }
+            },
+            "endelon": {
+                "login": "Sisäänkirjautuminen",
+                "account-not-linked": "{x} Et ole yhdistänyt Endelon-tiliäsi Discord-tiliisi.",
+                "account-no-servers": "{x} Et omista mitään palvelimia.",
+                "servers": {
+                    "components": {
+                        "placeholder": "Valitse palvelin.",
+                        "choices": {
+                            "description": "ID: {id}・CPU: {cpu}・Muisti: {memory}・Levy: {disk}"
+                        }
+                    },
+                    "embed": {
+                        "title": "Hallitse palvelimiasi",
+                        "description": "> Hallitse Endelon-palvelimia DatBotin kautta. Valitse palvelimesi alareunan ValitseValikosta. Jos se ei näy, kyseessä on todennäköisesti virhe. Ota yhteyttä tukitiimiin. Jos sinulla on kysyttävää, voit myös ottaa yhteyttä tukeen."
+                    }
+                },
+                "links": {
+                    "embed": {
+                        "title": "Endelon Hosting",
+                        "description": "- [Nettisivu](https://endelon-hosting.de)\n- [Tila](https://status.endelon-hosting.de)\n- [Discord](https://endelon.chat/)\n- [Hallinnoi](https://my.endelon-hosting.de/)\n- [MySQL Admin](https://mysqladmin.endelon-hosting.de/)\n- [Dokumentaatio](https://docs.endelon-hosting.de/)\n- [Lahjoita (vapaaehtoinen!)](https://www.paypal.me/masusniper)"
+                    }
+                },
+                "everyone": {
+                    "embed": {
+                        "description": "**Hallitse palvelinta [{name}](url)**\n- Voit käynnistää tämän palvelimen alemmalla painikkeella nimeltä \"Käynnistä\"."
+                    },
+                    "components": {
+                        "start-button": {
+                            "label": "Käynnistä"
+                        },
+                        "delete-message-button": {
+                            "label": "Poista viesti"
+                        }
+                    },
+                    "url-not-valid": "{x} URL-osoite ei ole kelvollinen.",
+                    "not-your-server": "{x} Sinä et ole yhdistänyt tiliäsi Endeloniin tai tämä palvelin ei kuulu sinulle.",
+                    "not-your-server-2": "{x} Sinä et omista tätä palvelinta."
+                }
+            },
+            "level": {
+                "system-deactivated": "{x} Tasojärjestelmä on poistettu käytöstä tällä palvelimella.",
+                "no-levelroles": "{x} Tasorooleja ei ole.",
+                "roles": {
+                    "levelroles-deactivated": "{x} Tasoroolit on poistettu käytöstä tällä palvelimella.",
+                    "add": {
+                        "success": "{y} Rooli {role} annetaan nyt, kun taso {level} on saavutettu.",
+                        "role_higher_position": "{x} Minulla ei ole oikeutta määrätä roolia {role}, koska rooli on korkein tai korkeampi roolini.",
+                        "role_managed": "{x} Tätä roolia {role} hallinnoi ulkoinen palvelu."
+                    },
+                    "list": {
+                        "embed": {
+                            "title": "Tasoroolit",
+                            "description": "- Taso {level}・Rooli {role}"
+                        }
+                    },
+                    "deleteall": {
+                        "success": "{y} Kaikki tasoroolit on poistettu."
+                    },
+                    "remove": {
+                        "success": "{y} Rooli {role} on poistettu tietokannasta."
+                    },
+                    "toggle": {
+                        "success_activated": "{y} Tasoroolit on aktivoitu.",
+                        "success_deactivated": "{y} Tasoroolit on deaktivoitu."
+                    },
+                    "fix": {
+                        "success-singular": "{y} Järjestelmä on tarkistettu.\n> {i} 1 rooli on poistettu.",
+                        "success-plural": "{y} Järjestelmä on tarkistettu.\n> {i} {length} roolia on poistettu."
+                    }
+                },
+                "ignore": {
+                    "no-ignored-channels": "{x} Tällä palvelimella ei ole huomiotta jätettyjä kanavia.",
+                    "add": {
+                        "channel-already-ignored": "{x} Tämä kanava on jo sivuutettu.",
+                        "success": "{y} Kanava on lisätty."
+                    },
+                    "list": {
+                        "embed": {
+                            "title": "Sivuutetut kanavat"
+                        }
+                    },
+                    "remove": {
+                        "channel-not-ignored": "{x} Tätä kanavaa ei sivuutettu.",
+                        "success": "{y} Kanava on poistettu."
+                    }
+                },
+                "message": {
+                    "modal": {
+                        "label": "Viesti",
+                        "placeholder": "GG, Dat Bot! Olet nyt tasolla 2!",
+                        "title": "Vaihda tasonnousuviesti"
+                    }
+                },
+                "channel": {
+                    "reset-success": "{y} Tasonnousu-kanava on palautettu.",
+                    "success": "{y} Tasonnousu-viestit lähetetään nyt {channel}"
+                },
+                "test": {
+                    "no-levelup-message": "GG, Dat Bot! Olet nyt tasolla 2!",
+                    "success": "{y} Testiviesti on lähetetty."
+                },
+                "leaderboard": {
+                    "no-data1": "Ei tietoja",
+                    "no-data": "{x} Kukaan ei ole vielä kerännyt XP:tä.",
+                    "page-total": "Sivu {page} / {total}",
+                    "page": "Sivu {page}"
+                },
+                "rank": {
+                    "user-bot": "{x} Botit eivät voi kerätä XP:tä",
+                    "not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella."
+                },
+                "toggle": {
+                    "success_activated": "{y} Tasojärjestelmä on aktivoitu.",
+                    "success_deactivated": "{y} Tasojärjestelmä on deaktivoitu."
+                },
+                "noxprole": {
+                    "success": "{y} \"Ei XP-roolia\" on muutettu.",
+                    "remove-success": "{y} \"Ei XP-roolia\" on poistettu tietokannasta."
+                }
+            },
+            "random": {
+                "number": {
+                    "success": "{random} on satunnaisluku (minimi: {min}, maksimi: {max})."
+                },
+                "user": {
+                    "success": "{user} on satunnainen käyttäjä: {userinfo}"
+                },
+                "coinflip": {
+                    "success-head": "🔮・Tällä kertaa se oli || kruuna ||.",
+                    "success-tail": "🔮・Tällä kertaa se oli || klaava ||."
+                }
+            }
+        },
+        "socialmedia": {
+            "twitch": {
+                "notification-embed": {
+                    "fields": {
+                        "game": "Peli",
+                        "viewercount": "Katsojamäärä"
+                    }
+                },
+                "info": {
+                    "account-not-found": "{x} En ole löytänyt tiliä tällä käyttäjätunnuksella.",
+                    "account-no-information": "{x} Tilistä ei ole saatavilla tietoja.",
+                    "embed": {
+                        "fields": {
+                            "name": "🖊️・Nimi",
+                            "id": "🪪・ID",
+                            "created": "🕙・Luotu",
+                            "description": "🗨️・Kuvaus",
+                            "last-game": "🎮・Viimeisin peli",
+                            "follower-count": "✨・Seuraaja",
+                            "live": {
+                                "name": "📺・Suoralähetys",
+                                "value-true": "> Kyllä",
+                                "value-false": "> Ei"
+                            },
+                            "title": "🎨・Otsikko",
+                            "game": "🎮・Peli",
+                            "viewer-count": "👀・Katsojamäärä",
+                            "livestream-started": "🎭・Live-lähetys käynnistyi"
+                        }
+                    }
+                },
+                "add": {
+                    "default-twitch-message": "{name} on nyt suorassa lähetyksessä! {url}",
+                    "limit-reached": "{x} Raja {limit} on jo saavutettu.",
+                    "already-followed": "{x} Tätä käyttäjää seurataan jo.",
+                    "account-not-found": "{x} En ole löytänyt tiliä tällä käyttäjätunnuksella.",
+                    "success": "{y} Ilmoitus on lisätty.",
+                    "watch-stream-button": {
+                        "label": "Katso live-lähetystä"
+                    }
+                },
+                "list": {
+                    "no-data": "{x} Tällä palvelimella ei ole Twitch-ilmoituksia.",
+                    "embed": {
+                        "title": "Twitch-ilmoitukset",
+                        "description-activated": "- {channel}・Aktivoitu・{discord_channel}",
+                        "description-deactivated": "- {channel}・Deaktivoitu・{discord_channel}"
+                    }
+                },
+                "remove": {
+                    "not-followed": "{x} Käyttäjää ei ole seurattu.",
+                    "success": "{y} Ilmoitus on poistettu"
+                },
+                "toggle": {
+                    "not-followed": "{x} Käyttäjää ei ole seurattu.",
+                    "success_activated": "{y} **{name}** ilmoitukset on aktivoitu.",
+                    "success_deactivated": "{y} **{name}** ilmoitukset on deaktivoitu."
+                }
+            }
+        },
+        "utility": {
+            "autopublish": {
+                "none-existing": "{x} Automaattista julkaisukanavaa ei ole.",
+                "add": {
+                    "channel-already-autopublish": "{x} Tämä kanava on jo tietokannassa.",
+                    "success": "{y} {channel} lisättiin."
+                },
+                "list": {
+                    "embed": {
+                        "title": "Automaattinen julkaisu kanavat"
+                    }
+                },
+                "remove": {
+                    "channel-not-autopublish": "{x} Tätä kanavaa ei ole tietokannassa.",
+                    "success": "{y} {channel} on poistettu."
+                },
+                "toggle": {
+                    "success_activated": "{y} Järjestelmä on aktivoitu.",
+                    "success_deactivated": "{y} Järjestelmä on deaktivoitu."
+                },
+                "test": {
+                    "toggle-false": "Kytkin: Järjestelmä on poistettu käytöstä",
+                    "have-been-removed": "poistettiin onnistuneesti",
+                    "success": "{y} Virheitä ei ole ilmennyt.",
+                    "channel-not-type-5": "{channel} ei ole ilmoituskanava"
+                },
+                "embed": {
+                    "description": "## Hallitse järjestelmää: Hae luettelo nykyisistä kanavista\n- Debug: Testaa ja korjaa virheitä\n- Palauta: Palauta asetukset\n- Kytkin: Aktivoi tai deaktivoi järjestelmä\n- Lisää kanava: Lisää kanava\n- Poista kanava: Poista kanava"
+                },
+                "components": {
+                    "liste-button": {
+                        "label": "Lista"
+                    },
+                    "debug-button": {
+                        "label": "Debug"
+                    },
+                    "reset-button": {
+                        "label": "Palauta"
+                    },
+                    "toggle-button": {
+                        "label": "Kytkin"
+                    },
+                    "addchannel-select": {
+                        "placeholder": "Lisää kanava"
+                    },
+                    "removechannel-select": {
+                        "placeholder": "Poista kanava"
+                    }
+                }
+            },
+            "autorole": {
+                "embed": {
+                    "description": "## Automaatti roolit\n-lista: Hae luettelo nykyisistä automaatti rooleista\n- Debug: Testaa ja korjaa virheitä\n- Palauta: Asetukset\n- Kytkin: Aktivoi tai deaktivoi automaatti roolit\n- Lisää rooleja: Lisää automaatti rooli\n- Poista roolit: Poista automaatti rooli"
+                },
+                "components": {
+                    "liste-button": {
+                        "label": "Lista"
+                    },
+                    "debug-button": {
+                        "label": "Debug"
+                    },
+                    "reset-button": {
+                        "label": "Palauta"
+                    },
+                    "toggle-button": {
+                        "label": "Kytkin"
+                    },
+                    "addchannel-select": {
+                        "placeholder": "Lisää automaatti rooli"
+                    },
+                    "removechannel-select": {
+                        "placeholder": "Poista automaatti rooli"
+                    }
+                }
+            },
+            "emoji": {
+                "emoji-notvalid": "{x} Syötä kelvollinen emoji.",
+                "emoji-default": "{x} Tämä on tavallinen emoji.",
+                "emoji-guild": "{x} Tämä emoji ei ole tältä palvelimelta.",
+                "copy": {
+                    "limit-reached": "{x} Et voi enää lisätä emojeja, koska raja on saavutettu.",
+                    "buttons": {
+                        "emoji-as-emoji-button": {
+                            "label": "Lisää emoji emojina."
+                        },
+                        "emoji-as-sticker-button": {
+                            "label": "Lisää emoji tarraksi."
+                        },
+                        "url-link-button": {
+                            "label": "URL"
+                        }
+                    },
+                    "embed": {
+                        "title": "Lisää emoji",
+                        "description": "- Lisää tämä emoji tarraksi klikkaamalla \"Lisää emoji tarraksi\".\n- Lisää tämä emoji emojina klikkaamalla \"Lisää emoji emojina\"."
+                    },
+                    "success": "{y} {name} lisättiin.",
+                    "on-been-added": "lisättiin."
+                },
+                "info": {
+                    "embed": {
+                        "title": "Emoji tiedot",
+                        "description-managed-true": "- **Nimi:** {name}\n- **ID:** `{id}`\n- **Hallinnoitu:** Kyllä",
+                        "description-managed-false": "- **Nimi:** {name}\n- **ID:** `{id}`\n- **Hallinnoitu:** Ei"
+                    }
+                }
+            },
+            "poll": {
+                "create": {
+                    "embed": {
+                        "title": "Luo kysely!",
+                        "fields": {
+                            "current-options": {
+                                "name": "Nykyiset vaihtoehdot",
+                                "value": "Ei asetettuja vaihtoehtoja"
+                            }
+                        }
+                    },
+                    "components": {
+                        "delete-option-select": {
+                            "placeholder": "Poista vaihtoehto"
+                        },
+                        "add-option-button": {
+                            "label": "Lisää vaihtoehto"
+                        },
+                        "set-description-button": {
+                            "label": "Aseta kuvaus"
+                        },
+                        "send-poll-button": {
+                            "label": "Lähetä kysely"
+                        }
+                    }
+                }
+            }
+        },
+        "automod": {
+            "server_not_community": "{x} Tämä palvelin ei ole yhteisöpalvelin.",
+            "server_not_community_button": "Kuinka aktivoida Discord Yhteisö",
+            "server_not_community_support_article": "https://support.discord.com/hc/en-us/articles/360047132851-Enabling-Your-Community-Server",
+            "filter_word_added": "{y} Sana lisättiin onnistuneesti suodattimeen.",
+            "filter_limit_reached": "{x} 1000 nimimerkin raja on saavutettu.",
+            "filter_word_added_togglenotice": "{y} Sana lisättiin onnistuneesti suodattimeen.\n> {i} Automod-sääntö on poistettu käytöstä. Aktivoi se komennolla </automod nicknames toggle:{commandId}>!",
+            "filter_already_existing": "{x} Määritetty nimi on jo olemassa suodattimessa.",
+            "filter_not_existing": "{x} Määritettyä nimeä ei ole suodattimessa.",
+            "filter_word_removed": "{y} Sana poistettiin onnistuneesti suodattimesta.",
+            "filter_reset": "{y} Suodatin nollattiin onnistuneesti.",
+            "filter_empty": "{x} Suodattimessa ei ole nimiä.",
+            "list_embed_description": "# Automod - Nimimerkit\n\n\n## Täysin kielletty\n- {1}\n## Tarkka nimi\n- {2}\n## Ei saa alkaa ...\n- {3}\n## Ei saa päättyä ...\n- {4}",
+            "toggle_deactivated": "{y} Automod-sääntö on poistettu käytöstä.",
+            "toggle_activated": "{y} Automod-sääntö on aktivoitu.",
+            "allowlist_already": "{x} Rooli on jo sallittujen listaan",
+            "allowlist_added": "{y} Rooli on onnistuneesti lisätty sallittujen listaan.",
+            "allowlist_embed_description": "# Automod - Sallittujen lista\n- {1}",
+            "allowlist_not": "{x} Rooli ei ole sallittujen listalla.",
+            "allowlist_removed": "{y} Rooli poistettiin onnistuneesti sallittujen listalta.",
+            "logchannel_already": "{x} Lokauskanava on jo <#{channel}>.",
+            "logchannel_set": "{y} Lokauskanava on asetettu.",
+            "logchannel_notset": "{x} Lokauskanava ei ole asetettu.",
+            "logchannel_reset": "{y} Lokauskanava nollattiin onnistuneesti."
+        }
+    },
+    "config": {
+        "developer_name": "D_Gamet",
+        "developer_id": "754246997266923571",
+        "support_invite": "https://discord.gg/BQumAujuvk",
+        "invite_link": "https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=applications.commands%20bot"
+    },
+    "contextmenus": {
+        "avatar": {},
+        "end_poll": {
+            "message-not-poll": "{x} Tämä viesti ei ole kysely. Luo kysely käyttämällä </poll create:1114289709099798578>."
+        },
+        "levelrank": {
+            "system-deactivated": "{x} Tasojärjestelmä on poistettu käytöstä tällä palvelimella.",
+            "user-bot": "{x} Botit eivät voi kerätä XP:tä.",
+            "not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella."
+        },
+        "pollcreate": {},
+        "userinfo": {},
+        "voiceinfo": {
+            "not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella.",
+            "not-in-vc": "{x} Tämä käyttäjä ei ole missään äänikanavassa",
+            "embed": {
+                "self": "Self",
+                "moderator": "Moderaattori",
+                "user": "Käyttäjä",
+                "id": "ID",
+                "voice-connection": "Puhekanavan yhteys",
+                "voice-channel": "Puhekanava",
+                "deaf": "Kuulokkeet mykistetty",
+                "mute": "Mikrofoni mykistetty"
+            }
+        }
+    },
+    "events": {
+        "logging": {},
+        "emojiquiz": {},
+        "flagquiz": {}
+    },
+    "modals": {
+        "embeds": {
+            "embed-message-not-found": "{x} En löydä enää upotettua viestiä.",
+            "embed-not-existing": "{x} Upotettua viestiä ei ole enää olemassa.",
+            "embed-not-found": "{x} En löydä enää upotusta.",
+            "url-invalid": "{x} Määrittelyn on oltava kelvollinen URL-osoite.",
+            "author": {
+                "name": {},
+                "url": {},
+                "icon": {}
+            },
+            "color": {
+                "not-hex-code": "{x} Määrittely ei ole heksakoodi."
+            },
+            "description": {},
+            "fields_add": {},
+            "footer": {
+                "text": {},
+                "icon": {}
+            },
+            "image": {},
+            "thumbnail": {},
+            "timestamp": {
+                "not-timestamp": "{x} Määritetty aika on virheellinen. `YYYY-MM-DD HH:MM:SS` olisi oikea.\n> Esimerkki: `2023-03-15 15:37:12` -> 15.03.2023 15:37:12"
+            },
+            "title": {
+                "title": {},
+                "url": {}
+            },
+            "import_json": {
+                "not-json-code": "{x} JSON-koodi ei ole kelvollinen."
+            },
+            "sendwithwebhook": {
+                "not-valid": "{x} Annettu Webhook URL-osoite ei ole kelvollinen.",
+                "thread-id": "{x} Tämä webhook on tarkoitettu foorumille, joten sitä ei voi käyttää."
+            }
+        },
+        "games": {
+            "clashofclans": {
+                "api_verify": {
+                    "api": {
+                        "404": "{x} En ole löytänyt tiliä."
+                    },
+                    "token-invalid": "{x} Tunniste on virheellinen.",
+                    "success": "{y} Tunniste on voimassa. Tilisi on tallennettu tietokantaan.\n> {i} Vain sinun pelissä käyttämäsi lyhenne ({tag}) on tallennettu."
+                }
+            }
+        },
+        "logs": {
+            "leave_message": {
+                "success": "{y} Viestiä on päivitetty."
+            },
+            "welcome_message": {
+                "success": "{y} Viestiä on päivitetty."
+            }
+        },
+        "other": {
+            "endelon_post_create": {
+                "url-not-valid": "{x} URL-osoite ei ole kelvollinen."
+            },
+            "level_message": {
+                "success": "{y} Viestiä on päivitetty."
+            }
+        },
+        "poll": {
+            "add_option": {
+                "current-options": "Nykyinen vaihtoehto(t)",
+                "embed-deleted": "{x} Upotus on poistettu.",
+                "option-twice": "{x} Et voi käyttää mitään vaihtoehtoa useammin kuin kerran.",
+                "fields-size-error": "{x} Voit lisätä enintään 25 vaihtoehtoa."
+            },
+            "set_description": {
+                "embed-deleted": "{x} Upotus on poistettu."
+            }
+        }
+    },
+    "other": {
+        "yes": "Kyllä",
+        "no": "Ei",
+        "active": "Aktiivinen",
+        "no-data": "Ei tietoja",
+        "deactive": "Ei aktiivinen",
+        "activate": "Aktivoi",
+        "deactivate": "Deaktivoi",
+        "no-channel": "Ei kanavaa",
+        "day": "Päivä",
+        "channel": "Kanava",
+        "channels": "Kanavat",
+        "days": "Päivät",
+        "none": "Ei mitään",
+        "api": {
+            "not-functionable": "{x} Tämä komento ei ole enää toiminnassa. Ole hyvä ja ota yhteyttä kehittäjääni D_Gamet.",
+            "401": "{x} Komento ei enää toimi, mutta olen jo ilmoittanut siitä kehittäjälleni.",
+            "403": "{x} Tämä komento ei enää toimi. Ota yhteyttä kehittäjääni D_Gamet.",
+            "429": "{x} Olen tällä hetkellä nopeusrajoituksen sisällä.",
+            "500": "{x} Ulkoisella palvelimella oli virhe.",
+            "502": "{x} Ulkoinen palvelin ei ole tällä hetkellä käytettävissä.",
+            "503": "{x} Ulkoinen palvelin ei ole tällä hetkellä käytettävissä."
+        },
+        "general": {
+            "notspecific": "{x} Tapahtui virhe.",
+            "notyourmenu": "{x} Tämä ei ole sinun valikkosi.",
+            "option-not-valid": "{x} Määritetty vaihtoehto ei ole voimassa. Valitse yksi sinulle ehdotettu vaihtoehto.",
+            "currently-not-available": "{x} Tällä hetkellä ei ole saatavilla.",
+            "translation-error": "{i} Tunnistin automaattisesti, että käännös ei ollut ladattu oikein. Olen jo ilmoittanut kehittäjälleni automaattisesti.",
+            "menutimeover": "{x} Valikko on vanhentunut. Avaa uusi valikko.",
+            "components": {
+                "buttons": {
+                    "support-button": {
+                        "label": "Tuki"
+                    },
+                    "invite-button": {
+                        "label": "Kutsu"
+                    },
+                    "status-button": {
+                        "label": "Tila"
+                    },
+                    "docs-button": {
+                        "label": "Dokumentaatio"
+                    },
+                    "topgg-button": {
+                        "label": "Top.gg"
+                    },
+                    "privacy-policy-button": {
+                        "label": "Tietosuojaseloste"
+                    }
+                }
+            }
+        },
+        "permissions": {
+            "user_permission": "{x} Sinulta puuttuu oikeus {permission}.",
+            "user_permission_channel": "{x} Sinulta puuttuu oikeus {permission} {channel} -kanavalla",
+            "user_channel": "{x} Sinulta puuttuu oikeus katsoa kanavaa {channel}.",
+            "bot_permission": "{x} Minulta puuttuu oikeus {permission}.",
+            "bot_permission_channel": "{x} Minulta puuttuu {permission} oikeus {channel} -kanavassa",
+            "bot_channel": "{x} Minulla ei ole lupaa katsoa {channel} -kanavaa."
+        },
+        "grammar": {
+            "singular": "Yksi virhe on tapahtunut",
+            "plural": "{size} virheitä on ilmennyt"
+        },
+        "restrictions": {
+            "server-banned": "{x} Tämä palvelin on porttikielletty. Lisätietoja: https://discord.gg/BQumAujuvk.",
+            "user-banned": "{x} Sinut on porttikielletty Dat Botin järjestelmästä. Löydät lisätietoja täältä: https://discord.gg/BQumAujuvk.",
+            "command-developer": "{x} Tämä komento on vain kehittäjille.",
+            "command-unloaded": "{x} Tätä komentoa ei ole ladattu. Ota yhteyttä tukipalvelimeen: https://discord.gg/BQumAujuvk",
+            "use-command-again": "{x} Käytä komentoa uudelleen ole hyvä.",
+            "user-banned-command": "{x} Et voi käyttää tätä komentoa.",
+            "cooldown": {
+                "button": "{x} Voit käyttää tätä painiketta uudelleen {lastexecuted}.",
+                "command": "{x} Voit käyttää tätä painiketta uudelleen {lastexecuted}.",
+                "contextmenu": "{x} Voit käyttää tätä sovellusta uudelleen {lastexecuted}.",
+                "modal": "{x} Voit käyttää tätä modaalia uudelleen {lastexecuted}.",
+                "selector": "{x} Voit käyttää tätä valikkovalintaa uudelleen {lastexecuted}."
+            }
+        },
+        "endelon": {
+            "runtime": "🕐・Suoritusaika",
+            "status": {
+                "offline": "🔴・Tila",
+                "online": "🟢・Tila",
+                "installing": "🟤・Tila",
+                "unknown": "⚫・Tila"
+            },
+            "status-label": {
+                "offline": "Offline",
+                "starting": "Käynnistyy",
+                "online": "Online",
+                "installing": "Asentuu",
+                "stopping": "Pysähtyy",
+                "running": "Käynnissä",
+                "unknown": "Tuntematon",
+                "restart": "Käynnistetään uudelleen"
+            },
+            "server-not-found": "{x} Tätä palvelinta ei löydetty.",
+            "manage-your-server": "Hallitse palvelinta",
+            "server-started": "{y} Palvelin käynnistetty.",
+            "api": {
+                "400": "{x} Et ole yhdistänyt Endelon-tiliäsi Discord-tiliisi.",
+                "404": "{x} Palvelin ei kuulu sinulle."
+            },
+            "update": "Päivitys",
+            "start": "Käynnistä",
+            "restart": "Käynnistä uudelleen",
+            "stop": "Pysäytä",
+            "kill": "Tapa"
+        },
+        "quiz": {
+            "emojiquiz": {
+                "embed": {
+                    "title": "Arvaa sana"
+                }
+            },
+            "flagquiz": {
+                "embed": {
+                    "title": "Arvaa lippu"
+                }
+            }
+        }
+    },
+    "permissions": {
+        "AddReactions": "Lisää reaktioita",
+        "Administrator": "Järjestelmänvalvoja",
+        "AttachFiles": "Liitä tiedostoja",
+        "BanMembers": "Anna porttikieltoja jäsenille",
+        "ChangeNickname": "Muuta nimimerkkiä",
+        "Connect": "Yhdistä",
+        "CreateInstantInvite": "Kutsun luonti",
+        "CreatePrivateThreads": "Luo julkisia ketjuja",
+        "CreatePublicThreads": "Luo yksityisiä ketjuja",
+        "DeafenMembers": "Poista ääniä jäseniltä",
+        "EmbedLinks": "Upota linkkejä",
+        "KickMembers": "Erota jäseniä",
+        "ManageChannels": "Hallinnoi kanavia",
+        "ManageEmojisAndStickers": "Hallinnoi emojeja ja tarroja",
+        "ManageEvents": "Hallinnoi tapahtumia",
+        "ManageGuild": "Hallinnoi palvelinta",
+        "ManageGuildExpressions": "Hallinnoi ilmaisuja",
+        "ManageMessages": "Hallinnoi viestejä",
+        "ManageNicknames": "Hallinnoi nimimerkkejä",
+        "ManageRoles": "Hallinnoi rooleja",
+        "ManageThreads": "Hallinnoi ketjuja",
+        "ManageWebhooks": "Hallinnoi webhookeja",
+        "MentionEveryone": "@everyone, @here ja kaikki roolit mainittavissa",
+        "ModerateMembers": "Aseta jäseniä jäähylle",
+        "MoveMembers": "Siirrä jäseniä",
+        "MuteMembers": "Mykistä jäseniä",
+        "PrioritySpeaker": "Ensisijainen puhuja",
+        "ReadMessageHistory": "Lue viestihistoriaa",
+        "RequestToSpeak": "Pyydä puheenvuoro",
+        "SendMessages": "Lähetä viestejä",
+        "SendMessagesInThreads": "Lähetä viestejä ketjuihin",
+        "SendTTSMessages": "Lähetä tekstistä puheeksi -viestejä ",
+        "SendVoiceMessages": "Lähetä ääniviestejä",
+        "Speak": "Puhu",
+        "Stream": "Video",
+        "UseApplicationCommands": "Käytä sovelluskomentoja",
+        "UseEmbeddedActivities": "Käytä toimintoja",
+        "UseExternalEmojis": "Käytä ulkoisia emojeja",
+        "UseExternalSounds": "Käytä ulkoisia ääniä",
+        "UseExternalStickers": "Käytä ulkoisia tarroja",
+        "UseSoundboard": "Käytä äänipankkia",
+        "UseVAD": "Käytä puheentunnistusta",
+        "ViewAuditLog": "Katso valvontalokia",
+        "ViewChannel": "Näytä kanavat",
+        "ViewCreatorMonetizationAnalytics": "Näytä luojan rahallistamisen analyysi.",
+        "ViewGuildInsights": "Näytä palvelinanalyysit"
+    },
+    "selectors": {
+        "embeds": {
+            "embed-message-not-found": "{x} En löydä enää upotettua viestiä.",
+            "embed-not-existing": "{x} Upotettua viestiä ei ole enää olemassa.",
+            "embed-not-found": "{x} En löydä enää upotusta.",
+            "embed-deleted": "{x} Upotus on poistettu.",
+            "url-invalid": "{x} Määrittelyn on oltava kelvollinen URL-osoite.",
+            "author": {
+                "name": {
+                    "modal": {
+                        "title": "Vaihda kirjoittajan nimi",
+                        "label": "Kirjoittajan nimi"
+                    }
+                },
+                "icon": {
+                    "modal": {
+                        "title": "Vaihda kirjoittajan kuvaketta",
+                        "label": "Kirjoittajan kuvake",
+                        "placeholder": "Siisti kuvake."
+                    }
+                },
+                "url": {
+                    "modal": {
+                        "title": "Vaihda kirjoittajan url-osoite",
+                        "label": "URL",
+                        "placeholder": "https://discord.gg/BQumAujuvk"
+                    }
+                }
+            },
+            "delete": {},
+            "footer": {
+                "text": {
+                    "modal": {
+                        "title": "Muuta alatunnisteen tekstiä",
+                        "label": "Alatunnisteen teksti",
+                        "placeholder": "Dat Bot on loistava Botti."
+                    }
+                },
+                "icon": {
+                    "modal": {
+                        "title": "Muuta alatunnisteen kuvaketta",
+                        "label": "Alatunnisteen kuvake",
+                        "placeholder": "Siisti kuvake."
+                    }
+                }
+            },
+            "title": {
+                "title": {
+                    "modal": {
+                        "title": "Muuta otsikkoa",
+                        "label": "Otsikko",
+                        "placeholder": "Erittäin hieno otsikko."
+                    }
+                },
+                "url": {
+                    "modal": {
+                        "title": "Muuta otsikon URL-osoite",
+                        "label": "URL",
+                        "placeholder": "https://discord.gg/BQumAujuvk"
+                    }
+                }
+            },
+            "delete-part": {
+                "requirements-missing": "{x} Upotuksen on sisällettävä jokin seuraavista: Otsikko, Kirjoittajan nimi, Alatunnisteen teksti, Kuvaus, Kuva tai Pikkukuva.",
+                "embed-size": "{x} Et voi lisätä enemmän kuin 25 kenttää.",
+                "selector": {
+                    "placeholder": "Valitse poistettava kenttä."
+                }
+            },
+            "select-embed": {
+                "title": {
+                    "selector": {
+                        "placeholder": "Muokkaa otsikkoa!",
+                        "options": {
+                            "text": "Testi",
+                            "url": "URL"
+                        }
+                    }
+                },
+                "author": {
+                    "selector": {
+                        "placeholder": "Muokkaa kirjoittajaa!",
+                        "options": {
+                            "name": "Nimi",
+                            "url": "URL",
+                            "icon": "Kuvake URL"
+                        }
+                    }
+                },
+                "description": {
+                    "modal": {
+                        "title": "Muuta kuvausta",
+                        "label": "Kuvaus",
+                        "placeholder": "Erittäin hieno kuvaus."
+                    }
+                },
+                "timestamp": {
+                    "modal": {
+                        "title": "Muuta aikaleima",
+                        "label": "Aikaleima",
+                        "placeholder": "YYYY-MM-DD HH:MM"
+                    }
+                },
+                "thumbnail": {
+                    "modal": {
+                        "title": "Muuta pikkukuvaa",
+                        "label": "Pikkukuva",
+                        "placeholder": "Siisti pikkukuva."
+                    }
+                },
+                "image": {
+                    "modal": {
+                        "title": "Muuta kuvaa",
+                        "label": "Kuva",
+                        "placeholder": "Siisti kuva."
+                    }
+                },
+                "footer": {
+                    "selector": {
+                        "placeholder": "Vaihda alatunniste!",
+                        "options": {
+                            "name": "Nimi",
+                            "icon": "Kuvake URL"
+                        }
+                    }
+                },
+                "color": {
+                    "modal": {
+                        "title": "Vaihda väri",
+                        "label": "Väri",
+                        "placeholder": "#2ef024"
+                    }
+                },
+                "field": {
+                    "embed-size": "{x} Et voi lisätä enemmän kuin 25 kenttää.",
+                    "modal": {
+                        "title": "Lisää kenttä!",
+                        "inputs": {
+                            "information": {
+                                "label": "Nimi",
+                                "placeholder": "Tieto"
+                            },
+                            "value": {
+                                "label": "Arvo",
+                                "placeholder": "Tieto on erittäin tärkeää."
+                            },
+                            "inline": {
+                                "label": "Sisäkkäin",
+                                "placeholder": "totta/tarua"
+                            }
+                        }
+                    }
+                }
+            },
+            "send-embed": {}
+        },
+        "logs": {
+            "leave": {
+                "channel": {
+                    "success": "{y} Lähtöviestit lähetetään nyt {kanavalla}."
+                },
+                "mention-setrole": {
+                    "success": "{y} Roolimaininnan arvoksi asetettiin {role}."
+                },
+                "mention": {
+                    "user": {
+                        "success": "{y} Maininta asetettiin: **käyttäjä**."
+                    },
+                    "role": {
+                        "selector": {
+                            "placeholder": "Aseta rooli"
+                        },
+                        "success": "{i} Valitse rooli."
+                    },
+                    "none": {
+                        "success": "{y} Poistumismaininta on poistettu"
+                    }
+                }
+            },
+            "logs": {
+                "channel": {
+                    "success": "{y} Kirjauskanavaksi asetettiin {channel}."
+                },
+                "channel_setup": {
+                    "success": "{y} Kirjauskanavaksi asetettiin {channel}."
+                }
+            },
+            "welcome": {
+                "channel": {
+                    "success": "{y} Tervetuloviestien kanavaksi on asetettu {channel}."
+                },
+                "mention-setrole": {
+                    "success": "{y} Roolimaininta oli asetettu {role}."
+                },
+                "mention": {
+                    "user": {
+                        "success": "{y} Maininta asetettiin: **käyttäjä**."
+                    },
+                    "role": {
+                        "selector": {
+                            "placeholder": "Aseta rooli"
+                        },
+                        "success": "{i} Valitse rooli."
+                    },
+                    "none": {
+                        "success": "{y} Tervetulomaininta on poistettu."
+                    }
+                }
+            }
+        },
+        "other": {
+            "autorole_addrole": {
+                "buttons": {
+                    "autorole-home": {
+                        "label": "Takaisin"
+                    }
+                },
+                "limit-reached": "- {role}: 15 roolin raja on saavutettu",
+                "already-autorole": "- {role}: Tämä rooli on jo autorooli.",
+                "role-everyone": "- {role}: Tämä rooli on @everyone.",
+                "role-managed": "- {role}: Roolia hallinnoi ulkoinen palvelu.",
+                "role-position": "- {role}: En voi määrittää tätä roolia (roolin sijainti).",
+                "role-administrator": "- {a} {role}: Tällä roolilla on järjestelmänvalvojan oikeudet.",
+                "role-success": "- {role}: Onnistui",
+                "result": "Tulos",
+                "added-roles": "Lisätyt roolit",
+                "log": "Log",
+                "success": "- {role}: Onnistui"
+            },
+            "autorole_removerole": {
+                "buttons": {
+                    "autorole-home": {
+                        "label": "Takaisin"
+                    }
+                },
+                "not-autorole": "- {role}: Tämä rooli ei ole automaattinen rooli.",
+                "result": "Tulos",
+                "removed-roles": "Poistetut roolit",
+                "success": "- {role}: Onnistui",
+                "log": "Log"
+            },
+            "datbot_channel": {
+                "embed": {
+                    "title": "Dat Botin asennus",
+                    "description": "- {y} Asennus aloitettu.\n- {y} Tarkista käyttöoikeudet.\n- {y} Tarkista kirjauskanava.\n- {y} Asennus valmis."
+                }
+            }
+        },
+        "poll": {
+            "embed-deleted": "{x} Upotus on poistettu.",
+            "poll_delete_option": {
+                "embed": {
+                    "fields": {
+                        "current-options": {
+                            "name": "Nykyinen vaihtoehto(t)",
+                            "value": "Ei vaihtoehtoja"
+                        }
+                    }
+                }
+            },
+            "send_poll": {
+                "poll-message-not-found": "{x} Kyselyviestiä ei löytynyt.",
+                "embed-deleted": "{x} Upotus on poistettu."
+            }
+        }
+    },
+    "valorant": {
+        "code_submit": {
+            "label": "Määrittele koodi",
+            "title": "Koodi"
+        },
+        "rank": {
+            "no-arguments": "{x} Kirjoita Riot nimi (esim. DGamet#1687) tai kirjaudu sisään osoitteella </link valorant:{commandId}>.",
+            "invalid-username": "{x} Määritetty käyttäjänimi ei ole kelvollinen. Tarkista syöttämäsi tiedot.",
+            "user-no-data": "{x} Tälle käyttäjälle ei löytynyt tietoja.",
+            "description": "## Kilpailullinen - {username}\n- Tämän hetkinen\n - Sijoitus: {rank}\n - MMR: {mmr}\n - Elo: {elo}\n - Viimeinen peli: {last_game} RR {result}\n - Sijoitukseen vaadittavat pelit: {games_required} vaaditaan\n\n- Kaikkien aikojen\n - Aika: Jakso {episode} Akti {act}\n - Sijoitus: {alltime_rank}",
+            "won": "won",
+            "lost": "lost"
+        },
+        "matchhistory": {
+            "red": "Punainen",
+            "blue": "Sininen",
+            "not-linked": "{x} Et ole yhdistänyt tiliäsi. Käytä </link valorant:{commandId}> linkittääksesi tilisi.",
+            "wrong-shard": "{x} Kirjaudu sisään uudelleen. Sinun on ensin kirjauduttava ulos uudelleen </unlink valorant:{commandId}>.",
+            "account-not-found": "{x} En ole löytänyt linkitettyä tiliä.",
+            "defaultDescription": "## Valitse ottelu\n- Valitse yksi otteluista.\n- Discordin rajoituksen vuoksi Dat Bot voi näyttää vain 25 viimeisintä ottelua.\n\n- Huomaa: Kuka tahansa voi katsoa tietoja pelistä, kunhan hän voi lukea tämän viestin.",
+            "defaultSelectPlaceholder": "Valitse ottelu.",
+            "defaultFooter": "{matches} ottelua saatu",
+            "match": "Ottelu",
+            "no-matches": "{x} En saanut yhtään ottelua.",
+            "buttons": {
+                "playerandqueues": "Pelaajat & Jonot",
+                "resultandteams": "Tulos & Tiimit",
+                "Takaisin": "Takaisin"
+            },
+            "selectors": {
+                "match": "Valitse kierros.",
+                "player": "Valitse pelaaja."
+            },
+            "descriptions": {
+                "defaultInMenu": "## Valitse jotain\n- Valitse yksi alla olevista painikkeista saadaksesi tietoa tästä pelistä\n - Pelaajat & Jonot: Tietoja yksittäisistä pelaajista ja siitä, kuka on jonottanut kenen kanssa.\n - Tulos & joukkueet: Tietoja joukkueista ja lopputuloksesta.\n\n- Huomaa: Kuka tahansa voi katsoa tietoja pelistä, kunhan hän pystyy lukemaan tämän viestin.",
+                "valo_players": "## {mode}・{region}\n## Pelaajat - Sininen\n{playersBlue}\n## Pelaajat - Punainen\n{playersRed}\n## Jonot\n{queues}",
+                "valo_match": "## Peli\n- Aloitettu: <t:{started}:R>・<t:{started}:F>\n- Päättyi: <t:{ended}:R>・<t:{ended}:F>\n- Tila: {mode}\n- Kartta: {map}\n##  Tulos\n- Voittanut {team1}: {team1wins}/{rounds_played}\n- Voittanut {team2}: {team2wins}/{rounds_played}\n- Voittaja: {winner} ({yourteam})\n## Kierrosten päättymiset tyypit\n{endings}\n## Aikajana\n{timeline}",
+                "your-team": "Tiimisi",
+                "roundending_elimination": "Eliminointi: {1}/{rounds_played}",
+                "roundending_defuse": "Purku: {1}/{rounds_played}",
+                "roundending_timer": "Kierroksen ajastin on päättynyt: {1}/{rounds_played}",
+                "roundending_detonate": "Räjähdys: {1}/{rounds_played}",
+                "not-your-team": "Ei sinun joukkueesi",
+                "valo_matchinfo": "##  Kierroksen tulos {roundNum}\n- Keskitaso tulos (blue:red): {blueWon}:{redWon}\n- Kierros päättyi: {roundResultCode}\n- Voittaja: {winnerTeam}{plant}{defuse}\n## Pelin loki\n{gameLog}",
+                "plantinfo": "## Piikki-istutus\n- Esiintyvä pelaaja: {planter}\n- Aika: {plantTimestamp}\n- Istutuspaikka: {plantSide}",
+                "defuseinfo": "## Piikin purku\n- Suorittava pelaaja: {defuser}\n- Aika {defuseTimestamp}",
+                "gamelog_kill": "{killer} on surmannut {player} ({type}).",
+                "gamelog_plant": "{planter} istutti piikin paikkaan {site}.",
+                "gamelog_defuse": "{defuser} purkaa piikin.",
+                "valo_matchinfoplayers": "## Tietoja {player} ({agent}) kierroksella {roundNumber}\n- Pisteet: {score}\n## Tappamiset\n{kills}\n## Vahingot jaettu\n{damage}\n## Talous\n- Yhteensä: {economyTotal}\n- Kulutettu: {economySpent}\n- Kilpi: {armor}\n- Ase: {weapon}",
+                "shield": {
+                    "big": "Raskas haarniska",
+                    "light": "Kevyt haarniska",
+                    "regen": "Uudistuvat kilpi"
+                },
+                "damageinfo": "{damageAmount} vahinko: {dmg}",
+                "headshots": "{1} Headshot(s)",
+                "bodyshots": "{1} Bodyshot(s)",
+                "legshots": "{1} Legshot(s)"
+            },
+            "footerdata": "{played} pelatut kierrokset - voittaja: {winner}"
+        }
+    },
+    "tempvoice": {
+        "interface": {
+            "footer": "Liity luojan kanavaan: luodaksesi -kanavan.",
+            "description": "- <:1lock:1201576417897488535>・Yksityisyys\n- <:1bolt:1201576407965376533>・Hallinnoi kanavaa\n- <:1users:1201580813574230188>・Hallinnoi käyttäjiä\n- <:1ban:1201576397798379600>・Moderointi\n- <:1check:1201578213831356517>・Apu"
+        },
+        "beta": {
+            "closed": "{x} Tämä ominaisuus on tällä hetkellä suljetussa beta-versiossa. Jos haluat kokeilla ominaisuutta, voit pyytää sitä [tukipalvelimella].(https://discord.gg/BQumAujuvk).",
+            "open": "Tämä ominaisuus on tällä hetkellä avoimessa beta-versiossa."
+        },
+        "missing-permissions-setup": "{x} Voidakseni käyttää Tilapäinen äänikanava-järjestelmää tarvitsen vielä seuraavat käyttöoikeudet:\n{permissions}",
+        "not-in-vc": "{x} Et ole äänikanavalla.",
+        "more-info": "Lisätietoja",
+        "not-possible-ban": "{x} Et voi estää tätä käyttäjää.",
+        "not-in-tv-channel": "{x} Et ole tilapäisellä äänikanavalla.",
+        "missing-permissions": "{x} Tämän toiminnon suorittaminen edellyttää, että olet joko väliaikaisen äänikanavan omistaja tai palvelimen järjestelmänvalvoja.",
+        "feature-not-available": "{x} Tämä ominaisuus ei ole vielä käytettävissä.",
+        "user-not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella.",
+        "user-bot": "{x} Tämä käyttäjä on botti.",
+        "permissions-admin": "{x} Tätä varten sinun on oltava palvelimen järjestelmänvalvoja.",
+        "permissions-mod": "{x} Tätä varten sinun on oltava palvelimen ylläpitäjä, tämän kanavan omistaja tai kanavan moderaattori.",
+        "permissions-owner": "{x}  Tätä varten sinun on omistettava kanava.",
+        "is-owner": "{x} Tämä käyttäjä on tämän palvelimen omistaja.",
+        "is-admin": "{x} Tämä käyttäjä on tämän palvelimen järjestelmänvalvoja.",
+        "infinity": "ääretön",
+        "blocked": "{x} Sinut on estetty tilapäinen äänikanava-järjestelmästä, etkä voi enää käyttää sitä.\n- Tämän teki palvelimen jäsen, eikä se ole **ei** maailmanlaajuinen.\n- Löydät lisätietoja [täältä].(https://en.docs.datbot.xyz/features/our-features/tempvoice).",
+        "logs": {
+            "info": "## Tämän kanavan kirjaukset lähetetään tästä lähtien tänne.",
+            "lock": "{i}・{user} on **lukinnut** kanavan.",
+            "unlock": "{i}・{user} on **avannut** kanavan",
+            "inactivity": "{i}・Koska viimeinen käyttäjä ({user}) on **poistunut** {channel}, se on poistettu.",
+            "visible": "{i}・{user} on tehnyt kanavan **näkyväksi**.",
+            "invisible": "{i}・{user} on tehnyt kanavan **näkymättömäksi**.",
+            "bitrate": "{i}・{user} on asettanut bittinopeudeksi **{bitrate}**.",
+            "name": "{i}・{user} on asettanut nimeksi **{name}**.",
+            "status": "{i}・{user} on asettanut tilan **{status}**.",
+            "region": "{i}・{user} on asettanut alueeksi **{region}**.",
+            "userlimit": "{i}・{user} on asettanut käyttäjärajaksi **{userlimit}**.",
+            "nsfw-1": "{i}・{user} **aktivoi** NSFW.",
+            "nsfw-2": "{i}・{user} **deaktivoi** NSFW.",
+            "delete": "{i}・{user} **poisti** {channel}.",
+            "create": "{i}・{user} on **luonut** kanavan {channel}.",
+            "invite": "{i}・{user} on **kutsuttu** {member}.",
+            "uninvite": "{i}・{user} on **poistanut** kutsun jäsenelle {member}.",
+            "ban": "{i}・{user} on {member} **porttikielletty**.",
+            "unban": "{i}・{user} on **vapauttanut** {member} **porttikiellosta**.",
+            "kick": "{i}・{user} on **erottanut** {member}.",
+            "owner": "{i}・{user} on **siirtänyt omistusoikeudet** jäsenelle {member}.",
+            "modadd": "{i}・{user} on **lisännyt** {member} **moderaattorina**.",
+            "modrem": "{i}・{user} on **poistanut** {member} **moderaattorina**.",
+            "takeover": "{i}・{user} on **vallannut** kanavan. {member} oli edellinen omistaja.",
+            "removeallmoderators": "{i}・{user} on **poistanut** kaikki kanavan moderaattorit. Kanavan moderaattorit olivat: {mods}",
+            "created": "{i}・{user} on luonut {channel} **kanavan**.",
+            "deleted": "{i}Koska  {user} on poistunut kanavalta, {channel} on **poistettu**. Kanavalla ei ollut enää käyttäjiä",
+            "videoquality": "{i}・{user} on asettanut videon laaduksi **{videoquality}**."
+        },
+        "lock": {
+            "already": "{x} Kanava on jo lukittu.",
+            "success": "{y} Kanava on ollut lukittu."
+        },
+        "unlock": {
+            "already": "{x} Kanava on jo avattu.",
+            "success": "{y} Kanava on ollut avattu."
+        },
+        "visible": {
+            "already": "{x} Kanava on jo näkyvä.",
+            "success": "{y} Kanava on ollut näkyvissä."
+        },
+        "invisible": {
+            "already": "{x} Kanava on jo näkymätön.",
+            "success": "{y} Kanava on ollut näkymätön."
+        },
+        "bitrate": {
+            "title": "Aseta bittinopeus (Kbps)",
+            "label": "Bitrate",
+            "placeholder": "64",
+            "bitrate-update-success": "{y} Bittinopeudeksi asetettiin **{bitrate}kbps**.",
+            "bitrate-update-info": "{y} Bittinopeudeksi asetettiin **{bitrate}kbps**, koska {reqBitrate} edellyttää korkeampaa vahvistustasoa tai tämä bittinopeus ei ole käytettävissä.",
+            "bitrate-update-info-1": "{y} Bittinopeudeksi asetettiin **8 kbps**, koska se on vähimmäisarvo."
+        },
+        "name": {
+            "title": "Kanavan nimen asettaminen",
+            "label": "Nimi",
+            "placeholder": "siisti-kanava-nimi",
+            "set-success": "{y} Nimi on päivitetty."
+        },
+        "slowmode": {
+            "title": "Aseta hidastettu tila (s/m/h)",
+            "label": "Hidastettu tila",
+            "placeholder": "1 tunti 2 sekuntia 35 minuuttia"
+        },
+        "status": {
+            "title": "Aseta kanavan tila",
+            "label": "Tila",
+            "placeholder": "Juhlan aika! 🎉"
+        },
+        "userlimit": {
+            "title": "Aseta käyttäjäraja",
+            "label": "Käyttäjärajat",
+            "placeholder": "∞",
+            "success": "{y} Käyttäjärajaksi on asetettu **{limit}**.",
+            "success-without-limit": "{y} Käyttäjäraja on asetettu arvoon **ääretön**."
+        },
+        "nsfw": {
+            "success-deactivated": "{y} NSFW on ollut **deaktivoitu**.",
+            "success-activated": "{y} NSFW on ollut **aktivoitu**."
+        },
+        "delete": {
+            "continue-success": "{y} Kanava on ollut poistettu.",
+            "continue-deleteable-error": "{x} Minulla ei ole oikeutta poistaa kanavaa.",
+            "embed": {
+                "description": "## Poista kanava\n- Haluatko varmasti poistaa tämän Tilapäisen äänikanavan? Jos olet, napsauta <:1check:1201578213831356517>. Jos haluat peruuttaa tämän prosessin, napsauta <:1ban:1201576397798379600>.\n- Huomaa, että tilapäisen äänikanavan poistamista ei voi peruuttaa.",
+                "footer": "Et voi perua tätä."
+            }
+        },
+        "manage": {
+            "description": "## Selitys\n- <:volume:1202705024057081856>Aseta bittiraja\n- <:image4:1202697412012154890>・Aseta nimi\n- <:note:1202703281055604787>・Aseta tila\n- <:globe:1202703306527481917>・Aseta alue\n- <: user:1202704216041455677>・Aseta käyttäjäraja\n- <:image7:1202697417326338078>・Aseta NSFW\n- <:camera:1202703995014094888>・Aseta videon laatu\n- <:trash:1202716962489110609>・Poista kanava"
+        },
+        "moderate": {
+            "description": "## Pikatoiminnot\n- <:crown:1202717638447468605>・Ota kanavan haltuun\n- <:trash:1202716962489110609>・Poista kanava\n- <:1lock:1201576417897488535>・Porttikiellä kanava\n- <:ban: 1202712066394423326>・Porttikiellä käyttäjä\n- <:unmod:1202716452860461087>・Poista kaikki kanavien moderaattorit\n## Edistynyt moderointi\n- Klikkaa käyttöliittymässä <:1users:1201580813574230188> emojia, jos haluat hallita käyttäjiä. \n- Napsauta <:1bolt:1201576407965376533> emojia käyttöliittymässä kanavan hallitsemiseksi.\n## Huomautus\n- Jotta voit poistaa kaikki kanavan moderaattorit samanaikaisesti, sinun on ensin otettava kanava haltuun."
+        },
+        "privacy": {
+            "description": "## Selitys\n- <:1lock:1201576417897488535>・Lukitse kanava\n- <:1lockopen:1201585638609272832>・Poista kanavan lukitus\n- <:1eye:1201585529431527434>・Tee kanava näkyväksi\n- <:1eyeslash:1201585541402079302>・Tee kanava näkymättömäksi"
+        },
+        "region": {
+            "description": "## Aseta kanavan alue\n- Valitse uusi alue alemmasta valikkovalikosta. Vanha alue on oletusarvoisesti valittuna.\n## Mikä muuttaa kanava-aluetta?\n- Tähän kysymykseen vastaamiseksi suosittelen lukemaan [tukiartikkelin].(https://support.discord.com/hc/en-us/articles/1500007645701-Voice-Regions-on-Discord-FAQ).",
+            "placeholder": "Valitse alue.",
+            "regions": {
+                "description-auto": "Discord valitsee alueen automaattisesti.",
+                "description-region": "RTC alue: {region}",
+                "automatic": "Automaattinen",
+                "brazil": "Brasilia",
+                "hongkong": "Hong Kong",
+                "india": "Intia",
+                "japan": "Japani",
+                "rotterdam": "Rotterdam",
+                "russia": "Venäjä",
+                "southafrica": "Etelä-Afrikka",
+                "sydney": "Sydney",
+                "us-east": "Yhdysvaltain itä",
+                "us-south": "Yhdysvaltain etelä",
+                "us-west": "Yhdysvaltain länsi",
+                "us-central": "Yhdysvaltain keskus",
+                "singapore": "Singapore",
+                "south-korea": "Etelä-Korea"
+            },
+            "set-success": "{y} Aluetta on muutettu."
+        },
+        "users": {
+            "description": "## Selitys\n- <:invite:1202708818392522853>・Kutsu käyttäjä\n- <:uninvite:1202708805851414539>・Poista kutsu\n- <:ban:1202712066394423326>・Porttikiellä käyttäjä\n- <:unban:1202712377175449730>Vapauta käyttäjä porttikiellosta\n- <:kick:1202714648990720071>・Erota käyttäjä\n- <:user:1202704216041455677>・Siirrä omistajuutta\n- <:modadd:1202713237964062841>・Lisää moderaattori\n- <:unmod:1202716452860461087>・Poista moderaattori"
+        },
+        "videoquality": {
+            "description": "## Aseta videon laatu\n- Valitse uusi laatu alemmasta valintavalikosta. Vanha laatu on oletusarvoisesti valittuna.",
+            "placeholder": "Valitse laatu.",
+            "automatic": {
+                "label": "Automaattinen",
+                "description": "Discord valitsee laadun automaattisesti."
+            },
+            "720p": {
+                "label": "720p",
+                "description": "Videon laatu: 720p"
+            },
+            "success": "{y} Videon laatu on asetettu **{mode}**."
+        },
+        "help": {
+            "description": {
+                "no-creator-channel": "## Kanavan luominen\n- Sinun on liityttävä luojan kanavaan: luodaksesi väliaikaisen äänikanavan. Botti luo sinulle automaattisesti äänikanavan.\n- Huomaa: Tällä palvelimella ei ole luojan kanavaa:\n## Miten käyttöliittymä toimii?\n- Tietosuoja: Täällä voit lukita, avata lukituksen, tehdä kanavan näkyväksi ja näkymättömäksi.\n- Hallinnoi kanavaa: Hallitse nimeä, aluetta, käyttäjärajaa, tilaa ja bittinopeutta.\n- Hallitse käyttäjiä: Kiellä, vapauta tai erota käyttäjiä. Voit myös kutsua käyttäjiä ja siirtää omistajan.\n- Moderointi: Vain palvelimen moderaattoreille: He voivat käyttää tätä kanavan hallintaan.\n- Ohje: Tämä on tämä valikko. Sen pitäisi auttaa sinua ymmärtämään järjestelmää.\n## Oikeutesi\n- Kanavan omistaja: {tempvoiceOwner}\n- Palvelimen moderaattori: {serverMod}\n- moderointiroolissa: {modrole}\n- Estetty: {blocked}",
+                "creator-channel": "## Miten luodaan kanava?\n- Sinun on liityttävä {creatorChannel}-kanavaan luodaksesi väliaikaisen äänikanavan. Botti luo sinulle automaattisesti äänikanavan.\n## Miten käyttöliittymä toimii?\n- Tietosuoja: Täällä voit lukita, avata lukituksen, tehdä kanavan näkyväksi ja näkymättömäksi.\n- Kanavan hallinta: Hallitse nimeä, aluetta, käyttäjärajaa, tilaa ja bittinopeutta.\n- Hallitse käyttäjiä: Kiellä, vapauta tai erota käyttäjiä. Voit myös kutsua käyttäjiä ja siirtää omistajan.\n- Moderointi: Vain palvelimen moderaattoreille: He voivat käyttää tätä kanavan hallintaan.\n- Ohje: Tämä on tämä valikko. Sen pitäisi auttaa sinua ymmärtämään järjestelmää.\n## Oikeutesi\n- Kanavan omistaja: {tempvoiceOwner}\n- Palvelimen moderaattori: {serverMod}\n- moderointiroolissa: {modrole}\n- Estetty: {blocked}"
+            }
+        },
+        "setup": {
+            "too-many-channels-1": "{x} Tällä palvelimella on liian monella kanavalla. Poista **1 kanava**, jotta järjestelmää voidaan käyttää, tai valitse olemassa oleva kanava.",
+            "too-many-channels-2": "{x} Tällä palvelimella liian monella kanavalla. Ole hyvä ja poista **{määrä} kanavia**, jotta järjestelmää voidaan käyttää tai valitse olemassa oleva kanava.",
+            "type": {
+                "description": "## Valitse tyyppi\n- Pika: Käytä oletusasetuksia ja luo uusi luokka ja kaksi uutta kanavaa, toinen käyttöliittymää varten (tekstikanava) ja toinen luomista varten (äänikanava).\n- Manuaalinen: Aseta luojan kanava:.\n## Tieto\n- Voit jatkaa Asetusten muuttamista jälkikäteen </tempvoice settings:0>.",
+                "placeholder": "Valitse tyyppi.",
+                "quick": {
+                    "label": "Nopea",
+                    "description": "Luo kanavat ja käyttää oletusasetuksia."
+                },
+                "manuel": {
+                    "label": "Manuaali",
+                    "description": "Aseta kaikki manuaalisesti."
+                }
+            },
+            "success": "{y} Järjestelmä on asennettu. Luo nyt oma äänikanavasi  {channel}! 🎉",
+            "description": "## Tilapäinen äänikanava\n- Tämän järjestelmän avulla voit luoda tilapäisiä äänikanavia, jotka poistetaan, kun niitä ei enää käytetä.\n- Käyttäjä, joka on luonut kanavan, hallitsee sitä täysin ilman, että hänellä on oikeuksia muihin kanaviin.\n- Palvelimen moderaattoreilla on edelleen mahdollisuus ottaa kanava haltuunsa ja moderoida sitä.",
+            "continue": "Jatka",
+            "manuel": {
+                "defaultdescription": "## Valitse luojan kanava:\n- Tästä kanavasta tulee luojan kanava:.\n- Sinun on liityttävä luojan kanavaan: luodaksesi väliaikaisen äänikanavan.",
+                "description": "## Tieto\n- Onnistui. luojan kanava: on nyt {kanava}.\n- Valitse nyt kanava, jonne käyttöliittymäviesti lähetetään.",
+                "description-1": "## Tieto\n- Onnistui. Käyttöliittymäviesti lähetettiin {kanavalla}.\n- Jos haluat muuttaa muita asetuksia, kuten luokkaa, järjestelmäasetuksia tai vastaavia, käytä </tempvoice settings:0>.\n- Järjestelmän hallitsemiseksi sinun on oltava järjestelmänvalvoja.",
+                "placeholder-1": "Valitse luojan kanava:.",
+                "placeholder-2": "Valitse kanava käyttöliittymän lähettämistä varten."
+            }
+        },
+        "invite": {
+            "placeholder": "Valitse kutsuttava käyttäjä.",
+            "description": "## Käyttäjän kutsuminen\n- Jos haluat, että käyttäjä voi liittyä, vaikka kanava on estetty, valitse käyttäjä tämän upotuksen alla olevalla valintavalikolla.\n- Voit myös syöttää nimen valintavalikkoon, jolloin käyttäjää ehdotetaan sinulle.\n- Voit poistaa kutsun napsauttamalla emojia <:uninvite:1202708805851414539> kohdasta Käyttäjien hallinta ja syöttämällä käyttäjän sinne.",
+            "already": "{x} Käyttäjä on jo kutsuttu.",
+            "success": "{y} {user} oli kutsuttu.",
+            "banned": "{x}  En voi kutsua {user}, koska hänet on porttikielletty äänikanavalta."
+        },
+        "ban": {
+            "placeholder": "Valitse porttikiellettävä käyttäjä.",
+            "description": "## Käyttäjän porttikieltäminen\n- Jos haluat porttikieltää käyttäjän, kirjoita hänet alla olevaan Valitse-valikkoon.\n - Tämän jälkeen hän ei voi enää tulla äänikanavalle, ja jos hän on tällä hetkellä tällä äänikanavalla, hänet erotetaan siitä.\n- Voit myös hakea käyttäjän nimeä, jolloin käyttäjää ehdotetaan.\n- Voit poistaa käyttäjän porttikiellon napsauttamalla emojia <:unban:1202712377175449730> Käyttäjien hallinta -valikossa ja kirjoittamalla käyttäjän sinne.",
+            "already": "{x} Käyttäjä on jo porttikielletty.",
+            "success": "{y} {user} porttikiellettiin äänikanavalta.",
+            "success-info": "{y} {user} on porttikielletty äänikanavalta.\n- Olen poistanut {user} tältä äänikanavalta, koska hän oli siinä.",
+            "user-admin": "{x} Et pysty porttikieltämään järjestelmänvalvojia tilapäiseltä äänikanavalta.",
+            "user-disconnect-error": "{x} En pystynyt poistamaan {user} tältä äänikanavalta.",
+            "error-singular": "{x} Virhe tapahtui\n{error}",
+            "error-plural": "{x} Tuolla on {amount} virhettä\n{error}",
+            "user-yourself": "{x} Et pysty porttikieltämään itseäsi tilapäiseltä äänikanavalta."
+        },
+        "kick": {
+            "placeholder": "Valitse erotettava käyttäjä.",
+            "description": "## Erota käyttäjä\n- Jos haluat erottaa käyttäjän, kirjoita hänet alla olevaan valikkoon.\n - Hän **voi** sen jälkeen **liittyä takaisin** äänikanavalle, mutta jos hän on tällä hetkellä tällä äänikanavalla, hänet erotetaan siitä.\n- Voit myös etsiä käyttäjän nimeä, jolloin käyttäjää ehdotetaan.",
+            "already": "{x} {user} ei ole tässä äänikanavassa.",
+            "success": "{y} {user} on erotettu. He voivat kuitenkin liittyä uudelleen, kunhan he näkevät kanavan ja voivat liittyä siihen."
+        },
+        "modadd": {
+            "placeholder": "Valitse käyttäjä, josta tulee moderaattori.",
+            "description": "## Lisää moderaattori\n- Jos haluat, että käyttäjästä tulee moderaattori, käytä tämän upotuksen alla olevaa valikkoa valitaksesi hänet. \n- Lisää moderaattoreita\n - Erota  käyttäjiä\n - Lukitse ja avaa kanava\n - Muuta nimeä\n - Muuta käyttäjärajaa\n - Kutsu käyttäjiä\n - Poista kutsut\n- Voit myös syöttää nimen valintavalikossa, jolloin käyttäjä ehdotetaan sinulle.\n- Jos haluat poistaa moderaattorin aseman, napsauta emojia <:unmod:1202716452860461087> Hallitse käyttäjiä -kohdan alla ja kirjoita käyttäjä sinne.",
+            "already": "{x} {user} on jo tilapäiseltä äänikanavan moderaattori.",
+            "success": "{y} {user} on nyt tilapäiseltä äänikanavan moderaattori.",
+            "owner-you": "{x} Olet omistaja ja siksi automaattisesti kanavan moderaattori.",
+            "max-reached": "{x} Voit lisätä enintään {limit} kanavamoderaattoria."
+        },
+        "modrem": {
+            "placeholder": "Valitse käyttäjä, joka poistetaan moderaattorina.",
+            "description": "## Poista moderaattori\n- Jos haluat poistaa käyttäjän moderaattorin aseman, valitse käyttäjä tämän upotuksen alla olevasta valintavalikosta.\n- Käyttäjällä ei ole enää moderointioikeuksia.\n- Voit myös syöttää nimen valintavalikkoon, jolloin käyttäjää ehdotetaan sinulle.",
+            "already": "{x} {user} ei ole tilapäisen äänikanavan moderaattori.",
+            "success": "{y} {user} ei ole enää tilapäisen äänikanavan moderaattori.",
+            "owner-you": "{x} Olet omistaja ja siksi automaattisesti kanavan moderaattori."
+        },
+        "ownerset": {
+            "placeholder": "Valitse uusi omistaja.",
+            "description": "## Siirrä omistusoikeudet\n- Jos haluat siirtää omistusoikeudet käyttäjälle, käytä tämän upotuksen alla olevaa valintavalikkoa valitaksesi heidät.\n- Menetät **kaikki oikeudet**.\n- Voit myös syöttää nimen valintavalikkoon, jolloin sinulle ehdotetaan käyttäjää.",
+            "not-owner": "{x} Et ole kanavan omistaja. Jos haluat ottaa sen haltuusi, napsauta käyttöliittymässä \"Moderointi\" ja sitten emojia <:crown:1202717638447468605>.",
+            "success": "{y} {user} on nyt uusi omistaja, joten sinulla ei ole enää oikeuksia, jos et ole palvelimen järjestelmänvalvoja.",
+            "not-in-channel": "{x} {user} on oltava tällä kanavalla tullakseen uudeksi omistajaksi."
+        },
+        "unban": {
+            "placeholder": "Valitse porttikiellosta vapautettava käyttäjä.",
+            "description": "## Käyttäjän porttikiellon poistaminen\n- Jos haluat poistaa käyttäjän porttikiellon, kirjoita hänet alla olevaan valikkoon.\n - Sen jälkeen hän voi palata äänikanavalle.\n- Voit myös etsiä käyttäjän nimeä, jolloin käyttäjää ehdotetaan.",
+            "already": "{x} Käyttäjää ei ole porttikielletty.",
+            "success": "{y} {user} on vapautettu porttikiellosta."
+        },
+        "uninvite": {
+            "placeholder": "Valitse käyttäjä, jolta haluat poistaa kutsun.",
+            "description": "## Poista kutsu\n- Jos haluat poistaa käyttäjän kutsun, valitse hänet tämän upotuksen alla olevalla valintavalikolla.\n- Hän ei voi enää liittyä kanavaan, jos se on estetty.\n- Voit myös syöttää nimen valintavalikkoon, jolloin käyttäjää ehdotetaan sinulle.",
+            "already": "{x} Käyttäjää ei ole kutsuttu.",
+            "success": "{y} {user} kutsu on poistettu."
+        },
+        "takeover": {
+            "already": "{x} Olet jo {channel} kanavan omistaja.",
+            "success": "{y} Olet **ottanut hallinnan**\n- {user} ei ole enää käyttöoikeuksissa."
+        },
+        "removeallmods": {
+            "already": "{x} Tilapäisen äänikanavan moderaattoreita ei ole.",
+            "success": "{y} Kaikki kanavien moderaattorit on poistettu:\n{mods}"
+        },
+        "resetsystem": {
+            "success": "{y} Asetukset palautettiin onnistuneesti.",
+            "description": "## Palauta asetukset\n- Etkö halua enää käyttää tätä järjestelmää? Jos näin on, palauta asetukset tällä.\n- Et pysty peruuttamaan tätä.\n- Voit vapaasti antaa palautetta, miksi et enää halua käyttää järjestelmää.\n\n- Jos olet varma ja haluat palauttaa asetukset, klikkaa <:1check:1201578213831356517>. Jos haluat peruuttaa tämän prosessin, napsauta <:1ban:1201576397798379600>."
+        },
+        "settings": {
+            "defaultname": {
+                "success-1": "{y} Oletusnimeä on päivitetty.",
+                "success-2": "{y} Oletusnimi on palautettu."
+            },
+            "defaultuserlimit": {
+                "success-1": "{y} Oletuskäyttäjäraja on päivitetty.",
+                "success-2": "{y} Oletuskäyttäjäraja on palautettu.",
+                "not-valid": "{x} Määritetty käyttäjäraja ei ole voimassa. Kirjoita numero väliltä **1** ja **99** tai kirjoita \"max\" salliaksesi loputtoman määrän käyttäjiä."
+            },
+            "command": {
+                "description": "## Hallitse asetuksia\n- <:1bolt:1201576407965376533>・Hallitse kanavaa, joka luodaan, kun liityt luojan kanavaan: nimi, käyttöoikeudet, bittinopeus, luokka ja käyttäjäraja. \n- <:1check:1201578213831356517>・Hallitse järjestelmää: aseta tämä Takaisin, poista tämä käytöstä/ ota tämä käyttöön, testaa järjestelmää tai katso Asetukset. \n- <:user:1202704216041455677>・Moderointiasetukset: moderoinnin rooli: kirjaaminen, käyttäjän estäminen ja moderoinnin rooli"
+            }
+        },
+        "block": {
+            "already": "{x} {user} on jo estetty.",
+            "success": "{y} {user} on estetty.",
+            "placeholder": "Valitse estettävä käyttäjä.",
+            "description": "## Käyttäjän estäminen\n- Tämä käyttäjä ei voi enää hallita asetuksia eikä luoda tilapäisiä äänikanavia.\n- Käyttäjä ei saa olla järjestelmänvalvoja, hänellä ei saa olla moderointiroolia eikä hän saa olla omistaja.\n- Valitse estettävä käyttäjä käyttäjän valintavalikosta. Voit myös hakea käyttäjänimen tai tunnuksen perusteella."
+        },
+        "category": {
+            "already": "{x} Luokka on jo oletusluokka eli varaluokka.",
+            "success": "{y} Oletusluokka on päivitetty.",
+            "reset": "{y} Oletusluokka on **palautettu**."
+        },
+        "fallback": {
+            "already": "{x} Luokka on jo oletusluokka tai varaluokka.",
+            "no-default": "{x} There is no oletusluokka. A oletusluokka must first be set.",
+            "success": "{y} Varaluokka on päivitetty.",
+            "reset": "{y} Varaluokka on **palautettu**."
+        },
+        "channelset": {
+            "success": "{y} Luojan kanava: oli asetettu."
+        },
+        "loggingchannel": {
+            "success": "{y} Kirjauskanavaksi asetettiin {channel}."
+        },
+        "moderationrole": {
+            "role-is-everyone": "{x} Tämä rooli on `@everyone`, joten sitä ei voi käyttää.",
+            "success": "{y} Moderoinnin rooliksi asetettiin {role}.",
+            "description": "## Moderointirooli\n- <:note:1202703281055604787>・Moderoinnin roolin asettaminen takaisin\n- <:1eye:1201585529431527434>・Näytä nykyinen moderointirooli\n## Tieto\n- Moderointirooli kaikilla valtuuksilla, joten se voi hallita tilapäisiä äänikanavia kokonaan. Poikkeukset: Omistajan asettaminen, kanavien moderaattoreiden lisääminen ja kanavien moderaattoreiden poistaminen. Voit kuitenkin ottaa kanavan haltuun ja siten myös hallita sitä.",
+            "placeholder": "Valitse moderointirooli"
+        },
+        "unblock": {
+            "already": "{x} {user} ei ole estetty.",
+            "success": "{y} Käyttäjä {user} on vapautettu estosta.",
+            "placeholder": "Valitse käyttäjä, joka haluaa poistaa eston.",
+            "description": "## Poista esto\n- Kielletyt käyttäjät eivät voi enää hallita asetuksia tai luoda tilapäisiä äänikanavia.\n- Poista käyttäjän kielto määrittämällä hänet käyttäjän valintavalikossa tämän upotuksen alla. Voit myös hakea käyttäjätunnuksen tai ID:n perusteella."
+        },
+        "defaultname": {
+            "success-reset": "{y} Oletusnimi on palautettu.",
+            "success-1": "{y} Oletusnimi on päivitetty.",
+            "title": "Aseta oletusnimi",
+            "label": "Nimi",
+            "placeholder": "Väliääni-{username}"
+        },
+        "defaultbitrate": {
+            "not-valid": "{x} Määritetty bittinopeus ei ole voimassa. Sen on oltava välillä **8kbps** ja **384kbps**.",
+            "success-reset": "{y} Oletusarvoinen bittinopeus on palautettu.",
+            "success-1": "{y} Oletusarvoinen bittinopeus **{set}kbps** asetettiin, koska **{input}kbps** ei ole mahdollinen. Tämä voi johtua muun muassa boost-tasosta.",
+            "success-2": "{y} Oletusarvoiseksi bittinopeudeksi asetettiin **{input}kbps**.",
+            "title": "Aseta oletusbittinopeus",
+            "label": "Bittinopeus"
+        },
+        "defaultuserlimit": {
+            "not-valid": "{x} Määritetty käyttäjäraja ei ole voimassa. Tämän on oltava välillä **1** ja **99**. Jos haluat rajattomasti, kirjoita lomakkeeseen \"max\".",
+            "success-reset": "{y} Oletuskäyttäjäraja on palautettu.",
+            "success-1": "{y} Käyttäjärajaksi asetettiin **{limit}**.",
+            "title": "Aseta oletuskäyttäjäraja",
+            "label": "Käyttäjäraja"
+        },
+        "defaultcategory": {
+            "description": "## Aseta kategoria väliaikaisille äänikanaville\n- Koska Discordissa on rajoitus, jonka mukaan kategoriaa kohti voi olla vain 50 kanavaa, Dat Bot tarjoaa toiminnon käyttää kategoriaa, jos ensimmäinen on täynnä. Tätä toimintoa kutsutaan nimellä \"fallback\".\n\n- Voit valita oletusluokan käyttämällä Valitse-valikkoa \"Valitse Oletusluokka.\"\n- Voit valita fallback-kategorian käyttämällä Valitse-valikkoa \"Valitse fallback-kategoria.\"",
+            "placeholder-1": "Valitse oletusluokka.",
+            "placeholder-2": "Valitse varaluokka.",
+            "label-1": "Palauta oletusluokka",
+            "label-2": "Palauta varaluokka"
+        },
+        "blockshow": {
+            "description-1": "## Estetyt käyttäjät\n- {blocked}",
+            "description-2": "## Estetyt käyttäjät\n- Porttikiellettyjä käyttäjiä ei ole."
+        },
+        "loggingreset": {
+            "success": "{y} Kirjausasetukset on palautettu."
+        },
+        "loggingsettings": {
+            "description": "## Kirjaaminen - Asetukset\n-tila: Kanava: {toggle}\n- Channel: {channel}",
+            "deleted": "Poistettu (Vanha ID: {id})",
+            "none": "Ei mitään"
+        },
+        "loggingtest": {
+            "label-1": "Aktivoi järjestelmä",
+            "label-2": "Järjestelmä aktivoitu",
+            "toggle-error": "- Kytkin: Järjestelmä on deaktivoitu",
+            "toggle-fix": "- Kytkin: Käytä </tempvoice settings:0>, napsauta painiketta, jossa on emoji <:user:1202704216041455677> ja sitten emoji <:image4:1202697412012154890>, sitten <:note:1202703281055604787> tai napsauta alareunassa olevaa painiketta \"Activate system\".",
+            "logging-not-existing-error": "- Kirjauskanava: Ei ole.",
+            "logging-not-existing-fix": "- Kirjauskanava: Valitse kirjauskanava käyttämällä </tempvoice settings:0>, <:user:1202704216041455677> ja sitten emoji <:image4:1202697412012154890>, sitten \"Select a channel for logging.\"",
+            "logging-deleted-error": "- Kirjauskanava: (Vanha ID: {id}).",
+            "logging-deleted-fix": "- Luojan kanava: Valitse uusi kirjauskanava käyttämällä </tempvoice settings:0>, <:user:1202704216041455677> ja sitten emoji <:image4:1202697412012154890>, valitse sitten Select Menu \"Select a channel for logging.\"",
+            "permissions-error": "- Minulta puuttuvat seuraavat oikeudet {channel}: {missing}",
+            "permissions-fix": "- Käyttöoikeudet: Sinun on annettava botille käyttöoikeudet.",
+            "no-errors": "- Virheitä **ei** löytynyt.",
+            "no-fixes": "- Korjattavia virheitä **ei** ole.",
+            "description": "## Virheet\n{virheet}\n## Korjaa virheet\n{fixes}\n## More information\n- Jos järjestelmä ei vieläkään toimi tämän jälkeen, voit liittyä [tukipalvelimeen](https://discord.gg/BQumAujuvk)."
+        },
+        "loggingtoggle": {
+            "success-1": "{y} Kirjausjärjestelmä on ollut **aktivoitu**.",
+            "success-2": "{y} Kirjausjärjestelmä on ollut **deaktivoitu**."
+        },
+        "logging": {
+            "description": "## Kirjaaminen\n- <:note:1202703281055604787>・Kytke kirjaaminen käyttöön tai poista se käytöstä\n- <:1ban:1201576397798379600>・Palauta kirjausasetukset\n- <:1check:1201578213831356517>・Testaa kirjausjärjestelmä virheiden varalta\n- <:1eye:1201585529431527434>・Katsele kirjausasetuksia\n- Aseta kirjauskanava: Käytä Valitse-valikkoa \"Valitse kanava kirjausta varten\". \n## Tietoja\n- Kirjaus toimii kuten Discordin tarkastusloki, paitsi että se koskee kaikkia toimintoja, joihin liittyy tilapäinen äänikanava. \n- Jos järjestelmä on poistettu käytöstä, lokeja ei lähetetä.",
+            "placeholder": "Valitse kanava kirjaamista varten."
+        },
+        "moderationrole_reset": {
+            "success": "{y} Moderointirooli on onnistuneesti **palautettu**.."
+        },
+        "moderationrole_show": {
+            "description-1": "## Moderointirooli\n- Moderointirooli on tällä hetkellä {role}.",
+            "description-2": "## Moderointirooli\n- Tällä hetkellä ei ole olemassa moderointiroolia."
+        },
+        "settings_channel": {
+            "description": "## Hallitse oletuskanavaa\n- <:image4:1202697412012154890>・Säädä oletusnimi\n- <:volume:1202705024057081856>・Säädä oletusbittinopeus\n- <:user: 1202704216041455677>・Aseta oletuskäyttäjärajat\n- <:globe:1202703306527481917>・Aseta oletusluokka\n## Lisätiedot\n- Voit asettaa luojan kanavan: valitsemalla valikosta \"Valitse luojan kanava:\". \n- Seuraavia muuttujia voidaan käyttää oletusnimen\n - {id}・Käyttäjän tunnus\n - {username}・Käyttäjän nimi\n - {servername}・Nimimerkki. Jos mitään ei ole määritetty, käytetään käyttäjän nimeä.\n- Bittinopeudeksi voit määrittää bittinopeuden joko kbps:nä tai \"max\". Tämä valitsee automaattisesti suurimman mahdollisen bittinopeuden.",
+            "placeholder": "Valitse luojan kanava."
+        },
+        "settings_moderation": {
+            "description": "## Moderointiasetukset\n- <:image4:1202697412012154890>・Kirjaaminen\n- <:image7:1202697417326338078>・Estä käyttäjä\n- <:user:1202704216041455677>・Poista esto\n- <:1eye:1201585529431527434>・Näytä kaikki estetyt käyttäjät\n- <:globe:1202703306527481917>・Moderoinnin roolin asettaminen tai poistaminen\n## Lisätietoa \n- Kirjaus: Se toimii periaatteessa kuten Discordin tarkastusloki, mutta aina kun tilapäisellä äänikanavalla tapahtuu jokin muutos, lähetetään viesti tälle kanavalle. \n- Moderointirooli: Jäseniä, joilla on tämä rooli, kohdellaan periaatteessa kuin kanavan omistajia. He voivat asettaa tilapäiselle äänikanavalle kaiken, paitsi:\n - Kanavan moderaattoreiden lisääminen\n - Kanavan moderaattoreiden poistaminen\n - Kanavan omistajan siirtäminen (mutta voit ottaa kanavan haltuun)."
+        },
+        "settings_system": {
+            "description": "## Hallitse järjestelmää\n- <:trash:1202716962489110609>・Palauta järjestelmä\n- <:1lock:1201576417897488535>・Aktivoi tai deaktivoi järjestelmä.\n- <:1check:1201578213831356517>・Testaa järjestelmää. \n- <:1eye:1201585529431527434>・Näe asetukset.\n## Lisätietoja\n## Kytkin\n- Jos järjestelmä on tällä hetkellä aktivoitu, se poistetaan käytöstä.\n- Järjestelmä ei enää toimi.\n- Tietoja ei poisteta."
+        },
+        "showsettings": {
+            "description": "# Asetukset\n## kanava\n- Luojan kanava: {channel}\n- Oletusnimi: {name}\n- Oletusbittinopeus: {bitrate}\n- Oletuskäyttäjärajat: {userlimit}\n## Luokka\n- Oletus: {category}\n- Vara: {fallback}\n## Moderointi\n- Moderoinnin rooli: {modrole}\n- Kirjauksen kanava: {loggingchannel}\n- Kirjauksen kytkin: {loggingtoggle}\n- {emoji}kytkin: {toggle}\n- Estetyt käyttäjät: {blocked}",
+            "none-1": "Ei mitään",
+            "none-2": "Ei mitään",
+            "infinity": "Ääretön",
+            "kbps": "kbps"
+        },
+        "testsystem": {
+            "permissions-error": "- Käyttöoikeudet: Seuraavat käyttöoikeudet puuttuvat: {missing}",
+            "permissions-fix": "- Käyttöoikeudet: Sinun pitää antaa botille käyttöoikeudet.",
+            "label-1": "Aktivoi järjestelmä",
+            "label-2": "Järjestelmä aktivoitu",
+            "toggle-error": "- Kytkin: Järjestelmä on deaktivoitu.",
+            "toggle-fix": "- Kytkin: Käytä </tempvoice settings:0>, klikkaa painiketta, jossa on emoji <:1check:1201578213831356517> ja sitten emoji <:1lock:1201576417897488535> tai klikkaa painiketta \"Aktivoi järjestelmä\" alhaalla",
+            "no-creator-channel-error": "- Luojan kanava: Ei asetettu.",
+            "no-creator-channel-fix": "- Luojan kanava: Aseta tämä </tempvoice setup:0>.",
+            "creator-channel-deleted-error": "- Luojan kanava: Tämä on poistettu (Vanha ID: {id}).",
+            "creator-channel-deleted-fix": "- Luojan kanava: Valitse uusi luojan kanava käyttämällä </tempvoice settings:0>, klikkaamalla painiketta, jossa on emoji <:1bolt:1201576407965376533> ja sitten Valitse Valikko \"Valitse luojan kanava:\".",
+            "default-category-deleted-error": "- Oletusluokka: Tämä on poistettu (Vanha ID: {id}).",
+            "default-category-deleted-fix": "- Oletusluokka: Valitse uusi oletusluokka käyttämällä </tempvoice settings:0>, klikkaamalla painiketta, jossa on emoji <:1bolt:1201576407965376533>, sitten painike, jossa on emoji <:globe:1202703306527481917> ja siellä Valitse Valikko \"Valitse oletusluokka\".",
+            "fallback-category-deleted-error": "- fallback category: Tämä on poistettu (Vanha ID: {id}).",
+            "fallback-category-deleted-fix": "- Varaluokka: valitse uusi varaluokka käyttämällä </tempvoice settings:0>, klikkaamalla painiketta, jossa on emoji <:1bolt:1201576407965376533>, sitten painike, jossa on emoji <:globe:1202703306527481917> ja siellä Valitse Valikko \"Valitse varaluokka\"."
+        },
+        "toggle": {
+            "success-1": "{y} Järjestelmä on **aktivoitu**.",
+            "success-2": "{y} Järjestelmä on **deaktivoitu**."
+        }
+    },
+    "economy": {}
+}

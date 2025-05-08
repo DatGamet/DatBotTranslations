@@ -203,7 +203,7 @@
                 "system-deactivated": "{x} The flag quiz is deactivated.",
                 "message-error": "{x} The current flag quiz takes place here: {messageLink}",
                 "skips-missing": "{x} You have too few skips.",
-                "channel-deleted": "{x} The channel for the emoji quiz no longer exists.",
+                "channel-deleted": "{x} The channel for the flag quiz no longer exists.",
                 "success-singular": "{y} Flag quiz skipped. You can now use 1 more skip.",
                 "success-plural": "{y} Flag quiz skipped. You can now use {size} Skips."
             },

@@ -15,15 +15,6 @@
                 "agent": {
                     "no-agent-found": "Es wurde kein Agent basierend auf deiner Suche gefunden."
                 }
-            },
-            "clashofclans": {
-                "club": {
-                    "no-name": "Bitte gebe einen Namen an.",
-                    "name-too-short": "Der Name muss mindestens 3 Zeichen lang sein.",
-                    "nothing-found": "Es wurde nichts basierend auf deiner Suche gefunden.",
-                    "ratelimit": "Ich befinde mich zurzeit im Rate-Limit.",
-                    "api-503": "Die API ist zurzeit nicht erreichbar."
-                }
             }
         }
     },
@@ -224,13 +215,6 @@
             },
             "delete_message": {
                 "not_your_message": "{x} Diese Nachricht gehört dir nicht."
-            },
-            "verify_coc_token": {
-                "modal": {
-                    "title": "Verifiziere deinen Account",
-                    "label": "Token",
-                    "placeholder": "Gebe den API-Token an."
-                }
             },
             "fortnite_shophistory": {
                 "embed": {
@@ -468,27 +452,7 @@
         },
         "games": {
             "account": {
-                "already-linked": "{x} Du hast bereits dein Konto verlinkt. Um diese zu entfernen, nutze </unlink clashofclans:{accountCommandId}>.",
-                "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </link clashofclans:{accountCommandId}>, um dein Konto zu verlinken.",
                 "link-remove-success": "{y} Die Kontoverbindung wurde entfernt.",
-                "clashofclans": {
-                    "api": {
-                        "404": "{x} Ich habe das angegebene Konto nicht gefunden."
-                    },
-                    "embed": {
-                        "title": "Verlinke dein Konto",
-                        "description": "- Du musst nun verifizieren, dass dieses Konto dir gehört. Gehe dazu in das Spiel. Einstellungen > Mehr Einstellungen > API-Token > Anzeigen. Wenn du diesen Token nun hast, musst du auf den grünen Button \"API-Token angeben\" klicken und diesen dort angeben. Danach klicke auf \"Absenden\".",
-                        "fields": {
-                            "account-details": {
-                                "name": "⭐・Konto Details",
-                                "value": "> {name}・{tag}・Trophäen {trophies}"
-                            }
-                        }
-                    },
-                    "button": {
-                        "label": "API Token angeben"
-                    }
-                },
                 "valorant": {
                     "already-linked": "{x} Du hast bereits dein Konto verlinkt.",
                     "title": "Verlinke dein VALORANT Konto",
@@ -500,110 +464,6 @@
                     "success": "{y} Du hast dein Discord Konto mit {riotname} verlinkt.",
                     "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </link valorant:{accountCommandId}>, um dein Konto zu verlinken.",
                     "remove-success": "{y} Deine Kontoverbindung wurde entfernt."
-                }
-            },
-            "brawlstars": {
-                "club": {
-                    "api": {
-                        "404": "{x} Dieser Klub wurde nicht gefunden. Hast du ein valides Klub-Kürzel angegeben? 🤔"
-                    },
-                    "embed": {
-                        "description": "<:datbot_bs_chat:1095002339045281895>・Beschreibung",
-                        "type": {
-                            "name": "<:datbot_bs_id:1095000683209560156>・Typ",
-                            "value-open": "Offen",
-                            "value-inviteonly": "Nur Einladung",
-                            "value-closed": "Geschlossen",
-                            "value-unknown": "Unbekannt"
-                        },
-                        "required-throphies": "<:datbot_bs_thropie:1094954801407737936>・Benötigte Throphäen",
-                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Throphäen",
-                        "leader": "<:datbot_bs_crown:1095001236979323013>・Anführer",
-                        "best-member": {
-                            "name": "<:datbot_bs_clubleague:1095001796419784755>・Höchstes Mitglied ({total} insgesamt)",
-                            "value": "- {name}・{tag}\n- Throphäen: {throphies}\n- Rolle: {role}"
-                        }
-                    }
-                },
-                "profile": {
-                    "api": {
-                        "404": "{x} Dieses Konto habe ich nicht gefunden. Bitte gebe ein gültiges InGame-Kürzel an.\n> ℹ️・[Wie man ein InGame-Kürzel findet](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
-                    },
-                    "embed": {
-                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Throphäen",
-                        "exp-level": "<:datbot_player_level:1095000959358357636>・EXP Level",
-                        "solo-wins": "<:datbot_bs_solo:1095008405996961924>・Solo Siege",
-                        "duo-wins": "<:datbot_bs_duo:1095007929503068230>・Duo Siege",
-                        "3vs3-wins": "<:datbot_bs_trio:1095009330442543145>・3vs3 Siege",
-                        "club": "<:datbot_bs_club:1094955757985857637>・Klub",
-                        "highest-brawler": {
-                            "name": "<:brawlstars_icon:1095013107912425606>・Höchster Brawler ({total} insgesamt)",
-                            "value": "- {name}\n- Power {power}\n- Throphäen: {throphies} (Rang {rank})"
-                        }
-                    }
-                }
-            },
-            "clashofclans": {
-                "club": {
-                    "api": {
-                        "404": "{x} Dieser Klub wurde nicht gefunden. Hast du ein valides Klub-Kürzel angegeben? 🤔"
-                    },
-                    "embed": {
-                        "clan": "<:datbot_bs_id:1095000683209560156>・Klan",
-                        "description": "<:datbot_bs_chat:1095002339045281895>・Beschreibung",
-                        "locale": "<:coc_cl1:1121410510122913823>・Lokalisierung",
-                        "xp": {
-                            "name": "<:datbot_player_level:1095000959358357636>・XP",
-                            "value": "> Level {level}"
-                        },
-                        "labels": "<:coc_ri1:1121401676557996194>・Labels",
-                        "throphies": {
-                            "name": "<:datbot_bs_thropie:1094954801407737936>・Throphäen",
-                            "value": "> Benötigt {required}・Insgesamt {total}"
-                        },
-                        "best-member": {
-                            "name": "<:coc_su1:1121402165701902336>・Höchstes Mitglied ({total} insgesamt)",
-                            "value": "> {name}・{tag}・{throphies} Throphäen"
-                        }
-                    }
-                },
-                "profile": {
-                    "api": {
-                        "404": "{x} Dieses Konto habe ich nicht gefunden. Bitte gebe ein gültiges InGame-Kürzel an.\n> ℹ️・[Wie man ein InGame-Kürzel findet](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
-                    },
-                    "embed": {
-                        "title": "{username}s Konto",
-                        "throphies": {
-                            "name": "<:coc_fi1:1121400453083697183>・Throphäen",
-                            "value": "> {throphies} (Bestes: {best})"
-                        },
-                        "exp-level": {
-                            "name": "<:datbot_player_level:1095000959358357636>・EXP Level",
-                            "value": "> Level {level}"
-                        },
-                        "account": "<:datbot_bs_id:1095000683209560156>・Konto",
-                        "townhall-level": {
-                            "name": "<:coc_wo1:1121399380138791043>・Rathaus Level",
-                            "value": "> Level {level}"
-                        },
-                        "labels": "<:coc_ri1:1121401676557996194>・Labels",
-                        "best-troop": {
-                            "name": "<:coc_su1:1121402165701902336>・Beste Truppe ({total} insgesamt)",
-                            "value": "> {name}・Level {level} / {maxLevel}"
-                        },
-                        "best-spell": {
-                            "name": "<:coc_pe1:1121407676363046922>・Bester Trank ({total} insgesamt)",
-                            "value": "Level"
-                        },
-                        "best-hero": {
-                            "name": "<:coc_br1:1121407640606613534>・Bester Held ({total} insgesamt)",
-                            "value": "Level"
-                        }
-                    },
-                    "account": {
-                        "notsaved": "{x} Dein Konto ist noch nicht gespeichert. Um dies zu machen, nutze </link clashofclans:{accountcommandid}>.",
-                        "notfound": "{x} Das gespeicherte Konto wurde nicht gefunden."
-                    }
                 }
             },
             "fortnite": {
@@ -674,7 +534,7 @@
                         "uuid": "UUID",
                         "tags": "Tags",
                         "role": "Rolle",
-                        "abilites": "Fähigkeiten ({total} insgesamt)",
+                        "abilites": "Abilites ({total} insgesamt)",
                         "description-embed": "- Name・{name}\n- Beschreibung・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Rolle・{role}\n- Abilites ({total} insgesamt)・{abilities}"
                     }
                 },
@@ -1055,6 +915,10 @@
                 },
                 "logs": {
                     "channel": {
+                        "forum": {
+                            "post-created": "Log Post für: {channel}",
+                            "something-went-wrong": "Etwas ist schief gelaufen. Bitte prüfen Sie, ob ich alle erforderlichen Berechtigungen für den ausgewählten Kanal habe."
+                        },
                         "success": "{y} Der Kanal für Logs wurde aktualisiert.",
                         "success-toggle": "{y} Der Kanal für Logs wurde aktualisiert.\n> {i} Ich habe das System automatisch für dich aktiviert. Deaktiviere die Logs mit </logs toggle:{commandId}>."
                     },
@@ -1801,17 +1665,6 @@
             "sendwithwebhook": {
                 "not-valid": "{x} Die angegebene Webhook URL ist nicht valid.",
                 "thread-id": "{x} Dieses Webhook ist für ein Forum, deswegen kann es nicht verwendet werden."
-            }
-        },
-        "games": {
-            "clashofclans": {
-                "api_verify": {
-                    "api": {
-                        "404": "{x} Ich habe das Konto nicht gefunden."
-                    },
-                    "token-invalid": "{x} Der Token ist ungültig.",
-                    "success": "{y} Der Token ist valid. Dein Konto wurde in der Datenbank gespeichert.\n> {i} Es wurde nur dein InGame-Kürzel ({tag}) gespeichert."
-                }
             }
         },
         "logs": {

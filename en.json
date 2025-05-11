@@ -15,15 +15,6 @@
                 "agent": {
                     "no-agent-found": "No agent was found based on your search."
                 }
-            },
-            "clashofclans": {
-                "club": {
-                    "no-name": "Please provide a name.",
-                    "name-too-short": "The name must be at least 3 characters long.",
-                    "nothing-found": "No club was found based on your search.",
-                    "ratelimit": "I am currently within the rate limit.",
-                    "api-503": "The API is currently not available."
-                }
             }
         }
     },
@@ -203,7 +194,7 @@
                 "system-deactivated": "{x} The flag quiz is deactivated.",
                 "message-error": "{x} The current flag quiz takes place here: {messageLink}",
                 "skips-missing": "{x} You have too few skips.",
-                "channel-deleted": "{x} The channel for the flag quiz no longer exists.",
+                "channel-deleted": "{x} The channel for the emoji quiz no longer exists.",
                 "success-singular": "{y} Flag quiz skipped. You can now use 1 more skip.",
                 "success-plural": "{y} Flag quiz skipped. You can now use {size} Skips."
             },
@@ -224,13 +215,6 @@
             },
             "delete_message": {
                 "not_your_message": "{x} This message does not belong to you."
-            },
-            "verify_coc_token": {
-                "modal": {
-                    "title": "Verify your account",
-                    "label": "Token",
-                    "placeholder": "Provide the API-Token."
-                }
             },
             "fortnite_shophistory": {
                 "embed": {
@@ -468,27 +452,7 @@
         },
         "games": {
             "account": {
-                "already-linked": "{x} You have already linked your account. To remove them, use </unlink clashofclans:{accountCommandId}>.",
-                "not-linked": "{x} You have not linked your account. Use </link clashofclans:{accountCommandId}> to link your account.",
                 "link-remove-success": "{y} The account details have been removed",
-                "clashofclans": {
-                    "api": {
-                        "404": "{x} I have not found the specified account."
-                    },
-                    "embed": {
-                        "title": "Link your account",
-                        "description": "- You must now verify that this account belongs to you. To do this, go to the game. Settings > More settings > API token > Display. If you now have this token, you must click on the green button \"Specify API token\" and enter it there. Then click on \"Submit\".",
-                        "fields": {
-                            "account-details": {
-                                "name": "⭐・Account Details",
-                                "value": "> {name}・{tag}・{trophies} trophies"
-                            }
-                        }
-                    },
-                    "button": {
-                        "label": "Specify API Token"
-                    }
-                },
                 "valorant": {
                     "already-linked": "{x} Your VALORANT account is already linked.",
                     "title": "Link your VALORANT account",
@@ -500,110 +464,6 @@
                     "success": "{y} You have linked your Discord account with {riotname}.",
                     "not-linked": "{x} You have not linked your account. Use </link valorant:{accountCommandId}> to link your account.",
                     "remove-success": "{y} Your connection has been removed."
-                }
-            },
-            "brawlstars": {
-                "club": {
-                    "api": {
-                        "404": "{x} This club was not found. Did you enter a valid club tag? 🤔"
-                    },
-                    "embed": {
-                        "description": "<:datbot_bs_chat:1095002339045281895>・Description",
-                        "type": {
-                            "name": "<:datbot_bs_id:1095000683209560156>・Type",
-                            "value-open": "Open",
-                            "value-inviteonly": "Invite only",
-                            "value-closed": "Closed",
-                            "value-unknown": "Unknown"
-                        },
-                        "required-throphies": "<:datbot_bs_thropie:1094954801407737936>・Required trophies",
-                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Trophies",
-                        "leader": "<:datbot_bs_crown:1095001236979323013>・Leader",
-                        "best-member": {
-                            "name": "<:datbot_bs_clubleague:1095001796419784755>・Highest member ({total} in total)",
-                            "value": "- {name}・{tag}\n- Trophies: {throphies}\n- Role: {role}"
-                        }
-                    }
-                },
-                "profile": {
-                    "api": {
-                        "404": "{x} I did not find this account. Please enter a valid in-game shortcut.\n> ℹ️・[How to find an in-game shortcut](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
-                    },
-                    "embed": {
-                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Trophies",
-                        "exp-level": "<:datbot_player_level:1095000959358357636>・EXP Level",
-                        "solo-wins": "<:datbot_bs_solo:1095008405996961924>・Solo wins",
-                        "duo-wins": "<:datbot_bs_duo:1095007929503068230>・Duo wins",
-                        "3vs3-wins": "<:datbot_bs_trio:1095009330442543145>・3vs3 wins",
-                        "club": "<:datbot_bs_club:1094955757985857637>・Club",
-                        "highest-brawler": {
-                            "name": "<:brawlstars_icon:1095013107912425606>・Highest Brawler ({total} in total)",
-                            "value": "- {name}\n- Power {power}\n- Trophies: {throphies} (Rank {rank})"
-                        }
-                    }
-                }
-            },
-            "clashofclans": {
-                "club": {
-                    "api": {
-                        "404": "{x} This club was not found. Did you enter a valid club tag? 🤔"
-                    },
-                    "embed": {
-                        "clan": "<:datbot_bs_id:1095000683209560156>・Club",
-                        "description": "<:datbot_bs_chat:1095002339045281895>・Description",
-                        "locale": "<:coc_cl1:1121410510122913823>・Locale",
-                        "xp": {
-                            "name": "<:datbot_player_level:1095000959358357636>・XP",
-                            "value": "> Level {level}"
-                        },
-                        "labels": "<:coc_ri1:1121401676557996194>・Labels",
-                        "throphies": {
-                            "name": "<:datbot_bs_thropie:1094954801407737936>・Trophies",
-                            "value": "> Required {required}・Total {total}"
-                        },
-                        "best-member": {
-                            "name": "<:coc_su1:1121402165701902336>・Highest member ({total} in total)",
-                            "value": "> {name}・{tag}・{throphies} Trophies"
-                        }
-                    }
-                },
-                "profile": {
-                    "api": {
-                        "404": "{x} I did not find this account. Please enter a valid in-game shortcut.\n> ℹ️・[How to find an in-game shortcut](https://support.supercell.com/brawl-stars/en/articles/what-is-player-id.html)"
-                    },
-                    "embed": {
-                        "title": "{username}'s Account",
-                        "throphies": {
-                            "name": "<:coc_fi1:1121400453083697183>・Trophies",
-                            "value": "> {throphies} (Best: {best})"
-                        },
-                        "exp-level": {
-                            "name": "<:datbot_player_level:1095000959358357636>・EXP Level",
-                            "value": "> Level {level}"
-                        },
-                        "account": "<:datbot_bs_id:1095000683209560156>・Account",
-                        "townhall-level": {
-                            "name": "<:coc_wo1:1121399380138791043>・Townhall level",
-                            "value": "> Level {level}"
-                        },
-                        "labels": "<:coc_ri1:1121401676557996194>・Labels",
-                        "best-troop": {
-                            "name": "<:coc_su1:1121402165701902336>・Best unit ({total} in total)",
-                            "value": "> {name}・Level {level} / {maxLevel}"
-                        },
-                        "best-spell": {
-                            "name": "<:coc_pe1:1121407676363046922>・Best spell ({total} in total)",
-                            "value": "Level"
-                        },
-                        "best-hero": {
-                            "name": "<:coc_br1:1121407640606613534>・Best hero ({total} in total)",
-                            "value": "Level"
-                        }
-                    },
-                    "account": {
-                        "notsaved": "{x} Your account is not yet saved. To do this, use </link clashofclans:{accountCommandId}>.",
-                        "notfound": "{x} The saved account was not found."
-                    }
                 }
             },
             "fortnite": {
@@ -1055,6 +915,10 @@
                 },
                 "logs": {
                     "channel": {
+                        "forum": {
+                            "post-created": "Log post for: {channel}",
+                            "something-went-wrong": "Something went wrong. Please check if i have all required permissions for the selected channel."
+                        },
                         "success": "{y} The channel for logs has been updated.",
                         "success-toggle": "{y} The channel for logs has been updated.\n> {i} I have automatically activated the system for you. Deactivate the logs with </logs toggle:{commandId}>."
                     },
@@ -1801,17 +1665,6 @@
             "sendwithwebhook": {
                 "not-valid": "{x} The provided Webhook URL is not valid.",
                 "thread-id": "{x} This webhook is for a forum, therefore it cannot be used."
-            }
-        },
-        "games": {
-            "clashofclans": {
-                "api_verify": {
-                    "api": {
-                        "404": "{x} I have not found the account."
-                    },
-                    "token-invalid": "{x} The token is invalid.",
-                    "success": "{y} The token is valid. Your account has been saved in the database.\n> {i} Only your in-game abbreviation ({tag}) has been saved."
-                }
             }
         },
         "logs": {
@@ -2766,6 +2619,5 @@
             "success-1": "{y} The system has been **activated**.",
             "success-2": "{y} The system has been **deactivated**."
         }
-    },
-    "economy": {}
+    }
 }

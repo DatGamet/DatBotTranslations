@@ -15,15 +15,6 @@
                 "agent": {
                     "no-agent-found": "Agenttia ei löytynyt hakusi perusteella."
                 }
-            },
-            "clashofclans": {
-                "club": {
-                    "no-name": "Anna nimi.",
-                    "name-too-short": "Nimen pitää olla vähintään 3 merkkiä pitkä.",
-                    "nothing-found": "Klubia ei löytynyt hakusi perusteella.",
-                    "ratelimit": "Olen tällä hetkellä rajoitettu",
-                    "api-503": "API ei ole käytettävissä tällä hetkellä."
-                }
             }
         }
     },
@@ -224,13 +215,6 @@
             },
             "delete_message": {
                 "not_your_message": "{x} Tämä viesti ei kuulu sinulle."
-            },
-            "verify_coc_token": {
-                "modal": {
-                    "title": "Vahvista tilisi",
-                    "label": "Tunniste",
-                    "placeholder": "Anna API-tunnus."
-                }
             },
             "fortnite_shophistory": {
                 "embed": {
@@ -468,27 +452,7 @@
         },
         "games": {
             "account": {
-                "already-linked": "{x} Olet jo yhdistänyt tilisi. Voit poistaa ne käyttämällä </unlink clashofclans:{accountCommandId}>.",
-                "not-linked": "{x} Et ole yhdistänyt tiliäsi. Käytä </link clashofclans:{accountCommandId}> yhdistääksesi tilin.",
                 "link-remove-success": "{y} Tilin tiedot on poistettu",
-                "clashofclans": {
-                    "api": {
-                        "404": "{x} En ole löytänyt määritettyä tiliä."
-                    },
-                    "embed": {
-                        "title": "Yhdistä tilisi",
-                        "description": "- Sinun on nyt varmistettava, että tämä tili kuuluu sinulle. Tee tämä menemällä peliin. Asetukset > Lisää asetuksia > API-tunniste > Näytä. Jos sinulla on nyt tämä tunniste, sinun on napsautettava vihreää painiketta \"Määritä API-tunniste\" ja syötettävä se sinne. Napsauta sitten \"Lähetä\".",
-                        "fields": {
-                            "account-details": {
-                                "name": "⭐・Tilin tiedot",
-                                "value": "> {name}・{tag}・{Pokaalit} pokaalit"
-                            }
-                        }
-                    },
-                    "button": {
-                        "label": "Määritä API-tunniste"
-                    }
-                },
                 "valorant": {
                     "already-linked": "{x} VALORANT-tilisi on jo yhdistetty.",
                     "title": "Yhdistä VALORANT-tilisi",
@@ -500,110 +464,6 @@
                     "success": "{y} Olet yhdistänyt Discord-tilisi seuraavaan {riotname}.",
                     "not-linked": "{x} Et ole yhdistänyt tiliäsi. Käytä </link valorant:{accountCommandId}> yhdistääksesi tilin.",
                     "remove-success": "{y} Yhteytesi on poistettu."
-                }
-            },
-            "brawlstars": {
-                "club": {
-                    "api": {
-                        "404": "{x} Tätä klubia ei löydetty. Annoitko voimassa olevan klubitunnisteen? 🤔"
-                    },
-                    "embed": {
-                        "description": "<:datbot_bs_chat:1095002339045281895>・Kuvaus",
-                        "type": {
-                            "name": "<:datbot_bs_id:1095000683209560156>・Tyyppi",
-                            "value-open": "Auki",
-                            "value-inviteonly": "Vain kutsulla",
-                            "value-closed": "Suljettu",
-                            "value-unknown": "Tuntematon"
-                        },
-                        "required-throphies": "<:datbot_bs_thropie:1094954801407737936>・Vaaditut pokaalit",
-                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Pokaalit",
-                        "leader": "<:datbot_bs_crown:1095001236979323013>・Johtaja",
-                        "best-member": {
-                            "name": "<:datbot_bs_clubleague:1095001796419784755>・Korkein jäsen ({total} yhteensä)",
-                            "value": "- {name}・{tag}\n- Pokaalit: {throphies}\n- Rooli: {role}"
-                        }
-                    }
-                },
-                "profile": {
-                    "api": {
-                        "404": "{x} En löytänyt tätä tiliä. Kirjoita voimassa oleva pelin sisäinen pikakuvake.\n> ℹ️・[Mistä löydän pelaajatunnisteeni?](https://support.supercell.com/brawl-stars/fi/articles/player-tag.html#:~:text=mista%20loydan%20pelaajatunnisteeni%3F)"
-                    },
-                    "embed": {
-                        "throphies": "<:datbot_bs_thropie:1094954801407737936>・Pokaalit",
-                        "exp-level": "<:datbot_player_level:1095000959358357636>・EXP taso",
-                        "solo-wins": "<:datbot_bs_solo:1095008405996961924>・Soolovoitot",
-                        "duo-wins": "<:datbot_bs_duo:1095007929503068230>・Duo voitot",
-                        "3vs3-wins": "<:datbot_bs_trio:1095009330442543145>・3vs3 voitot",
-                        "club": "<:datbot_bs_club:1094955757985857637>・Klubi",
-                        "highest-brawler": {
-                            "name": "<:brawlstars_icon:1095013107912425606>・Korkein taistelija ({total} yhteensä)",
-                            "value": "- {name}\n- Voima {power}\n- Pokaalit: {throphies} (Rank {rank})"
-                        }
-                    }
-                }
-            },
-            "clashofclans": {
-                "club": {
-                    "api": {
-                        "404": "{x} Tätä klubia ei löydetty. Annoitko voimassa olevan klubitunnisteen? 🤔"
-                    },
-                    "embed": {
-                        "clan": "<:datbot_bs_id:1095000683209560156>・Klubi",
-                        "description": "<:datbot_bs_chat:1095002339045281895>・Kuvaus",
-                        "locale": "<:coc_cl1:1121410510122913823>・Sijainti",
-                        "xp": {
-                            "name": "<:datbot_player_level:1095000959358357636>・XP",
-                            "value": "> Level {level}"
-                        },
-                        "labels": "<:coc_ri1:1121401676557996194>・Etiketti",
-                        "throphies": {
-                            "name": "<:datbot_bs_thropie:1094954801407737936>・Pokaalit",
-                            "value": "> Vaadittu {required}・Kokonaismäärä {total}"
-                        },
-                        "best-member": {
-                            "name": "<:coc_su1:1121402165701902336>・Korkein jäsen ({total} yhteensä)",
-                            "value": "> {name}・{tag}・{throphies} Pokaalit"
-                        }
-                    }
-                },
-                "profile": {
-                    "api": {
-                        "404": "{x} En löytänyt tätä tiliä. Kirjoita voimassa oleva pelin sisäinen pikakuvake.\n> ℹ️・[Mistä löydän pelaajatunnisteeni?](https://support.supercell.com/brawl-stars/fi/articles/player-tag.html#:~:text=mista%20loydan%20pelaajatunnisteeni%3F)"
-                    },
-                    "embed": {
-                        "title": "{username} tili",
-                        "throphies": {
-                            "name": "<:coc_fi1:1121400453083697183>・Pokaalit",
-                            "value": "> {throphies} (Paras: {best})"
-                        },
-                        "exp-level": {
-                            "name": "<:datbot_player_level:1095000959358357636>・EXP taso",
-                            "value": "> Taso {level}"
-                        },
-                        "account": "<:datbot_bs_id:1095000683209560156>・Tili",
-                        "townhall-level": {
-                            "name": "<:coc_wo1:1121399380138791043>・Raatihuoneen taso",
-                            "value": "> Taso {level}"
-                        },
-                        "labels": "<:coc_ri1:1121401676557996194>・Etiketti",
-                        "best-troop": {
-                            "name": "<:coc_su1:1121402165701902336>・Paras yksikkö ({total} yhteensä)",
-                            "value": "> {name}・Taso {level} / {maxLevel}"
-                        },
-                        "best-spell": {
-                            "name": "<:coc_pe1:1121407676363046922>・Paras loitsu ({total} yhteensä)",
-                            "value": "Taso"
-                        },
-                        "best-hero": {
-                            "name": "<:coc_br1:1121407640606613534>・Paras sankari ({total} yhteensä)",
-                            "value": "Taso"
-                        }
-                    },
-                    "account": {
-                        "notsaved": "{x} Tiliäsi ei ole vielä tallennettu. Voit tehdä sen käyttämällä </link clashofclans:{accountCommandId}>.",
-                        "notfound": "{x} Tallennettua tiliä ei löytynyt."
-                    }
                 }
             },
             "fortnite": {
@@ -1055,6 +915,10 @@
                 },
                 "logs": {
                     "channel": {
+                        "forum": {
+                            "post-created": "Log post for: {channel}",
+                            "something-went-wrong": "Jokin meni pieleen. Tarkista, onko minulla kaikki vaaditut oikeudet valittuun kanavaan."
+                        },
                         "success": "{y} Lokituskanava on päivitetty.",
                         "success-toggle": "{y} Kirjaukselle tarkoitettu kanava on päivitetty.\n> {i} Olen aktivoinut järjestelmän automaattisesti puolestasi. Deaktivoi kirjaus </logs toggle:{commandId}>."
                     },
@@ -1664,7 +1528,7 @@
                         "description": "- Lisää tämä emoji tarraksi klikkaamalla \"Lisää emoji tarraksi\".\n- Lisää tämä emoji emojina klikkaamalla \"Lisää emoji emojina\"."
                     },
                     "success": "{y} {name} lisättiin.",
-                    "on-been-added": "lisättiin."
+                    "has-been-added": "lisättiin."
                 },
                 "info": {
                     "embed": {
@@ -1801,17 +1665,6 @@
             "sendwithwebhook": {
                 "not-valid": "{x} Annettu Webhook URL-osoite ei ole kelvollinen.",
                 "thread-id": "{x} Tämä webhook on tarkoitettu foorumille, joten sitä ei voi käyttää."
-            }
-        },
-        "games": {
-            "clashofclans": {
-                "api_verify": {
-                    "api": {
-                        "404": "{x} En ole löytänyt tiliä."
-                    },
-                    "token-invalid": "{x} Tunniste on virheellinen.",
-                    "success": "{y} Tunniste on voimassa. Tilisi on tallennettu tietokantaan.\n> {i} Vain sinun pelissä käyttämäsi lyhenne ({tag}) on tallennettu."
-                }
             }
         },
         "logs": {
@@ -2307,7 +2160,7 @@
             "buttons": {
                 "playerandqueues": "Pelaajat & Jonot",
                 "resultandteams": "Tulos & Tiimit",
-                "Takaisin": "Takaisin"
+                "back": "Takaisin"
             },
             "selectors": {
                 "match": "Valitse kierros.",
@@ -2766,6 +2619,5 @@
             "success-1": "{y} Järjestelmä on **aktivoitu**.",
             "success-2": "{y} Järjestelmä on **deaktivoitu**."
         }
-    },
-    "economy": {}
+    }
 }

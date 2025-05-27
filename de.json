@@ -380,12 +380,12 @@
                     "embed": {
                         "title": "{amount} Fehler wurden gefunden."
                     },
+                    "success": "{y} Es wurden keine Fehler gefunden.",
                     "permissions": {
                         "SendMessages": "- Mir fehlt die Berechtigung \"Nachrichten Senden\" in {channel}.",
                         "ViewChannel": "- Mir fehlt die Berechtigung, {channel} zu sehen.",
                         "EmbedLinks": "- Mir fehlt die Berechtigung \"Links einbetten\" in {channel}."
-                    },
-                    "success": "{y} Es wurden keine Fehler gefunden."
+                    }
                 },
                 "guess": {
                     "embed": {
@@ -1211,8 +1211,8 @@
                 "edit": {
                     "not-valid-message-link": "{x} Gebe einen validen Nachrichtenlink an.",
                     "message-not-found": "{x} Die angegebene Nachricht wurde nicht gefunden.",
-                    "author-not-datbot": "{x} Diese Nachricht ist nicht meine Nachricht.",
                     "no-embeds-size": "{x} Diese Nachricht enthält kein Embed.",
+                    "author-not-datbot": "{x} Diese Nachricht ist nicht meine Nachricht.",
                     "commit-changes-button": {
                         "label": "Änderungen speichern"
                     }
@@ -1701,12 +1701,12 @@
         "active": "Aktiv",
         "no-data": "Keine Daten",
         "deactive": "Nicht aktiv",
-        "channel": "Kanal",
-        "channels": "Kanäle",
         "activate": "Aktivieren",
         "deactivate": "Deaktivieren",
         "no-channel": "Kein Kanal",
         "day": "Tag",
+        "channel": "Kanal",
+        "channels": "Kanäle",
         "days": "Tage",
         "none": "Keine",
         "api": {
@@ -1719,10 +1719,10 @@
             "503": "{x} Der externe Server ist zurzeit nicht verfügbar."
         },
         "general": {
-            "currently-not-available": "{x} Zurzeit nicht verfügbar.",
             "notspecific": "{x} Ein Fehler ist aufgetreten.",
             "notyourmenu": "{x} Dies ist nicht dein Menu.",
             "option-not-valid": "{x} Die angegebene Option ist nicht valid. Bitte suche dir eine aus, die dir vorgeschlagen wird.",
+            "currently-not-available": "{x} Zurzeit nicht verfügbar.",
             "translation-error": "{i} Ich habe automatisch erkannt, dass eine Übersetzung nicht richtig geladen wurde. Ich habe meinen Entwickler bereits automatisch informiert.",
             "menutimeover": "{x} Das Menu ist abgelaufen. Bitte öffne ein neues Menu.",
             "components": {
@@ -1763,17 +1763,17 @@
         "restrictions": {
             "server-banned": "{x} Dieser Server wurde gebannt. Mehr Informationen: https://discord.gg/BQumAujuvk.",
             "user-banned": "{x} Du wurdest aus dem System von Dat Bot gebannt. Mehr Informationen bekommst du hier: https://discord.gg/BQumAujuvk.",
+            "command-developer": "{x} Dieser Befehl ist nur für Entwickler.",
+            "command-unloaded": "{x} Dieser Befehl ist nicht geladen. Bitte kontaktiere den Support Server: https://discord.gg/BQumAujuvk",
+            "use-command-again": "{x} Bitte nutze den Befehl erneut.",
+            "user-banned-command": "{x} Du darfst diesen Befehl nicht benutzen.",
             "cooldown": {
                 "button": "{x} Du kannst diesen Button wieder {lastexecuted} nutzen.",
                 "command": "{x} Du kannst diesen Befehl wieder {lastexecuted} nutzen.",
                 "contextmenu": "{x} Du kannst diese App wieder {lastexecuted} nutzen.",
                 "modal": "{x} Du kannst dieses Modal wieder {lastexecuted} nutzen.",
                 "selector": "{x} Du kannst dieses Select Menu wieder {lastexecuted} nutzen."
-            },
-            "command-developer": "{x} Dieser Befehl ist nur für Entwickler.",
-            "command-unloaded": "{x} Dieser Befehl ist nicht geladen. Bitte kontaktiere den Support Server: https://discord.gg/BQumAujuvk",
-            "use-command-again": "{x} Bitte nutze den Befehl erneut.",
-            "user-banned-command": "{x} Du darfst diesen Befehl nicht benutzen."
+            }
         },
         "endelon": {
             "runtime": "🕐・Laufzeit",
@@ -2155,8 +2155,8 @@
             "defaultDescription": "## Wähle ein Match aus\n- Wähle eines der Matches aus.\n- Aufgrund einer Limitierung von Discord kann Dat Bot nur die letzten 25 Matches anzeigen.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
             "defaultSelectPlaceholder": "Wähle ein Match aus.",
             "defaultFooter": "{matches} Matches erhalten",
-            "no-matches": "{x} Ich habe keine Matches gefunden.",
             "match": "Runde",
+            "no-matches": "{x} Ich habe keine Matches gefunden.",
             "buttons": {
                 "playerandqueues": "Spieler & Queues",
                 "resultandteams": "Ergebnis & Teams",

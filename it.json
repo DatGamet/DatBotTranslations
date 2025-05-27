@@ -380,12 +380,12 @@
                     "embed": {
                         "title": "{amount} errori sono stati trovati."
                     },
+                    "success": "{y} Nessun errore trovato.",
                     "permissions": {
                         "SendMessages": "- Mi manca il permesso \"Invia messaggi\" in {channel}.",
                         "ViewChannel": "- Mi manca il permesso di vedere {channel}.",
                         "EmbedLinks": "- Mi manca il permesso \"Incorpora collegamenti\" in {channel}."
-                    },
-                    "success": "{y} Nessun errore trovato."
+                    }
                 },
                 "guess": {
                     "embed": {
@@ -1211,8 +1211,8 @@
                 "edit": {
                     "not-valid-message-link": "{x} Fornisci un link valido al messaggio.",
                     "message-not-found": "{x} Il messaggio specificato non è stato trovato.",
-                    "author-not-datbot": "{x} Questo messaggio non è il mio.",
                     "no-embeds-size": "{x} Questo messaggio non contiene alcun embed.",
+                    "author-not-datbot": "{x} Questo messaggio non è il mio.",
                     "commit-changes-button": {
                         "label": "Salva modifiche"
                     }
@@ -1701,12 +1701,12 @@
         "active": "Attivo",
         "no-data": "Nessun Dato",
         "deactive": "Non Attivo",
-        "channel": "Canale",
-        "channels": "Canali",
         "activate": "Attivare",
         "deactivate": "Disattivare",
         "no-channel": "Nessun Canale",
         "day": "Giorno",
+        "channel": "Canale",
+        "channels": "Canali",
         "days": "Giorni",
         "none": "Nessuno",
         "api": {
@@ -1719,10 +1719,10 @@
             "503": "{x} Il server esterno non è attualmente disponibile."
         },
         "general": {
-            "currently-not-available": "{x} Al momento non disponibile.",
             "notspecific": "{x} Si è verificato un errore.",
             "notyourmenu": "{x} Questo non è il tuo menu.",
             "option-not-valid": "{x} L'opzione specificata non è valida. Per favore, scegliene una tra quelle suggerite.",
+            "currently-not-available": "{x} Al momento non disponibile.",
             "translation-error": "{i} Ho rilevato automaticamente un errore di traduzione. Ho già informato automaticamente il mio sviluppatore.",
             "menutimeover": "{x} Il menu è scaduto. Si prega di aprire un nuovo menu.",
             "components": {

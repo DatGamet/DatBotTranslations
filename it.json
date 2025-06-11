@@ -722,18 +722,18 @@
                     "channel": "Canale"
                 },
                 "invite": {
-                    "not-valid": "{x} The provided invite link is not valid.",
+                    "not-valid": "{x} Il link di invito fornito non è valido.",
                     "embed": {
                         "fields": {
                             "code": "🎨・Code",
-                            "expires-never": "Never",
-                            "expires": "🗑️・Expires",
+                            "expires-never": "Mai",
+                            "expires": "🗑️・Scade",
                             "server": "🌍・Server",
-                            "channel": "⭐・Channel",
-                            "created-by": "👤・Created by",
+                            "channel": "⭐・Canale",
+                            "created-by": "👤・Creato da",
                             "vanity": "❓・Vanity",
-                            "value-true": "- Yes, this is the Vanity Code.",
-                            "value-false": "- No, this is not the Vanity Code."
+                            "value-true": "- Si, questo è un codice di vanity.",
+                            "value-false": "- No, questo non è un codice di vanity."
                         }
                     }
                 }

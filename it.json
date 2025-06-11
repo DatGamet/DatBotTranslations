@@ -32,7 +32,7 @@
                 "role-managed": "- {role}: Il ruolo è gestito da un server esterno.",
                 "role-position": "- {role}: Non posso assegnare questo ruolo (posizione del ruolo).",
                 "no-autoroles": "- Non ci sono dei autorole.",
-                "result": "Risulto",
+                "result": "Risultato",
                 "success": "- {role}: Nessun Errore"
             },
             "home": {},
@@ -190,7 +190,7 @@
                 "success": "{y} Vedi il tuo embed qui: {url}",
                 "error": "{x} Export dell'embed fallito."
             },
-            "flaggenquiz_skip": {
+                "flaggenquiz_skip": {
                 "system-deactivated": "{x} Il quiz delle  bandiere è disattivato.",
                 "message-error": "{x} L'attuale quiz delle  bandiere si svolge qui: {messageLink}",
                 "skips-missing": "{x} I skip sono insufficienti.",
@@ -1570,29 +1570,29 @@
             }
         },
         "automod": {
-            "server_not_community": "{x} This server is not a community server.",
-            "server_not_community_button": "How to activate the Discord Community",
+            "server_not_community": "{x} Questo server non è un community server.",
+            "server_not_community_button": "Come attivare la Discord Community",
             "server_not_community_support_article": "https://support.discord.com/hc/en-us/articles/360047132851-Enabling-Your-Community-Server",
-            "filter_word_added": "{y} The word was successfully added to the filter.",
-            "filter_limit_reached": "{x} The limit of `1000` nicknames has been reached.",
-            "filter_word_added_togglenotice": "{y} The word was successfully added to the filter.\n> {i} The automod rule is deactivated. Activate it with </automod nicknames toggle:{commandId}>!",
-            "filter_already_existing": "{x} The specified name already exists in the filter.",
-            "filter_not_existing": "{x} The specified name does not exist in the filter.",
-            "filter_word_removed": "{y} The word was successfully removed from the filter.",
-            "filter_reset": "{y} The filter was successfully reset.",
-            "filter_empty": "{x} There are no names in the filter.",
-            "list_embed_description": "# Automod - Nicknames\n\n## Completely disallowed\n- {1}\n## Exact name\n- {2}\n## Must not start with ...\n- {3}\n## Must not end with ...\n- {4}",
-            "toggle_deactivated": "{y} The automod rule has been deactivated.",
-            "toggle_activated": "{y} The automod rule has been activated.",
-            "allowlist_already": "{x} The role is already in the Allowlist.",
-            "allowlist_added": "{y} The role has been successfully added to the Allowlist.",
+            "filter_word_added": "{y} La parola è stata aggiunta al filtro.",
+            "filter_limit_reached": "{x} Il limite di `1000` nickname è stato raggiunto.",
+            "filter_word_added_togglenotice": "{y} La parola è stata aggiunta al filtro.\n> {i} La regola automod è disattivata. Attivarla con </automod nicknames toggle:{commandId}>!",
+            "filter_already_existing": "{x} Il nome specificato esiste già nel filtro.",
+            "filter_not_existing": "{x} Il nome specificato non esiste nel filtro.",
+            "filter_word_removed": "{y} La parola è stata rimossa con successo dal filtro.",
+            "filter_reset": "{y} Il filtro è stato ripristinato con successo.",
+            "filter_empty": "{x} Non ci sono nomi nel filtro.",
+            "list_embed_description": "# Automod - Nickname\n\n## Completamente non consentito\n- {1}\n## Nome essatto\n- {2}\n## Non può partire con ...\n- {3}\n## Non può finire con ...\n- {4}",
+            "toggle_deactivated": "{y} La regola automod è stata disattivata.",
+            "toggle_activated": "{y} La regola automod è stata attivata.",
+            "allowlist_already": "{x} Il ruolo è già presente nella Allowlist.",
+            "allowlist_added": "{y} Il ruolo è stato aggiunto con successo alla Allowlist.",
             "allowlist_embed_description": "# Automod - Allowlist\n- {1}",
-            "allowlist_not": "{x} The role is not in the Allowlist.",
-            "allowlist_removed": "{y} The role was successfully removed from the Allowlist.",
-            "logchannel_already": "{x} The log channel is already <#{channel}>.",
-            "logchannel_set": "{y} The log channel has been set.",
-            "logchannel_notset": "{x} The log channel is not set.",
-            "logchannel_reset": "{y} The log channel was successfully reset."
+            "allowlist_not": "{x} Il ruolo non è presente nella Allowlist.",
+            "allowlist_removed": "{y} Il ruolo è stato rimosso con successo dalla Allowlist.",
+            "logchannel_already": "{x} Il canale di log è già <#{channel}>.",
+            "logchannel_set": "{y} Il canale di log è stato impostato.",
+            "logchannel_notset": "{x} Il canale di log non è impostato.",
+            "logchannel_reset": "{y} Il canale di log è stato resettato con successo."
         }
     },
     "config": {

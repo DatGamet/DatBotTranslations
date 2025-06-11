@@ -2119,20 +2119,20 @@
             }
         },
         "poll": {
-            "embed-deleted": "{x} Das Embed wurde gelöscht.",
+            "embed-deleted": "{x} L'embed e stato rimosso.",
             "poll_delete_option": {
                 "embed": {
                     "fields": {
                         "current-options": {
-                            "name": "Aktuelle Option(en)",
-                            "value": "Keine Optionen"
+                            "name": "Opzioni attuali",
+                            "value": "Nessuna opzione"
                         }
                     }
                 }
             },
             "send_poll": {
-                "poll-message-not-found": "{x} Die Umfrage Nachricht wurde nicht gefunden.",
-                "embed-deleted": "{x} Das Embed wurde gelöscht."
+                "poll-message-not-found": "{x} Il messaggio del sondaggio non è stato trovato",
+                "embed-deleted": "{x} L'embed e stato rimosso."
             }
         }
     },

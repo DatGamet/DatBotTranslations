@@ -38,7 +38,7 @@
             "home": {},
             "list": {
                 "list": "## Elenco\n- I seguenti ruoli sono autorole:",
-                "list-no-autoroles": "## Elenco\n- Es gibt zurzeit keine Autorollen."
+                "list-no-autoroles": "## Elenco\n- Non ci sono dei autorole"
             },
             "reset": {
                 "are-you-sure-button": {
@@ -225,7 +225,7 @@
                 "title": "Webhook URL",
                 "url": "Inserire un URL di webhook.",
                 "name": "Inserire un nome.",
-                "avatar": "Gebe eine Avatar URL an."
+                "avatar": "Inserire un URL di avatar"
             }
         },
         "poll": {
@@ -312,7 +312,7 @@
                             "label": "Tip"
                         },
                         "skip": {
-                            "label": "Skip"
+                            "label": "Salta"
                         }
                     },
                     "success": "{y} Il quiz sulle emoji ha iniziato con successo."
@@ -338,7 +338,7 @@
                 "toggle": {
                     "channel-not-set": "{x} Impostare un nuovo canale con il comando </emojiquiz setup:{commandId}>",
                     "success_deactivated": "{y} L'emojiquiz è stato disattivatot.",
-                    "success_activated": "{y} Il quiz sulle emoji è stato attivato."
+                    "success_activated": "{y} L'emojiquiz è stato attivato."
                 }
             },
             "flagquiz": {
@@ -441,7 +441,7 @@
                 "success": "{y} Il tuo messaggio è stato inviato.\n> ℹ️・Nota che nessun utente, ruolo o altro verrà menzionato. Questo è per sicurezza. ^^"
             },
             "iq": {
-                "success": "{user} ha un QI di {iq}."
+                "success": "{user} ha un IQ di {iq}."
             },
             "meme": {
                 "error": "{x} Non sono riuscito a caricare un meme.",
@@ -594,7 +594,7 @@
                     "games": "Giochi & Statistiche",
                     "info": "Informazioni",
                     "welcome-leave": "Benvenuto & Addio",
-                    "logging": "Registro",
+                    "logging": "Logging",
                     "poll": "Sondaggi",
                     "twitch": "Twitch",
                     "quiz": "Quiz",
@@ -939,35 +939,35 @@
                     },
                     "settings": {
                         "embed": {
-                            "title": "Verwalte die Einstellungen",
+                            "title": "Gestire le impostazioni",
                             "fields": {
                                 "channel": {
-                                    "name": "Kanal",
-                                    "value-nochannel": "- Keiner gesetzt"
+                                    "name": "Canale",
+                                    "value-nochannel": "- Nessun canale impostato"
                                 },
                                 "toggle": {
                                     "name": "Status",
-                                    "value_activated": "> Aktiviert",
-                                    "value_deactivated": "> Deaktiviert"
+                                    "value_activated": "> Attivato",
+                                    "value_deactivated": "> Disattivato"
                                 }
                             }
                         },
                         "components": {
                             "logging-toggle-button": {
-                                "label-activate": "System aktivieren",
-                                "label-deactivate": "System deaktivieren"
+                                "label-activate": "Attiva systema",
+                                "label-deactivate": "Dissattiva systema"
                             },
                             "logging-test-button": {
-                                "label": "System testen"
+                                "label": "Test del systema"
                             },
                             "update-message-button": {
-                                "label": "Nachricht aktualisieren"
+                                "label": "Aggiornare il messaggio"
                             },
                             "logging-resetdata-button": {
-                                "label": "Einstellungen zurücksetzen"
+                                "label": "Ripristinare le impostazioni"
                             },
                             "logging-channel-select": {
-                                "placeholder": "Setze den Logging Kanal."
+                                "placeholder": "Imposta il canale per il logging"
                             }
                         }
                     }

@@ -2831,6 +2831,7 @@
             "reject": "<@{1}> rejected the request.",
             "text-1": "<@{1}> <@{2}> asks if the ticket can be closed.",
             "text-2": "<@{1}> do you have any other questions or do you want to close the ticket?",
+            "text-3": "<@{1}> asks if the ticket can be closed.",
             "sendsuccess": "{y} The Close Request was sent."
         },
         "settings": {
@@ -2938,8 +2939,8 @@
             "log-2": "- <@{1}> already has the permission to see this channel.",
             "log-3": "- <@{1}> was successfully added.",
             "log-4": "- <@{1}> is administrator.",
-            "log-5": "- <@{5}> has no permission to see this ticket.",
-            "log-6": "- <@{1}> was successfully added.",
+            "log-5": "- <@{1}> has no permission to see this ticket.",
+            "log-6": "- <@{1}> was successfully removed.",
             "successlog": "{y} Done!\n## Log\n{1}",
             "addselectplaceholder": "Choose users to add",
             "remselectplaceholder": "Select users to remove"
@@ -3058,7 +3059,11 @@
             "closerequestacceptuser": "- [<t:{1}:R>] <@{2}> accepted the close request [user]",
             "closerequestacceptmod": "- [<t:{1}:R>] <@{2}> accepted the close request [mod].",
             "closerequestrejectuser": "- [<t:{1}:R>] <@{2}> rejected the close request [user].",
-            "closerequestrejectmod": "- [<t:{1}:R>] <@{2}> rejected the close request [mod]."
+            "closerequestrejectmod": "- [<t:{1}:R>] <@{2}> rejected the close request [mod].",
+            "forceclaim": "- [<t:{1}:R>] <@{2}> force claimed the ticket.",
+            "adduser": "- [<t:{1}:R>] <@{2}> added {3} to the ticket.",
+            "removeuser": "- [<t:{1}:R>] <@{2}> removed {3} from the ticket.",
+            "transfer": "- [<t:{1}:R>] <@{2}> transfered the ticket to **{3}**."
         }
     }
 }

@@ -32,13 +32,13 @@
                 "role-managed": "- {role}: Il ruolo è gestito da un server esterno.",
                 "role-position": "- {role}: Non posso assegnare questo ruolo (posizione del ruolo).",
                 "no-autoroles": "- Non ci sono dei autorole.",
-                "result": "Risulto",
+                "result": "Risultato",
                 "success": "- {role}: Nessun Errore"
             },
             "home": {},
             "list": {
                 "list": "## Elenco\n- I seguenti ruoli sono autorole:",
-                "list-no-autoroles": "## Elenco\n- Es gibt zurzeit keine Autorollen."
+                "list-no-autoroles": "## Elenco\n- Non ci sono dei autorole"
             },
             "reset": {
                 "are-you-sure-button": {
@@ -190,7 +190,7 @@
                 "success": "{y} Vedi il tuo embed qui: {url}",
                 "error": "{x} Export dell'embed fallito."
             },
-            "flaggenquiz_skip": {
+                "flaggenquiz_skip": {
                 "system-deactivated": "{x} Il quiz delle  bandiere è disattivato.",
                 "message-error": "{x} L'attuale quiz delle  bandiere si svolge qui: {messageLink}",
                 "skips-missing": "{x} I skip sono insufficienti.",
@@ -225,7 +225,7 @@
                 "title": "Webhook URL",
                 "url": "Inserire un URL di webhook.",
                 "name": "Inserire un nome.",
-                "avatar": "Gebe eine Avatar URL an."
+                "avatar": "Inserire un URL di avatar"
             }
         },
         "poll": {
@@ -312,7 +312,7 @@
                             "label": "Tip"
                         },
                         "skip": {
-                            "label": "Skip"
+                            "label": "Salta"
                         }
                     },
                     "success": "{y} Il quiz sulle emoji ha iniziato con successo."
@@ -338,7 +338,7 @@
                 "toggle": {
                     "channel-not-set": "{x} Impostare un nuovo canale con il comando </emojiquiz setup:{commandId}>",
                     "success_deactivated": "{y} L'emojiquiz è stato disattivatot.",
-                    "success_activated": "{y} Il quiz sulle emoji è stato attivato."
+                    "success_activated": "{y} L'emojiquiz è stato attivato."
                 }
             },
             "flagquiz": {
@@ -441,7 +441,7 @@
                 "success": "{y} Il tuo messaggio è stato inviato.\n> ℹ️・Nota che nessun utente, ruolo o altro verrà menzionato. Questo è per sicurezza. ^^"
             },
             "iq": {
-                "success": "{user} ha un QI di {iq}."
+                "success": "{user} ha un IQ di {iq}."
             },
             "meme": {
                 "error": "{x} Non sono riuscito a caricare un meme.",
@@ -594,7 +594,7 @@
                     "games": "Giochi & Statistiche",
                     "info": "Informazioni",
                     "welcome-leave": "Benvenuto & Addio",
-                    "logging": "Registro",
+                    "logging": "Logging",
                     "poll": "Sondaggi",
                     "twitch": "Twitch",
                     "quiz": "Quiz",
@@ -722,18 +722,18 @@
                     "channel": "Canale"
                 },
                 "invite": {
-                    "not-valid": "{x} The provided invite link is not valid.",
+                    "not-valid": "{x} Il link di invito fornito non è valido.",
                     "embed": {
                         "fields": {
                             "code": "🎨・Code",
-                            "expires-never": "Never",
-                            "expires": "🗑️・Expires",
+                            "expires-never": "Mai",
+                            "expires": "🗑️・Scade",
                             "server": "🌍・Server",
-                            "channel": "⭐・Channel",
-                            "created-by": "👤・Created by",
+                            "channel": "⭐・Canale",
+                            "created-by": "👤・Creato da",
                             "vanity": "❓・Vanity",
-                            "value-true": "- Yes, this is the Vanity Code.",
-                            "value-false": "- No, this is not the Vanity Code."
+                            "value-true": "- Si, questo è un codice di vanity.",
+                            "value-false": "- No, questo non è un codice di vanity."
                         }
                     }
                 }
@@ -939,35 +939,35 @@
                     },
                     "settings": {
                         "embed": {
-                            "title": "Verwalte die Einstellungen",
+                            "title": "Gestire le impostazioni",
                             "fields": {
                                 "channel": {
-                                    "name": "Kanal",
-                                    "value-nochannel": "- Keiner gesetzt"
+                                    "name": "Canale",
+                                    "value-nochannel": "- Nessun canale impostato"
                                 },
                                 "toggle": {
                                     "name": "Status",
-                                    "value_activated": "> Aktiviert",
-                                    "value_deactivated": "> Deaktiviert"
+                                    "value_activated": "> Attivato",
+                                    "value_deactivated": "> Disattivato"
                                 }
                             }
                         },
                         "components": {
                             "logging-toggle-button": {
-                                "label-activate": "System aktivieren",
-                                "label-deactivate": "System deaktivieren"
+                                "label-activate": "Attiva systema",
+                                "label-deactivate": "Dissattiva systema"
                             },
                             "logging-test-button": {
-                                "label": "System testen"
+                                "label": "Test del systema"
                             },
                             "update-message-button": {
-                                "label": "Nachricht aktualisieren"
+                                "label": "Aggiornare il messaggio"
                             },
                             "logging-resetdata-button": {
-                                "label": "Einstellungen zurücksetzen"
+                                "label": "Ripristinare le impostazioni"
                             },
                             "logging-channel-select": {
-                                "placeholder": "Setze den Logging Kanal."
+                                "placeholder": "Imposta il canale per il logging"
                             }
                         }
                     }
@@ -1570,29 +1570,29 @@
             }
         },
         "automod": {
-            "server_not_community": "{x} This server is not a community server.",
-            "server_not_community_button": "How to activate the Discord Community",
+            "server_not_community": "{x} Questo server non è un community server.",
+            "server_not_community_button": "Come attivare la Discord Community",
             "server_not_community_support_article": "https://support.discord.com/hc/en-us/articles/360047132851-Enabling-Your-Community-Server",
-            "filter_word_added": "{y} The word was successfully added to the filter.",
-            "filter_limit_reached": "{x} The limit of `1000` nicknames has been reached.",
-            "filter_word_added_togglenotice": "{y} The word was successfully added to the filter.\n> {i} The automod rule is deactivated. Activate it with </automod nicknames toggle:{commandId}>!",
-            "filter_already_existing": "{x} The specified name already exists in the filter.",
-            "filter_not_existing": "{x} The specified name does not exist in the filter.",
-            "filter_word_removed": "{y} The word was successfully removed from the filter.",
-            "filter_reset": "{y} The filter was successfully reset.",
-            "filter_empty": "{x} There are no names in the filter.",
-            "list_embed_description": "# Automod - Nicknames\n\n## Completely disallowed\n- {1}\n## Exact name\n- {2}\n## Must not start with ...\n- {3}\n## Must not end with ...\n- {4}",
-            "toggle_deactivated": "{y} The automod rule has been deactivated.",
-            "toggle_activated": "{y} The automod rule has been activated.",
-            "allowlist_already": "{x} The role is already in the Allowlist.",
-            "allowlist_added": "{y} The role has been successfully added to the Allowlist.",
+            "filter_word_added": "{y} La parola è stata aggiunta al filtro.",
+            "filter_limit_reached": "{x} Il limite di `1000` nickname è stato raggiunto.",
+            "filter_word_added_togglenotice": "{y} La parola è stata aggiunta al filtro.\n> {i} La regola automod è disattivata. Attivarla con </automod nicknames toggle:{commandId}>!",
+            "filter_already_existing": "{x} Il nome specificato esiste già nel filtro.",
+            "filter_not_existing": "{x} Il nome specificato non esiste nel filtro.",
+            "filter_word_removed": "{y} La parola è stata rimossa con successo dal filtro.",
+            "filter_reset": "{y} Il filtro è stato ripristinato con successo.",
+            "filter_empty": "{x} Non ci sono nomi nel filtro.",
+            "list_embed_description": "# Automod - Nickname\n\n## Completamente non consentito\n- {1}\n## Nome essatto\n- {2}\n## Non può partire con ...\n- {3}\n## Non può finire con ...\n- {4}",
+            "toggle_deactivated": "{y} La regola automod è stata disattivata.",
+            "toggle_activated": "{y} La regola automod è stata attivata.",
+            "allowlist_already": "{x} Il ruolo è già presente nella Allowlist.",
+            "allowlist_added": "{y} Il ruolo è stato aggiunto con successo alla Allowlist.",
             "allowlist_embed_description": "# Automod - Allowlist\n- {1}",
-            "allowlist_not": "{x} The role is not in the Allowlist.",
-            "allowlist_removed": "{y} The role was successfully removed from the Allowlist.",
-            "logchannel_already": "{x} The log channel is already <#{channel}>.",
-            "logchannel_set": "{y} The log channel has been set.",
-            "logchannel_notset": "{x} The log channel is not set.",
-            "logchannel_reset": "{y} The log channel was successfully reset."
+            "allowlist_not": "{x} Il ruolo non è presente nella Allowlist.",
+            "allowlist_removed": "{y} Il ruolo è stato rimosso con successo dalla Allowlist.",
+            "logchannel_already": "{x} Il canale di log è già <#{channel}>.",
+            "logchannel_set": "{y} Il canale di log è stato impostato.",
+            "logchannel_notset": "{x} Il canale di log non è impostato.",
+            "logchannel_reset": "{y} Il canale di log è stato resettato con successo."
         }
     },
     "config": {
@@ -2119,20 +2119,20 @@
             }
         },
         "poll": {
-            "embed-deleted": "{x} Das Embed wurde gelöscht.",
+            "embed-deleted": "{x} L'embed e stato rimosso.",
             "poll_delete_option": {
                 "embed": {
                     "fields": {
                         "current-options": {
-                            "name": "Aktuelle Option(en)",
-                            "value": "Keine Optionen"
+                            "name": "Opzioni attuali",
+                            "value": "Nessuna opzione"
                         }
                     }
                 }
             },
             "send_poll": {
-                "poll-message-not-found": "{x} Die Umfrage Nachricht wurde nicht gefunden.",
-                "embed-deleted": "{x} Das Embed wurde gelöscht."
+                "poll-message-not-found": "{x} Il messaggio del sondaggio non è stato trovato",
+                "embed-deleted": "{x} L'embed e stato rimosso."
             }
         }
     },
@@ -2201,88 +2201,88 @@
     },
     "tempvoice": {
         "presets": {
-            "no-presets": "You do not have any Presets",
-            "not-found": "{x} Preset was not found or has been deleted.",
-            "not-owned": "{x} This is not your preset.",
-            "no-issues-found": "{y} No issues were found.",
-            "embeddel": "{x} The embed of the previous message was deleted. Please use the command again.",
-            "namedollar": "{x} The name must not include a `$`.",
-            "limit": "{x} You already created `{1}` Presets which is the maximum amount. If you need more, contact the support server here: https://discord.gg/BQumAujuvk",
-            "nameexists": "{x} You already created a Preset with the provided name.",
-            "embed-1": "# Edit TempVoice preset\n- Channel name: Edit the name of the channel\n- User limit: Edit the maximum number of users\n- Bit rate: Edit the bit rate\n- Short name: Edit the short name\n- Interface: Decide whether the interface is sent to the text channel of the voice channel\n- Permissions: Shows the current permissions\n- Locked: Whether the channel is locked when created\n- Visible: Whether the channel is visible when created\n- Bans: Users who are banned by default\n- [+] Permissions: Add custom permissions\n- [-] Permissions: Remove custom permissions",
+            "no-presets": "Non hai dei preset",
+            "not-found": "{x} Il preset non è stato trovato o è stato rimosso.",
+            "not-owned": "{x} Questo non e il tuo preset.",
+            "no-issues-found": "{y} Non sono stati riscontrati problemi.",
+            "embeddel": "{x} L'embed del messaggio precedente è stato cancellato. Si prega di utilizzare nuovamente il comando.",
+            "namedollar": "{x} Il nome non puo contenere un `$`.",
+            "limit": "{x} Hai già creato `{1}` presets, il numero massimo. Se ti servono di più, contattaci qui: https://discord.gg/BQumAujuvk",
+            "nameexists": "{x} È già stata creato un preset con il nome fornito.",
+            "embed-1": "# Modifica TempVoice preset\n- Nome canale: Modifica il nome del canale\n- User limit: Modifica il numero massimo di persone\n- Bit rate: Cambia bitrate\n- Short name: Modifica il short name\n- Interface: Decidere se l'Interface viene inviata al canale di text o al canale voice.\n- Permissions: Mostra i permessi attuali\n- Bloccato: Se il canale è bloccato quando viene creato\n- Visibile: Se il canale è visibile quando viene creato\n- Bans: Utenti bannati predefiniti\n- [+] Permissions: Aggiungi custom permissions\n- [-] Permissions: Rimuovi custom permissions",
             "button-channelname": "Channel Name",
             "button-userlimit": "Userlimit",
             "button-bitrate": "Bitrate",
             "button-shortname": "Shortname",
             "button-interface": "Interface",
             "button-permissions": "Permissions",
-            "button-visible": "Visible",
-            "button-locked": "Locked",
+            "button-visible": "Visibile",
+            "button-locked": "Bloccato",
             "button-bans": "Bans",
             "select-permsadd": "[+] Permissions",
             "select-permsrem": "[-] Permissions",
-            "createsuccess": "{y} TempVoice Preset was successfully created.",
-            "deletesuccess": "{y} TempVoice Preset was successfully deleted.",
-            "defaultpanelsetsuccess": "{y} Panel is now used as default panel.",
-            "nodefaultpanel": "{x} You do not have a default TempVoice preset. Set the default preset with </tempvoice preset load:{1}>.",
-            "unloadsuccess": "{y} Panel `{1}` is not used as default panel anymore.",
-            "idinvalid": "{x} The ID is invalid.",
+            "createsuccess": "{y} Il preset TempVoice è stato creato.",
+            "deletesuccess": "{y} Il preset TempVoice è stato rimosso.",
+            "defaultpanelsetsuccess": "{y} Il panel è ora utilizzato come panel predefinito.",
+            "nodefaultpanel": "{x} Non esiste un preset predefinito di TempVoice. Impostare il preset predefinito con </tempvoice preset load:{1}>.",
+            "unloadsuccess": "{y} Panel `{1}` non e più usato come panel predefinito.",
+            "idinvalid": "{x} L'id è invalida",
             "infoembed": "## TempVoice Preset\n- Short Name: {1}\n- ID: {2}\n- Default Channel Name: {3}\n- Default Channel Bitrate: {4}\n- Default Channel Userlimit: {5}\n- Default Locked Status: {6}\n- Default Visibility: {7}\n- Send Interface in TempVoice Channel: {8}",
             "locked": "Locked",
             "unlocked": "Unlocked",
             "visible": "Visible",
             "invisible": "Invisible",
             "settings": {
-                "role-requiring-1": "{y} All roles are required now to create a TempVoice channel.",
-                "role-requiring-2": "{y} Now just one role is required to create a TempVoice channel",
-                "no-rr": "{x} No Requires Roles are set.",
-                "deleted-rr": "{y} Successfully deleted **{1}** Required Roles.",
-                "isnan": "{x} Input is not a number",
-                "bitrate-reset": "{y} The bitrate was reset.",
-                "bitrate-changed": "{y} The bitrate was changed.",
-                "name-reset": "{y} The name was reset.",
-                "name-changed": "{y} The name was changed.",
-                "maximumtvchannels": "{y} The maximum limit of TempVoice channels was changed."
+                "role-requiring-1": "{y} Tutti i ruoli sono ora necessari per creare un canale TempVoice.",
+                "role-requiring-2": "{y} Ora è necessario un solo ruolo per creare un canale TempVoice.",
+                "no-rr": "{x} Non sono impostati ruoli richiesti.",
+                "deleted-rr": "{y} Cancellato con successo **{1}** Ruoli richiesti.",
+                "isnan": "{x} L'ingresso non è un numero",
+                "bitrate-reset": "{y} Il bitrate è stato resettato.",
+                "bitrate-changed": "{y} Il bitrate è stato modificato.",
+                "name-reset": "{y} Il nome è stato resettato.",
+                "name-changed": "{y} Il nome è stato cambiato.",
+                "maximumtvchannels": "{y} È stato modificato il limite massimo dei canali TempVoice."
             },
             "components": {
-                "ban-select-placeholder": "Select users to ban...",
-                "ban-embed-description": "## Edit TempVoice Bans\n- Add or remove banned users. Use the select menu below.\n- You cannot add yourself or bots.",
-                "default-bitrate-modal-title": "Preset Default User Limit",
-                "default-bitrate-modal-label": "Provide the Bitrate in kbps",
-                "default-name-modal-title": "Preset Default Name",
-                "default-position-1": "{y} Default Position was set to `highest`",
-                "default-position-2": "{y} Default Position was set to `lowest`"
+                "ban-select-placeholder": "Selezionare gli user da bannare...",
+                "ban-embed-description": "## Modifica TempVoice Bans\n- Aggiungere o rimuovere gli utenti bannati. Utilizzare il menu di selezione sottostante.\n- Non è possibile aggiungere se stessi o i bot.",
+                "default-bitrate-modal-title": "Limite utente predefinito",
+                "default-bitrate-modal-label": "Fornire la bitrate in kbps",
+                "default-name-modal-title": "Nome predefinito del preset",
+                "default-position-1": "{y} La posizione predefinita è stata impostata su `più alta`.",
+                "default-position-2": "{y} La posizione predefinita è stata impostata su `più bassa`."
             },
             "invoiceroles": {
-                "successfully-deleted": "- Role with ID {1} was deleted and removed from the database",
-                "managed": "- <@&{1}> is managed by an external service and therefore can not be added.",
-                "position": "- <@&{1}> is my highest role or higher than my highest role and therefore can not be added.",
-                "embed-description-debug": "# Result\n-# Found: {1} issue(s)\n{2}",
-                "no-length": "{x} No Invoice Roles are set",
-                "successfully-deleted-response": "{y} Successfully deleted **{1}** Invoice Roles."
+                "successfully-deleted": "- Il ruolo con ID {1} è stato eliminato e rimosso dal database.",
+                "managed": "- <@&{1}> è gestito da un servizio esterno e quindi non può essere aggiunto.",
+                "position": "- <@&{1}> è il mio ruolo più alto o superiore al mio ruolo più alto e quindi non può essere aggiunto.",
+                "embed-description-debug": "# Risultato trovato: {1} problema(i) \n{2}",
+                "no-length": "{x} Non sono impostati ruoli di fatturazione",
+                "successfully-deleted-response": "{y} Cancellati con successo **{1}** Ruoli di fatturazione."
             },
             "perms": {
-                "noextraperms": "{x} No extra permissions for the TempVoice channel owner are set",
-                "perms-success-response": "{y} Successfully reset the permissions for the TempVoice channel owner.",
-                "noneset": "{x} No Permissions are configured.",
-                "embed": "# Permissions\n## Roles\n{1}\n## Users\n{2}",
-                "limit": "{x} Too many permissions (> 25).",
-                "banplaceholder": "Select users to ban...",
-                "yourself": "{x} You can not give yourself permissions.",
-                "userbot": "{x} Provided user is a bot.",
-                "embed-1": "# Add TempVoice Preset Permissions\n- Select permissions from the select menu below\n- The permissions only apply to the temporary voice channel, not to the server\n## Risk of permissions\n- 🔵 // Low\n- 🟡 // Medium\n- 🔴 // High",
-                "permsplaceholder": "Choose permissions...",
-                "rolenoneset": "{x} Role does not have any custom permissions",
-                "rolepermsrem": "{y} The Role's permissions were removed",
-                "usernoneset": "{x} User does not have any custom permissions",
-                "userpermsrem": "{y} The user's permissions were removed"
+                "noextraperms": "{x} Non sono state impostate permessi aggiuntivi per il proprietario del canale TempVoice.",
+                "perms-success-response": "{y} È stato possibile resettare le autorizzazioni per il proprietario del canale TempVoice.",
+                "noneset": "{x} Non sono configurate permessi.",
+                "embed": "# Permessi\n## Ruoli\n{1}\n# Utenti\n{2}",
+                "limit": "{x} Troppi permessi (> 25).",
+                "banplaceholder": "Selezionare gli utenti da bannare...",
+                "yourself": "{x} Non è possibile darsi dei permessi.",
+                "userbot": "{x} L'utente fornito è un bot.",
+                "embed-1": "# Aggiungere permessi TempVoice Preset\n- Selezionare i permessi dal menu di selezione sottostante\n- I permessi si applicano solo al canale TempVoice, non al server\n## Rischio di permessi\n- 🔵 // Basso\n- 🟡 // Medio\n- 🔴 // Alto",
+                "permsplaceholder": "Scegliere i permessi...",
+                "rolenoneset": "{x} Il ruolo non riceve permessi personalizzati.",
+                "rolepermsrem": "{y} I permessi del ruolo sono stati rimossi.",
+                "usernoneset": "{x} L'utente non dispone di permessi personalizzati",
+                "userpermsrem": "{y} I permessi dell'utente sono stati rimossi"
             },
-            "interface-sending-1": "{y} Interface will be sent in the created TempVoice channel",
-            "interface-sending-2": "{y} Interface will not be sent in the created TempVoice channel anymore",
-            "channel-locking-1": "{y} Channel will now be locked",
-            "channel-locking-2": "{y} Channel will not be locked anymore",
-            "visible-1": "{y} Channel will not be visible anymore.",
-            "visible-2": "{y}  Channel will now be visible."
+            "interface-sending-1": "{y} L'interface sarà inviata nel canale TempVoice creato.",
+            "interface-sending-2": "{y} L'interface non verrà più inviata nel canale TempVoice creato.",
+            "channel-locking-1": "{y} Il canale sarà ora bloccato",
+            "channel-locking-2": "{y} Il canale non sarà più bloccato",
+            "visible-1": "{y} Il canale non sarà più visibile.",
+            "visible-2": "{y} Il canale sarà ora visibile."
         },
         "interface": {
             "footer": "Unisciti al canale del Creatore per creare un canale TempVoice.",

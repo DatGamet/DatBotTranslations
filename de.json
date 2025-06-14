@@ -2831,6 +2831,7 @@
             "reject": "<@{1}> hat die Anfrage abgelehnt.",
             "text-1": "<@{1}> <@{2}> fragt, ob das Ticket geschlossen werden kann.",
             "text-2": "<@{1}>, hast du noch weitere Fragen oder möchtest du das Ticket schließen?",
+            "text-3": "<@{1}> asks if the ticket can be closed.",
             "sendsuccess": "{y} Die Close Request wurde versendet."
         },
         "settings": {
@@ -2938,8 +2939,8 @@
             "log-2": "- <@{1}> hat bereits die Berechtigung diesen Kanal zu sehen.",
             "log-3": "- <@{1}> wurde erfolgreich hinzugefügt.",
             "log-4": "- <@{1}> ist Administrator.",
-            "log-5": "- <@{5}> hat keine Berechtigung, dieses Ticket zu sehen.",
-            "log-6": "- <@{1}> wurde erfolgreich hinzugefügt.",
+            "log-5": "- <@{1}> hat keine Berechtigung, dieses Ticket zu sehen.",
+            "log-6": "- <@{1}> wurde erfolgreich entfernt.",
             "successlog": "{y} Fertig!\n## Log\n{1}",
             "addselectplaceholder": "Wähle Nutzer zum Hinzufügen aus",
             "remselectplaceholder": "Wähle Nutzer zum Entfernen aus"
@@ -3058,7 +3059,11 @@
             "closerequestacceptuser": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage angenommen [Nutzer]",
             "closerequestacceptmod": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage angenommen [Mod].",
             "closerequestrejectuser": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage abgelehnt [Nutzer].",
-            "closerequestrejectmod": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage abgelehnt [Mod]."
+            "closerequestrejectmod": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage abgelehnt [Mod].",
+            "forceclaim": "- [<t:{1}:R>] <@{2}> hat das Ticket beansprucht [force].",
+            "adduser": "- [<t:{1}:R>] <@{2}> hat {3} in das Ticket hinzugefügt.",
+            "removeuser": "- [<t:{1}:R>] <@{2}> hat {3} aus dem Ticket entfernt.",
+            "transfer": "- [<t:{1}:R>] <@{2}> hat das Ticket an **{3}** übertragen."
         }
     }
 }

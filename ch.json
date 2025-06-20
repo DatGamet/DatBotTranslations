@@ -1,0 +1,26 @@
+{
+    "autocomplete": {
+        "games": {
+            "fortnite": {
+                "shopitem": {
+                    "no-name": "Bitte gib en Name ah.",
+                    "no-matching-items": "Es sind kei Überistimmge gfunde worde.",
+                    "no-shopitem-found": "Es isch kei Gegestand uf Grund vo dinere Suechi gfunde worde."
+                }
+            },
+            "valorant": {
+                "map": {
+                    "no-map-found": "Es isch kei Karte gfunde worde uf Grund vo dinere Suechi."
+                },
+                "agent": {
+                    "no-agent-found": "Es isch kei Agänt ufgrund vo dinere Suechi gfunde worde."
+                }
+            }
+        }
+    },
+    "beta": {},
+    "buttons": {
+        "autoroles": {
+            "autorole-home-button": {
+                "label": "Zrugg"
+            },

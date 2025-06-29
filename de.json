@@ -18,12 +18,8 @@
             }
         }
     },
-    "beta": {},
     "buttons": {
         "autoroles": {
-            "autorole-home-button": {
-                "label": "Zurück"
-            },
             "debug": {
                 "debug": "## Debuggen\n- Das Debuggen läuft seit {runningSinceTimestamp}.",
                 "system-deactivated": "- Das System ist deaktiviert.",
@@ -35,7 +31,6 @@
                 "result": "Ergebnis",
                 "success": "- {role}: Keine Fehler"
             },
-            "home": {},
             "list": {
                 "list": "## Liste\n- Die folgenden Rollen sind zurzeit Autorollen:",
                 "list-no-autoroles": "## Liste\n- Es gibt zurzeit keine Autorollen."
@@ -90,27 +85,6 @@
                 "toggle": {
                     "success_activated": "{y} Das Willkommenssystem wurde aktiviert.",
                     "success_deactivated": "{y} Das Willkommenssystem wurde deaktiviert."
-                },
-                "update": {}
-            },
-            "logs": {
-                "resetdata": {
-                    "success": "{y} Die Daten wurden zurückgesetzt."
-                },
-                "test": {
-                    "no-logging-channel": "- {a} Der Logging Kanal wurde nicht gesetzt.",
-                    "system-deactivated": "- {i} Das System ist deaktiviert.",
-                    "logging-channel-deleted": "- {a} Der Logging Kanal wurde gelöscht.",
-                    "success": "{y} Es wurden keine Probleme gefunden."
-                },
-                "toggle": {
-                    "success_activated": "{y} Das Logging System wurde aktiviert.",
-                    "success_deactivated": "{y} Das Logging System wurde deaktiviert."
-                },
-                "update": {
-                    "embed": {
-                        "title": "Verwalte die Einstellungen"
-                    }
                 }
             },
             "welcome": {
@@ -138,8 +112,7 @@
                 "toggle": {
                     "success_activated": "{y} Das Willkommenssystem wurde aktiviert.",
                     "success_deactivated": "{y} Das Willkommenssystem wurde deaktiviert."
-                },
-                "update": {}
+                }
             }
         },
         "other": {
@@ -163,33 +136,6 @@
                 "success": "- Tipp: {tip}",
                 "first-letters": "Die ersten Buchstaben sind {letters}"
             },
-            "endelon_create_post": {
-                "modal": {
-                    "title": "Erstelle einen Post",
-                    "inputs": {
-                        "issue": {
-                            "label": "Das Problem",
-                            "placeholder": "Beschreibe das Problem."
-                        },
-                        "serverurl": {
-                            "label": "Server URL",
-                            "placeholder": "Gebe eine Endelon Server URL an."
-                        },
-                        "tries": {
-                            "label": "Versuche",
-                            "placeholder": "Beschreibe Versuche, das Problem zu beheben"
-                        },
-                        "name": {
-                            "label": "Postname",
-                            "placeholder": "Gebe einen Postnamen an."
-                        }
-                    }
-                }
-            },
-            "export_json": {
-                "success": "{y} Bekomme dein Embed hier: {url}",
-                "error": "{x} Export des Embeds fehlgeschlagen."
-            },
             "flaggenquiz_skip": {
                 "system-deactivated": "{x} Das Flaggenquiz ist deaktiviert.",
                 "message-error": "{x} Das aktuelle Flaggenquiz findet hier statt: {messageLink}",
@@ -197,12 +143,6 @@
                 "channel-deleted": "{x} Den Kanal für das Flaggenquiz gibt es nicht mehr.",
                 "success-singular": "{y} Flaggenquiz geskippt. Du kannst nun noch 1 Skip nutzen.",
                 "success-plural": "{y} Flaggenquiz geskippt. Du kannst nun noch {size} Skips nutzen."
-            },
-            "import_json": {
-                "modal": {
-                    "title": "JSON importieren",
-                    "label": "Importiere dein JSON Code hier."
-                }
             },
             "next_meme": {
                 "next-meme-button": {
@@ -467,15 +407,6 @@
                 }
             },
             "fortnite": {
-                "creatorcode": {
-                    "api": {
-                        "404": "{x} Dieser Creator wurde nicht gefunden. Hast du den Namen richtig geschrieben? 🤔"
-                    },
-                    "embed": {
-                        "description": "- **Code:** {code}\n- **Status:** {status}\n- **Konto:** {account}\n- **Verifiziert:** {verified}",
-                        "title": "Creator Code - {code}"
-                    }
-                },
                 "map": {
                     "embed": {
                         "title": "Fortnite Karte"
@@ -504,26 +435,18 @@
                 },
                 "stats": {
                     "api": {
+                        "401": "{x} Der Befehl ist nicht mehr funktionsfähig, ich habe meinen Entwickler aber schon benachrichtigt.",
                         "403": "{x} Die Kontoeinstellungen von {username} lassen es nicht zu, die Statistiken einzusehen.\n> ℹ️・Aktiviere die Öffentliche Spielstatistik: Einstellungen > Konto und Datenschutz > Öffentliche Matchstatistik.",
-                        "404": "{x} {username} habe ich nicht gefunden. Prüfe, ob du den richtigen Namen angegeben hast.",
-                        "401": "{x} Der Befehl ist nicht mehr funktionsfähig, ich habe meinen Entwickler aber schon benachrichtigt."
+                        "404": "{x} {username} habe ich nicht gefunden. Prüfe, ob du den richtigen Namen angegeben hast."
                     }
                 }
             },
-            "rocketleague": {},
             "tictactoe": {
                 "opponent-notonserver": "{x} Der von dir ausgewählt Gegner ist nicht auf diesem Server.",
                 "opponent-isabot": "{x} Du kannst leider nicht gegen Bots spielen.",
                 "opponent-yourself": "{x} Wenn du gegen dich selber spielst, kannst du nur verlieren."
             },
             "valorant": {
-                "agents": {
-                    "embed": {
-                        "andmore": "und {length} mehr",
-                        "notshown": "- {length} wurden nicht angezeigt.",
-                        "description": "- Rolle: {role}\n- [Icon]({url})"
-                    }
-                },
                 "agent": {
                     "api": {
                         "404": "{x} Den angeforderten Agenten habe ich nicht gefunden."
@@ -549,11 +472,6 @@
                         "description": "- Name・{name}\n- Koordinaten・{coordinates}"
                     }
                 },
-                "maps": {
-                    "description": "- Koordinaten・{coordinates}",
-                    "andmore": "und {length} mehr",
-                    "mapsnotshown": "{length} Karten konnten nicht angezeigt werden."
-                },
                 "version": {
                     "current-version": "Aktuelle Version",
                     "last-update": "Letztes Update",
@@ -578,39 +496,6 @@
                     "button": {
                         "label-useravatar": "Nutzeravatar",
                         "label-serveravatar": "Serveravatar"
-                    }
-                }
-            },
-            "help": {
-                "embed": {
-                    "title": "Hilfe Menu",
-                    "description": "## Allgemeines\n- Der Bot funktioniert mit `/`-Befehlen. Dies macht es einfacher, den Bot zu nutzen.\n- Ihr müsst in dem Menu unten die jeweilige Kategorie auswählen.\n- Wenn du eine Frage hast, melde dich gerne im [Support Server](https://discord.gg/BQumAujuvk), dort könnt ihr Fragen rund um den Bot stellen oder Support erhalten. Dort wird auch über Infos, Downtimes und Updates informiert.\n\n## Ankündigungen\n{announcements}"
-                },
-                "select": {
-                    "homepage": "Startseite",
-                    "moderation": "Moderation",
-                    "auto": "Autorollen & Autopublish",
-                    "level": "Levelsystem",
-                    "games": "Spiele & Statistiken",
-                    "info": "Informationen",
-                    "welcome-leave": "Willkommen & Verlassen",
-                    "logging": "Logging",
-                    "poll": "Umfragen",
-                    "twitch": "Twitch",
-                    "quiz": "Quizze",
-                    "embeds": "Embeds",
-                    "endelon": "Endelon Hosting",
-                    "fun": "Spaß",
-                    "random": "Zufällig",
-                    "uncategorised": "Unkategorisierte Befehle",
-                    "end": "Menu beenden"
-                },
-                "components": {
-                    "privacy-policy": {
-                        "label": "Datenschutzerklärung"
-                    },
-                    "docs": {
-                        "label": "Dokumentation"
                     }
                 }
             },
@@ -983,9 +868,6 @@
                     "user-no-nickname": "{x} Dieser Nutzer hat keinen Spitznamen.",
                     "nickname-reset-success": "{y} Der Spitzname von {user} wurde erfolgreich zurückgesetzt."
                 },
-                "movechannel": {},
-                "disconnect": {},
-                "voiceinfo": {},
                 "ban": {
                     "invalid-time": "{x} Bitte gebe eine gültige Zeit an. Diese muss zwischen 1 Sekunde und 7 Tagen sein.",
                     "ban-datbot": "{x} Du kannst mich nicht bannen.",
@@ -1198,12 +1080,6 @@
                     "delete-select": {
                         "placeholder": "Lösche etwas aus deinem Embed!"
                     },
-                    "import-json-button": {
-                        "label": "JSON importieren"
-                    },
-                    "export-json-button": {
-                        "label": "JSON exportieren"
-                    },
                     "send-embed-select": {
                         "label": "Sende das Embed"
                     },
@@ -1239,138 +1115,6 @@
                     },
                     "success": "{y} Hier ist dein Embed: {url}",
                     "error": "{x} Export des Embeds fehlgeschlagen."
-                }
-            },
-            "endelon": {
-                "login": "Einloggen",
-                "account-not-linked": "{x} Du hast dein Endelon Konto nicht mit deinem Discord Konto verknüpft.",
-                "account-no-servers": "{x} Du besitzt keine Server.",
-                "servers": {
-                    "components": {
-                        "placeholder": "Wähle einen Server aus.",
-                        "choices": {
-                            "description": "ID: {id}・CPU: {cpu}・Memory: {memory}・Disk: {disk}"
-                        }
-                    },
-                    "embed": {
-                        "title": "Verwalte deine Server",
-                        "description": "> Verwalte deine Endelon Server über DatBot. Wähle dazu unten in dem SelectMenu deinen Server aus. Sollte dieser nicht auftauchen, gibt es wahrscheinlich einen Fehler. Kontaktiere dazu bitte den Support. Wenn du Fragen hast, kannst du dich auch gerne im Support melden."
-                    }
-                },
-                "links": {
-                    "embed": {
-                        "title": "Endelon Hosting",
-                        "description": "- [Webseite](https://endelon-hosting.de)\n- [Status](https://status.endelon-hosting.de)\n- [Discord](https://endelon.chat/)\n- [Verwalten](https://my.endelon-hosting.de/)\n- [MySQL Admin](https://mysqladmin.endelon-hosting.de/)\n- [Dokumentation](https://docs.endelon-hosting.de/)\n- [Spenden (freiwillig!)](https://www.paypal.me/masusniper)"
-                    }
-                },
-                "everyone": {
-                    "embed": {
-                        "description": "**Verwalte den Server [{name}](url)**\n- Mit dem unteren Button namens \"Start\" kannst du diesen Server starten."
-                    },
-                    "components": {
-                        "start-button": {
-                            "label": "Start"
-                        },
-                        "delete-message-button": {
-                            "label": "Nachricht löschen"
-                        }
-                    },
-                    "url-not-valid": "{x} Die URL ist nicht valid.",
-                    "not-your-server": "{x} Du hast dein Konto nicht mit Endelon verlinkt oder dieser Server gehört dir nicht.",
-                    "not-your-server-2": "{x} Diesen Server besitzt du nicht."
-                }
-            },
-            "level": {
-                "system-deactivated": "{x} Das Levelsystem ist auf diesem Server deaktiviert.",
-                "no-levelroles": "{x} Es gibt keine Levelrollen.",
-                "roles": {
-                    "levelroles-deactivated": "{x} Die Levelrollen sind auf diesem Server deaktiviert",
-                    "add": {
-                        "success": "{y} Die Rolle {role} wird ab sofort vergeben, wenn Level {level} erreicht wird.",
-                        "role_higher_position": "{x} Mir fehlt die Berechtigung, die Rolle {role} zu vergeben, da die Rolle meine Höchste oder eine Höhere ist.",
-                        "role_managed": "{x} Diese Rolle {role} wird von einem externen Service verwaltet."
-                    },
-                    "list": {
-                        "embed": {
-                            "title": "Levelrollen",
-                            "description": "- Level {level}・Rolle {role}"
-                        }
-                    },
-                    "deleteall": {
-                        "success": "{y} Alle Levelrollen wurden entfernt."
-                    },
-                    "remove": {
-                        "success": "{y} Die Rolle {role} wurde aus der Datenbank entfernt."
-                    },
-                    "toggle": {
-                        "success_activated": "{y} Die Levelrollen wurden aktiviert.",
-                        "success_deactivated": "{y} Die Levelrollen wurden deaktiviert."
-                    },
-                    "fix": {
-                        "success-singular": "{y} Das System wurde überprüft.\n> {i} Es wurde 1 Rolle entfernt.",
-                        "success-plural": "{y} Das System wurde überprüft.\n> {i} Es wurden {length} Rollen entfernt."
-                    }
-                },
-                "ignore": {
-                    "no-ignored-channels": "{x} In diesem Server gibt es keine ignorierten Kanäle.",
-                    "add": {
-                        "channel-already-ignored": "{x} Dieser Kanal wird bereits ignoriert.",
-                        "success": "{y} Der Kanal wurde hinzugefügt."
-                    },
-                    "list": {
-                        "embed": {
-                            "title": "Ignorierte Kanäle"
-                        }
-                    },
-                    "remove": {
-                        "channel-not-ignored": "{x} Dieser Kanal wird nicht ignoriert.",
-                        "success": "{y} Der Kanal wurde entfernt."
-                    }
-                },
-                "message": {
-                    "modal": {
-                        "label": "Nachricht",
-                        "placeholder": "GG, Dat Bot! Du bist nun Level 2!",
-                        "title": "Ändere die Level-Up Nachricht"
-                    }
-                },
-                "channel": {
-                    "reset-success": "{y} Der Levelup Kanal wurde zurückgesetzt.",
-                    "success": "{y} Der LevelUp Nachrichten werden nun in {channel} gesendet."
-                },
-                "test": {
-                    "no-levelup-message": "GG, DatBot! Du bist nun Level 2!",
-                    "success": "{y} Die Testnachricht wurde versendet."
-                },
-                "leaderboard": {
-                    "no-data1": "Keine Daten",
-                    "no-data": "{x} Niemand hat bisher XP gesammelt.",
-                    "page-total": "Seite {page} von {total}",
-                    "page": "Seite {page}"
-                },
-                "rank": {
-                    "user-bot": "{x} Bots können kein XP sammeln.",
-                    "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server."
-                },
-                "toggle": {
-                    "success_activated": "{y} Das Levelsystem wurde aktiviert.",
-                    "success_deactivated": "{y} Das Levelsystem wurde deaktiviert."
-                },
-                "noxprole": {
-                    "success": "{y} Die \"Keine XP Rolle\" wurde geändert.",
-                    "remove-success": "{y} Die \"Keine XP Rolle\" wurde aus der Datenbank entfernt."
-                }
-            },
-            "random": {
-                "number": {
-                    "success": "{random} ist die zufällige Zahl (Minimum: {min}, Maximum: {max})."
-                },
-                "user": {
-                    "success": "{user} ist der zufällige Nutzer: {userinfo}"
-                },
-                "coinflip": {
-                    "success-head": "🔮・Dieses Mal war es || Kopf ||.",
-                    "success-tail": "🔮・Dieses Mal war es || Zahl ||."
                 }
             }
         },
@@ -1595,14 +1339,7 @@
             "logchannel_reset": "{y} Der Logkanal wurde erfolgreich zurückgesetzt."
         }
     },
-    "config": {
-        "developer_name": "D_Gamet",
-        "developer_id": "754246997266923571",
-        "support_invite": "https://discord.gg/BQumAujuvk",
-        "invite_link": "https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=applications.commands%20bot"
-    },
     "contextmenus": {
-        "avatar": {},
         "end_poll": {
             "message-not-poll": "{x} Diese Nachricht ist keine Umfrage. Erstelle eine Umfrage mit </poll create:1114289709099798578>."
         },
@@ -1611,8 +1348,6 @@
             "user-bot": "{x} Bots können kein XP sammeln.",
             "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server."
         },
-        "pollcreate": {},
-        "userinfo": {},
         "voiceinfo": {
             "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server.",
             "not-in-vc": "{x} Dieser Nutzer ist in keinem Sprachkanal.",
@@ -1628,39 +1363,17 @@
             }
         }
     },
-    "events": {
-        "logging": {},
-        "emojiquiz": {},
-        "flagquiz": {}
-    },
     "modals": {
         "embeds": {
             "embed-message-not-found": "{x} Ich kann die Embed-Nachricht nicht mehr finden.",
             "embed-not-existing": "{x} Die Embed-Nachricht gibt es nicht mehr",
             "embed-not-found": "{x} Ich finde das Embed nicht mehr.",
             "url-invalid": "{x} Die Angabe muss eine valide URL sein.",
-            "author": {
-                "name": {},
-                "url": {},
-                "icon": {}
-            },
             "color": {
                 "not-hex-code": "{x} Die Angabe ist kein Hex-Code"
             },
-            "description": {},
-            "fields_add": {},
-            "footer": {
-                "text": {},
-                "icon": {}
-            },
-            "image": {},
-            "thumbnail": {},
             "timestamp": {
                 "not-timestamp": "{x} Die angegebene Zeit ist ungültig. `YYYY-MM-DD HH:MM:SS` wäre richtig.\n> Beispiel: `2023-03-15 15:37:12` -> 15.03.2023 15:37:12"
-            },
-            "title": {
-                "title": {},
-                "url": {}
             },
             "import_json": {
                 "not-json-code": "{x} Der JSON Code ist nicht valid."
@@ -1713,13 +1426,13 @@
         "days": "Tage",
         "none": "Keine",
         "api": {
-            "not-functionable": "{x} Dieser Befehl ist nicht mehr funktionsfähig. Bitte kontaktiere meinen Entwickler D_Gamet.",
             "401": "{x} Der Befehl ist nicht mehr funktionsfähig, ich habe meinen Entwickler aber schon benachrichtigt.",
             "403": "{x} Dieser Befehl ist nicht mehr funktionabel. Bitte kontaktiere meinen Entwickler D_Gamet.",
             "429": "{x} Ich befinde mich zurzeit im Rate Limit.",
             "500": "{x} Der externe Server hatte einen Error.",
             "502": "{x} Der externe Server ist zurzeit nicht erreichbar.",
-            "503": "{x} Der externe Server ist zurzeit nicht verfügbar."
+            "503": "{x} Der externe Server ist zurzeit nicht verfügbar.",
+            "not-functionable": "{x} Dieser Befehl ist nicht mehr funktionsfähig. Bitte kontaktiere meinen Entwickler D_Gamet."
         },
         "general": {
             "notspecific": "{x} Ein Fehler ist aufgetreten.",
@@ -1777,37 +1490,6 @@
                 "modal": "{x} Du kannst dieses Modal wieder {lastexecuted} nutzen.",
                 "selector": "{x} Du kannst dieses Select Menu wieder {lastexecuted} nutzen."
             }
-        },
-        "endelon": {
-            "runtime": "🕐・Laufzeit",
-            "status": {
-                "offline": "🔴・Status",
-                "online": "🟢・Status",
-                "installing": "🟤・Status",
-                "unknown": "⚫・Status"
-            },
-            "status-label": {
-                "offline": "Offline",
-                "starting": "Startend",
-                "online": "Online",
-                "installing": "Installieren",
-                "stopping": "Stoppend",
-                "running": "Laufend",
-                "unknown": "Unbekannt",
-                "restart": "Neustarten"
-            },
-            "server-not-found": "{x} Dieser Server wurde nicht gefunden.",
-            "manage-your-server": "Verwalte deinen Server",
-            "server-started": "{y} Server gestartet.",
-            "api": {
-                "400": "{x} Du hast dein Endelon Konto nicht mit deinem Discord Konto verknüpft.",
-                "404": "{x} Der Server gehört dir nicht."
-            },
-            "update": "Update",
-            "start": "Start",
-            "restart": "Neustarten",
-            "stop": "Stoppen",
-            "kill": "Killen"
         },
         "quiz": {
             "emojiquiz": {
@@ -1899,7 +1581,6 @@
                     }
                 }
             },
-            "delete": {},
             "footer": {
                 "text": {
                     "modal": {
@@ -2023,8 +1704,7 @@
                         }
                     }
                 }
-            },
-            "send-embed": {}
+            }
         },
         "logs": {
             "leave": {
@@ -2781,7 +2461,7 @@
         "button-blocks": "Blocking",
         "button-componenttypeview": "View Component Type",
         "button-resetembed": "Reset embed",
-        "button-viewembed": "Look at the embed",
+        "button-viewembed": "View embed",
         "button-selectplaceholderlogchannel": "Log Channel",
         "button-selectplaceholdertranscriptchannel": "Transcript Channel",
         "button-selectplaceholderthreadcreatorchannel": "Thread Creator Channel",
@@ -3065,5 +2745,224 @@
             "removeuser": "- [<t:{1}:R>] <@{2}> removed {3} from the ticket.",
             "transfer": "- [<t:{1}:R>] <@{2}> transfered the ticket to **{3}**."
         }
+    },
+    "level": {
+        "excluded-reset": "{y} Successfully reset all excluded channels, roles and users.",
+        "excluded-resetchannels": "{y} Successfully reset all excluded channels.",
+        "excluded-resetroles": "{y} Successfully reset all excluded roles.",
+        "excluded-resetusers": "{y} Successfully reset all excluded users.",
+        "gaintype": "{y} Set the type to {1}.",
+        "generalview": "# Settings\n- Message XP: `{1}`\n- Voice XP: `{2}`\n- Message XP Range [From/To]: `{3}`-`{4}`\n- Voice XP Range [From/To]: `{5}`-`{6}`\n- Message Cooldown: `{7}`\n- Voice Cooldown: `{8}`\n- Message Type: `{9}`\n- Custom formula: `{10}`\n- Starting Required XP: `{11}`",
+        "gt-1": "XP per Message",
+        "gt-2": "Cooldown",
+        "importdesc": "# Import\n- Choose which things to import.",
+        "displaytype": "{y} Display type is now {1}",
+        "dt-1": "All",
+        "dt-2": "Still on Guild",
+        "ll-reset": "{y} Message was deleted and embed was reset.",
+        "embednotset": "{x} No embed is set.",
+        "embednotfound": "{x} Embed was not found.",
+        "logd-error1": "{x} There is no logging channel.",
+        "logd-error2": "{x} The logging channel was deleted.",
+        "logd-success": "{y} No issues found.",
+        "logv": "- Logging Channel: {1}",
+        "msg-eud": "{a} Using default embed as the custom embed used was deleted.",
+        "msg-d1": "{x} Level Up Message is disabled as the Type is set to \"None\"",
+        "multi-r": "{y} Reset all multipliers.",
+        "nolr": "{x} There are no level roles",
+        "lrdr": "## Result [{1}]\n{2}",
+        "lrrs": "{y} The level roles were successfully reset.",
+        "tst": "{y} This might take some time...",
+        "lrnd": "{x} This role does not have any data",
+        "lrdd": "- Role: <@&{1}>\n- Remove Type: {2}\n- Level: {3}",
+        "nsr": "{x} There are no streak rewards",
+        "nls": "{x} There are no streak loss settings.",
+        "srrs": "{y} Successfully reset all streak rewards.",
+        "str": "{y} Successfully reset streak loss settings.",
+        "nus": "{x} There are no user streaks",
+        "rus": "{y} Successfully reset all user streaks",
+        "sr": "{y} Successfully reset.",
+        "vlvs": "- XP Range [From/To]: {1}-{2}",
+        "xdac": "{x} You already claimed this XP Drop.",
+        "xdeu": "{x} Unfortunately, this XP drop is not available anymore",
+        "sllv": "- {1} Day(s) // Removed Level: {2} // Removed XP: {3} // Roles to add: {4} // Roles to remove: {5}",
+        "xdts": "{y} Set XP Drop Mode to {1}",
+        "xdt-1": "Multiple Claims",
+        "xdt-2": "One Claim",
+        "xdsv": "- Type: {1}\n- Channels: {2}\n- Time until disable: {3}\n- Minimum time until respawn: {4}\n- Maximum time until respawn: {5}\n- XP Range: {6}-{7}\n- Claim Type: {8}",
+        "xdct-1": "Disabled",
+        "xdct-2": "Selected only",
+        "xdct-3": "All except selected",
+        "xdct-4": "All channels",
+        "srv": "- Streak Days: {1}\n- Nickname: {2}\n- Bonus XP: {3}\n- Bonus Level: {4}\n- Multiplier: {5}\n- Roles to add: {6}\n- Roles to remove: {7}\n- Announcement Message Type: {8}\n- Announcement Channel: {9}\n- Announcement Content: {10}\n- Announcement Embed ID: {11}",
+        "sram-1": "Message & Embed",
+        "sram-2": "Message",
+        "sram-3": "Embed",
+        "sram-4": "None",
+        "sram-5": "Message & Voice",
+        "sram-6": "Voice",
+        "sram-7": "Both",
+        "xdcs": "{y} +`{1}`XP",
+        "snpd": "# Variables\n- Note: Data within [] are the data for the selected streak reward or server/user data and would be the replaced content of the placeholders.\n## Nickname\n- `{{username}}`: User name [{1}]\n- `{{displayname}}`: Display name [{2}]\n- `{{id}}`: User id [{3}]\n- `{{servername}}`: Server name [{4}]\n- `{{serverid}}`: Server id [{5}]\n## Announcement Embed & Announcement Content\n-# The nickname placeholder can also be used here.\n- `{{addedroles}}`: Roles added with the streak reward [{6}]\n- `{{removedroles}}`: Roles removed with the streak reward [{7}]\n- `{{nickname}}`: New nicknamen given with the streak reward [{8}]\n- `{{multiplier}}`: Multiplier given with the streak reward [{9}]\n- `{{bonuslevel}}`: Bonus level added with the streak reward [{10}]\n- `{{bonusxp}}`: Bonus XP added with the streak reward [{11}]\n- `{{streakdays}}`: Streak days required to gain the streak rewards [{12}]",
+        "ive-1": "{x} The input can not be less than {1}.",
+        "ive-2": "{x} The input can not be more than {1}.",
+        "unl": "{x} This user does not have any level data.",
+        "cxas": "{y} Added {1}XP to <@{2}>.",
+        "cxrs": "{y} Removed {1} Level from <@{2}>.",
+        "cxre": "{y} Reset <@{1}>'s XP.",
+        "clas": "{y} Added {1}XP to <@{2}>.",
+        "clrs": "{y} Removed {1} level from <@{2}>.",
+        "clre": "{y} Reset <@{1}>'s Level.",
+        "ulth": "{x} The user's level is already 100 or above",
+        "ngld": "{x} No level data on this guild.",
+        "left": "Page {1} / {2} // Your rank: #{3}",
+        "mc": "Manage",
+        "sdc-1": "### Level Roles",
+        "sdc-2": "### Level Message",
+        "sdc-3": "### Excluded",
+        "sdc-4": "### Multiplier",
+        "sdc-5": "### Logging",
+        "sdc-6": "### Live Leaderboard",
+        "sdc-7": "### XP Drops",
+        "sdc-8": "### Voice Level",
+        "sdc-9": "### Streaks",
+        "sdc-10": "### General",
+        "idc": "# Warning, this can not be undone, do you want to proceed? Old data will be deleted and overwritten.",
+        "iip": "{x} The provided input is invalid.",
+        "itp-1": "{x} The provided time is bigger than {1} which is disallowed.",
+        "itp-2": "{x} The provided time is smaller than {1} which is disallowed.",
+        "sss": "{y} Settings saved successfully.",
+        "pfi": "{x} After calculating the output we found that the math formula is invalid or returns 0.",
+        "fos": "{x} From has to be bigger than To.",
+        "enf": "{x} Entity was not found.",
+        "mas": "{y} Added {1} with multiplier `{2}`.",
+        "ndc": "{x} No data for the streak day exists.",
+        "dse": "{x} Data for this streak day already exists. If you want to edit data of an existing streak day, use the button at the bottom of the message.",
+        "mtd": "{x} Minimum and maximum time need a time difference of at least {1}.",
+        "ad": "{y} Added {1}. If you selected a role, please check the role permissions. If it has dangerous permissions, it won't be added.",
+        "rd": "{y} Removed {1}. If something was not removed, it was not in the database in the first place.",
+        "idd": "{y} Import is done.",
+        "me1": "{x} The MEE6 API returned an unknown error",
+        "me2": "{x} No data was found. Make sure the bot is member of the server.",
+        "me3": "{x} No leaderboard is not public. Please make it public: https://mee6.xyz/de/dashboard/{1}/leaderboard",
+        "mss": "{y} Sent message.",
+        "nml": "{x} There are no multipliers.",
+        "mrs": "{y} Removed the multplier for role <@&{1}>",
+        "rdp": "{x} The role has dangerous permissions: {1}",
+        "rpe": "{x} The role is my highest or above my highest role.",
+        "rdc": "{a} Are you sure?\n- This **can not** be undone!",
+        "cca": "[+] Channel",
+        "ccr": "[-] Channel",
+        "cra": "[+] Role",
+        "crr": "[-] Role",
+        "cua": "[+] User",
+        "cur": "[-] User",
+        "cma": "[+] Multiplier",
+        "cmr": "[-] Multiplier",
+        "button-ca": "Cancel",
+        "button-co": "Continue",
+        "button-cool": "Cooldown",
+        "from": "From",
+        "to": "To",
+        "csmt": "Select a message type",
+        "csti": "Choose stuff to import",
+        "csll": "Send the live leaderboard",
+        "clcs": "Logging channel",
+        "cslc": "Select a level up channel",
+        "csrt": "Select a remove type",
+        "calr": "Add a level role",
+        "crlr": "Remove a level reward",
+        "csac": "Select an Announcement Message Channel",
+        "casr": "Add streak reward role",
+        "crsr": "Remove streak reward role",
+        "csat": "Select an announcement type",
+        "cbsr": "Select Reward",
+        "csst": "Select a streak type",
+        "csdt": "Select a type",
+        "cssc": "Select a channel",
+        "cbd": "Formula",
+        "cxpr": "XP Range",
+        "cad": "Amount",
+        "cdtd": "Display Type",
+        "csrx": "Starting Required XP",
+        "cgtd": "Gain Type",
+        "cbdd": "Debug",
+        "cbcd": "Content",
+        "cdld": "Level",
+        "cbea": "Add/edit",
+        "cbsd": "Sync",
+        "csab-1": "Nickname",
+        "csab-2": "Multiplier",
+        "csab-3": "Streak Days",
+        "csab-4": "Bonus Level",
+        "csab-5": "Bonus XP",
+        "csab-6": "Announcement Content",
+        "csab-7": "Announcement Embed",
+        "csab-8": "Variables",
+        "cbrd": "Remove",
+        "cctd": "Claimtype",
+        "caxd": "Added XP",
+        "cald": "Added Level",
+        "crxd": "Removed XP",
+        "crld": "Removed Level",
+        "ccd": "Claim",
+        "ctud": "Time until disable",
+        "ctur": "Time until respawn",
+        "matur": "Maximum time until respawn",
+        "mitur": "Minimum time until respawn",
+        "cbtd": "Time",
+        "cbvc": "Voice Cooldown",
+        "cbmc": "Message Cooldown",
+        "rsr": "Remove a streak reward",
+        "asr": "Add a streak reward",
+        "rsl": "Remove a streak loss",
+        "tbc-1": "## Manage the excluded roles, users and channels.",
+        "tbc-2": "- View: View the current excluded entities.\n- Reset: Reset all excluded entities.\n## How does it work?\n- Excluding a channel will prevent users from gaining XP in this channel or category.\n- Excluding a user will prevent the user from gaining XP.\n- Excluding a role will prevent users with this role from gaining XP.\n\n- The first select menu of each category allows you to add an entity, the second allows you to remove an entity.",
+        "tbc-3": "## Channel Exclusion",
+        "tbc-4": "## Role Exclusion",
+        "tbc-5": "## User Exclusion",
+        "tbc-6": "## Manage general settings.\n- Note: You can use the placeholder `{1}` for the level and `{2}` for the old required xp in `Formula`",
+        "tbc-7": "- View: View all the settings\n- XP Range: Provide a range for minimum XP and maximum **message XP** gained\n- Starting Required XP: Required XP at level 1\n- Voice Cooldown: Time between every gain of XP if in a voice channel\n- Message Cooldown: If the Gain Type is set to `Cooldown`, the cooldown will expire after this cooldown.\n- Formula: Provide a custom formula for Level Up calculation\n- Gain Type: Can either be `Per Message` or `With Cooldown`\n- Reset: Reset all system settings. This cannot be undone.\n- Type: Enable or disable the system and choose between Voice And Message XP",
+        "tbc-8": "## Select your embed",
+        "tbc-9": "## Select your embed\n- ID: `{1}`",
+        "tbc-10": "## Manage the live leaderboard\n- The live leaderboard is a leaderboard that updates every hour.",
+        "tbc-11": "- View: View the current settings\n- Embed: Choose a custom embed for the liveleaderboard message\n- Display Type: Choose between `All` and `Still on Guild`\n- Amount: Amount of entries shown on the live leaderboard\n- Reset: Reset the settings\n- Send the live leaderboard: Send the live leaderboard in this channel.",
+        "tbc-12": "## Manage the logging.\n- The logging allows you to track the gained XP for a user.",
+        "tbc-13": "- View: View the current settings\n- Debug: Debug the system for issues\n- Reset: Reset the settings\n- Logging channel: Set the logging channel.`",
+        "tbc-14": "## Manage the level message\n{i} If the Content or the Embed Button is disabled, check the message type.",
+        "tbc-15": "- Content: Set the message content\n- Embed: Choose a custom embed for the message\n- View: View the current settings\n- Select a channel: Select a channel where all the Level Up messages will be send. If none is selected, the current channel will be used.\n- Select a message type: Select which parts of the messages will be send.\n- Reset: Reset the message, embed or channel.",
+        "tbc-16": "## Manage the level multipliers\n- Allows to multiply the gained XP by a custom amount per role. If the user has multiple multiplier roles, the role with the highest multiplier will be selected.",
+        "tbc-17": "- View: View the current multipliers\n- Reset: Reset all existing multipliers\n- [+] Multiplier: Add a multiplier\n- [-] Multiplier: Remove a multiplier",
+        "tbc-18": "## Do you want to reset the system?\n- If no, click on \"Cancel\"\n- If yes, click on \"Continue\"",
+        "tbc-19": "## Add or edit a level reward",
+        "tbc-20": "## Manage the Level Rewards",
+        "tbc-21": "- Add/Edit: Add a new reward or edit an existing reward\n- View: View the current level rewards\n- Debug: Debug the rewards. If something isn't working, use this button\n- Reset: Reset the rewards\n- Remove a level reward: Remove an existing level reward",
+        "tbc-22": "## Add or edit a streak reward\n- ID: `{1}`\n- Info: The ID is the selected day. To choose a different day, use the last button of this menu.",
+        "tbc-23": "## Add or edit a streak loss\n- ID: `{1}`\n- Select 0 to set default settings.",
+        "tbc-24": "## Manage the Streaks",
+        "tbc-25": "### Streak Rewards\n- Add/Edit: Add a new streak reward or edit an existing reward\n- View: View all streak rewards\n- Remove: Remove a streak reward",
+        "tbc-26": "### Streak Loss\n- Add/Edit: Add a streak day loss\n- View: View all streak rewards\n- Remove: Remove a streak reward",
+        "tbc-27": "- Select a streak type: Select whether message and/or voice exceeds the streak.\n- Reset: Reset something",
+        "tbc-28": "## Manage the Voice Level",
+        "tbc-29": "- View: View the current settings\n- XP Range: Provide a custom minimum and maximum gained XP for voice activity.\n- Reset: Reset the settings",
+        "tbc-30": "## Manage the XP Drops",
+        "tbc-31": "- View: View the current settings\n- XP Range: Provide a custom minimum or maximum of gained XP per drop\n- Claimtype: Select if one or multiple users can claim the XP Drop\n- Time until disable: If multiple users can claim the drop, choose a time until the drop disables itself.\n- Time until respawn: Minimum time until a XP Drop can spawn again\n- Reset the current settings\n- Select a type: Select a type for the XP Drops\n- [+] Channel: Add a channel\n- [-] Channel: Remove a channel",
+        "lrrt-1": "Do not remove",
+        "lrrt-2": "After reaching next level",
+        "lrrt-3": "After gaining next role",
+        "both": "Both",
+        "nad": "No Announcement",
+        "rt-1": "Reset Streak Rewards",
+        "rt-2": "Reset Streak Loss",
+        "rt-3": "Reset User Streaks",
+        "xpdt-1": "Disable XP Drops",
+        "xpdt-2": "Only selected channels",
+        "xpdt-3": "Exclude selected channels",
+        "xpdt-4": "All channels",
+        "bmcd": "Message Cooldown",
+        "bvcd": "Voice Cooldown",
+        "cbld": "Level",
+        "cbes": "Edit Required Streak Days",
+        "clmv": "# Variables\n- `{guild.membercount}`: Server membercount\n- `{guild.id}`: Server ID\n- `{guild.created}`: Server created timestamp\n- `{guild.name}`: Server name\n- `{user.name}`: User name\n- `{user.mention}`: Mentions the user\n- `{user.displayname}`: User displayname\n- `{user.id}`: User ID\n- `{level}`: New level\n- `{oldlevel}`: Old Level\n- `{reqxp}`: New Required XP"
     }
 }

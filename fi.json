@@ -18,12 +18,8 @@
             }
         }
     },
-    "beta": {},
     "buttons": {
         "autoroles": {
-            "autorole-home-button": {
-                "label": "Takaisin"
-            },
             "debug": {
                 "debug": "## Vianmääritys\n- Vianmääritys on käynnissä, aloitettu {runningSinceTimestamp}.",
                 "system-deactivated": "- Järjestelmä on deaktivoitu.",
@@ -35,7 +31,6 @@
                 "result": "Tulos",
                 "success": "- {role}: Virheitä ei löytynyt"
             },
-            "home": {},
             "list": {
                 "list": "## Lista\n- Seuraavat roolit ovat automaattisia rooleja:",
                 "list-no-autoroles": "## Lista\n- Tällä hetkellä ei ole automaattisia rooleja."
@@ -90,27 +85,6 @@
                 "toggle": {
                     "success_activated": "{y} Poistumisjärjestelmä on aktivoitu.",
                     "success_deactivated": "{y} Poistumisjärjestelmä on deaktivoitu."
-                },
-                "update": {}
-            },
-            "logs": {
-                "resetdata": {
-                    "success": "{y} Tiedot on palautettu."
-                },
-                "test": {
-                    "no-logging-channel": "- {a} Lokituskanava ei ole määritetty.",
-                    "system-deactivated": "- {i} Järjestelmä on deaktivoitu",
-                    "logging-channel-deleted": "- {a} Lokituskanava on poistettu.",
-                    "success": "{y} Ongelmia ei havaittu."
-                },
-                "toggle": {
-                    "success_activated": "{y} Lokitusjärjestelmä on aktivoitu.",
-                    "success_deactivated": "{y} Lokitusjärjestelmä on deaktivoitu."
-                },
-                "update": {
-                    "embed": {
-                        "title": "Hallitse asetuksia"
-                    }
                 }
             },
             "welcome": {
@@ -138,8 +112,7 @@
                 "toggle": {
                     "success_activated": "{y} Tervetulojärjestelmä on aktivoitu.",
                     "success_deactivated": "{y} Tervetulojärjestelmä on deaktivoitu."
-                },
-                "update": {}
+                }
             }
         },
         "other": {
@@ -163,33 +136,6 @@
                 "success": "- Vinkki: {tip}",
                 "first-letters": "Ensimmäiset kirjaimet ovat {letters}"
             },
-            "endelon_create_post": {
-                "modal": {
-                    "title": "Luo viesti",
-                    "inputs": {
-                        "issue": {
-                            "label": "Ongelma",
-                            "placeholder": "Kuvaile ongelmaa."
-                        },
-                        "serverurl": {
-                            "label": "Palvelimen URL-osoite",
-                            "placeholder": "Anna Endelon Server URL-osoite."
-                        },
-                        "tries": {
-                            "label": "Yrittää ratkaista ongelman",
-                            "placeholder": "Kuvaile yrityksiä ratkaista ongelma"
-                        },
-                        "name": {
-                            "label": "Viestin nimi",
-                            "placeholder": "Kirjoita viestin nimi."
-                        }
-                    }
-                }
-            },
-            "export_json": {
-                "success": "{y} Hanki upotus täältä: {url}",
-                "error": "{x} Upotuksen vienti epäonnistui."
-            },
             "flaggenquiz_skip": {
                 "system-deactivated": "{x} Lipputietovisa on deaktivoitu",
                 "message-error": "{x} Tämänhetkinen lipputietovisa järjestetään täällä: {messageLink}",
@@ -197,12 +143,6 @@
                 "channel-deleted": "{x} Lipputietovisan kanavaa ei ole enää olemassa.",
                 "success-singular": "{y} Lipputietovisa ohitettu. Voit nyt käyttää vielä yhden ohituksen.",
                 "success-plural": "{y} Lipputietovisa ohitettu. Voit nyt käyttää {size} ohitusta."
-            },
-            "import_json": {
-                "modal": {
-                    "title": "Tuo JSON",
-                    "label": "Tuo JSON-koodisi tänne."
-                }
             },
             "next_meme": {
                 "next-meme-button": {
@@ -467,15 +407,6 @@
                 }
             },
             "fortnite": {
-                "creatorcode": {
-                    "api": {
-                        "404": "{x} Tätä luojaa ei löydetty. Kirjoititko nimen oikein? 🤔"
-                    },
-                    "embed": {
-                        "description": "- **Koodi:** {code}\n- **Tila:** {status}\n- **Tili:** {account}\n- **Vahvistettu:** {verified}",
-                        "title": "Luojan koodi - {code}"
-                    }
-                },
                 "map": {
                     "embed": {
                         "title": "Fortnite kartta"
@@ -504,26 +435,18 @@
                 },
                 "stats": {
                     "api": {
+                        "401": "{x} Komento ei enää toimi, mutta olen jo ilmoittanut siitä kehittäjälleni.",
                         "403": "{x} {username} -tilin asetukset eivät salli tilastojen tarkastelua.\n> ℹ️・Aktivoi julkiset ottelutilastot: Asetukset > Tili ja yksityisyys > Julkiset ottelutilastot.",
-                        "404": "{x} En löytänyt {username}. Tarkista, oletko antanut oikean nimen.",
-                        "401": "{x} Komento ei enää toimi, mutta olen jo ilmoittanut siitä kehittäjälleni."
+                        "404": "{x} En löytänyt {username}. Tarkista, oletko antanut oikean nimen."
                     }
                 }
             },
-            "rocketleague": {},
             "tictactoe": {
                 "opponent-notonserver": "{x} Valitsemasi vastustaja ei ole tällä palvelimella.",
                 "opponent-isabot": "{x} Valitettavasti et voi pelata botteja vastaan.",
                 "opponent-yourself": "{x} Jos pelaat itseäsi vastaan, voit vain hävitä."
             },
             "valorant": {
-                "agents": {
-                    "embed": {
-                        "andmore": "ja {length} lisää",
-                        "notshown": "- {length} ei voitu näyttää.",
-                        "description": "- Rooli: {role}\n- [Kuvake]({url})"
-                    }
-                },
                 "agent": {
                     "api": {
                         "404": "{x} En ole löytänyt pyydettyä agenttia."
@@ -549,11 +472,6 @@
                         "description": "- Nimi・{name}\n- Koordinaatit・{coordinates}"
                     }
                 },
-                "maps": {
-                    "description": "- Koordinaatit・{coordinates}",
-                    "andmore": "ja {length} lisää",
-                    "mapsnotshown": "{length} karttoja ei voitu näyttää."
-                },
                 "version": {
                     "current-version": "Tämänhetkinen versio",
                     "last-update": "Viimeisin päivitys",
@@ -578,39 +496,6 @@
                     "button": {
                         "label-useravatar": "Käyttäjän profiilikuva",
                         "label-serveravatar": "Palvelimen profiilikuva"
-                    }
-                }
-            },
-            "help": {
-                "embed": {
-                    "title": "Ohjevalikko",
-                    "description": "- Botti perustuu `/`-komentoihin. Siksi botin käyttö on paljon helpompaa.\n- Sinun on valittava vaihtoehto valikkovalikosta.\n- Jos sinulla on kysymys, vika tai jotain muuta vastaavaa, liity rohkeasti [tukipalvelimeen](https://discord.gg/BQumAujuvk)."
-                },
-                "select": {
-                    "homepage": "Kotisivu",
-                    "moderation": "Valvonta",
-                    "auto": "Autoroolit & Autojulkaisu",
-                    "level": "Tasot",
-                    "games": "Pelit & Tilastot",
-                    "info": "Tietoja",
-                    "welcome-leave": "Tervetuloa & Hyvästi",
-                    "logging": "Kirjaukset",
-                    "poll": "Kyselyt",
-                    "twitch": "Twitch",
-                    "quiz": "Tietovisat",
-                    "embeds": "Upotukset",
-                    "endelon": "Endelon Hosting",
-                    "fun": "Hauska",
-                    "random": "Satunnainen",
-                    "uncategorised": "Luokittelemattomat komennot",
-                    "end": "Poistu valikosta"
-                },
-                "components": {
-                    "privacy-policy": {
-                        "label": "Tietosuojakäytäntö"
-                    },
-                    "docs": {
-                        "label": "Dokumentaatio"
                     }
                 }
             },
@@ -983,9 +868,6 @@
                     "user-no-nickname": "{x} Tällä käyttäjällä ei ole nimimerkkiä.",
                     "nickname-reset-success": "{y} {user} nimimerkki on onnistuneesti palautettu."
                 },
-                "movechannel": {},
-                "disconnect": {},
-                "voiceinfo": {},
                 "ban": {
                     "invalid-time": "{x} Syötä kelvollinen aika. Sen on oltava 1 sekunnin ja 7 päivän välillä.",
                     "ban-datbot": "{x} Et voi antaa minulle porttikieltoa.",
@@ -1198,12 +1080,6 @@
                     "delete-select": {
                         "placeholder": "Poista jotain upotuksesta!"
                     },
-                    "import-json-button": {
-                        "label": "Tuo JSON"
-                    },
-                    "export-json-button": {
-                        "label": "Vie JSON"
-                    },
                     "send-embed-select": {
                         "label": "Lähetä upotus"
                     },
@@ -1239,138 +1115,6 @@
                     },
                     "success": "{y} Tässä on upotuksesi: {url}",
                     "error": "{x} Upotuksen vienti epäonnistui."
-                }
-            },
-            "endelon": {
-                "login": "Sisäänkirjautuminen",
-                "account-not-linked": "{x} Et ole yhdistänyt Endelon-tiliäsi Discord-tiliisi.",
-                "account-no-servers": "{x} Et omista mitään palvelimia.",
-                "servers": {
-                    "components": {
-                        "placeholder": "Valitse palvelin.",
-                        "choices": {
-                            "description": "ID: {id}・CPU: {cpu}・Muisti: {memory}・Levy: {disk}"
-                        }
-                    },
-                    "embed": {
-                        "title": "Hallitse palvelimiasi",
-                        "description": "> Hallitse Endelon-palvelimia DatBotin kautta. Valitse palvelimesi alareunan ValitseValikosta. Jos se ei näy, kyseessä on todennäköisesti virhe. Ota yhteyttä tukitiimiin. Jos sinulla on kysyttävää, voit myös ottaa yhteyttä tukeen."
-                    }
-                },
-                "links": {
-                    "embed": {
-                        "title": "Endelon Hosting",
-                        "description": "- [Nettisivu](https://endelon-hosting.de)\n- [Tila](https://status.endelon-hosting.de)\n- [Discord](https://endelon.chat/)\n- [Hallinnoi](https://my.endelon-hosting.de/)\n- [MySQL Admin](https://mysqladmin.endelon-hosting.de/)\n- [Dokumentaatio](https://docs.endelon-hosting.de/)\n- [Lahjoita (vapaaehtoinen!)](https://www.paypal.me/masusniper)"
-                    }
-                },
-                "everyone": {
-                    "embed": {
-                        "description": "**Hallitse palvelinta [{name}](url)**\n- Voit käynnistää tämän palvelimen alemmalla painikkeella nimeltä \"Käynnistä\"."
-                    },
-                    "components": {
-                        "start-button": {
-                            "label": "Käynnistä"
-                        },
-                        "delete-message-button": {
-                            "label": "Poista viesti"
-                        }
-                    },
-                    "url-not-valid": "{x} URL-osoite ei ole kelvollinen.",
-                    "not-your-server": "{x} Sinä et ole yhdistänyt tiliäsi Endeloniin tai tämä palvelin ei kuulu sinulle.",
-                    "not-your-server-2": "{x} Sinä et omista tätä palvelinta."
-                }
-            },
-            "level": {
-                "system-deactivated": "{x} Tasojärjestelmä on poistettu käytöstä tällä palvelimella.",
-                "no-levelroles": "{x} Tasorooleja ei ole.",
-                "roles": {
-                    "levelroles-deactivated": "{x} Tasoroolit on poistettu käytöstä tällä palvelimella.",
-                    "add": {
-                        "success": "{y} Rooli {role} annetaan nyt, kun taso {level} on saavutettu.",
-                        "role_higher_position": "{x} Minulla ei ole oikeutta määrätä roolia {role}, koska rooli on korkein tai korkeampi roolini.",
-                        "role_managed": "{x} Tätä roolia {role} hallinnoi ulkoinen palvelu."
-                    },
-                    "list": {
-                        "embed": {
-                            "title": "Tasoroolit",
-                            "description": "- Taso {level}・Rooli {role}"
-                        }
-                    },
-                    "deleteall": {
-                        "success": "{y} Kaikki tasoroolit on poistettu."
-                    },
-                    "remove": {
-                        "success": "{y} Rooli {role} on poistettu tietokannasta."
-                    },
-                    "toggle": {
-                        "success_activated": "{y} Tasoroolit on aktivoitu.",
-                        "success_deactivated": "{y} Tasoroolit on deaktivoitu."
-                    },
-                    "fix": {
-                        "success-singular": "{y} Järjestelmä on tarkistettu.\n> {i} 1 rooli on poistettu.",
-                        "success-plural": "{y} Järjestelmä on tarkistettu.\n> {i} {length} roolia on poistettu."
-                    }
-                },
-                "ignore": {
-                    "no-ignored-channels": "{x} Tällä palvelimella ei ole huomiotta jätettyjä kanavia.",
-                    "add": {
-                        "channel-already-ignored": "{x} Tämä kanava on jo sivuutettu.",
-                        "success": "{y} Kanava on lisätty."
-                    },
-                    "list": {
-                        "embed": {
-                            "title": "Sivuutetut kanavat"
-                        }
-                    },
-                    "remove": {
-                        "channel-not-ignored": "{x} Tätä kanavaa ei sivuutettu.",
-                        "success": "{y} Kanava on poistettu."
-                    }
-                },
-                "message": {
-                    "modal": {
-                        "label": "Viesti",
-                        "placeholder": "GG, Dat Bot! Olet nyt tasolla 2!",
-                        "title": "Vaihda tasonnousuviesti"
-                    }
-                },
-                "channel": {
-                    "reset-success": "{y} Tasonnousu-kanava on palautettu.",
-                    "success": "{y} Tasonnousu-viestit lähetetään nyt {channel}"
-                },
-                "test": {
-                    "no-levelup-message": "GG, Dat Bot! Olet nyt tasolla 2!",
-                    "success": "{y} Testiviesti on lähetetty."
-                },
-                "leaderboard": {
-                    "no-data1": "Ei tietoja",
-                    "no-data": "{x} Kukaan ei ole vielä kerännyt XP:tä.",
-                    "page-total": "Sivu {page} / {total}",
-                    "page": "Sivu {page}"
-                },
-                "rank": {
-                    "user-bot": "{x} Botit eivät voi kerätä XP:tä",
-                    "not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella."
-                },
-                "toggle": {
-                    "success_activated": "{y} Tasojärjestelmä on aktivoitu.",
-                    "success_deactivated": "{y} Tasojärjestelmä on deaktivoitu."
-                },
-                "noxprole": {
-                    "success": "{y} \"Ei XP-roolia\" on muutettu.",
-                    "remove-success": "{y} \"Ei XP-roolia\" on poistettu tietokannasta."
-                }
-            },
-            "random": {
-                "number": {
-                    "success": "{random} on satunnaisluku (minimi: {min}, maksimi: {max})."
-                },
-                "user": {
-                    "success": "{user} on satunnainen käyttäjä: {userinfo}"
-                },
-                "coinflip": {
-                    "success-head": "🔮・Tällä kertaa se oli || kruuna ||.",
-                    "success-tail": "🔮・Tällä kertaa se oli || klaava ||."
                 }
             }
         },
@@ -1595,14 +1339,7 @@
             "logchannel_reset": "{y} Lokauskanava nollattiin onnistuneesti."
         }
     },
-    "config": {
-        "developer_name": "D_Gamet",
-        "developer_id": "754246997266923571",
-        "support_invite": "https://discord.gg/BQumAujuvk",
-        "invite_link": "https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=applications.commands%20bot"
-    },
     "contextmenus": {
-        "avatar": {},
         "end_poll": {
             "message-not-poll": "{x} Tämä viesti ei ole kysely. Luo kysely käyttämällä </poll create:1114289709099798578>."
         },
@@ -1611,8 +1348,6 @@
             "user-bot": "{x} Botit eivät voi kerätä XP:tä.",
             "not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella."
         },
-        "pollcreate": {},
-        "userinfo": {},
         "voiceinfo": {
             "not-on-guild": "{x} Tämä käyttäjä ei ole tällä palvelimella.",
             "not-in-vc": "{x} Tämä käyttäjä ei ole missään äänikanavassa",
@@ -1628,39 +1363,17 @@
             }
         }
     },
-    "events": {
-        "logging": {},
-        "emojiquiz": {},
-        "flagquiz": {}
-    },
     "modals": {
         "embeds": {
             "embed-message-not-found": "{x} En löydä enää upotettua viestiä.",
             "embed-not-existing": "{x} Upotettua viestiä ei ole enää olemassa.",
             "embed-not-found": "{x} En löydä enää upotusta.",
             "url-invalid": "{x} Määrittelyn on oltava kelvollinen URL-osoite.",
-            "author": {
-                "name": {},
-                "url": {},
-                "icon": {}
-            },
             "color": {
                 "not-hex-code": "{x} Määrittely ei ole heksakoodi."
             },
-            "description": {},
-            "fields_add": {},
-            "footer": {
-                "text": {},
-                "icon": {}
-            },
-            "image": {},
-            "thumbnail": {},
             "timestamp": {
                 "not-timestamp": "{x} Määritetty aika on virheellinen. `YYYY-MM-DD HH:MM:SS` olisi oikea.\n> Esimerkki: `2023-03-15 15:37:12` -> 15.03.2023 15:37:12"
-            },
-            "title": {
-                "title": {},
-                "url": {}
             },
             "import_json": {
                 "not-json-code": "{x} JSON-koodi ei ole kelvollinen."
@@ -1713,13 +1426,13 @@
         "days": "Päivät",
         "none": "Ei mitään",
         "api": {
-            "not-functionable": "{x} Tämä komento ei ole enää toiminnassa. Ole hyvä ja ota yhteyttä kehittäjääni D_Gamet.",
             "401": "{x} Komento ei enää toimi, mutta olen jo ilmoittanut siitä kehittäjälleni.",
             "403": "{x} Tämä komento ei enää toimi. Ota yhteyttä kehittäjääni D_Gamet.",
             "429": "{x} Olen tällä hetkellä nopeusrajoituksen sisällä.",
             "500": "{x} Ulkoisella palvelimella oli virhe.",
             "502": "{x} Ulkoinen palvelin ei ole tällä hetkellä käytettävissä.",
-            "503": "{x} Ulkoinen palvelin ei ole tällä hetkellä käytettävissä."
+            "503": "{x} Ulkoinen palvelin ei ole tällä hetkellä käytettävissä.",
+            "not-functionable": "{x} Tämä komento ei ole enää toiminnassa. Ole hyvä ja ota yhteyttä kehittäjääni D_Gamet."
         },
         "general": {
             "notspecific": "{x} Tapahtui virhe.",
@@ -1777,37 +1490,6 @@
                 "modal": "{x} Voit käyttää tätä modaalia uudelleen {lastexecuted}.",
                 "selector": "{x} Voit käyttää tätä valikkovalintaa uudelleen {lastexecuted}."
             }
-        },
-        "endelon": {
-            "runtime": "🕐・Suoritusaika",
-            "status": {
-                "offline": "🔴・Tila",
-                "online": "🟢・Tila",
-                "installing": "🟤・Tila",
-                "unknown": "⚫・Tila"
-            },
-            "status-label": {
-                "offline": "Offline",
-                "starting": "Käynnistyy",
-                "online": "Online",
-                "installing": "Asentuu",
-                "stopping": "Pysähtyy",
-                "running": "Käynnissä",
-                "unknown": "Tuntematon",
-                "restart": "Käynnistetään uudelleen"
-            },
-            "server-not-found": "{x} Tätä palvelinta ei löydetty.",
-            "manage-your-server": "Hallitse palvelinta",
-            "server-started": "{y} Palvelin käynnistetty.",
-            "api": {
-                "400": "{x} Et ole yhdistänyt Endelon-tiliäsi Discord-tiliisi.",
-                "404": "{x} Palvelin ei kuulu sinulle."
-            },
-            "update": "Päivitys",
-            "start": "Käynnistä",
-            "restart": "Käynnistä uudelleen",
-            "stop": "Pysäytä",
-            "kill": "Tapa"
         },
         "quiz": {
             "emojiquiz": {
@@ -1899,7 +1581,6 @@
                     }
                 }
             },
-            "delete": {},
             "footer": {
                 "text": {
                     "modal": {
@@ -2023,8 +1704,7 @@
                         }
                     }
                 }
-            },
-            "send-embed": {}
+            }
         },
         "logs": {
             "leave": {
@@ -2781,7 +2461,7 @@
         "button-blocks": "Blocking",
         "button-componenttypeview": "View Component Type",
         "button-resetembed": "Reset embed",
-        "button-viewembed": "Look at the embed",
+        "button-viewembed": "View embed",
         "button-selectplaceholderlogchannel": "Log Channel",
         "button-selectplaceholdertranscriptchannel": "Transcript Channel",
         "button-selectplaceholderthreadcreatorchannel": "Thread Creator Channel",
@@ -3065,5 +2745,224 @@
             "removeuser": "- [<t:{1}:R>] <@{2}> removed {3} from the ticket.",
             "transfer": "- [<t:{1}:R>] <@{2}> transfered the ticket to **{3}**."
         }
+    },
+    "level": {
+        "excluded-reset": "{y} Successfully reset all excluded channels, roles and users.",
+        "excluded-resetchannels": "{y} Successfully reset all excluded channels.",
+        "excluded-resetroles": "{y} Successfully reset all excluded roles.",
+        "excluded-resetusers": "{y} Successfully reset all excluded users.",
+        "gaintype": "{y} Set the type to {1}.",
+        "generalview": "# Settings\n- Message XP: `{1}`\n- Voice XP: `{2}`\n- Message XP Range [From/To]: `{3}`-`{4}`\n- Voice XP Range [From/To]: `{5}`-`{6}`\n- Message Cooldown: `{7}`\n- Voice Cooldown: `{8}`\n- Message Type: `{9}`\n- Custom formula: `{10}`\n- Starting Required XP: `{11}`",
+        "gt-1": "XP per Message",
+        "gt-2": "Cooldown",
+        "importdesc": "# Import\n- Choose which things to import.",
+        "displaytype": "{y} Display type is now {1}",
+        "dt-1": "All",
+        "dt-2": "Still on Guild",
+        "ll-reset": "{y} Message was deleted and embed was reset.",
+        "embednotset": "{x} No embed is set.",
+        "embednotfound": "{x} Embed was not found.",
+        "logd-error1": "{x} There is no logging channel.",
+        "logd-error2": "{x} The logging channel was deleted.",
+        "logd-success": "{y} No issues found.",
+        "logv": "- Logging Channel: {1}",
+        "msg-eud": "{a} Using default embed as the custom embed used was deleted.",
+        "msg-d1": "{x} Level Up Message is disabled as the Type is set to \"None\"",
+        "multi-r": "{y} Reset all multipliers.",
+        "nolr": "{x} There are no level roles",
+        "lrdr": "## Result [{1}]\n{2}",
+        "lrrs": "{y} The level roles were successfully reset.",
+        "tst": "{y} This might take some time...",
+        "lrnd": "{x} This role does not have any data",
+        "lrdd": "- Role: <@&{1}>\n- Remove Type: {2}\n- Level: {3}",
+        "nsr": "{x} There are no streak rewards",
+        "nls": "{x} There are no streak loss settings.",
+        "srrs": "{y} Successfully reset all streak rewards.",
+        "str": "{y} Successfully reset streak loss settings.",
+        "nus": "{x} There are no user streaks",
+        "rus": "{y} Successfully reset all user streaks",
+        "sr": "{y} Successfully reset.",
+        "vlvs": "- XP Range [From/To]: {1}-{2}",
+        "xdac": "{x} You already claimed this XP Drop.",
+        "xdeu": "{x} Unfortunately, this XP drop is not available anymore",
+        "sllv": "- {1} Day(s) // Removed Level: {2} // Removed XP: {3} // Roles to add: {4} // Roles to remove: {5}",
+        "xdts": "{y} Set XP Drop Mode to {1}",
+        "xdt-1": "Multiple Claims",
+        "xdt-2": "One Claim",
+        "xdsv": "- Type: {1}\n- Channels: {2}\n- Time until disable: {3}\n- Minimum time until respawn: {4}\n- Maximum time until respawn: {5}\n- XP Range: {6}-{7}\n- Claim Type: {8}",
+        "xdct-1": "Disabled",
+        "xdct-2": "Selected only",
+        "xdct-3": "All except selected",
+        "xdct-4": "All channels",
+        "srv": "- Streak Days: {1}\n- Nickname: {2}\n- Bonus XP: {3}\n- Bonus Level: {4}\n- Multiplier: {5}\n- Roles to add: {6}\n- Roles to remove: {7}\n- Announcement Message Type: {8}\n- Announcement Channel: {9}\n- Announcement Content: {10}\n- Announcement Embed ID: {11}",
+        "sram-1": "Message & Embed",
+        "sram-2": "Message",
+        "sram-3": "Embed",
+        "sram-4": "None",
+        "sram-5": "Message & Voice",
+        "sram-6": "Voice",
+        "sram-7": "Both",
+        "xdcs": "{y} +`{1}`XP",
+        "snpd": "# Variables\n- Note: Data within [] are the data for the selected streak reward or server/user data and would be the replaced content of the placeholders.\n## Nickname\n- `{{username}}`: User name [{1}]\n- `{{displayname}}`: Display name [{2}]\n- `{{id}}`: User id [{3}]\n- `{{servername}}`: Server name [{4}]\n- `{{serverid}}`: Server id [{5}]\n## Announcement Embed & Announcement Content\n-# The nickname placeholder can also be used here.\n- `{{addedroles}}`: Roles added with the streak reward [{6}]\n- `{{removedroles}}`: Roles removed with the streak reward [{7}]\n- `{{nickname}}`: New nicknamen given with the streak reward [{8}]\n- `{{multiplier}}`: Multiplier given with the streak reward [{9}]\n- `{{bonuslevel}}`: Bonus level added with the streak reward [{10}]\n- `{{bonusxp}}`: Bonus XP added with the streak reward [{11}]\n- `{{streakdays}}`: Streak days required to gain the streak rewards [{12}]",
+        "ive-1": "{x} The input can not be less than {1}.",
+        "ive-2": "{x} The input can not be more than {1}.",
+        "unl": "{x} This user does not have any level data.",
+        "cxas": "{y} Added {1}XP to <@{2}>.",
+        "cxrs": "{y} Removed {1} Level from <@{2}>.",
+        "cxre": "{y} Reset <@{1}>'s XP.",
+        "clas": "{y} Added {1}XP to <@{2}>.",
+        "clrs": "{y} Removed {1} level from <@{2}>.",
+        "clre": "{y} Reset <@{1}>'s Level.",
+        "ulth": "{x} The user's level is already 100 or above",
+        "ngld": "{x} No level data on this guild.",
+        "left": "Page {1} / {2} // Your rank: #{3}",
+        "mc": "Manage",
+        "sdc-1": "### Level Roles",
+        "sdc-2": "### Level Message",
+        "sdc-3": "### Excluded",
+        "sdc-4": "### Multiplier",
+        "sdc-5": "### Logging",
+        "sdc-6": "### Live Leaderboard",
+        "sdc-7": "### XP Drops",
+        "sdc-8": "### Voice Level",
+        "sdc-9": "### Streaks",
+        "sdc-10": "### General",
+        "idc": "# Warning, this can not be undone, do you want to proceed? Old data will be deleted and overwritten.",
+        "iip": "{x} The provided input is invalid.",
+        "itp-1": "{x} The provided time is bigger than {1} which is disallowed.",
+        "itp-2": "{x} The provided time is smaller than {1} which is disallowed.",
+        "sss": "{y} Settings saved successfully.",
+        "pfi": "{x} After calculating the output we found that the math formula is invalid or returns 0.",
+        "fos": "{x} From has to be bigger than To.",
+        "enf": "{x} Entity was not found.",
+        "mas": "{y} Added {1} with multiplier `{2}`.",
+        "ndc": "{x} No data for the streak day exists.",
+        "dse": "{x} Data for this streak day already exists. If you want to edit data of an existing streak day, use the button at the bottom of the message.",
+        "mtd": "{x} Minimum and maximum time need a time difference of at least {1}.",
+        "ad": "{y} Added {1}. If you selected a role, please check the role permissions. If it has dangerous permissions, it won't be added.",
+        "rd": "{y} Removed {1}. If something was not removed, it was not in the database in the first place.",
+        "idd": "{y} Import is done.",
+        "me1": "{x} The MEE6 API returned an unknown error",
+        "me2": "{x} No data was found. Make sure the bot is member of the server.",
+        "me3": "{x} No leaderboard is not public. Please make it public: https://mee6.xyz/de/dashboard/{1}/leaderboard",
+        "mss": "{y} Sent message.",
+        "nml": "{x} There are no multipliers.",
+        "mrs": "{y} Removed the multplier for role <@&{1}>",
+        "rdp": "{x} The role has dangerous permissions: {1}",
+        "rpe": "{x} The role is my highest or above my highest role.",
+        "rdc": "{a} Are you sure?\n- This **can not** be undone!",
+        "cca": "[+] Channel",
+        "ccr": "[-] Channel",
+        "cra": "[+] Role",
+        "crr": "[-] Role",
+        "cua": "[+] User",
+        "cur": "[-] User",
+        "cma": "[+] Multiplier",
+        "cmr": "[-] Multiplier",
+        "button-ca": "Cancel",
+        "button-co": "Continue",
+        "button-cool": "Cooldown",
+        "from": "From",
+        "to": "To",
+        "csmt": "Select a message type",
+        "csti": "Choose stuff to import",
+        "csll": "Send the live leaderboard",
+        "clcs": "Logging channel",
+        "cslc": "Select a level up channel",
+        "csrt": "Select a remove type",
+        "calr": "Add a level role",
+        "crlr": "Remove a level reward",
+        "csac": "Select an Announcement Message Channel",
+        "casr": "Add streak reward role",
+        "crsr": "Remove streak reward role",
+        "csat": "Select an announcement type",
+        "cbsr": "Select Reward",
+        "csst": "Select a streak type",
+        "csdt": "Select a type",
+        "cssc": "Select a channel",
+        "cbd": "Formula",
+        "cxpr": "XP Range",
+        "cad": "Amount",
+        "cdtd": "Display Type",
+        "csrx": "Starting Required XP",
+        "cgtd": "Gain Type",
+        "cbdd": "Debug",
+        "cbcd": "Content",
+        "cdld": "Level",
+        "cbea": "Add/edit",
+        "cbsd": "Sync",
+        "csab-1": "Nickname",
+        "csab-2": "Multiplier",
+        "csab-3": "Streak Days",
+        "csab-4": "Bonus Level",
+        "csab-5": "Bonus XP",
+        "csab-6": "Announcement Content",
+        "csab-7": "Announcement Embed",
+        "csab-8": "Variables",
+        "cbrd": "Remove",
+        "cctd": "Claimtype",
+        "caxd": "Added XP",
+        "cald": "Added Level",
+        "crxd": "Removed XP",
+        "crld": "Removed Level",
+        "ccd": "Claim",
+        "ctud": "Time until disable",
+        "ctur": "Time until respawn",
+        "matur": "Maximum time until respawn",
+        "mitur": "Minimum time until respawn",
+        "cbtd": "Time",
+        "cbvc": "Voice Cooldown",
+        "cbmc": "Message Cooldown",
+        "rsr": "Remove a streak reward",
+        "asr": "Add a streak reward",
+        "rsl": "Remove a streak loss",
+        "tbc-1": "## Manage the excluded roles, users and channels.",
+        "tbc-2": "- View: View the current excluded entities.\n- Reset: Reset all excluded entities.\n## How does it work?\n- Excluding a channel will prevent users from gaining XP in this channel or category.\n- Excluding a user will prevent the user from gaining XP.\n- Excluding a role will prevent users with this role from gaining XP.\n\n- The first select menu of each category allows you to add an entity, the second allows you to remove an entity.",
+        "tbc-3": "## Channel Exclusion",
+        "tbc-4": "## Role Exclusion",
+        "tbc-5": "## User Exclusion",
+        "tbc-6": "## Manage general settings.\n- Note: You can use the placeholder `{1}` for the level and `{2}` for the old required xp in `Formula`",
+        "tbc-7": "- View: View all the settings\n- XP Range: Provide a range for minimum XP and maximum **message XP** gained\n- Starting Required XP: Required XP at level 1\n- Voice Cooldown: Time between every gain of XP if in a voice channel\n- Message Cooldown: If the Gain Type is set to `Cooldown`, the cooldown will expire after this cooldown.\n- Formula: Provide a custom formula for Level Up calculation\n- Gain Type: Can either be `Per Message` or `With Cooldown`\n- Reset: Reset all system settings. This cannot be undone.\n- Type: Enable or disable the system and choose between Voice And Message XP",
+        "tbc-8": "## Select your embed",
+        "tbc-9": "## Select your embed\n- ID: `{1}`",
+        "tbc-10": "## Manage the live leaderboard\n- The live leaderboard is a leaderboard that updates every hour.",
+        "tbc-11": "- View: View the current settings\n- Embed: Choose a custom embed for the liveleaderboard message\n- Display Type: Choose between `All` and `Still on Guild`\n- Amount: Amount of entries shown on the live leaderboard\n- Reset: Reset the settings\n- Send the live leaderboard: Send the live leaderboard in this channel.",
+        "tbc-12": "## Manage the logging.\n- The logging allows you to track the gained XP for a user.",
+        "tbc-13": "- View: View the current settings\n- Debug: Debug the system for issues\n- Reset: Reset the settings\n- Logging channel: Set the logging channel.`",
+        "tbc-14": "## Manage the level message\n{i} If the Content or the Embed Button is disabled, check the message type.",
+        "tbc-15": "- Content: Set the message content\n- Embed: Choose a custom embed for the message\n- View: View the current settings\n- Select a channel: Select a channel where all the Level Up messages will be send. If none is selected, the current channel will be used.\n- Select a message type: Select which parts of the messages will be send.\n- Reset: Reset the message, embed or channel.",
+        "tbc-16": "## Manage the level multipliers\n- Allows to multiply the gained XP by a custom amount per role. If the user has multiple multiplier roles, the role with the highest multiplier will be selected.",
+        "tbc-17": "- View: View the current multipliers\n- Reset: Reset all existing multipliers\n- [+] Multiplier: Add a multiplier\n- [-] Multiplier: Remove a multiplier",
+        "tbc-18": "## Do you want to reset the system?\n- If no, click on \"Cancel\"\n- If yes, click on \"Continue\"",
+        "tbc-19": "## Add or edit a level reward",
+        "tbc-20": "## Manage the Level Rewards",
+        "tbc-21": "- Add/Edit: Add a new reward or edit an existing reward\n- View: View the current level rewards\n- Debug: Debug the rewards. If something isn't working, use this button\n- Reset: Reset the rewards\n- Remove a level reward: Remove an existing level reward",
+        "tbc-22": "## Add or edit a streak reward\n- ID: `{1}`\n- Info: The ID is the selected day. To choose a different day, use the last button of this menu.",
+        "tbc-23": "## Add or edit a streak loss\n- ID: `{1}`\n- Select 0 to set default settings.",
+        "tbc-24": "## Manage the Streaks",
+        "tbc-25": "### Streak Rewards\n- Add/Edit: Add a new streak reward or edit an existing reward\n- View: View all streak rewards\n- Remove: Remove a streak reward",
+        "tbc-26": "### Streak Loss\n- Add/Edit: Add a streak day loss\n- View: View all streak rewards\n- Remove: Remove a streak reward",
+        "tbc-27": "- Select a streak type: Select whether message and/or voice exceeds the streak.\n- Reset: Reset something",
+        "tbc-28": "## Manage the Voice Level",
+        "tbc-29": "- View: View the current settings\n- XP Range: Provide a custom minimum and maximum gained XP for voice activity.\n- Reset: Reset the settings",
+        "tbc-30": "## Manage the XP Drops",
+        "tbc-31": "- View: View the current settings\n- XP Range: Provide a custom minimum or maximum of gained XP per drop\n- Claimtype: Select if one or multiple users can claim the XP Drop\n- Time until disable: If multiple users can claim the drop, choose a time until the drop disables itself.\n- Time until respawn: Minimum time until a XP Drop can spawn again\n- Reset the current settings\n- Select a type: Select a type for the XP Drops\n- [+] Channel: Add a channel\n- [-] Channel: Remove a channel",
+        "lrrt-1": "Do not remove",
+        "lrrt-2": "After reaching next level",
+        "lrrt-3": "After gaining next role",
+        "both": "Both",
+        "nad": "No Announcement",
+        "rt-1": "Reset Streak Rewards",
+        "rt-2": "Reset Streak Loss",
+        "rt-3": "Reset User Streaks",
+        "xpdt-1": "Disable XP Drops",
+        "xpdt-2": "Only selected channels",
+        "xpdt-3": "Exclude selected channels",
+        "xpdt-4": "All channels",
+        "bmcd": "Message Cooldown",
+        "bvcd": "Voice Cooldown",
+        "cbld": "Level",
+        "cbes": "Edit Required Streak Days",
+        "clmv": "# Variables\n- `{guild.membercount}`: Server membercount\n- `{guild.id}`: Server ID\n- `{guild.created}`: Server created timestamp\n- `{guild.name}`: Server name\n- `{user.name}`: User name\n- `{user.mention}`: Mentions the user\n- `{user.displayname}`: User displayname\n- `{user.id}`: User ID\n- `{level}`: New level\n- `{oldlevel}`: Old Level\n- `{reqxp}`: New Required XP"
     }
 }

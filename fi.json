@@ -980,10 +980,10 @@
                 "info": {
                     "embed": {
                         "title": "Tietoja",
-                        "description": "<:discord_member:1029008701027266611>・{usercount} Käyttäjiä\n<:discord_servers:1029009256592195594>・{servercount} Palvelimia\n<:datbot_shard:1061322798049542145>・{guildname} Osio: {shard}\n<:bot_developer:1028942737602514954>・Kehittäjä: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
+                        "description": "<:discord_member:1029008701027266611>・{usercount} Users\n<:discord_servers:1029009256592195594>・{servercount} Servers\n<:datbot_shard:1390786207931306015>・Shard for {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Developer: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
                         "fields": {
                             "most-used-commands": {
-                                "name": "<:datbot_slash_command:1104329595110576159> Suosittu komento",
+                                "name": "<:datbot_slash_command:1390789008044331200> Popular commands",
                                 "value-nodata": "Ei tietoja"
                             },
                             "shardinfo": {
@@ -1966,7 +1966,7 @@
         },
         "interface": {
             "footer": "Liity luojan kanavaan: luodaksesi -kanavan.",
-            "description": "- <:1lock:1201576417897488535>・Yksityisyys\n- <:1bolt:1201576407965376533>・Hallinnoi kanavaa\n- <:1users:1201580813574230188>・Hallinnoi käyttäjiä\n- <:1ban:1201576397798379600>・Moderointi\n- <:1check:1201578213831356517>・Apu"
+            "description": "- <:1lock:1390784759483072682>・Privacy\n- <:1bolt:1390785659169407137>・Manage Channel\n- <:1users:1390785262451294279>・Manage Users\n- <:1ban:1390785648763338833>・Moderation\n- <:check1:1390784163463827466>・Help"
         },
         "beta": {
             "closed": "{x} Tämä ominaisuus on tällä hetkellä suljetussa beta-versiossa. Jos haluat kokeilla ominaisuutta, voit pyytää sitä [tukipalvelimella].(https://discord.gg/BQumAujuvk).",
@@ -2073,7 +2073,7 @@
             "continue-success": "{y} Kanava on ollut poistettu.",
             "continue-deleteable-error": "{x} Minulla ei ole oikeutta poistaa kanavaa.",
             "embed": {
-                "description": "## Poista kanava\n- Haluatko varmasti poistaa tämän Tilapäisen äänikanavan? Jos olet, napsauta <:1check:1201578213831356517>. Jos haluat peruuttaa tämän prosessin, napsauta <:1ban:1201576397798379600>.\n- Huomaa, että tilapäisen äänikanavan poistamista ei voi peruuttaa.",
+                "description": "## Delete channel\n- Are you sure you want to delete this TempVoice channel? If so, click on <:check1:1390784163463827466>. If you want to cancel this process, click on <:1ban:1390785648763338833>.\n- Note that you cannot undo the deletion of a TempVoice channel.",
                 "footer": "Et voi perua tätä."
             }
         },
@@ -2081,10 +2081,10 @@
             "description": "## Selitys\n- <:volume:1202705024057081856>Aseta bittiraja\n- <:image4:1202697412012154890>・Aseta nimi\n- <:note:1202703281055604787>・Aseta tila\n- <:globe:1202703306527481917>・Aseta alue\n- <: user:1202704216041455677>・Aseta käyttäjäraja\n- <:image7:1202697417326338078>・Aseta NSFW\n- <:camera:1202703995014094888>・Aseta videon laatu\n- <:trash:1202716962489110609>・Poista kanava"
         },
         "moderate": {
-            "description": "## Pikatoiminnot\n- <:crown:1202717638447468605>・Ota kanavan haltuun\n- <:trash:1202716962489110609>・Poista kanava\n- <:1lock:1201576417897488535>・Porttikiellä kanava\n- <:ban: 1202712066394423326>・Porttikiellä käyttäjä\n- <:unmod:1202716452860461087>・Poista kaikki kanavien moderaattorit\n## Edistynyt moderointi\n- Klikkaa käyttöliittymässä <:1users:1201580813574230188> emojia, jos haluat hallita käyttäjiä. \n- Napsauta <:1bolt:1201576407965376533> emojia käyttöliittymässä kanavan hallitsemiseksi.\n## Huomautus\n- Jotta voit poistaa kaikki kanavan moderaattorit samanaikaisesti, sinun on ensin otettava kanava haltuun."
+            "description": "## Quick actions\n- <:crown:1202717638447468605>・Take over channel\n- <:trash:1202716962489110609>・Delete channel\n- <:1lock:1390784759483072682>・Ban channel\n- <:ban:1202712066394423326>・Ban user\n- <:unmod:1202716452860461087>・Remove all channel moderators\n## Advanced moderation\n- Click on the <:1users:1390785262451294279> emoji in the interface to manage users. \n- Click on the <:1bolt:1390785659169407137> emoji in the interface to manage the channel.\n## Note\n- To be able to remove all channel moderators at the same time, you must first take over the channel."
         },
         "privacy": {
-            "description": "## Selitys\n- <:1lock:1201576417897488535>・Lukitse kanava\n- <:1lockopen:1201585638609272832>・Poista kanavan lukitus\n- <:1eye:1201585529431527434>・Tee kanava näkyväksi\n- <:1eyeslash:1201585541402079302>・Tee kanava näkymättömäksi"
+            "description": "## Explanation\n- <:1lock:1390784759483072682>・Lock the channel\n- <:1lockopen:1390784750213402765>・Unlock the channel\n- <:1eye:1390784741732515941>・Make the channel visible\n- <:1eyeslash:1390784734367449118>・Make the channel invisible"
         },
         "region": {
             "description": "## Aseta kanavan alue\n- Valitse uusi alue alemmasta valikkovalikosta. Vanha alue on oletusarvoisesti valittuna.\n## Mikä muuttaa kanava-aluetta?\n- Tähän kysymykseen vastaamiseksi suosittelen lukemaan [tukiartikkelin].(https://support.discord.com/hc/en-us/articles/1500007645701-Voice-Regions-on-Discord-FAQ).",
@@ -2227,7 +2227,7 @@
         },
         "resetsystem": {
             "success": "{y} Asetukset palautettiin onnistuneesti.",
-            "description": "## Palauta asetukset\n- Etkö halua enää käyttää tätä järjestelmää? Jos näin on, palauta asetukset tällä.\n- Et pysty peruuttamaan tätä.\n- Voit vapaasti antaa palautetta, miksi et enää halua käyttää järjestelmää.\n\n- Jos olet varma ja haluat palauttaa asetukset, klikkaa <:1check:1201578213831356517>. Jos haluat peruuttaa tämän prosessin, napsauta <:1ban:1201576397798379600>."
+            "description": "## Reset the settings\n- You no longer want to use this system? If so, reset the settings with this.\n- You cannot undo this.\n- Feel free to give feedback on why you no longer want to use the system.\n\n- If you are sure and want to reset the settings, click on <:check1:1390784163463827466>. If you want to cancel this process, click on <:1ban:1390785648763338833>."
         },
         "settings": {
             "defaultname": {
@@ -2240,7 +2240,7 @@
                 "not-valid": "{x} Määritetty käyttäjäraja ei ole voimassa. Kirjoita numero väliltä **1** ja **99** tai kirjoita \"max\" salliaksesi loputtoman määrän käyttäjiä."
             },
             "command": {
-                "description": "## Manage the settings\n- <:1bolt:1201576407965376533>・Manage the channel that is created when you join the creator channel: name, permissions, bitrate, category & user limit.\n- <:1check:1201578213831356517>・Manage the system: reset, toggle, test the system, view the settings, invoice roles, tempvoice channel limit, extra owner permissions and required roles.\n- <:user:1202704216041455677>・Moderation settings: Logging, block user and moderation role"
+                "description": "## Manage the settings\n- <:1bolt:1390785659169407137>・Manage the channel that is created when you join the creator channel: name, permissions, bitrate, category & user limit.\n- <:check1:1390784163463827466>・Manage the system: reset, toggle, test the system, view the settings, invoice roles, tempvoice channel limit, extra owner permissions and required roles.\n- <:user:1202704216041455677>・Moderation settings: Logging, block user and moderation role"
             }
         },
         "block": {
@@ -2269,7 +2269,7 @@
         "moderationrole": {
             "role-is-everyone": "{x} Tämä rooli on `@everyone`, joten sitä ei voi käyttää.",
             "success": "{y} Moderoinnin rooliksi asetettiin {role}.",
-            "description": "## Moderointirooli\n- <:note:1202703281055604787>・Moderoinnin roolin asettaminen takaisin\n- <:1eye:1201585529431527434>・Näytä nykyinen moderointirooli\n## Tieto\n- Moderointirooli kaikilla valtuuksilla, joten se voi hallita tilapäisiä äänikanavia kokonaan. Poikkeukset: Omistajan asettaminen, kanavien moderaattoreiden lisääminen ja kanavien moderaattoreiden poistaminen. Voit kuitenkin ottaa kanavan haltuun ja siten myös hallita sitä.",
+            "description": "## Moderation role\n- <:note:1202703281055604787>・Set the moderation role back\n- <:1eye:1390784741732515941>・See the current moderation role\n## Information\n- The moderation role has all authorizations and can therefore manage TempVoice channels completely. Exceptions: Set owner, add channel moderators and remove channel moderators. However, you can take over the channel and thus also manage this.",
             "placeholder": "Valitse moderointirooli"
         },
         "unblock": {
@@ -2339,7 +2339,7 @@
             "success-2": "{y} Kirjausjärjestelmä on ollut **deaktivoitu**."
         },
         "logging": {
-            "description": "## Kirjaaminen\n- <:note:1202703281055604787>・Kytke kirjaaminen käyttöön tai poista se käytöstä\n- <:1ban:1201576397798379600>・Palauta kirjausasetukset\n- <:1check:1201578213831356517>・Testaa kirjausjärjestelmä virheiden varalta\n- <:1eye:1201585529431527434>・Katsele kirjausasetuksia\n- Aseta kirjauskanava: Käytä Valitse-valikkoa \"Valitse kanava kirjausta varten\". \n## Tietoja\n- Kirjaus toimii kuten Discordin tarkastusloki, paitsi että se koskee kaikkia toimintoja, joihin liittyy tilapäinen äänikanava. \n- Jos järjestelmä on poistettu käytöstä, lokeja ei lähetetä.",
+            "description": "## Logging\n- <:note:1202703281055604787>・Enable or disable logging\n- <:1ban:1390785648763338833>・Reset the logging settings\n- <:check1:1390784163463827466>・Test the logging system for errors\n- <:1eye:1390784741732515941>・See the logging settings\n- Set logging channel: Use the Select Menu \"Choose a channel for logging\".\n## Information\n- Logging works like the Discord Audit Log, except that it is all actions involving a TempVoice channel.\n- If the system is disabled, the logs will not be sent.",
             "placeholder": "Valitse kanava kirjaamista varten."
         },
         "moderationrole_reset": {
@@ -2354,10 +2354,10 @@
             "placeholder": "Valitse luojan kanava."
         },
         "settings_moderation": {
-            "description": "## Moderointiasetukset\n- <:image4:1202697412012154890>・Kirjaaminen\n- <:image7:1202697417326338078>・Estä käyttäjä\n- <:user:1202704216041455677>・Poista esto\n- <:1eye:1201585529431527434>・Näytä kaikki estetyt käyttäjät\n- <:globe:1202703306527481917>・Moderoinnin roolin asettaminen tai poistaminen\n## Lisätietoa \n- Kirjaus: Se toimii periaatteessa kuten Discordin tarkastusloki, mutta aina kun tilapäisellä äänikanavalla tapahtuu jokin muutos, lähetetään viesti tälle kanavalle. \n- Moderointirooli: Jäseniä, joilla on tämä rooli, kohdellaan periaatteessa kuin kanavan omistajia. He voivat asettaa tilapäiselle äänikanavalle kaiken, paitsi:\n - Kanavan moderaattoreiden lisääminen\n - Kanavan moderaattoreiden poistaminen\n - Kanavan omistajan siirtäminen (mutta voit ottaa kanavan haltuun)."
+            "description": "## Moderation settings\n- <:image4:1202697412012154890>・Logging\n- <:image7:1202697417326338078>・Block user\n- <:user:1202704216041455677>・Remove block\n- <:1eye:1390784741732515941>・Display all blocked users\n- <:globe:1202703306527481917>・Set or remove moderation role\n## More info\n- Logging: It works in principle like the Discord Audit Log, but whenever something is changed on a TempVoice channel, a message is sent to this channel. \n- Moderation role: Members who have this role are basically treated like channel owners. They can set everything on a TempVoice channel, except:\n - Add channel moderators\n - Remove channel moderators\n - Transfer owner (but you can take over the channel)"
         },
         "settings_system": {
-            "description": "## Manage the system\n- <:trash:1202716962489110609>・Reset the system\n- <:1lock:1201576417897488535>・Activate or deactivate the system.\n- <:1check:1201578213831356517>・Test the system. \n- <:1eye:1201585529431527434>・See the settings.\n- <:image5:1271200893529886803>・Manage Required Roles\n- <:speachbubble:1271201018444648448>・Manage Invoice Roles\n- <:owner:1271201010228137994>・Manage extra TempVoice Owner Permissions\n- <:image7:1271200917047480464>・Set the maximum TempVoice Channel limit.\n## More information\n## Toggle\n- If the system is currently activated, it will be deactivated.\n- The system will no longer function.\n- The data will not be deleted."
+            "description": "## Manage the system\n- <:trash:1202716962489110609>・Reset the system\n- <:1lock:1390784759483072682>・Activate or deactivate the system.\n- <:check1:1390784163463827466>・Test the system. \n- <:1eye:1390784741732515941>・See the settings.\n- <:image5:1271200893529886803>・Manage Required Roles\n- <:speachbubble:1271201018444648448>・Manage Invoice Roles\n- <:owner:1271201010228137994>・Manage extra TempVoice Owner Permissions\n- <:image7:1271200917047480464>・Set the maximum TempVoice Channel limit.\n## More information\n## Toggle\n- If the system is currently activated, it will be deactivated.\n- The system will no longer function.\n- The data will not be deleted."
         },
         "showsettings": {
             "description": "# The settings\n## Channel\n- Creator channel: {channel}\n- Default name: {name}\n- Default bitrate: {bitrate}\n- Default user limit: {userlimit}\n## Category\n- Default: {category}\n- Fallback: {fallback}\n## Moderation\n- Moderation role: {modrole}\n- Logging channel: {loggingchannel}\n- Logging toggle: {loggingtoggle}\n- {emoji}toggle: {toggle}\n- Blocked users: {blocked}\n## Other\n- Required Roles: {rr1}\n- Requires all roles: {rr2}\n- Invoice Roles: {ir}\n- Maximum TempVoice channels: {maxtemp}\n- Extra Owner Permissions: {extraownerperms}",
@@ -2372,15 +2372,15 @@
             "label-1": "Aktivoi järjestelmä",
             "label-2": "Järjestelmä aktivoitu",
             "toggle-error": "- Kytkin: Järjestelmä on deaktivoitu.",
-            "toggle-fix": "- Kytkin: Käytä </tempvoice settings:0>, klikkaa painiketta, jossa on emoji <:1check:1201578213831356517> ja sitten emoji <:1lock:1201576417897488535> tai klikkaa painiketta \"Aktivoi järjestelmä\" alhaalla",
+            "toggle-fix": "- Toggle: Use </tempvoice settings:0>, click on the button with the emoji <:check1:1390784163463827466> and then on the emoji <:1lock:1390784759483072682> or click on the button \"Activate system\" at the bottom.",
             "no-creator-channel-error": "- Luojan kanava: Ei asetettu.",
             "no-creator-channel-fix": "- Luojan kanava: Aseta tämä </tempvoice setup:0>.",
             "creator-channel-deleted-error": "- Luojan kanava: Tämä on poistettu (Vanha ID: {id}).",
-            "creator-channel-deleted-fix": "- Luojan kanava: Valitse uusi luojan kanava käyttämällä </tempvoice settings:0>, klikkaamalla painiketta, jossa on emoji <:1bolt:1201576407965376533> ja sitten Valitse Valikko \"Valitse luojan kanava:\".",
+            "creator-channel-deleted-fix": "- Creator channel: Select the new creator channel by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1390785659169407137> and then the select menu \"Select the creator channel\".",
             "default-category-deleted-error": "- Oletusluokka: Tämä on poistettu (Vanha ID: {id}).",
-            "default-category-deleted-fix": "- Oletusluokka: Valitse uusi oletusluokka käyttämällä </tempvoice settings:0>, klikkaamalla painiketta, jossa on emoji <:1bolt:1201576407965376533>, sitten painike, jossa on emoji <:globe:1202703306527481917> ja siellä Valitse Valikko \"Valitse oletusluokka\".",
+            "default-category-deleted-fix": "- Default category: Select the new default category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1390785659169407137>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the default category\".",
             "fallback-category-deleted-error": "- fallback category: Tämä on poistettu (Vanha ID: {id}).",
-            "fallback-category-deleted-fix": "- Varaluokka: valitse uusi varaluokka käyttämällä </tempvoice settings:0>, klikkaamalla painiketta, jossa on emoji <:1bolt:1201576407965376533>, sitten painike, jossa on emoji <:globe:1202703306527481917> ja siellä Valitse Valikko \"Valitse varaluokka\"."
+            "fallback-category-deleted-fix": "- Fallback category: Select the new fallback category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1390785659169407137>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the fallback category\"."
         },
         "toggle": {
             "success-1": "{y} Järjestelmä on **aktivoitu**.",
@@ -2810,7 +2810,7 @@
         "cxas": "{y} Added {1}XP to <@{2}>.",
         "cxrs": "{y} Removed {1} Level from <@{2}>.",
         "cxre": "{y} Reset <@{1}>'s XP.",
-        "clas": "{y} Added {1}XP to <@{2}>.",
+        "clas": "{y} Added {1} Level to <@{2}>.",
         "clrs": "{y} Removed {1} level from <@{2}>.",
         "clre": "{y} Reset <@{1}>'s Level.",
         "ulth": "{x} The user's level is already 100 or above",

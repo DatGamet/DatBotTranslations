@@ -980,10 +980,10 @@
                 "info": {
                     "embed": {
                         "title": "Information",
-                        "description": "<:discord_member:1029008701027266611>・{usercount} Users\n<:discord_servers:1029009256592195594>・{servercount} Servers\n<:datbot_shard:1061322798049542145>・Shard for {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Developer: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
+                        "description": "<:discord_member:1029008701027266611>・{usercount} Users\n<:discord_servers:1029009256592195594>・{servercount} Servers\n<:datbot_shard:1390786207931306015>・Shard for {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Developer: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
                         "fields": {
                             "most-used-commands": {
-                                "name": "<:datbot_slash_command:1104329595110576159> Popular commands",
+                                "name": "<:datbot_slash_command:1390789008044331200> Popular commands",
                                 "value-nodata": "No data"
                             },
                             "shardinfo": {
@@ -1966,7 +1966,7 @@
         },
         "interface": {
             "footer": "Join the Creator channel to create a TempVoice channel.",
-            "description": "- <:1lock:1201576417897488535>・Privacy\n- <:1bolt:1201576407965376533>・Manage Channel\n- <:1users:1201580813574230188>・Manage Users\n- <:1ban:1201576397798379600>・Moderation\n- <:1check:1201578213831356517>・Help"
+            "description": "- <:1lock:1390784759483072682>・Privacy\n- <:1bolt:1390785659169407137>・Manage Channel\n- <:1users:1390785262451294279>・Manage Users\n- <:1ban:1390785648763338833>・Moderation\n- <:check1:1390784163463827466>・Help"
         },
         "beta": {
             "closed": "{x} This feature is currently in a closed beta. If you would like to try out the feature, you can request this on the [Support Server](https://discord.gg/BQumAujuvk).",
@@ -2073,7 +2073,7 @@
             "continue-success": "{y} The channel has been deleted.",
             "continue-deleteable-error": "{x} I do not have permission to delete the channel.",
             "embed": {
-                "description": "## Delete channel\n- Are you sure you want to delete this TempVoice channel? If so, click on <:1check:1201578213831356517>. If you want to cancel this process, click on <:1ban:1201576397798379600>.\n- Note that you cannot undo the deletion of a TempVoice channel.",
+                "description": "## Delete channel\n- Are you sure you want to delete this TempVoice channel? If so, click on <:check1:1390784163463827466>. If you want to cancel this process, click on <:1ban:1390785648763338833>.\n- Note that you cannot undo the deletion of a TempVoice channel.",
                 "footer": "You cannot undo this."
             }
         },
@@ -2081,10 +2081,10 @@
             "description": "## Explanation\n- <:volume:1202705024057081856>・Set bit rate\n- <:image4:1202697412012154890>・Set name\n- <:note:1202703281055604787>・Set status\n- <:globe:1202703306527481917>・Set region\n- <:user:1202704216041455677>・Set userlimit\n- <:image7:1202697417326338078>・Set NSFW\n- <:camera:1202703995014094888>・Set video quality\n- <:trash:1202716962489110609>・Delete channel"
         },
         "moderate": {
-            "description": "## Quick actions\n- <:crown:1202717638447468605>・Take over channel\n- <:trash:1202716962489110609>・Delete channel\n- <:1lock:1201576417897488535>・Ban channel\n- <:ban:1202712066394423326>・Ban user\n- <:unmod:1202716452860461087>・Remove all channel moderators\n## Advanced moderation\n- Click on the <:1users:1201580813574230188> emoji in the interface to manage users. \n- Click on the <:1bolt:1201576407965376533> emoji in the interface to manage the channel.\n## Note\n- To be able to remove all channel moderators at the same time, you must first take over the channel."
+            "description": "## Quick actions\n- <:crown:1202717638447468605>・Take over channel\n- <:trash:1202716962489110609>・Delete channel\n- <:1lock:1390784759483072682>・Ban channel\n- <:ban:1202712066394423326>・Ban user\n- <:unmod:1202716452860461087>・Remove all channel moderators\n## Advanced moderation\n- Click on the <:1users:1390785262451294279> emoji in the interface to manage users. \n- Click on the <:1bolt:1390785659169407137> emoji in the interface to manage the channel.\n## Note\n- To be able to remove all channel moderators at the same time, you must first take over the channel."
         },
         "privacy": {
-            "description": "## Explanation\n- <:1lock:1201576417897488535>・Lock the channel\n- <:1lockopen:1201585638609272832>・Unlock the channel\n- <:1eye:1201585529431527434>・Make the channel visible\n- <:1eyeslash:1201585541402079302>・Make the channel invisible"
+            "description": "## Explanation\n- <:1lock:1390784759483072682>・Lock the channel\n- <:1lockopen:1390784750213402765>・Unlock the channel\n- <:1eye:1390784741732515941>・Make the channel visible\n- <:1eyeslash:1390784734367449118>・Make the channel invisible"
         },
         "region": {
             "description": "## Set the channel region\n- Select the new region in the lower select menu. The old region is selected by default.\n## What changes the channel region?\n- To answer this question, I recommend reading the [Support article](https://support.discord.com/hc/en-us/articles/1500007645701-Voice-Regions-on-Discord-FAQ).",
@@ -2227,7 +2227,7 @@
         },
         "resetsystem": {
             "success": "{y} The settings were successfully reset.",
-            "description": "## Reset the settings\n- You no longer want to use this system? If so, reset the settings with this.\n- You cannot undo this.\n- Feel free to give feedback on why you no longer want to use the system.\n\n- If you are sure and want to reset the settings, click on <:1check:1201578213831356517>. If you want to cancel this process, click on <:1ban:1201576397798379600>."
+            "description": "## Reset the settings\n- You no longer want to use this system? If so, reset the settings with this.\n- You cannot undo this.\n- Feel free to give feedback on why you no longer want to use the system.\n\n- If you are sure and want to reset the settings, click on <:check1:1390784163463827466>. If you want to cancel this process, click on <:1ban:1390785648763338833>."
         },
         "settings": {
             "defaultname": {
@@ -2240,7 +2240,7 @@
                 "not-valid": "{x} The specified user limit is not valid. Please enter a number between **1** and **99** or enter \"max\" to allow an infinite number of users."
             },
             "command": {
-                "description": "## Manage the settings\n- <:1bolt:1201576407965376533>・Manage the channel that is created when you join the creator channel: name, permissions, bitrate, category & user limit.\n- <:1check:1201578213831356517>・Manage the system: reset, toggle, test the system, view the settings, invoice roles, tempvoice channel limit, extra owner permissions and required roles.\n- <:user:1202704216041455677>・Moderation settings: Logging, block user and moderation role"
+                "description": "## Manage the settings\n- <:1bolt:1390785659169407137>・Manage the channel that is created when you join the creator channel: name, permissions, bitrate, category & user limit.\n- <:check1:1390784163463827466>・Manage the system: reset, toggle, test the system, view the settings, invoice roles, tempvoice channel limit, extra owner permissions and required roles.\n- <:user:1202704216041455677>・Moderation settings: Logging, block user and moderation role"
             }
         },
         "block": {
@@ -2269,7 +2269,7 @@
         "moderationrole": {
             "role-is-everyone": "{x} This role is `@everyone` and can therefore not be used.",
             "success": "{y} The moderation role was set to {role}.",
-            "description": "## Moderation role\n- <:note:1202703281055604787>・Set the moderation role back\n- <:1eye:1201585529431527434>・See the current moderation role\n## Information\n- The moderation role has all authorizations and can therefore manage TempVoice channels completely. Exceptions: Set owner, add channel moderators and remove channel moderators. However, you can take over the channel and thus also manage this.",
+            "description": "## Moderation role\n- <:note:1202703281055604787>・Set the moderation role back\n- <:1eye:1390784741732515941>・See the current moderation role\n## Information\n- The moderation role has all authorizations and can therefore manage TempVoice channels completely. Exceptions: Set owner, add channel moderators and remove channel moderators. However, you can take over the channel and thus also manage this.",
             "placeholder": "Select a moderation role"
         },
         "unblock": {
@@ -2339,7 +2339,7 @@
             "success-2": "{y} The logging system has been **deactivated**."
         },
         "logging": {
-            "description": "## Logging\n- <:note:1202703281055604787>・Enable or disable logging\n- <:1ban:1201576397798379600>・Reset the logging settings\n- <:1check:1201578213831356517>・Test the logging system for errors\n- <:1eye:1201585529431527434>・See the logging settings\n- Set logging channel: Use the Select Menu \"Choose a channel for logging\".\n## Information\n- Logging works like the Discord Audit Log, except that it is all actions involving a TempVoice channel.\n- If the system is disabled, the logs will not be sent.",
+            "description": "## Logging\n- <:note:1202703281055604787>・Enable or disable logging\n- <:1ban:1390785648763338833>・Reset the logging settings\n- <:check1:1390784163463827466>・Test the logging system for errors\n- <:1eye:1390784741732515941>・See the logging settings\n- Set logging channel: Use the Select Menu \"Choose a channel for logging\".\n## Information\n- Logging works like the Discord Audit Log, except that it is all actions involving a TempVoice channel.\n- If the system is disabled, the logs will not be sent.",
             "placeholder": "Select a channel for logging."
         },
         "moderationrole_reset": {
@@ -2354,10 +2354,10 @@
             "placeholder": "Select the creator channel."
         },
         "settings_moderation": {
-            "description": "## Moderation settings\n- <:image4:1202697412012154890>・Logging\n- <:image7:1202697417326338078>・Block user\n- <:user:1202704216041455677>・Remove block\n- <:1eye:1201585529431527434>・Display all blocked users\n- <:globe:1202703306527481917>・Set or remove moderation role\n## More info\n- Logging: It works in principle like the Discord Audit Log, but whenever something is changed on a TempVoice channel, a message is sent to this channel. \n- Moderation role: Members who have this role are basically treated like channel owners. They can set everything on a TempVoice channel, except:\n - Add channel moderators\n - Remove channel moderators\n - Transfer owner (but you can take over the channel)"
+            "description": "## Moderation settings\n- <:image4:1202697412012154890>・Logging\n- <:image7:1202697417326338078>・Block user\n- <:user:1202704216041455677>・Remove block\n- <:1eye:1390784741732515941>・Display all blocked users\n- <:globe:1202703306527481917>・Set or remove moderation role\n## More info\n- Logging: It works in principle like the Discord Audit Log, but whenever something is changed on a TempVoice channel, a message is sent to this channel. \n- Moderation role: Members who have this role are basically treated like channel owners. They can set everything on a TempVoice channel, except:\n - Add channel moderators\n - Remove channel moderators\n - Transfer owner (but you can take over the channel)"
         },
         "settings_system": {
-            "description": "## Manage the system\n- <:trash:1202716962489110609>・Reset the system\n- <:1lock:1201576417897488535>・Activate or deactivate the system.\n- <:1check:1201578213831356517>・Test the system. \n- <:1eye:1201585529431527434>・See the settings.\n- <:image5:1271200893529886803>・Manage Required Roles\n- <:speachbubble:1271201018444648448>・Manage Invoice Roles\n- <:owner:1271201010228137994>・Manage extra TempVoice Owner Permissions\n- <:image7:1271200917047480464>・Set the maximum TempVoice Channel limit.\n## More information\n## Toggle\n- If the system is currently activated, it will be deactivated.\n- The system will no longer function.\n- The data will not be deleted."
+            "description": "## Manage the system\n- <:trash:1202716962489110609>・Reset the system\n- <:1lock:1390784759483072682>・Activate or deactivate the system.\n- <:check1:1390784163463827466>・Test the system. \n- <:1eye:1390784741732515941>・See the settings.\n- <:image5:1271200893529886803>・Manage Required Roles\n- <:speachbubble:1271201018444648448>・Manage Invoice Roles\n- <:owner:1271201010228137994>・Manage extra TempVoice Owner Permissions\n- <:image7:1271200917047480464>・Set the maximum TempVoice Channel limit.\n## More information\n## Toggle\n- If the system is currently activated, it will be deactivated.\n- The system will no longer function.\n- The data will not be deleted."
         },
         "showsettings": {
             "description": "# The settings\n## Channel\n- Creator channel: {channel}\n- Default name: {name}\n- Default bitrate: {bitrate}\n- Default user limit: {userlimit}\n## Category\n- Default: {category}\n- Fallback: {fallback}\n## Moderation\n- Moderation role: {modrole}\n- Logging channel: {loggingchannel}\n- Logging toggle: {loggingtoggle}\n- {emoji}toggle: {toggle}\n- Blocked users: {blocked}\n## Other\n- Required Roles: {rr1}\n- Requires all roles: {rr2}\n- Invoice Roles: {ir}\n- Maximum TempVoice channels: {maxtemp}\n- Extra Owner Permissions: {extraownerperms}",
@@ -2372,15 +2372,15 @@
             "label-1": "Activate system",
             "label-2": "System activated",
             "toggle-error": "- Toggle: The system is deactivated.",
-            "toggle-fix": "- Toggle: Use </tempvoice settings:0>, click on the button with the emoji <:1check:1201578213831356517> and then on the emoji <:1lock:1201576417897488535> or click on the button \"Activate system\" at the bottom.",
+            "toggle-fix": "- Toggle: Use </tempvoice settings:0>, click on the button with the emoji <:check1:1390784163463827466> and then on the emoji <:1lock:1390784759483072682> or click on the button \"Activate system\" at the bottom.",
             "no-creator-channel-error": "- Creator channel: None set.",
             "no-creator-channel-fix": "- Creator channel: Set this </tempvoice setup:0>.",
             "creator-channel-deleted-error": "- Creator channel: This has been deleted (Old ID: {id}).",
-            "creator-channel-deleted-fix": "- Creator channel: Select the new creator channel by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1201576407965376533> and then the select menu \"Select the creator channel\".",
+            "creator-channel-deleted-fix": "- Creator channel: Select the new creator channel by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1390785659169407137> and then the select menu \"Select the creator channel\".",
             "default-category-deleted-error": "- Default category: This has been deleted (Old ID: {id}).",
-            "default-category-deleted-fix": "- Default category: Select the new default category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1201576407965376533>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the default category\".",
+            "default-category-deleted-fix": "- Default category: Select the new default category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1390785659169407137>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the default category\".",
             "fallback-category-deleted-error": "- Fallback category: This has been deleted (Old ID: {id}).",
-            "fallback-category-deleted-fix": "- Fallback category: Select the new fallback category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1201576407965376533>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the fallback category\"."
+            "fallback-category-deleted-fix": "- Fallback category: Select the new fallback category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1390785659169407137>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the fallback category\"."
         },
         "toggle": {
             "success-1": "{y} The system has been **activated**.",
@@ -2810,7 +2810,7 @@
         "cxas": "{y} Added {1}XP to <@{2}>.",
         "cxrs": "{y} Removed {1} Level from <@{2}>.",
         "cxre": "{y} Reset <@{1}>'s XP.",
-        "clas": "{y} Added {1}XP to <@{2}>.",
+        "clas": "{y} Added {1} Level to <@{2}>.",
         "clrs": "{y} Removed {1} level from <@{2}>.",
         "clre": "{y} Reset <@{1}>'s Level.",
         "ulth": "{x} The user's level is already 100 or above",

@@ -980,10 +980,10 @@
                 "info": {
                     "embed": {
                         "title": "Informazioni",
-                        "description": "<:discord_member:1029008701027266611>・{usercount} Utenti\n<:discord_servers:1029009256592195594>・{servercount} Server\n<:datbot_shard:1061322798049542145>・Shard per {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Sviluppatore: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
+                        "description": "<:discord_member:1029008701027266611>・{usercount} Users\n<:discord_servers:1029009256592195594>・{servercount} Servers\n<:datbot_shard:1390786207931306015>・Shard for {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Developer: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
                         "fields": {
                             "most-used-commands": {
-                                "name": "<:datbot_slash_command:1104329595110576159> Comandi più utilizzati",
+                                "name": "<:datbot_slash_command:1390789008044331200> Popular commands",
                                 "value-nodata": "Nessun dato"
                             },
                             "shardinfo": {
@@ -1966,7 +1966,7 @@
         },
         "interface": {
             "footer": "Unisciti al canale del Creatore per creare un canale TempVoice.",
-            "description": "- <:1lock:1201576417897488535>・Privacy\n- <:1bolt:1201576407965376533>・Gestisci Canale\n- <:1users:1201580813574230188>・Gestisci Utenti\n- <:1ban:1201576397798379600>・Moderazione\n- <:1check:1201578213831356517>・Aiuto"
+            "description": "- <:1lock:1390784759483072682>・Privacy\n- <:1bolt:1390785659169407137>・Manage Channel\n- <:1users:1390785262451294279>・Manage Users\n- <:1ban:1390785648763338833>・Moderation\n- <:check1:1390784163463827466>・Help"
         },
         "beta": {
             "closed": "{x} Questa funzionalità è attualmente in una beta chiusa. Se desideri provare la funzionalità, puoi richiederla sul [Server di Supporto](https://discord.gg/BQumAujuvk).",
@@ -2073,7 +2073,7 @@
             "continue-success": "{y} Il canale è stato eliminato.",
             "continue-deleteable-error": "{x} Non ho il permesso di eliminare il canale.",
             "embed": {
-                "description": "## Elimina il canale\n- Sei sicuro di voler eliminare questo canale TempVoice? Se sì, fai clic su <:1check:1201578213831356517>. Se vuoi annullare questo processo, fai clic su <:1ban:1201576397798379600>.\n- Nota che non è possibile annullare l'eliminazione di un canale TempVoice.",
+                "description": "## Delete channel\n- Are you sure you want to delete this TempVoice channel? If so, click on <:check1:1390784163463827466>. If you want to cancel this process, click on <:1ban:1390785648763338833>.\n- Note that you cannot undo the deletion of a TempVoice channel.",
                 "footer": "Non è possibile annullare questa operazione."
             }
         },
@@ -2081,10 +2081,10 @@
             "description": "## Spiegazione\n- <:volume:1202705024057081856>・Imposta il bitrate\n- <:image4:1202697412012154890>・Imposta il nome\n- <:note:1202703281055604787>・Imposta lo stato\n- <:globe:1202703306527481917>・Imposta la regione\n- <:user:1202704216041455677>・Imposta il limite utenti\n- <:image7:1202697417326338078>・Imposta NSFW\n- <:camera:1202703995014094888>・Imposta la qualità video\n- <:trash:1202716962489110609>・Elimina il canale"
         },
         "moderate": {
-            "description": "## Azioni rapide\n- <:crown:1202717638447468605>・Assumi il controllo del canale\n- <:trash:1202716962489110609>・Elimina il canale\n- <:1lock:1201576417897488535>・Banna il canale\n- <:ban:1202712066394423326>・Banna l'utente\n- <:unmod:1202716452860461087>・Rimuovi tutti i moderatori del canale\n## Moderazione avanzata\n- Clicca sull'emoji <:1users:1201580813574230188> nell'interfaccia per gestire gli utenti. \n- Clicca sull'emoji <:1bolt:1201576407965376533> nell'interfaccia per gestire il canale.\n## Nota\n- Per poter rimuovere tutti i moderatori del canale contemporaneamente, devi prima assumere il controllo del canale."
+            "description": "## Quick actions\n- <:crown:1202717638447468605>・Take over channel\n- <:trash:1202716962489110609>・Delete channel\n- <:1lock:1390784759483072682>・Ban channel\n- <:ban:1202712066394423326>・Ban user\n- <:unmod:1202716452860461087>・Remove all channel moderators\n## Advanced moderation\n- Click on the <:1users:1390785262451294279> emoji in the interface to manage users. \n- Click on the <:1bolt:1390785659169407137> emoji in the interface to manage the channel.\n## Note\n- To be able to remove all channel moderators at the same time, you must first take over the channel."
         },
         "privacy": {
-            "description": "## Spiegazione\n- <:1lock:1201576417897488535>・Blocca il canale\n- <:1lockopen:1201585638609272832>・Sblocca il canale\n- <:1eye:1201585529431527434>・Rendi il canale visibile\n- <:1eyeslash:1201585541402079302>・Rendi il canale invisibile"
+            "description": "## Explanation\n- <:1lock:1390784759483072682>・Lock the channel\n- <:1lockopen:1390784750213402765>・Unlock the channel\n- <:1eye:1390784741732515941>・Make the channel visible\n- <:1eyeslash:1390784734367449118>・Make the channel invisible"
         },
         "region": {
             "description": "## Imposta la regione del canale\n- Seleziona la nuova regione nel menu a discesa inferiore. La vecchia regione è selezionata per impostazione predefinita.\n## Cosa cambia la regione del canale?\n- Per rispondere a questa domanda, ti consiglio di leggere l'articolo [Support](https://support.discord.com/hc/en-us/articles/1500007645701-Voice-Regions-on-Discord-FAQ).",
@@ -2227,7 +2227,7 @@
         },
         "resetsystem": {
             "success": "{y} Le impostazioni sono state reimpostate con successo.",
-            "description": "## Reimposta le impostazioni\n- Non desideri più utilizzare questo sistema? In tal caso, reimposta le impostazioni con questo.\n- Non puoi annullare questa operazione.\n- Sentiti libero di dare feedback su perché non desideri più utilizzare il sistema.\n\n- Se sei sicuro e desideri reimpostare le impostazioni, clicca su <:1check:1201578213831356517>. Se desideri annullare questo processo, clicca su <:1ban:1201576397798379600>."
+            "description": "## Reset the settings\n- You no longer want to use this system? If so, reset the settings with this.\n- You cannot undo this.\n- Feel free to give feedback on why you no longer want to use the system.\n\n- If you are sure and want to reset the settings, click on <:check1:1390784163463827466>. If you want to cancel this process, click on <:1ban:1390785648763338833>."
         },
         "settings": {
             "defaultname": {
@@ -2240,7 +2240,7 @@
                 "not-valid": "{x} Il limite utenti specificato non è valido. Inserisci un numero compreso tra **1** e **99** o inserisci \"max\" per consentire un numero infinito di utenti."
             },
             "command": {
-                "description": "## Manage the settings\n- <:1bolt:1201576407965376533>・Manage the channel that is created when you join the creator channel: name, permissions, bitrate, category & user limit.\n- <:1check:1201578213831356517>・Manage the system: reset, toggle, test the system, view the settings, invoice roles, tempvoice channel limit, extra owner permissions and required roles.\n- <:user:1202704216041455677>・Moderation settings: Logging, block user and moderation role"
+                "description": "## Manage the settings\n- <:1bolt:1390785659169407137>・Manage the channel that is created when you join the creator channel: name, permissions, bitrate, category & user limit.\n- <:check1:1390784163463827466>・Manage the system: reset, toggle, test the system, view the settings, invoice roles, tempvoice channel limit, extra owner permissions and required roles.\n- <:user:1202704216041455677>・Moderation settings: Logging, block user and moderation role"
             }
         },
         "block": {
@@ -2269,7 +2269,7 @@
         "moderationrole": {
             "role-is-everyone": "{x} Questo ruolo è `@everyone` e quindi non può essere utilizzato.",
             "success": "{y} Il ruolo di moderazione è stato impostato su {role}.",
-            "description": "## Ruolo di moderazione\n- <:note:1202703281055604787>・Reimposta il ruolo di moderazione\n- <:1eye:1201585529431527434>・Visualizza il ruolo di moderazione corrente\n## Informazioni\n- Il ruolo di moderazione ha tutte le autorizzazioni e può quindi gestire completamente i canali TempVoice. Eccezioni: Impostare il proprietario, aggiungere moderatori di canale e rimuovere moderatori di canale. Tuttavia, è possibile prendere il controllo del canale e quindi anche gestirlo.",
+            "description": "## Moderation role\n- <:note:1202703281055604787>・Set the moderation role back\n- <:1eye:1390784741732515941>・See the current moderation role\n## Information\n- The moderation role has all authorizations and can therefore manage TempVoice channels completely. Exceptions: Set owner, add channel moderators and remove channel moderators. However, you can take over the channel and thus also manage this.",
             "placeholder": "Seleziona un ruolo di moderazione"
         },
         "unblock": {
@@ -2339,7 +2339,7 @@
             "success-2": "{y} Il sistema di registrazione è stato **disattivato**."
         },
         "logging": {
-            "description": "## Registrazione\n- <:note:1202703281055604787>・Abilita o disabilita la registrazione\n- <:1ban:1201576397798379600>・Reimposta le impostazioni di registrazione\n- <:1check:1201578213831356517>・Testa il sistema di registrazione per gli errori\n- <:1eye:1201585529431527434>・Visualizza le impostazioni di registrazione\n- Imposta il canale di registrazione: Utilizza il menu a discesa \"Scegli un canale per la registrazione\".\n## Informazioni\n- La registrazione funziona come il Registro attività di Discord, tranne che riguarda tutte le azioni che coinvolgono un canale TempVoice.\n- Se il sistema è disattivato, i log non verranno inviati.",
+            "description": "## Logging\n- <:note:1202703281055604787>・Enable or disable logging\n- <:1ban:1390785648763338833>・Reset the logging settings\n- <:check1:1390784163463827466>・Test the logging system for errors\n- <:1eye:1390784741732515941>・See the logging settings\n- Set logging channel: Use the Select Menu \"Choose a channel for logging\".\n## Information\n- Logging works like the Discord Audit Log, except that it is all actions involving a TempVoice channel.\n- If the system is disabled, the logs will not be sent.",
             "placeholder": "Seleziona un canale per la registrazione."
         },
         "moderationrole_reset": {
@@ -2354,10 +2354,10 @@
             "placeholder": "Seleziona il canale creatore."
         },
         "settings_moderation": {
-            "description": "## Impostazioni di moderazione\n- <:image4:1202697412012154890>・Registrazione\n- <:image7:1202697417326338078>・Blocca utente\n- <:user:1202704216041455677>・Rimuovi blocco\n- <:1eye:1201585529431527434>・Visualizza tutti gli utenti bloccati\n- <:globe:1202703306527481917>・Imposta o rimuovi il ruolo di moderazione\n## Maggiori informazioni\n- Registrazione: Funziona in principio come il Registro attività di Discord, ma ogni volta che qualcosa viene modificato su un canale TempVoice, viene inviato un messaggio a questo canale. \n- Ruolo di moderazione: I membri che hanno questo ruolo sono essenzialmente trattati come proprietari del canale. Possono impostare tutto su un canale TempVoice, tranne:\n - Aggiungi moderatori di canale\n - Rimuovi moderatori di canale\n - Trasferisci proprietario (ma puoi prendere il controllo del canale)"
+            "description": "## Moderation settings\n- <:image4:1202697412012154890>・Logging\n- <:image7:1202697417326338078>・Block user\n- <:user:1202704216041455677>・Remove block\n- <:1eye:1390784741732515941>・Display all blocked users\n- <:globe:1202703306527481917>・Set or remove moderation role\n## More info\n- Logging: It works in principle like the Discord Audit Log, but whenever something is changed on a TempVoice channel, a message is sent to this channel. \n- Moderation role: Members who have this role are basically treated like channel owners. They can set everything on a TempVoice channel, except:\n - Add channel moderators\n - Remove channel moderators\n - Transfer owner (but you can take over the channel)"
         },
         "settings_system": {
-            "description": "## Manage the system\n- <:trash:1202716962489110609>・Reset the system\n- <:1lock:1201576417897488535>・Activate or deactivate the system.\n- <:1check:1201578213831356517>・Test the system. \n- <:1eye:1201585529431527434>・See the settings.\n- <:image5:1271200893529886803>・Manage Required Roles\n- <:speachbubble:1271201018444648448>・Manage Invoice Roles\n- <:owner:1271201010228137994>・Manage extra TempVoice Owner Permissions\n- <:image7:1271200917047480464>・Set the maximum TempVoice Channel limit.\n## More information\n## Toggle\n- If the system is currently activated, it will be deactivated.\n- The system will no longer function.\n- The data will not be deleted."
+            "description": "## Manage the system\n- <:trash:1202716962489110609>・Reset the system\n- <:1lock:1390784759483072682>・Activate or deactivate the system.\n- <:check1:1390784163463827466>・Test the system. \n- <:1eye:1390784741732515941>・See the settings.\n- <:image5:1271200893529886803>・Manage Required Roles\n- <:speachbubble:1271201018444648448>・Manage Invoice Roles\n- <:owner:1271201010228137994>・Manage extra TempVoice Owner Permissions\n- <:image7:1271200917047480464>・Set the maximum TempVoice Channel limit.\n## More information\n## Toggle\n- If the system is currently activated, it will be deactivated.\n- The system will no longer function.\n- The data will not be deleted."
         },
         "showsettings": {
             "description": "# The settings\n## Channel\n- Creator channel: {channel}\n- Default name: {name}\n- Default bitrate: {bitrate}\n- Default user limit: {userlimit}\n## Category\n- Default: {category}\n- Fallback: {fallback}\n## Moderation\n- Moderation role: {modrole}\n- Logging channel: {loggingchannel}\n- Logging toggle: {loggingtoggle}\n- {emoji}toggle: {toggle}\n- Blocked users: {blocked}\n## Other\n- Required Roles: {rr1}\n- Requires all roles: {rr2}\n- Invoice Roles: {ir}\n- Maximum TempVoice channels: {maxtemp}\n- Extra Owner Permissions: {extraownerperms}",
@@ -2372,15 +2372,15 @@
             "label-1": "Attiva il sistema",
             "label-2": "Sistema attivato",
             "toggle-error": "- Attivazione/disattivazione: Il sistema è disattivato.",
-            "toggle-fix": "- Attivazione/disattivazione: Utilizza </tempvoice settings:0>, fai clic sul pulsante con l'emoji <:1check:1201578213831356517> e quindi sull'emoji <:1lock:1201576417897488535> o fai clic sul pulsante \"Attiva il sistema\" in fondo.",
+            "toggle-fix": "- Toggle: Use </tempvoice settings:0>, click on the button with the emoji <:check1:1390784163463827466> and then on the emoji <:1lock:1390784759483072682> or click on the button \"Activate system\" at the bottom.",
             "no-creator-channel-error": "- Canale creatore: Nessuno impostato.",
             "no-creator-channel-fix": "- Canale creatore: Impostalo con </tempvoice setup:0>.",
             "creator-channel-deleted-error": "- Canale creatore: Questo è stato eliminato (Vecchio ID: {id}).",
-            "creator-channel-deleted-fix": "- Canale creatore: Seleziona il nuovo canale creatore utilizzando </tempvoice settings:0>, facendo clic sul pulsante con l'emoji <:1bolt:1201576407965376533> e quindi sul menu a discesa \"Seleziona il canale creatore\".",
+            "creator-channel-deleted-fix": "- Creator channel: Select the new creator channel by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1390785659169407137> and then the select menu \"Select the creator channel\".",
             "default-category-deleted-error": "- Categoria predefinita: Questa è stata eliminata (Vecchio ID: {id}).",
-            "default-category-deleted-fix": "- Categoria predefinita: Seleziona la nuova categoria predefinita utilizzando </tempvoice settings:0>, facendo clic sul pulsante con l'emoji <:1bolt:1201576407965376533>, quindi sul pulsante con l'emoji <:globe:1202703306527481917> e infine sul menu a discesa \"Seleziona la categoria predefinita\".",
+            "default-category-deleted-fix": "- Default category: Select the new default category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1390785659169407137>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the default category\".",
             "fallback-category-deleted-error": "- Categoria di fallback: Questa è stata eliminata (Vecchio ID: {id}).",
-            "fallback-category-deleted-fix": "- Categoria di fallback: Seleziona la nuova categoria di fallback utilizzando </tempvoice settings:0>, facendo clic sul pulsante con l'emoji <:1bolt:1201576407965376533>, quindi sul pulsante con l'emoji <:globe:1202703306527481917> e infine sul menu a discesa \"Seleziona la categoria di fallback\"."
+            "fallback-category-deleted-fix": "- Fallback category: Select the new fallback category by using </tempvoice settings:0>, clicking on the button with the emoji <:1bolt:1390785659169407137>, then the button with the emoji <:globe:1202703306527481917> and there the Select Menu \"Select the fallback category\"."
         },
         "toggle": {
             "success-1": "{y} Il sistema è stato **attivato**.",
@@ -2810,7 +2810,7 @@
         "cxas": "{y} Added {1}XP to <@{2}>.",
         "cxrs": "{y} Removed {1} Level from <@{2}>.",
         "cxre": "{y} Reset <@{1}>'s XP.",
-        "clas": "{y} Added {1}XP to <@{2}>.",
+        "clas": "{y} Added {1} Level to <@{2}>.",
         "clrs": "{y} Removed {1} level from <@{2}>.",
         "clre": "{y} Reset <@{1}>'s Level.",
         "ulth": "{x} The user's level is already 100 or above",

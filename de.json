@@ -980,10 +980,10 @@
                 "info": {
                     "embed": {
                         "title": "Informationen",
-                        "description": "<:discord_member:1029008701027266611>・{usercount} Users\n<:discord_servers:1029009256592195594>・{servercount} Servers\n<:datbot_shard:1390786207931306015>・Shard for {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Developer: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
+                        "description": "<:discord_member:1029008701027266611>・{usercount} Nutzer\n<:discord_servers:1029009256592195594>・{servercount} Server\n<:datbot_shard:1390786207931306015>・Shard für {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Entwickler: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
                         "fields": {
                             "most-used-commands": {
-                                "name": "<:datbot_slash_command:1390789008044331200> Popular commands",
+                                "name": "<:datbot_slash_command:1390789008044331200> Beliebte Befehle",
                                 "value-nodata": "Keine Daten"
                             },
                             "shardinfo": {
@@ -1881,9 +1881,9 @@
     },
     "tempvoice": {
         "presets": {
-            "no-presets": "You do not have any Presets",
-            "not-found": "{x} Preset was not found or has been deleted.",
-            "not-owned": "{x} This is not your preset.",
+            "no-presets": "Du hast keine Voreinstellungen",
+            "not-found": "{x} Voreinstellung wurde nicht gefunden oder gelöscht.",
+            "not-owned": "{x} Dies ist nicht deine Voreinstellung.",
             "no-issues-found": "{y} No issues were found.",
             "embeddel": "{x} The embed of the previous message was deleted. Please use the command again.",
             "namedollar": "{x} The name must not include a `$`.",

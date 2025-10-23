@@ -3,7 +3,7 @@
         "games": {
             "fortnite": {
                 "shopitem": {
-                    "no-name": "Bitte gebe einen Namen an.",
+                    "no-name": "Bitte gib einen Namen an.",
                     "no-matching-items": "Es wurden keine Übereinstimmungen gefunden.",
                     "no-shopitem-found": "Es wurde kein Item basierend auf deiner Suche gefunden."
                 }
@@ -163,9 +163,9 @@
             },
             "send_with_webhook": {
                 "title": "Webhook URL",
-                "url": "Gebe eine Webhook URL an.",
-                "name": "Gebe einen Namen an.",
-                "avatar": "Gebe eine Avatar URL an."
+                "url": "Gib eine Webhook-URL an.",
+                "name": "Gib einen Namen an.",
+                "avatar": "Gib eine Avatar-URL an."
             }
         },
         "poll": {
@@ -399,7 +399,7 @@
                     "description": "- Klicke auf den Button \"Verlinken\", um das Konto zu verlinken.\n- Am Ende siehst du eine JSON Seite, die einen Parameter namens \"Code\" hat. Kopiere diesen, klicke auf \"Code angeben\" und gebe diesen dort anschließend an.\n- Du kannst die Verknüpfung mit </unlink valorant:{commandId}> entfernen.",
                     "link": "Verlinken",
                     "provide_code": "Code angeben",
-                    "code-not-valid": "{x} Der angegebene Code ist nicht valid.",
+                    "code-not-valid": "{x} Der angegebene Code ist nicht gültig.",
                     "scope-error": "{x} Du hast nicht alle Scopes akzeptiert. Logge dich erneut ein.",
                     "success": "{y} Du hast dein Discord Konto mit {riotname} verlinkt.",
                     "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </link valorant:{accountCommandId}>, um dein Konto zu verlinken.",
@@ -429,7 +429,7 @@
                     },
                     "button": {
                         "shophistory": {
-                            "label": "Shopauftreten"
+                            "label": "Shopauftritte"
                         }
                     }
                 },
@@ -442,7 +442,7 @@
                 }
             },
             "tictactoe": {
-                "opponent-notonserver": "{x} Der von dir ausgewählt Gegner ist nicht auf diesem Server.",
+                "opponent-notonserver": "{x} Der von dir ausgewählte Gegner ist nicht auf diesem Server.",
                 "opponent-isabot": "{x} Du kannst leider nicht gegen Bots spielen.",
                 "opponent-yourself": "{x} Wenn du gegen dich selber spielst, kannst du nur verlieren."
             },
@@ -457,8 +457,8 @@
                         "uuid": "UUID",
                         "tags": "Tags",
                         "role": "Rolle",
-                        "abilites": "Abilites ({total} insgesamt)",
-                        "description-embed": "- Name・{name}\n- Beschreibung・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Rolle・{role}\n- Abilites ({total} insgesamt)・{abilities}"
+                        "abilites": "Fähigkeiten ({total} insgesamt)",
+                        "description-embed": "- Name・{name}\n- Beschreibung・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Rolle・{role}\n- Fähigkeiten ({total} insgesamt)・{abilities}"
                     }
                 },
                 "map": {
@@ -638,13 +638,13 @@
                         "success": "{y} Der Willkommenskanal wurde aktualisiert"
                     },
                     "toggle": {
-                        "success_activated": "{y} Die Willkommensnachrichten wurde aktiviert.",
-                        "success_deactivated": "{y} Die Willkommensnachrichten wurde deaktiviert."
+                        "success_activated": "{y} Die Willkommensnachrichten wurden aktiviert.",
+                        "success_deactivated": "{y} Die Willkommensnachrichten wurden deaktiviert."
                     },
                     "test": {
                         "no-welcome-message": "Jemand ist dem Server beigetreten.",
                         "no-channel-set": "- Es wurde kein Willkommenskanal gesetzt.",
-                        "bot-permissions-welcome-channel": "- Der Bot kann nicht auf den Willkommenskanal zugreifen oder diese wurde gelöscht",
+                        "bot-permissions-welcome-channel": "- Der Bot kann nicht auf den Willkommenskanal zugreifen oder dieser wurde gelöscht",
                         "toggle-deactivated": "- Das Willkommenssystem ist deaktiviert.",
                         "testmessage-sent-success": "{y} Die Testnachricht wurde versendet."
                     },
@@ -724,13 +724,13 @@
                         "success": "{y} Der Verlassenskanal wurde aktualisiert"
                     },
                     "toggle": {
-                        "success_activated": "{y} Die Verlassensnachrichten wurde aktiviert.",
-                        "success_deactivated": "{y} Die Verlassensnachrichten wurde deaktiviert."
+                        "success_activated": "{y} Die Verlassensnachrichten wurden aktiviert.",
+                        "success_deactivated": "{y} Die Verlassensnachrichten wurden deaktiviert."
                     },
                     "test": {
                         "no-leave-message": "Jemand hat den Server verlassen.",
                         "no-channel-set": "- Es wurde kein Verlassenskanal gesetzt.",
-                        "bot-permissions-leave-channel": "- Der Bot kann nicht auf den Verlassenskanal zugreifen oder diese wurde gelöscht",
+                        "bot-permissions-leave-channel": "- Der Bot kann nicht auf den Verlassenskanal zugreifen oder dieser wurde gelöscht",
                         "toggle-deactivated": "- Das Verlassenssystem ist deaktiviert.",
                         "testmessage-sent-success": "{y} Die Testnachricht wurde versendet."
                     },
@@ -1088,7 +1088,7 @@
                     }
                 },
                 "edit": {
-                    "not-valid-message-link": "{x} Gebe einen validen Nachrichtenlink an.",
+                    "not-valid-message-link": "{x} Gib einen gültigen Nachrichtenlink an.",
                     "message-not-found": "{x} Die angegebene Nachricht wurde nicht gefunden.",
                     "author-not-datbot": "{x} Diese Nachricht ist nicht meine Nachricht.",
                     "no-embeds-size": "{x} Diese Nachricht enthält kein Embed.",
@@ -1097,7 +1097,7 @@
                     }
                 },
                 "copy": {
-                    "not-valid-message-link": "{x} Gebe einen validen Nachrichtenlink an.",
+                    "not-valid-message-link": "{x} Gib einen gültigen Nachrichtenlink an.",
                     "message-not-found": "{x} Die angegebene Nachricht wurde nicht gefunden.",
                     "no-embeds-size": "{x} Diese Nachricht enthält kein Embed.",
                     "copy-embed-select": {
@@ -1106,7 +1106,7 @@
                     }
                 },
                 "export": {
-                    "not-valid-message-link": "{x} Gebe einen validen Nachrichtenlink an.",
+                    "not-valid-message-link": "{x} Gib einen gültigen Nachrichtenlink an.",
                     "message-not-found": "{x} Die angegebene Nachricht wurde nicht gefunden.",
                     "no-embeds-size": "{x} Diese Nachricht enthält kein Embed.",
                     "copy-embed-select": {
@@ -1202,7 +1202,7 @@
                     "toggle-false": "Toggle: System ist deaktiviert",
                     "have-been-removed": "wurden erfolgreich entfernt",
                     "success": "{y} Keine Fehler sind aufgetreten.",
-                    "channel-not-type-5": "{channel} ist kein Ankündugungskanal"
+                    "channel-not-type-5": "{channel} ist kein Ankündigungskanal"
                 },
                 "embed": {
                     "description": "## Verwalte das System\n- Liste: Erhalte einer Liste der aktuellen Kanäle\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere das System\n- Kanal hinzufügen: Füge einen Kanal hinzu\n- Kanal entfernen: Entferne einen Kanal"
@@ -1368,7 +1368,7 @@
             "embed-message-not-found": "{x} Ich kann die Embed-Nachricht nicht mehr finden.",
             "embed-not-existing": "{x} Die Embed-Nachricht gibt es nicht mehr",
             "embed-not-found": "{x} Ich finde das Embed nicht mehr.",
-            "url-invalid": "{x} Die Angabe muss eine valide URL sein.",
+            "url-invalid": "{x} Die Angabe muss eine gültige URL sein.",
             "color": {
                 "not-hex-code": "{x} Die Angabe ist kein Hex-Code"
             },
@@ -1376,11 +1376,11 @@
                 "not-timestamp": "{x} Die angegebene Zeit ist ungültig. `YYYY-MM-DD HH:MM:SS` wäre richtig.\n> Beispiel: `2023-03-15 15:37:12` -> 15.03.2023 15:37:12"
             },
             "import_json": {
-                "not-json-code": "{x} Der JSON Code ist nicht valid."
+                "not-json-code": "{x} Der JSON-Code ist nicht gültig."
             },
             "sendwithwebhook": {
-                "not-valid": "{x} Die angegebene Webhook URL ist nicht valid.",
-                "thread-id": "{x} Dieses Webhook ist für ein Forum, deswegen kann es nicht verwendet werden."
+                "not-valid": "{x} Die angegebene Webhook-URL ist nicht gültig.",
+                "thread-id": "{x} Dieser Webhook ist für ein Forum, daher kann er nicht verwendet werden."
             }
         },
         "logs": {
@@ -1558,7 +1558,7 @@
             "embed-not-existing": "{x} Die Embed-Nachricht gibt es nicht mehr",
             "embed-not-found": "{x} Ich finde das Embed nicht mehr.",
             "embed-deleted": "{x} Das Embed wurde gelöscht.",
-            "url-invalid": "{x} Die Angabe muss eine valide URL sein.",
+            "url-invalid": "{x} Die Angabe muss eine gültige URL sein.",
             "author": {
                 "name": {
                     "modal": {
@@ -1818,14 +1818,14 @@
     },
     "valorant": {
         "code_submit": {
-            "label": "Gebe den Code an",
+            "label": "Gib den Code an",
             "title": "Code"
         },
         "rank": {
-            "no-arguments": "{x} Bitte gebe einen Riot-namen (Als Beispiel DGamet#1687) an oder logge dich mit </link valorant:{commandId}> ein.",
-            "invalid-username": "{x} Der angegebene Nutzername ist nicht valid. Bitte überprüfe deine Eingabe.",
+            "no-arguments": "{x} Bitte gib einen Riot-Namen (als Beispiel DGamet#1687) an oder logge dich mit </link valorant:{commandId}> ein.",
+            "invalid-username": "{x} Der angegebene Nutzername ist nicht gültig. Bitte überprüfe deine Eingabe.",
             "user-no-data": "{x} Zu diesem Nutzer wurden keine Daten gefunden.",
-            "description": "## Kompetiv - {username}\n- Zurzeit\n - Rang: {rank}\n - MMR: {mmr}\n - Elo: {elo}\n - Letztes Spiel: {last_game} RR {result}\n - Spiele für das Einranken benötigt: {games_required} benötigt\n\n- Alltime\n - Zeitpunkt: Episode {episode} Akt {act}\n - Rang: {alltime_rank}",
+            "description": "## Kompetitiv - {username}\n- Zurzeit\n - Rang: {rank}\n - MMR: {mmr}\n - Elo: {elo}\n - Letztes Spiel: {last_game} RR {result}\n - Benötigte Spiele für das Einranken: {games_required}\n\n- Alltime\n - Zeitpunkt: Episode {episode} Akt {act}\n - Rang: {alltime_rank}",
             "won": "gewonnen",
             "lost": "verloren"
         },
@@ -1860,7 +1860,7 @@
                 "roundending_detonate": "Explosion: {1}/{rounds_played}",
                 "not-your-team": "Nicht dein Team",
                 "valo_matchinfo": "## Ergebnis in Runde {roundNum}\n- Vorheriges Ergebnis (blau:rot): {blueWon}:{redWon}\n- Rundenende: {roundResultCode}\n- Sieger: {winnerTeam}{plant}{defuse}\n## Spiellog\n{gameLog}",
-                "plantinfo": "## Spike Plant\n- Platziert vonn: {planter}\n- Zeitpunkt: {plantTimestamp}\n- Seite: {plantSide}",
+                "plantinfo": "## Spike Plant\n- Platziert von: {planter}\n- Zeitpunkt: {plantTimestamp}\n- Seite: {plantSide}",
                 "defuseinfo": "## Spike Defuse\n- Entschärft von: {defuser}\n- Zeitpunkt: {defuseTimestamp}",
                 "gamelog_kill": "{killer} eliminiert {player} ({type}).",
                 "gamelog_plant": "{planter} platzierte den Spike auf {site}.",
@@ -1965,7 +1965,7 @@
             "visible-2": "{y}  Kanal wird jetzt sichtbar sein."
         },
         "interface": {
-            "footer": "Trete dem Creator Kanal bei, um einen TempVoice Kanal zu erstellen.",
+            "footer": "Trete dem Creator-Kanal bei, um einen TempVoice Kanal zu erstellen.",
             "description": "- <:1lock:1390784759483072682>・Privatsphäre\n- <:1bolt:1390785659169407137>・Kanal verwalten\n- <:1users:1390785262451294279>・Nutzer verwalten\n- <:1ban:1390785648763338833>・Moderation\n- <:check1:1390784163463827466>・Hilfe"
         },
         "beta": {

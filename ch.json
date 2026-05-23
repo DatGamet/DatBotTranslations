@@ -1,0 +1,3069 @@
+{
+    "autocomplete": {
+        "games": {
+            "fortnite": {
+                "shopitem": {
+                    "no-name": "Bitte gib en Name ah.",
+                    "no-matching-items": "Es sind kei Überistimmge gfunde worde.",
+                    "no-shopitem-found": "Es isch kei Gegestand uf Grund vo dinere Suechi gfunde worde."
+                }
+            },
+            "valorant": {
+                "map": {
+                    "no-map-found": "Es isch kei Karte gfunde worde uf Grund vo dinere Suechi."
+                },
+                "agent": {
+                    "no-agent-found": "Es isch kei Agänt ufgrund vo dinere Suechi gfunde worde."
+                }
+            }
+        }
+    },
+    "beta": {},
+    "buttons": {
+        "autoroles": {
+            "autorole-home-button": {
+                "label": "Zrugg"
+            },
+            "debug": {
+                "debug": "## Debuggen\n- Das Debuggen läuft seit {runningSinceTimestamp}.",
+                "system-deactivated": "- Das System ist deaktiviert.",
+                "role-deleted": "- Eine Autorolle wurde gelöscht ({roleId}). Diese Rolle wurde automatisch entfernt.",
+                "role-everyone": "- {role}: Diese Rolle ist @everyone.",
+                "role-managed": "- {role}: Rolle wird von einem externen Service verwaltet.",
+                "role-position": "- {role}: Ich kann diese Rolle nicht vergeben (Rollenposition).",
+                "no-autoroles": "- Es gibt keine Autorollen.",
+                "result": "Ergebnis",
+                "success": "- {role}: Keine Fehler"
+            },
+            "home": {},
+            "list": {
+                "list": "## Liste\n- Die folgenden Rollen sind zurzeit Autorollen:",
+                "list-no-autoroles": "## Liste\n- Es gibt zurzeit keine Autorollen."
+            },
+            "reset": {
+                "are-you-sure-button": {
+                    "label": "Bist du dir sicher?"
+                },
+                "cancel-button": {
+                    "label": "Abbrechen"
+                },
+                "continue-button": {
+                    "label": "Fortfahren"
+                },
+                "response": "## Toggle\n- Möchtest du wirklich die Einstellungen zurücksetzen? Du kannst dies nicht rückgängig machen."
+            },
+            "reset2": {
+                "success": "## Erfolg\n- Das System wurde erfolgreich zurückgesetzt."
+            },
+            "toggle": {
+                "response-deactivate": "## Toggle\n- Deaktiviere das System, indem du auf \"Deaktivieren\" klickst.",
+                "response-activate": "## Toggle\n- Aktiviere das System, indem du auf \"Aktivieren\" klickst."
+            },
+            "toggle2": {
+                "toggle-true": "## Erfolg\n- Das System wurde erfolgreich **aktiviert.**",
+                "toggle-false": "## Erfolg\n- Das System wurde erfolgreich **deaktiviert.**"
+            }
+        },
+        "logs": {
+            "leave": {
+                "default-message": "D_Gamet hat diesen Server verlassen.",
+                "delete": {
+                    "success": "{y} Die Einstellungen wurden zurückgesetzt."
+                },
+                "embed": {
+                    "mode-text": "{y} Nachrichtentyp geändert: **Textnachricht**.",
+                    "mode-embed": "{y} Nachrichtentyp geändert: **Embed**."
+                },
+                "message": {
+                    "modal": {
+                        "title": "Ändere die Verlassensnachricht",
+                        "label": "Nachricht",
+                        "placeholder": "D_Gamet hat diesen Server verlassen."
+                    }
+                },
+                "test": {
+                    "no-leave-channel": "- Es gibt keinen Verlassenskanal.",
+                    "leave-channel-not-set": "{x} Der Verlassenskanal wurde gelöscht oder keiner wurde gesetzt.",
+                    "system-deactivated": "- Das System ist deaktiviert.",
+                    "success": "{y} Die Testnachricht wurde versendet."
+                },
+                "toggle": {
+                    "success_activated": "{y} Das Willkommenssystem wurde aktiviert.",
+                    "success_deactivated": "{y} Das Willkommenssystem wurde deaktiviert."
+                },
+                "update": {}
+            },
+            "logs": {
+                "resetdata": {
+                    "success": "{y} Die Daten wurden zurückgesetzt."
+                },
+                "test": {
+                    "no-logging-channel": "- {a} Der Logging Kanal wurde nicht gesetzt.",
+                    "system-deactivated": "- {i} Das System ist deaktiviert.",
+                    "logging-channel-deleted": "- {a} Der Logging Kanal wurde gelöscht.",
+                    "success": "{y} Es wurden keine Probleme gefunden."
+                },
+                "toggle": {
+                    "success_activated": "{y} Das Logging System wurde aktiviert.",
+                    "success_deactivated": "{y} Das Logging System wurde deaktiviert."
+                },
+                "update": {
+                    "embed": {
+                        "title": "Verwalte die Einstellungen"
+                    }
+                }
+            },
+            "welcome": {
+                "default-message": "D_Gamet hat diesen Server betreten.",
+                "delete": {
+                    "success": "{y} Die Einstellungen wurden zurückgesetzt."
+                },
+                "embed": {
+                    "mode-text": "{y} Nachrichtentyp geändert: **Textnachricht**.",
+                    "mode-embed": "{y} Nachrichtentyp geändert: **Embed**."
+                },
+                "message": {
+                    "modal": {
+                        "title": "Ändere die Beitrittsnachricht",
+                        "label": "Nachricht",
+                        "placeholder": "D_Gamet hat diesen Server betreten."
+                    }
+                },
+                "test": {
+                    "no-welcome-channel": "- Es gibt keinen Beitrittskanal.",
+                    "welcome-channel-not-set": "{x} Der Beitrittskanal wurde gelöscht oder keiner wurde gesetzt.",
+                    "system-deactivated": "- Das System ist deaktiviert.",
+                    "success": "{y} Die Testnachricht wurde versendet."
+                },
+                "toggle": {
+                    "success_activated": "{y} Das Willkommenssystem wurde aktiviert.",
+                    "success_deactivated": "{y} Das Willkommenssystem wurde deaktiviert."
+                },
+                "update": {}
+            }
+        },
+        "other": {
+            "bot_setup_finish": {
+                "embed": {
+                    "title": "Dat Bot einrichten",
+                    "description": "**Einrichtung**\n- {y} Einrichtung gestartet.\n- {y} Überprüfe Rechte.\n- {y} Überprüfe Logging-Kanal.\n- {y} Setup fertig. Dies hat `{durationTimestamp}` Sekunden gedauert."
+                }
+            },
+            "emojiquiz_skip": {
+                "system-deactivated": "{x} Das Emojiquiz ist deaktiviert.",
+                "message-error": "{x} Das aktuelle Emojiquiz findet hier statt: {messageLink}",
+                "skips-missing": "{x} Du hast zu wenig Skips.",
+                "channel-deleted": "{x} Den Kanal für das Emojiquiz gibt es nicht mehr.",
+                "success-singular": "{y} Emojiquiz geskippt. Du kannst nun noch 1 Skip nutzen.",
+                "success-plural": "{y} Emojiquiz geskippt. Du kannst nun noch {size} Skip nutzen."
+            },
+            "emojiquiz_tip": {
+                "system-deactivated": "{x} Das Emojiquiz ist deaktiviert.",
+                "no-data": "{x} Es gibt keine Daten.",
+                "success": "- Tipp: {tip}",
+                "first-letters": "Die ersten Buchstaben sind {letters}"
+            },
+            "endelon_create_post": {
+                "modal": {
+                    "title": "Erstelle einen Post",
+                    "inputs": {
+                        "issue": {
+                            "label": "Das Problem",
+                            "placeholder": "Beschreibe das Problem."
+                        },
+                        "serverurl": {
+                            "label": "Server URL",
+                            "placeholder": "Gebe eine Endelon Server URL an."
+                        },
+                        "tries": {
+                            "label": "Versuche",
+                            "placeholder": "Beschreibe Versuche, das Problem zu beheben"
+                        },
+                        "name": {
+                            "label": "Postname",
+                            "placeholder": "Gebe einen Postnamen an."
+                        }
+                    }
+                }
+            },
+            "export_json": {
+                "success": "{y} Bekomme dein Embed hier: {url}",
+                "error": "{x} Export des Embeds fehlgeschlagen."
+            },
+            "flaggenquiz_skip": {
+                "system-deactivated": "{x} Das Flaggenquiz ist deaktiviert.",
+                "message-error": "{x} Das aktuelle Flaggenquiz findet hier statt: {messageLink}",
+                "skips-missing": "{x} Du hast zu wenig Skips.",
+                "channel-deleted": "{x} Den Kanal für das Flaggenquiz gibt es nicht mehr.",
+                "success-singular": "{y} Flaggenquiz geskippt. Du kannst nun noch 1 Skip nutzen.",
+                "success-plural": "{y} Flaggenquiz geskippt. Du kannst nun noch {size} Skips nutzen."
+            },
+            "import_json": {
+                "modal": {
+                    "title": "JSON importieren",
+                    "label": "Importiere dein JSON Code hier."
+                }
+            },
+            "next_meme": {
+                "next-meme-button": {
+                    "label": "Nächstes Meme"
+                },
+                "requested-by": "Angefragt von {user}"
+            },
+            "update_embed": {
+                "embed-deleted": "{x} Das Embed von dieser Interaktion ist gelöscht worden."
+            },
+            "delete_message": {
+                "not_your_message": "{x} Diese Nachricht gehört dir nicht."
+            },
+            "fortnite_shophistory": {
+                "embed": {
+                    "title": "{name}s Shopgeschichte"
+                }
+            },
+            "send_with_webhook": {
+                "title": "Webhook URL",
+                "url": "Gebe eine Webhook URL an.",
+                "name": "Gebe einen Namen an.",
+                "avatar": "Gebe eine Avatar URL an."
+            }
+        },
+        "poll": {
+            "addoption": {
+                "modal": {
+                    "title": "Option hinzufügen",
+                    "label": "Name / Text",
+                    "placeholder": "Beschreibe hier deine Option."
+                }
+            },
+            "send": {
+                "selector": {
+                    "placeholder": "Wähle einen Kanal aus."
+                }
+            },
+            "setdescription": {
+                "modal": {
+                    "title": "Beschreibung setzen",
+                    "label": "Beschreibung",
+                    "placeholder": "Pizza mit oder ohne Ananas?"
+                }
+            }
+        }
+    },
+    "commands": {
+        "entertainment": {
+            "emojiquiz": {
+                "vote": {
+                    "embed": {
+                        "title": "Vote-Link",
+                        "description": "Man kann auf [Top.gg](https://top.gg/bot/965903240384376872/vote) voten. Mit jedem Vote bekommt man {plusVoteTokens} weitere Skips.\nDu hast durch Votes {votes}."
+                    },
+                    "votebutton": {
+                        "label": "Vote hier!"
+                    }
+                },
+                "help": {
+                    "embed": {
+                        "title": "Emojiquiz Hilfe",
+                        "fields": {
+                            "howtouse": {
+                                "name": "Wie nutze ich das Emojiquiz?",
+                                "value": "1. Nutze </emojiquiz setup:{commandId}>.\n2. Nutze </emojiquiz toggle:{commandId}>\nDanach startet alles."
+                            },
+                            "whynotworking": {
+                                "name": "Warum funktioniert das Emojiquiz nicht mehr?",
+                                "value": "Bitte nutze </emojiquiz fix:{commandId}>. Wenn es danach noch nicht funktioniert, bitte kontaktiere den Support [hier](https://discord.gg/BQumAujuvk)."
+                            },
+                            "howtoskip": {
+                                "name": "Was kann man machen, wenn man den Begriff nicht findet?",
+                                "value": "Man kann den Button \"Skip\" nutzen. Wenn du keine Skips mehr hast, musst du [hier](https://top.gg/bot/965903240384376872/vote) voten. Mit jedem Vote bekommst du {plusVoteTokens} Skips. Zurzeit hast du {votes} Skips."
+                            },
+                            "whereissupport": {
+                                "name": "Wo kann ich den Support kontaktieren?",
+                                "value": "Du kannst den Support [hier](https://discord.gg/BQumAujuvk) kontaktieren"
+                            }
+                        }
+                    }
+                },
+                "fix": {
+                    "channel-not-set": "{x} Es gibt keinen Emojiquiz Kanal. Setze einen mit </emojiquiz setup:{commandId}>.",
+                    "quiz-deactivated": "- Das Emojiquiz ist deaktiviert.",
+                    "embed": {
+                        "title": "{amount} Fehler wurden gefunden."
+                    },
+                    "success": "{y} Es wurden keine Fehler gefunden.",
+                    "permissions": {
+                        "SendMessages": "- Mir fehlt die Berechtigung \"Nachrichten Senden\" in {channel}.",
+                        "ViewChannel": "- Mir fehlt die Berechtigung, {channel} zu sehen.",
+                        "EmbedLinks": "- Mir fehlt die Berechtigung \"Links einbetten\" in {channel}."
+                    }
+                },
+                "guess": {
+                    "embed": {
+                        "title": "Errate das Wort",
+                        "description": "- Gesucht・{emojis}\n\n*Deaktiviere das Emojiquiz mit </emojiquiz toggle:1117220757957779506>*"
+                    },
+                    "content": {
+                        "skip": "{user} hat das Emojiquiz übersprungen!",
+                        "sol": "💡・{user} hat die Lösung erraten."
+                    },
+                    "buttons": {
+                        "clue": {
+                            "label": "Tipp"
+                        },
+                        "skip": {
+                            "label": "Skip"
+                        }
+                    },
+                    "success": "{y} Das Emojiquiz wurde erfolgreich gestartet."
+                },
+                "settings": {
+                    "embed": {
+                        "title": "Einstellungen",
+                        "fields": {
+                            "channel": {
+                                "name": "Kanal"
+                            },
+                            "message": {
+                                "name": "Nachricht"
+                            },
+                            "toggle": {
+                                "name": "Toggle",
+                                "value_activated": "> Aktiviert",
+                                "value_deactivated": "> Deaktiviert"
+                            }
+                        }
+                    }
+                },
+                "toggle": {
+                    "channel-not-set": "{x} Bitte setze einen neuen Kanal mit dem Befehl </emojiquiz setup:{commandId}>",
+                    "success_deactivated": "{y} Das Emojiquiz wurde deaktiviert.",
+                    "success_activated": "{y} Das Emojiquiz wurde aktiviert."
+                }
+            },
+            "flagquiz": {
+                "vote": {
+                    "embed": {
+                        "title": "Vote-Link",
+                        "description": "Du kannst auf Top.gg. Mit jedem Vote bekommst du {plusVoteTokens} skips.\nDu hast bereits {votes} Voteskips erhalten. Danke ✨"
+                    },
+                    "votebutton": {
+                        "label": "Vote hier!"
+                    }
+                },
+                "help": {
+                    "embed": {
+                        "title": "Flaggenquiz Hilfe",
+                        "fields": {
+                            "howtouse": {
+                                "name": "Wie nutze ich das Flaggenquiz?",
+                                "value": "1. Nutze </flagquiz setup:{commandId}>.\n2. Nutze </flagquiz toggle:{commandId}>\nDanach startet alles."
+                            },
+                            "whynotworking": {
+                                "name": "Warum funktioniert das Flaggenquiz nicht mehr?",
+                                "value": "Bitte nutze </flagquiz fix:{commandId}>. Wenn es danach noch nicht funktioniert, bitte kontaktiere den Support [hier](https://discord.gg/BQumAujuvk)."
+                            },
+                            "howtoskip": {
+                                "name": "Was kann man machen, wenn man den Namen nicht findet?",
+                                "value": "Man kann den Button \"Skip\" nutzen. Wenn du keine Skips mehr hast, musst du [hier](https://top.gg/bot/965903240384376872/vote) voten. Mit jedem Vote bekommst du {plusVoteTokens} Skips. Zurzeit hast du {votes} Skips."
+                            },
+                            "whereissupport": {
+                                "name": "Wo kann ich den Support kontaktieren?",
+                                "value": "Du kannst den Support [hier](https://discord.gg/BQumAujuvk) kontaktieren"
+                            }
+                        }
+                    }
+                },
+                "fix": {
+                    "channel-not-set": "{x} Es gibt keinen Flaggenquiz Kanal. Setze einen mit </flagquiz setup:{commandId}>.",
+                    "quiz-deactivated": "- Das Flaggenquiz ist deaktiviert.",
+                    "embed": {
+                        "title": "{amount} Fehler wurden gefunden."
+                    },
+                    "permissions": {
+                        "SendMessages": "- Mir fehlt die Berechtigung \"Nachrichten Senden\" in {channel}.",
+                        "ViewChannel": "- Mir fehlt die Berechtigung, {channel} zu sehen.",
+                        "EmbedLinks": "- Mir fehlt die Berechtigung \"Links einbetten\" in {channel}."
+                    },
+                    "success": "{y} Es wurden keine Fehler gefunden."
+                },
+                "guess": {
+                    "embed": {
+                        "title": "Errate die Flagge"
+                    },
+                    "content": {
+                        "skip": "{user} hat das Flaggenquiz übersprungen!",
+                        "sol": "💡・{user} hat die Lösung erraten."
+                    },
+                    "buttons": {
+                        "clue": {
+                            "label": "Tipp"
+                        },
+                        "skip": {
+                            "label": "Skip"
+                        }
+                    },
+                    "success": "{y} Das Flaggenquiz wurde erfolgreich gestartet."
+                },
+                "settings": {
+                    "embed": {
+                        "title": "Einstellungen",
+                        "fields": {
+                            "channel": {
+                                "name": "Kanal"
+                            },
+                            "message": {
+                                "name": "Nachricht"
+                            },
+                            "toggle": {
+                                "name": "Toggle",
+                                "value_activated": "> Aktiviert",
+                                "value_deactivated": "> Deaktiviert"
+                            }
+                        }
+                    }
+                },
+                "toggle": {
+                    "channel-not-set": "{x} Bitte setze einen neuen Kanal mit dem Befehl </flagquiz setup:{commandId}>",
+                    "success_deactivated": "{y} Das Flaggenquiz wurde deaktiviert.",
+                    "success_activated": "{y} Das Flaggenquiz wurde aktiviert."
+                }
+            }
+        },
+        "fun": {
+            "cookie": {
+                "embed": {
+                    "title": "Cookies 🍪",
+                    "description": "> Klicke auf den Button unten, um ein Cookie hinzuzufügen. Es gibt zurzeit {cookies} 🍪."
+                }
+            },
+            "echo": {
+                "success": "{y} Deine Nachricht wurde gesendet.\n> ℹ️・Bemerke, dass keine Nutzer, Rollen oder jenes gepingt wird. Dies ist eine Sicherheitsvorkehrung. ^^"
+            },
+            "iq": {
+                "success": "{user} hat einen IQ von {iq}."
+            },
+            "meme": {
+                "error": "{x} Ich konnte kein Meme laden.",
+                "nextmeme-button": {
+                    "label": "Nächstes Meme"
+                }
+            }
+        },
+        "games": {
+            "account": {
+                "link-remove-success": "{y} Die Kontoverbindung wurde entfernt.",
+                "valorant": {
+                    "already-linked": "{x} Du hast bereits dein Konto verlinkt.",
+                    "title": "Verlinke dein VALORANT Konto",
+                    "description": "- Klicke auf den Button \"Verlinken\", um das Konto zu verlinken.\n- Am Ende siehst du eine JSON Seite, die einen Parameter namens \"Code\" hat. Kopiere diesen, klicke auf \"Code angeben\" und gebe diesen dort anschließend an.\n- Du kannst die Verknüpfung mit </unlink valorant:{commandId}> entfernen.",
+                    "link": "Verlinken",
+                    "provide_code": "Code angeben",
+                    "code-not-valid": "{x} Der angegebene Code ist nicht valid.",
+                    "scope-error": "{x} Du hast nicht alle Scopes akzeptiert. Logge dich erneut ein.",
+                    "success": "{y} Du hast dein Discord Konto mit {riotname} verlinkt.",
+                    "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </link valorant:{accountCommandId}>, um dein Konto zu verlinken.",
+                    "remove-success": "{y} Deine Kontoverbindung wurde entfernt."
+                }
+            },
+            "fortnite": {
+                "creatorcode": {
+                    "api": {
+                        "404": "{x} Dieser Creator wurde nicht gefunden. Hast du den Namen richtig geschrieben? 🤔"
+                    },
+                    "embed": {
+                        "description": "- **Code:** {code}\n- **Status:** {status}\n- **Konto:** {account}\n- **Verifiziert:** {verified}",
+                        "title": "Creator Code - {code}"
+                    }
+                },
+                "map": {
+                    "embed": {
+                        "title": "Fortnite Karte"
+                    }
+                },
+                "news": {
+                    "embed": {
+                        "title": "Fortnite Neuigkeiten"
+                    }
+                },
+                "shopitem": {
+                    "invalid-choice": "{x} Diese Auswahl ist nicht gültig.",
+                    "notoccurredyet": "Noch nie gesehen",
+                    "notknown": "Nicht bekannt",
+                    "api": {
+                        "404": "{x} Ich habe das angegebene Item nicht gefunden."
+                    },
+                    "embed": {
+                        "description": "- **Name:** {name}\n- **Beschreibung:** {description}\n- **Typ:** {type}\n- **Seltenheit:** {rarity}\n- **Set:** {set}\n- **Hinzugefügt:** {added}\n- **Letztes mal gesehen ({total}):** {last_occurrence}"
+                    },
+                    "button": {
+                        "shophistory": {
+                            "label": "Shopauftreten"
+                        }
+                    }
+                },
+                "stats": {
+                    "api": {
+                        "403": "{x} Die Kontoeinstellungen von {username} lassen es nicht zu, die Statistiken einzusehen.\n> ℹ️・Aktiviere die Öffentliche Spielstatistik: Einstellungen > Konto und Datenschutz > Öffentliche Matchstatistik.",
+                        "404": "{x} {username} habe ich nicht gefunden. Prüfe, ob du den richtigen Namen angegeben hast.",
+                        "401": "{x} Der Befehl ist nicht mehr funktionsfähig, ich habe meinen Entwickler aber schon benachrichtigt."
+                    }
+                }
+            },
+            "rocketleague": {},
+            "tictactoe": {
+                "opponent-notonserver": "{x} Der von dir ausgewählt Gegner ist nicht auf diesem Server.",
+                "opponent-isabot": "{x} Du kannst leider nicht gegen Bots spielen.",
+                "opponent-yourself": "{x} Wenn du gegen dich selber spielst, kannst du nur verlieren."
+            },
+            "valorant": {
+                "agents": {
+                    "embed": {
+                        "andmore": "und {length} mehr",
+                        "notshown": "- {length} wurden nicht angezeigt.",
+                        "description": "- Rolle: {role}\n- [Icon]({url})"
+                    }
+                },
+                "agent": {
+                    "api": {
+                        "404": "{x} Den angeforderten Agenten habe ich nicht gefunden."
+                    },
+                    "embed": {
+                        "name": "Name",
+                        "description": "Beschreibung",
+                        "uuid": "UUID",
+                        "tags": "Tags",
+                        "role": "Rolle",
+                        "abilites": "Abilites ({total} insgesamt)",
+                        "description-embed": "- Name・{name}\n- Beschreibung・{description}\n- UUID・{uuid}\n- Tags・{tags}\n- Rolle・{role}\n- Abilites ({total} insgesamt)・{abilities}"
+                    }
+                },
+                "map": {
+                    "api": {
+                        "404": "{x} Die angeforderte Karte wurde nicht gefunden."
+                    },
+                    "embed": {
+                        "name": "Name",
+                        "coordinates": "Koordinaten",
+                        "callouts": "Callouts",
+                        "description": "- Name・{name}\n- Koordinaten・{coordinates}"
+                    }
+                },
+                "maps": {
+                    "description": "- Koordinaten・{coordinates}",
+                    "andmore": "und {length} mehr",
+                    "mapsnotshown": "{length} Karten konnten nicht angezeigt werden."
+                },
+                "version": {
+                    "current-version": "Aktuelle Version",
+                    "last-update": "Letztes Update",
+                    "buildversion": "Buildversion"
+                }
+            }
+        },
+        "info": {
+            "avatar": {
+                "server": {
+                    "no-avatar": "{x} Dieser Server hat kein Profilbild.",
+                    "embed": {
+                        "title": "Das Profilbild von {name}"
+                    }
+                },
+                "user": {
+                    "embed": {
+                        "title": "🖼️ | {name}s Avatar",
+                        "title-serveravatar": "🖼️ | {name}s Serveravatar",
+                        "description": "*Bemerke, dass dieser Nutzer kein Serveravatar hat.*"
+                    },
+                    "button": {
+                        "label-useravatar": "Nutzeravatar",
+                        "label-serveravatar": "Serveravatar"
+                    }
+                }
+            },
+            "help": {
+                "embed": {
+                    "title": "Hilfe Menu",
+                    "description": "## Allgemeines\n- Der Bot funktioniert mit `/`-Befehlen. Dies macht es einfacher, den Bot zu nutzen.\n- Ihr müsst in dem Menu unten die jeweilige Kategorie auswählen.\n- Wenn du eine Frage hast, melde dich gerne im [Support Server](https://discord.gg/BQumAujuvk), dort könnt ihr Fragen rund um den Bot stellen oder Support erhalten. Dort wird auch über Infos, Downtimes und Updates informiert.\n\n## Ankündigungen\n{announcements}"
+                },
+                "select": {
+                    "homepage": "Startseite",
+                    "moderation": "Moderation",
+                    "auto": "Autorollen & Autopublish",
+                    "level": "Levelsystem",
+                    "games": "Spiele & Statistiken",
+                    "info": "Informationen",
+                    "welcome-leave": "Willkommen & Verlassen",
+                    "logging": "Logging",
+                    "poll": "Umfragen",
+                    "twitch": "Twitch",
+                    "quiz": "Quizze",
+                    "embeds": "Embeds",
+                    "endelon": "Endelon Hosting",
+                    "fun": "Spaß",
+                    "random": "Zufällig",
+                    "uncategorised": "Unkategorisierte Befehle",
+                    "end": "Menu beenden"
+                },
+                "components": {
+                    "privacy-policy": {
+                        "label": "Datenschutzerklärung"
+                    },
+                    "docs": {
+                        "label": "Dokumentation"
+                    }
+                }
+            },
+            "info": {
+                "server": {
+                    "embed": {
+                        "fields": {
+                            "name": "✨・Name",
+                            "id": "🪪・ID",
+                            "membercount": "👤・Nutzer",
+                            "booster": {
+                                "name": "💎・Booster",
+                                "value-singular": "> Level {levelinfo} ({length} Boost)",
+                                "value-plural": "> Level {levelinfo} ({length} Boosts)"
+                            },
+                            "created": "🕙・Erstellt",
+                            "channels": {
+                                "name": "📚・Kanäle"
+                            },
+                            "owner": "👑・Eigentümer",
+                            "roles": {
+                                "name": "📊・Rollen (Ohne Botrollen)",
+                                "value": "> {roles} (Zeigt {info})"
+                            },
+                            "emojis": {
+                                "name": "🎨・Emojis",
+                                "value": "> {emojis} (Zeigt {info})"
+                            },
+                            "first-members": "👀・Erste Nutzer",
+                            "top-badges": "⭐・Top Abzeichen",
+                            "banner": "🖼️・Banner"
+                        }
+                    },
+                    "user": "Nutzer",
+                    "user-plural": "Nutzer"
+                },
+                "user": {
+                    "embed": {
+                        "fields": {
+                            "name": "🌍・Name",
+                            "id": "🪪・ID",
+                            "created": "🕙・Konto erstellt",
+                            "joined": {
+                                "name": "👤・Server beigetreten",
+                                "value": "> {timestamp} | {timestamp1} ({joinrank}. Nutzer)"
+                            },
+                            "roles": {
+                                "name": "📚・Rollen",
+                                "shows": "Zeigt",
+                                "value-none": "Keine"
+                            },
+                            "badges": {
+                                "name": "🎨・Abzeichen",
+                                "value-none": "Keine"
+                            },
+                            "permissions": {
+                                "name": "🛡️・Berechtigungen",
+                                "value-owner": "Servereigentümer",
+                                "value-administrator": "Administrator"
+                            },
+                            "suspect": {
+                                "name": "🔎・Suspekt",
+                                "value-yes-spammer": "Ja・Spammer",
+                                "value-yes-quarantined": "Ja・Quarantined",
+                                "value-no": "Nein"
+                            }
+                        },
+                        "description": "Bemerke: Nutze </bot info:1058376602515411061>, um mehr Informationen über mich zu bekommen."
+                    },
+                    "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server."
+                },
+                "role": {
+                    "embed": {
+                        "fields": {
+                            "name": "✨・Name",
+                            "id": "🪪・ID",
+                            "created": "🕙・Erstellt",
+                            "position": "🔢・Position",
+                            "color": "🎨・Farbe",
+                            "membercount": "👤・Nutzeranzahl",
+                            "permissions": {
+                                "name": "🛡️・Berechtigungen",
+                                "value-owner": "Servereigentümer",
+                                "value-administrator": "Administrator"
+                            }
+                        }
+                    }
+                },
+                "channel": {
+                    "name": "📚・Name",
+                    "id": "🪪・ID",
+                    "created": "🕙・Erstellt",
+                    "nsfw": "🚫・NSFW",
+                    "description": {
+                        "name": "✨・Beschreibung",
+                        "value-no-description": "Keine Beschreibung angegeben"
+                    },
+                    "position": "🔢・Position",
+                    "threads": {
+                        "name": "🔦・Threads",
+                        "value-one": "1 Thread",
+                        "value-notone": "{size} Threads"
+                    },
+                    "lastmessage": {
+                        "name": "🗨️・Letzte Nachricht",
+                        "value": "> [Nachrichtenlink]({link})"
+                    },
+                    "category": "Kategorie",
+                    "channel": "Kanal"
+                },
+                "invite": {
+                    "not-valid": "{x} Der angegebene Einladungslink ist nicht gültig.",
+                    "embed": {
+                        "fields": {
+                            "code": "🎨・Code",
+                            "expires-never": "Nie",
+                            "expires": "🗑️・Verfällt",
+                            "server": "🌍・Server",
+                            "channel": "⭐・Kanal",
+                            "created-by": "👤・Erstellt von",
+                            "vanity": "❓・Vanity",
+                            "value-true": "- Ja, dies ist der Vanity Code.",
+                            "value-false": "- Nein, dies ist nicht der Vanity Code."
+                        }
+                    }
+                }
+            }
+        },
+        "moderation": {
+            "logging": {
+                "welcome": {
+                    "message": {
+                        "modal": {
+                            "label": "Nachricht",
+                            "title": "Ändere die Willkommensnachricht",
+                            "placeholder": "Herzlich Willkommen, {username}! Wir hoffen, dass du auf {guildname} Spaß hast."
+                        }
+                    },
+                    "channel": {
+                        "success": "{y} Der Willkommenskanal wurde aktualisiert"
+                    },
+                    "toggle": {
+                        "success_activated": "{y} Die Willkommensnachrichten wurde aktiviert.",
+                        "success_deactivated": "{y} Die Willkommensnachrichten wurde deaktiviert."
+                    },
+                    "test": {
+                        "no-welcome-message": "Jemand ist dem Server beigetreten.",
+                        "no-channel-set": "- Es wurde kein Willkommenskanal gesetzt.",
+                        "bot-permissions-welcome-channel": "- Der Bot kann nicht auf den Willkommenskanal zugreifen oder diese wurde gelöscht",
+                        "toggle-deactivated": "- Das Willkommenssystem ist deaktiviert.",
+                        "testmessage-sent-success": "{y} Die Testnachricht wurde versendet."
+                    },
+                    "mention": {
+                        "mention-success-user": "{y} Die Erwähnung wurde gesetzt zu: **Nutzer**.",
+                        "role-not-provided": "{x} Du musst eine Rolle angeben.",
+                        "role-everyone": "Du kannst nicht die Rolle `@everyone` verwenden.",
+                        "mention-success-role": "{y} Die Erwähnung wurde gesetzt zu: `{rolename}`",
+                        "mention-success-remove": "{y} Die Willkommenserwähnung wurde entfernt."
+                    },
+                    "settings": {
+                        "no-welcome-message": "Jemand ist dem Server beigetreten.",
+                        "no-welcome-channel": "Kein Willkommenskanal gesetzt",
+                        "embed": {
+                            "title": "Die Einstellungen",
+                            "fields": {
+                                "channel": {
+                                    "name": "Kanal",
+                                    "value": "- Kein Kanal gesetzt"
+                                },
+                                "message": {
+                                    "name": "Nachricht",
+                                    "value": "Jemand ist dem Server beigetreten."
+                                },
+                                "toggle": {
+                                    "name": "Toggle",
+                                    "value_activated": "- Aktiviert",
+                                    "value_deactivated": "- Deaktiviert"
+                                }
+                            }
+                        },
+                        "components": {
+                            "welcome-message-button": {
+                                "label": "Willkommensnachrichten setzen"
+                            },
+                            "welcome-embed-button": {
+                                "label": "Wähle den Nachrichtentyp"
+                            },
+                            "update-message-button": {
+                                "label": "Nachricht aktualisieren"
+                            },
+                            "welcome-test-button": {
+                                "label": "Teste das System"
+                            },
+                            "welcome-toggle-button": {
+                                "label": "Toggle das System"
+                            },
+                            "welcome-delete-button": {
+                                "label": "Einstellungen zurücksetzen"
+                            },
+                            "welcome-embed-change-button": {
+                                "label": "Embed konfigurieren"
+                            },
+                            "welcome-mention-select": {
+                                "placeholder": "Erwähnung setzen",
+                                "options": {
+                                    "user": "Erwähne den Nutzer",
+                                    "role": "Erwähne eine Rolle",
+                                    "none": "Entferne die Erwähnung"
+                                }
+                            },
+                            "welcome-channel-select": {
+                                "placeholder": "Setze den Willkommenskanal"
+                            }
+                        }
+                    }
+                },
+                "leave": {
+                    "message": {
+                        "modal": {
+                            "label": "Nachricht",
+                            "title": "Ändere die Verlassensnachricht",
+                            "placeholder": "{username} hat {guildname} verlassen."
+                        }
+                    },
+                    "channel": {
+                        "success": "{y} Der Verlassenskanal wurde aktualisiert"
+                    },
+                    "toggle": {
+                        "success_activated": "{y} Die Verlassensnachrichten wurde aktiviert.",
+                        "success_deactivated": "{y} Die Verlassensnachrichten wurde deaktiviert."
+                    },
+                    "test": {
+                        "no-leave-message": "Jemand hat den Server verlassen.",
+                        "no-channel-set": "- Es wurde kein Verlassenskanal gesetzt.",
+                        "bot-permissions-leave-channel": "- Der Bot kann nicht auf den Verlassenskanal zugreifen oder diese wurde gelöscht",
+                        "toggle-deactivated": "- Das Verlassenssystem ist deaktiviert.",
+                        "testmessage-sent-success": "{y} Die Testnachricht wurde versendet."
+                    },
+                    "mention": {
+                        "mention-success-user": "{y} Die Erwähnung wurde gesetzt zu: **Nutzer**.",
+                        "role-not-provided": "{x} Du musst eine Rolle angeben.",
+                        "role-everyone": "Du kannst nicht die Rolle `@everyone` verwenden.",
+                        "mention-success-role": "{y} Die Erwähnung wurde gesetzt zu: `{rolename}`",
+                        "mention-success-remove": "{y} Die Verlassenserwähnung wurde entfernt."
+                    },
+                    "settings": {
+                        "no-leave-message": "Jemand ist dem Server beigetreten.",
+                        "no-leave-channel": "Keinen Kanal gefunden",
+                        "embed": {
+                            "title": "Die Einstellungen",
+                            "fields": {
+                                "channel": {
+                                    "name": "Kanal",
+                                    "value": "- Kein Kanal gesetzt"
+                                },
+                                "message": {
+                                    "name": "Nachricht",
+                                    "value": "- Jemand hat den Server verlassen."
+                                },
+                                "toggle": {
+                                    "name": "Toggle",
+                                    "value_activated": "- Aktiviert",
+                                    "value_deactivated": "- Deaktiviert"
+                                }
+                            }
+                        },
+                        "components": {
+                            "leave-message-button": {
+                                "label": "Verlassensnachrichten setzen"
+                            },
+                            "leave-embed-button": {
+                                "label": "Wähle den Nachrichtentyp"
+                            },
+                            "update-message-button": {
+                                "label": "Nachricht aktualisieren"
+                            },
+                            "leave-test-button": {
+                                "label": "Teste das System"
+                            },
+                            "leave-toggle-button": {
+                                "label": "Toggle das System"
+                            },
+                            "leave-delete-button": {
+                                "label": "Einstellungen zurücksetzen"
+                            },
+                            "leave-embed-change-button": {
+                                "label": "Embed konfigurieren"
+                            },
+                            "leave-mention-select": {
+                                "placeholder": "Erwähnung setzen",
+                                "options": {
+                                    "user": "Erwähne den Nutzer",
+                                    "role": "Erwähne eine Rolle",
+                                    "none": "Entferne die Erwähnung"
+                                }
+                            },
+                            "leave-channel-select": {
+                                "placeholder": "Setze den Verlassenskanal"
+                            }
+                        }
+                    }
+                },
+                "logs": {
+                    "channel": {
+                        "forum": {
+                            "post-created": "Log Post für: {channel}",
+                            "something-went-wrong": "Etwas ist schief gelaufen. Bitte prüfen Sie, ob ich alle erforderlichen Berechtigungen für den ausgewählten Kanal habe."
+                        },
+                        "success": "{y} Der Kanal für Logs wurde aktualisiert.",
+                        "success-toggle": "{y} Der Kanal für Logs wurde aktualisiert.\n> {i} Ich habe das System automatisch für dich aktiviert. Deaktiviere die Logs mit </logs toggle:{commandId}>."
+                    },
+                    "toggle": {
+                        "no-channel-set": "{x} Es wurde kein Logging Kanal gesetzt. Um einen zu setzen, nutze </logs channel:{commandId}>.",
+                        "success_deactivated": "{y} Die Logs sind nun deaktiviert.",
+                        "success_activated": "{y} Die Logs sind nun aktiviert."
+                    },
+                    "setup": {
+                        "embed": {
+                            "title": "Logging Kanal",
+                            "description": "- Bitte wähle einen Logging Kanal aus."
+                        },
+                        "select": {
+                            "placeholder": "Wähle einen Logging Kanal aus."
+                        },
+                        "success": "{i} Es ist bereits alles eingerichtet. Um die Einstellungen zu verwalten, nutze </logging settings:{commandId}>."
+                    },
+                    "settings": {
+                        "embed": {
+                            "title": "Verwalte die Einstellungen",
+                            "fields": {
+                                "channel": {
+                                    "name": "Kanal",
+                                    "value-nochannel": "- Keiner gesetzt"
+                                },
+                                "toggle": {
+                                    "name": "Status",
+                                    "value_activated": "> Aktiviert",
+                                    "value_deactivated": "> Deaktiviert"
+                                }
+                            }
+                        },
+                        "components": {
+                            "logging-toggle-button": {
+                                "label-activate": "System aktivieren",
+                                "label-deactivate": "System deaktivieren"
+                            },
+                            "logging-test-button": {
+                                "label": "System testen"
+                            },
+                            "update-message-button": {
+                                "label": "Nachricht aktualisieren"
+                            },
+                            "logging-resetdata-button": {
+                                "label": "Einstellungen zurücksetzen"
+                            },
+                            "logging-channel-select": {
+                                "placeholder": "Setze den Logging Kanal."
+                            }
+                        }
+                    }
+                }
+            },
+            "moderation": {
+                "setnick": {
+                    "user-not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server.",
+                    "user-not-manageable": "{x} Ich kann den Spitznamen dieses Nutzers nicht verwalten.",
+                    "nickname-changed": "{y} Der Spitzname von {user} wurde geändert."
+                },
+                "reset": {
+                    "user-no-nickname": "{x} Dieser Nutzer hat keinen Spitznamen.",
+                    "nickname-reset-success": "{y} Der Spitzname von {user} wurde erfolgreich zurückgesetzt."
+                },
+                "movechannel": {},
+                "disconnect": {},
+                "voiceinfo": {},
+                "ban": {
+                    "invalid-time": "{x} Bitte gebe eine gültige Zeit an. Diese muss zwischen 1 Sekunde und 7 Tagen sein.",
+                    "ban-datbot": "{x} Du kannst mich nicht bannen.",
+                    "provideduser-higher-role-user": "{x} Der Nutzer hat eine gleiche oder eine höhere Rolle als du.",
+                    "provideduser-higherrole-me": "{x} Der Nutzer hat eine gleiche oder eine höhere Rolle als ich",
+                    "ban-yourself": "{x} Du kannst dich nicht selber bannen.",
+                    "ban-administrator": "{x} Ich kann keine Administratoren bannen.",
+                    "ban-notbannable": "{x} Ich kann diesen Nutzer nicht bannen.",
+                    "no-reason": "Keinen Grund angegeben",
+                    "banembed": {
+                        "title": "You have been banned!",
+                        "description": "**Guild:** {guild}\n**Reason:** ${reason}",
+                        "footer": {
+                            "text": "Banned since"
+                        }
+                    },
+                    "ban-success": "{y} {user} wurde erfolgreich gebannt.\n- Privatnachricht angefragt: {dmRequested}\n- Privatnachricht erfolgreich versendet: {dmSent}"
+                },
+                "kick": {
+                    "kick-user-not-on-server": "{x} Dieser Nutzer ist nicht auf diesem Server.",
+                    "kick-datbot": "{x} Du kannst mich nicht kicken.",
+                    "provideduser-higher-role-user": "{x} Der Nutzer hat eine gleiche oder eine höhere Rolle als du.",
+                    "provideduser-higherrole-me": "{x} Der Nutzer hat eine gleiche oder eine höhere Rolle als ich",
+                    "kick-yourself": "{x} Du kannst dich nicht selber kicken.",
+                    "kick-administrator": "{x} Ich kann keine Administratoren kicken.",
+                    "kick-notkickable": "{x} Ich kann diesen Nutzer nicht kicken.",
+                    "no-reason": "Keinen Grund angegeben",
+                    "kickembed": {
+                        "title": "You have been kicked!",
+                        "description": "**Guild:** {guild}\n**Reason:** ${reason}",
+                        "footer": {
+                            "text": "Kicked"
+                        }
+                    },
+                    "kick-success": "{y} {user} erfolgreich wurde gekickt.\n- DM requested: {dmRequested}\n- DM sent successfully: {dmSent}"
+                },
+                "unban": {
+                    "user-not-banned": "{x} Der angegebene Nutzer ist nicht gebannt.",
+                    "no-reason": "Keinen Grund angegeben",
+                    "user-unknown": "Der Nutzer",
+                    "success": "{y} {user} wurde entbannt."
+                },
+                "mute": {
+                    "mute-user-not-on-server": "{x} Der Nutzer ist nicht auf diesem Server.",
+                    "mute-bot": "{x} Du kannst mich nicht muten.",
+                    "mute-administrator": "{x} Du kannst keinen Administrator muten.",
+                    "mute-yourself": "{x} Du kannst dich nicht selber muten.",
+                    "mute-user-role-higher": "{x} Der Nutzer hat eine gleiche oder eine höhere Rolle als du.",
+                    "mute-user-role-higher-bot": "{x} Der Nutzer hat eine gleiche oder eine höhere Rolle als ich.",
+                    "time-invalid": "{x} Die angegebene Zeit ist ungültig. Diese muss zwischen 1 Sekunde und 28 Tagen liegen.",
+                    "success": "{y} {user} wurde bis {timestamp} erfolgreich gemutet."
+                },
+                "unmute": {
+                    "user-not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server.",
+                    "user-not-muted": "{x} Der Nutzer befindet sich nicht im Timeout.",
+                    "success": "{y} Der Mute von {user} wurde entfernt."
+                },
+                "clear": {
+                    "success-channel-user": "{y} Ich habe in {channel} {size} Nachrichten von {user} gelöscht.",
+                    "success-channel": "{y} Ich habe in {channel} {size} Nachrichten gelöscht.",
+                    "no-reason": "Keinen Grund angegeben"
+                },
+                "lock": {
+                    "no-reason": "Keinen Grund angegeben",
+                    "success-lock": "{y} {channel} wurde erfolgreich gesperrt.",
+                    "time-invalid": "{x} Die angegebene Zeit ist ungültig. Diese muss zwischen 5 Sekunden und 60 Minuten liegen."
+                },
+                "unlock": {
+                    "channel-notlocked": "{x} {channel} ist nicht gesperrt.",
+                    "success-unlock": "{y} {channel} wurde erfolgreich entsperrt."
+                },
+                "banreason": {
+                    "invalid-choice": "{x} Diese Auswahl ist nicht gültig.",
+                    "user-not-banned": "{x} Der angegebene Nutzer ist nicht gebannt.",
+                    "new-reason": "Änderung des Grundes (Genutzt von {user})",
+                    "success": "{y} Der Grund des Bannes wurde geändert."
+                }
+            },
+            "security": {
+                "toggle": {
+                    "no-channel-set": "{x} Es wurde kein Kanal gesetzt. Nutze dafür </security joingate channel:{commandId}>.",
+                    "success_activated": "{y} Die Logs wurden aktiviert.",
+                    "success_deactivated": "{y} Die Logs wurden deaktiviert."
+                },
+                "channel": {
+                    "success": "{y} Der Kanal für Logs ist nun {channel}."
+                },
+                "minage": {
+                    "success": "{y} Das Mindestalter wurde aktualisiert.\n> ℹ️・Konten, die das Mindestalter nicht erreichen, werden nicht gebannt oder ähnliches. Es wird lediglich eine Nachricht in den Logging Kanal gesendet."
+                },
+                "suspicious_accounts": {
+                    "account-suspicious": "{user} - Konto suspekt",
+                    "very-young": "{user} - Konto sehr jung",
+                    "no-avatar": "{user} - Kein Avatar und recht jung",
+                    "embed": {
+                        "title": "Suspekte Konten",
+                        "footer": {
+                            "text-plural": "{size} Konten überprüft",
+                            "text-singular": "1 Konto überprüft."
+                        }
+                    },
+                    "too-many-accounts": "{x} Es sind zu viele suspekte Konten zum Anzeigen.",
+                    "success-singular": "{y} Es wurde 1 Konto überprüft.",
+                    "success-plural": "{y} Es wurden {size} Konten überprüft."
+                }
+            }
+        },
+        "other": {
+            "bot": {
+                "info": {
+                    "embed": {
+                        "title": "Informationen",
+                        "description": "<:discord_member:1029008701027266611>・{usercount} Nutzer\n<:discord_servers:1029009256592195594>・{servercount} Server\n<:datbot_shard:1061322798049542145>・Shard für {guildname}: {shard}\n<:bot_developer:1028942737602514954>・Entwickler: D_Gamet (`754246997266923571`), voroniyx (`863453422632173568`)",
+                        "fields": {
+                            "most-used-commands": {
+                                "name": "<:datbot_slash_command:1104329595110576159> Beliebte Befehle",
+                                "value-nodata": "Keine Daten"
+                            },
+                            "shardinfo": {
+                                "name": "{status}・Shard {shardid}",
+                                "value": "- Server・{servercount}\n- Nutzer・{usercount}\n- Betriebszeit・{uptime}\n- Ping・{ping}ms"
+                            }
+                        }
+                    }
+                },
+                "status": {
+                    "embed": {
+                        "title": "Status",
+                        "description": "- Meinen Status kannst du auf [meiner Webseite](https://status.datbot.xyz) nachschauen."
+                    }
+                },
+                "links": {
+                    "embed": {
+                        "title": "Wichtige Links",
+                        "description": "- <:verified_bot:1030502994497777684>・[Einladungslink](https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=bot%20applications.commands)\n- <a:level:993599873771380776>・[Support Server](https://discord.gg/BQumAujuvk)\n- <:discord_online:1029009583127134228>・[Status](https://status.datbot.xyz/)\n- 📚・[Dokumentation](https://en.docs.datbot.xyz/)\n- <:topgg:1030585172753657956>・[Top.gg](https://top.gg/bot/965903240384376872)"
+                    },
+                    "buttons": {
+                        "docs-button": {
+                            "label": "Dokumentation"
+                        },
+                        "topgg-button": {
+                            "label": "Top.gg"
+                        }
+                    }
+                },
+                "ping": {
+                    "embed": {
+                        "shard": "Shard",
+                        "description": "🏓 Pong! Mein Ping liegt zurzeit bei {ping} Millisekunden.\n\n- Shards:\n{shardinfo}"
+                    }
+                },
+                "setup": {
+                    "embed": {
+                        "title": "Richte den Bot ein",
+                        "description": {
+                            "stage-1": "**Einrichtung**\n- {y} Einrichtung gestartet.",
+                            "stage-2": "**Einrichtung**\n- {y} Einrichtung gestartet.\n- {t} Überprüfe Berechtigungen.",
+                            "stage-3": "**Einrichtung**\n- {y} Einrichtung gestartet.\n- {y} Überprüfe Berechtigungen.",
+                            "stage-4": "**Einrichtung**\n- {y} Einrichtung gestartet.\n- {y} Überprüfe Rechte.\n- {y} Überprüfe Logging-Kanal.\n- {i} Es wurde kein Kanal für DatBot Updates gesetzt. Wenn du möchtest, kannst du einen auswählen. Wenn nicht, klicke auf \"Einrichtung beenden\".",
+                            "stage-5": "**Einrichtung**\n- {y} Einrichtung gestartet.\n- {y} Überprüfe Rechte.\n- {y} Überprüfe Logging-Kanal.\n- {y} Setup fertig. Dies hat `{time}` Sekunden gedauert."
+                        },
+                        "error-permissions": {
+                            "send-messages": "**Einrichtung**\n- {y} Einrichtung gestartet.\n- {y} Überprüfe Rechte.\n- {x} Ein Fehler ist aufgetreten.\n> Mir fehlt die Berechtigung \"Nachrichten senden\".",
+                            "embed-links": "**Einrichtung**\n- {y} Einrichtung gestartet.\n- {y} Überprüfe Rechte.\n- {x} Ein Fehler ist aufgetreten.\n> Mir fehlt die Berechtigung \"Links einbetten\".",
+                            "view-channel": "**Einrichtung**\n- {y} Einrichtung gestartet.\n- {y} Überprüfe Rechte.\n- {x} Ein Fehler ist aufgetreten.\n> Mir fehlt die Berechtigung \"Kanal einsehen\"."
+                        }
+                    },
+                    "components": {
+                        "channel": {
+                            "placeholder": "Wähle den Kanal für die Updates aus."
+                        },
+                        "finish": {
+                            "label": "Einrichtung beenden"
+                        }
+                    }
+                },
+                "staff": {
+                    "embed": {
+                        "title": "Dat Bot - Team",
+                        "description": "### **Entwickler**\n {devs}\n### **Staff**\n {staffs}"
+                    }
+                },
+                "support": {
+                    "response": "{i} Wenn du Hilfe benötigst, kannst du den [Support Server](https://discord.gg/BQumAujuvk) kontaktieren."
+                }
+            },
+            "embeds": {
+                "default-embed": {
+                    "title": "Titel",
+                    "description": "Beschreibung",
+                    "author": {
+                        "name": "Autor",
+                        "icon": "Icon URL",
+                        "url": "URL"
+                    },
+                    "footer": {
+                        "text": "Fusszeile",
+                        "icon": "Icon URL"
+                    },
+                    "color": "Farbe",
+                    "image": "Bild",
+                    "thumbnail": "Thumbnail",
+                    "field": "Feld",
+                    "timestamp": "Timestamp"
+                },
+                "default-components": {
+                    "change-select": {
+                        "placeholder": "Editiere dein Embed!"
+                    },
+                    "delete-select": {
+                        "placeholder": "Lösche etwas aus deinem Embed!"
+                    },
+                    "import-json-button": {
+                        "label": "JSON importieren"
+                    },
+                    "export-json-button": {
+                        "label": "JSON exportieren"
+                    },
+                    "send-embed-select": {
+                        "label": "Sende das Embed"
+                    },
+                    "send-with-webhook-button": {
+                        "label": "Mit Webhook senden"
+                    }
+                },
+                "edit": {
+                    "not-valid-message-link": "{x} Gebe einen validen Nachrichtenlink an.",
+                    "message-not-found": "{x} Die angegebene Nachricht wurde nicht gefunden.",
+                    "author-not-datbot": "{x} Diese Nachricht ist nicht meine Nachricht.",
+                    "no-embeds-size": "{x} Diese Nachricht enthält kein Embed.",
+                    "commit-changes-button": {
+                        "label": "Änderungen speichern"
+                    }
+                },
+                "copy": {
+                    "not-valid-message-link": "{x} Gebe einen validen Nachrichtenlink an.",
+                    "message-not-found": "{x} Die angegebene Nachricht wurde nicht gefunden.",
+                    "no-embeds-size": "{x} Diese Nachricht enthält kein Embed.",
+                    "copy-embed-select": {
+                        "placeholder": "Wähle ein Embed aus.",
+                        "embed": "Embed #{size}"
+                    }
+                },
+                "export": {
+                    "not-valid-message-link": "{x} Gebe einen validen Nachrichtenlink an.",
+                    "message-not-found": "{x} Die angegebene Nachricht wurde nicht gefunden.",
+                    "no-embeds-size": "{x} Diese Nachricht enthält kein Embed.",
+                    "copy-embed-select": {
+                        "placeholder": "Wähle ein Embed aus.",
+                        "embed#": "Embed #{size}"
+                    },
+                    "success": "{y} Hier ist dein Embed: {url}",
+                    "error": "{x} Export des Embeds fehlgeschlagen."
+                }
+            },
+            "endelon": {
+                "login": "Einloggen",
+                "account-not-linked": "{x} Du hast dein Endelon Konto nicht mit deinem Discord Konto verknüpft.",
+                "account-no-servers": "{x} Du besitzt keine Server.",
+                "servers": {
+                    "components": {
+                        "placeholder": "Wähle einen Server aus.",
+                        "choices": {
+                            "description": "ID: {id}・CPU: {cpu}・Memory: {memory}・Disk: {disk}"
+                        }
+                    },
+                    "embed": {
+                        "title": "Verwalte deine Server",
+                        "description": "> Verwalte deine Endelon Server über DatBot. Wähle dazu unten in dem SelectMenu deinen Server aus. Sollte dieser nicht auftauchen, gibt es wahrscheinlich einen Fehler. Kontaktiere dazu bitte den Support. Wenn du Fragen hast, kannst du dich auch gerne im Support melden."
+                    }
+                },
+                "links": {
+                    "embed": {
+                        "title": "Endelon Hosting",
+                        "description": "- [Webseite](https://endelon-hosting.de)\n- [Status](https://status.endelon-hosting.de)\n- [Discord](https://endelon.chat/)\n- [Verwalten](https://my.endelon-hosting.de/)\n- [MySQL Admin](https://mysqladmin.endelon-hosting.de/)\n- [Dokumentation](https://docs.endelon-hosting.de/)\n- [Spenden (freiwillig!)](https://www.paypal.me/masusniper)"
+                    }
+                },
+                "everyone": {
+                    "embed": {
+                        "description": "**Verwalte den Server [{name}](url)**\n- Mit dem unteren Button namens \"Start\" kannst du diesen Server starten."
+                    },
+                    "components": {
+                        "start-button": {
+                            "label": "Start"
+                        },
+                        "delete-message-button": {
+                            "label": "Nachricht löschen"
+                        }
+                    },
+                    "url-not-valid": "{x} Die URL ist nicht valid.",
+                    "not-your-server": "{x} Du hast dein Konto nicht mit Endelon verlinkt oder dieser Server gehört dir nicht.",
+                    "not-your-server-2": "{x} Diesen Server besitzt du nicht."
+                }
+            },
+            "level": {
+                "system-deactivated": "{x} Das Levelsystem ist auf diesem Server deaktiviert.",
+                "no-levelroles": "{x} Es gibt keine Levelrollen.",
+                "roles": {
+                    "levelroles-deactivated": "{x} Die Levelrollen sind auf diesem Server deaktiviert",
+                    "add": {
+                        "success": "{y} Die Rolle {role} wird ab sofort vergeben, wenn Level {level} erreicht wird.",
+                        "role_higher_position": "{x} Mir fehlt die Berechtigung, die Rolle {role} zu vergeben, da die Rolle meine Höchste oder eine Höhere ist.",
+                        "role_managed": "{x} Diese Rolle {role} wird von einem externen Service verwaltet."
+                    },
+                    "list": {
+                        "embed": {
+                            "title": "Levelrollen",
+                            "description": "- Level {level}・Rolle {role}"
+                        }
+                    },
+                    "deleteall": {
+                        "success": "{y} Alle Levelrollen wurden entfernt."
+                    },
+                    "remove": {
+                        "success": "{y} Die Rolle {role} wurde aus der Datenbank entfernt."
+                    },
+                    "toggle": {
+                        "success_activated": "{y} Die Levelrollen wurden aktiviert.",
+                        "success_deactivated": "{y} Die Levelrollen wurden deaktiviert."
+                    },
+                    "fix": {
+                        "success-singular": "{y} Das System wurde überprüft.\n> {i} Es wurde 1 Rolle entfernt.",
+                        "success-plural": "{y} Das System wurde überprüft.\n> {i} Es wurden {length} Rollen entfernt."
+                    }
+                },
+                "ignore": {
+                    "no-ignored-channels": "{x} In diesem Server gibt es keine ignorierten Kanäle.",
+                    "add": {
+                        "channel-already-ignored": "{x} Dieser Kanal wird bereits ignoriert.",
+                        "success": "{y} Der Kanal wurde hinzugefügt."
+                    },
+                    "list": {
+                        "embed": {
+                            "title": "Ignorierte Kanäle"
+                        }
+                    },
+                    "remove": {
+                        "channel-not-ignored": "{x} Dieser Kanal wird nicht ignoriert.",
+                        "success": "{y} Der Kanal wurde entfernt."
+                    }
+                },
+                "message": {
+                    "modal": {
+                        "label": "Nachricht",
+                        "placeholder": "GG, Dat Bot! Du bist nun Level 2!",
+                        "title": "Ändere die Level-Up Nachricht"
+                    }
+                },
+                "channel": {
+                    "reset-success": "{y} Der Levelup Kanal wurde zurückgesetzt.",
+                    "success": "{y} Der LevelUp Nachrichten werden nun in {channel} gesendet."
+                },
+                "test": {
+                    "no-levelup-message": "GG, DatBot! Du bist nun Level 2!",
+                    "success": "{y} Die Testnachricht wurde versendet."
+                },
+                "leaderboard": {
+                    "no-data1": "Keine Daten",
+                    "no-data": "{x} Niemand hat bisher XP gesammelt.",
+                    "page-total": "Seite {page} von {total}",
+                    "page": "Seite {page}"
+                },
+                "rank": {
+                    "user-bot": "{x} Bots können kein XP sammeln.",
+                    "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server."
+                },
+                "toggle": {
+                    "success_activated": "{y} Das Levelsystem wurde aktiviert.",
+                    "success_deactivated": "{y} Das Levelsystem wurde deaktiviert."
+                },
+                "noxprole": {
+                    "success": "{y} Die \"Keine XP Rolle\" wurde geändert.",
+                    "remove-success": "{y} Die \"Keine XP Rolle\" wurde aus der Datenbank entfernt."
+                }
+            },
+            "random": {
+                "number": {
+                    "success": "{random} ist die zufällige Zahl (Minimum: {min}, Maximum: {max})."
+                },
+                "user": {
+                    "success": "{user} ist der zufällige Nutzer: {userinfo}"
+                },
+                "coinflip": {
+                    "success-head": "🔮・Dieses Mal war es || Kopf ||.",
+                    "success-tail": "🔮・Dieses Mal war es || Zahl ||."
+                }
+            }
+        },
+        "socialmedia": {
+            "twitch": {
+                "notification-embed": {
+                    "fields": {
+                        "game": "Spiel",
+                        "viewercount": "Zuschaueranzahl"
+                    }
+                },
+                "info": {
+                    "account-not-found": "{x} Ich habe das Konto mit diesem Nutzernamen nicht gefunden.",
+                    "account-no-information": "{x} Es sind keine Informationen über das Konto verfügbar.",
+                    "embed": {
+                        "fields": {
+                            "name": "🖊️・Name",
+                            "id": "🪪・ID",
+                            "created": "🕙・Erstellt",
+                            "description": "🗨️・Beschreibung",
+                            "last-game": "🎮・Letztes Spiel",
+                            "follower-count": "✨・Follower",
+                            "live": {
+                                "name": "📺・Live",
+                                "value-true": "> Ja",
+                                "value-false": "> Nein"
+                            },
+                            "title": "🎨・Titel",
+                            "game": "🎮・Spiel",
+                            "viewer-count": "👀・Zuschauer",
+                            "livestream-started": "🎭・Livestream gestartet"
+                        }
+                    }
+                },
+                "add": {
+                    "default-twitch-message": "{name} ist jetzt live! {url}",
+                    "limit-reached": "{x} Das Limit von {limit} wurde bereits erreicht.",
+                    "already-followed": "{x} Diesem Nutzer wird bereits gefolgt.",
+                    "account-not-found": "{x} Ich habe das Konto mit diesem Nutzernamen nicht gefunden.",
+                    "success": "{y} Die Benachrichtigung wurde hinzugefügt.",
+                    "watch-stream-button": {
+                        "label": "Stream angucken"
+                    }
+                },
+                "list": {
+                    "no-data": "{x} Es gibt keine Twitch Benachrichtigungen für diesen Server.",
+                    "embed": {
+                        "title": "Twitch Benachrichtigungen",
+                        "description-activated": "- {channel}・Aktiviert・{discord_channel}",
+                        "description-deactivated": "- {channel}・Deaktiviert・{discord_channel}"
+                    }
+                },
+                "remove": {
+                    "not-followed": "{x} Dem Nutzer wird nicht gefolgt.",
+                    "success": "{y} Die Benachrichtigung wurde entfernt."
+                },
+                "toggle": {
+                    "not-followed": "{x} Dem Nutzer wird nicht gefolgt.",
+                    "success_activated": "{y} Die Benachrichtigungen von **{name}** wurden aktiviert.",
+                    "success_deactivated": "{y} Die Benachrichtigungen von **{name}** wurden deaktiviert."
+                }
+            }
+        },
+        "utility": {
+            "autopublish": {
+                "none-existing": "{x} Es gibt keine Autopublish Kanäle.",
+                "add": {
+                    "channel-already-autopublish": "{x} Dieser Kanal ist bereits in der Datenbank.",
+                    "success": "{y} {channel} wurde hinzugefügt."
+                },
+                "list": {
+                    "embed": {
+                        "title": "Autopublish-Kanäle"
+                    }
+                },
+                "remove": {
+                    "channel-not-autopublish": "{x} Dieser Kanal ist nicht in der Datenbank.",
+                    "success": "{y} {channel} wurde entfernt."
+                },
+                "toggle": {
+                    "success_activated": "{y} Das System wurde aktiviert.",
+                    "success_deactivated": "{y} Das System wurde deaktiviert."
+                },
+                "test": {
+                    "toggle-false": "Toggle: System ist deaktiviert",
+                    "have-been-removed": "wurden erfolgreich entfernt",
+                    "success": "{y} Keine Fehler sind aufgetreten.",
+                    "channel-not-type-5": "{channel} ist kein Ankündugungskanal"
+                },
+                "embed": {
+                    "description": "## Verwalte das System\n- Liste: Erhalte einer Liste der aktuellen Kanäle\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere das System\n- Kanal hinzufügen: Füge einen Kanal hinzu\n- Kanal entfernen: Entferne einen Kanal"
+                },
+                "components": {
+                    "liste-button": {
+                        "label": "Liste"
+                    },
+                    "debug-button": {
+                        "label": "Debuggen"
+                    },
+                    "reset-button": {
+                        "label": "Zurücksetzen"
+                    },
+                    "toggle-button": {
+                        "label": "Toggle"
+                    },
+                    "addchannel-select": {
+                        "placeholder": "Kanal hinzufügen"
+                    },
+                    "removechannel-select": {
+                        "placeholder": "Kanal entfernen"
+                    }
+                }
+            },
+            "autorole": {
+                "embed": {
+                    "description": "## Autorollen\n- Liste: Erhalte einer Liste der aktuellen Autorollen\n- Debuggen: Teste und behebe Fehler\n- Zurücksetzen: Setze die Einstellungen zurück\n- Toggle: Aktiviere oder deaktiviere die Autorollen\n- Rollen hinzufügen: Füge eine Autorolle hinzu\n- Rollen entfernen: Entferne eine Autorolle"
+                },
+                "components": {
+                    "liste-button": {
+                        "label": "Liste"
+                    },
+                    "debug-button": {
+                        "label": "Debuggen"
+                    },
+                    "reset-button": {
+                        "label": "Zurücksetzen"
+                    },
+                    "toggle-button": {
+                        "label": "Toggle"
+                    },
+                    "addchannel-select": {
+                        "placeholder": "Autorolle hinzufügen"
+                    },
+                    "removechannel-select": {
+                        "placeholder": "Autorolle entfernen"
+                    }
+                }
+            },
+            "emoji": {
+                "emoji-notvalid": "{x} Bitte gebe ein gültiges Emoji an.",
+                "emoji-default": "{x} Dies ist ein Standardemoji.",
+                "emoji-guild": "{x} Dieses Emoji ist nicht von diesem Server.",
+                "copy": {
+                    "limit-reached": "{x} Du kannst keine Emojis mehr hinzufügen, da das Limit erreicht wurde.",
+                    "buttons": {
+                        "emoji-as-emoji-button": {
+                            "label": "Emoji als Emoji hinzufügen."
+                        },
+                        "emoji-as-sticker-button": {
+                            "label": "Emoji als Sticker hinzufügen."
+                        },
+                        "url-link-button": {
+                            "label": "URL"
+                        }
+                    },
+                    "embed": {
+                        "title": "Emoji hinzufügen",
+                        "description": "- Füge dieses Emoji als Sticker hinzu, indem du auf \"Emoji als Sticker hinzufügen\" klickst.\n- Füge dieses Emoji als Emoji hinzu, indem du auf \"Emoji als Emoji hinzufügen\" klickst."
+                    },
+                    "success": "{y} {name} wurde hinzugefügt.",
+                    "has-been-added": "wurde hinzugefügt"
+                },
+                "info": {
+                    "embed": {
+                        "title": "Emoji Info",
+                        "description-managed-true": "- **Name:** {name}\n- **ID:** `{id}`\n- **Verwaltet:** Ja",
+                        "description-managed-false": "- **Name:** {name}\n- **ID:** `{id}`\n- **Verwaltet:** Nein"
+                    }
+                }
+            },
+            "poll": {
+                "create": {
+                    "embed": {
+                        "title": "Erstelle eine Umfrage!",
+                        "fields": {
+                            "current-options": {
+                                "name": "Aktuelle Optionen",
+                                "value": "Keine Optionen gesetzt"
+                            }
+                        }
+                    },
+                    "components": {
+                        "delete-option-select": {
+                            "placeholder": "Lösche eine Option"
+                        },
+                        "add-option-button": {
+                            "label": "Option hinzufügen"
+                        },
+                        "set-description-button": {
+                            "label": "Beschreibung setzen"
+                        },
+                        "send-poll-button": {
+                            "label": "Umfrage senden"
+                        }
+                    }
+                }
+            }
+        },
+        "automod": {
+            "server_not_community": "{x} Dieser Server ist kein Community Server.",
+            "server_not_community_button": "Wie man die Discord Community aktiviert",
+            "server_not_community_support_article": "https://support.discord.com/hc/de/articles/360047132851-Richte-deinen-Community-Server-ein",
+            "filter_word_added": "{y} Das Wort wurde erfolgreich in den Filter hinzugefügt.",
+            "filter_limit_reached": "{x} Das Limit von `1000` Nicknames wurde erreicht.",
+            "filter_word_added_togglenotice": "{y} Das Wort wurde erfolgreich in den Filter hinzugefügt.\n> {i} Die Automod Regel ist deaktiviert. Aktiviere diese mit </automod nicknames toggle:{commandId}>!",
+            "filter_already_existing": "{x} Der angegebene Name ist bereits im Filter vorhanden.",
+            "filter_not_existing": "{x} Der angegebene Name ist nicht im Filter vorhanden.",
+            "filter_word_removed": "{y} Das Wort wurde erfolgreich aus dem Filter entfernt.",
+            "filter_reset": "{y} Der Filter wurde erfolgreich zurückgesetzt.",
+            "filter_empty": "{x} Es gibt keine Namen im Filter.",
+            "list_embed_description": "# Automod - Nicknames\n\n## Komplett verboten\n- {1}\n## Genauer Name\n- {2}\n## Darf nicht mit ... anfangen\n- {3}\n## Darf nicht mit ... enden\n- {4}",
+            "toggle_deactivated": "{y} Die Automod Regel wurde deaktiviert.",
+            "toggle_activated": "{y} Die Automod Regel wurde aktiviert.",
+            "allowlist_already": "{x} Die Rolle ist bereits in der Allowlist.",
+            "allowlist_added": "{y} Die Rolle wurde erfolgreich zur Allowlist hinzugefügt.",
+            "allowlist_embed_description": "# Automod - Allowlist\n- {1}",
+            "allowlist_not": "{x} Die Rolle ist nicht in der Allowlist.",
+            "allowlist_removed": "{y} Die Rolle wurde erfolgreich aus der Allowlist entfernt.",
+            "logchannel_already": "{x} Der Logkanal ist bereits <#{channel}>.",
+            "logchannel_set": "{y} Der Logkanal wurde gesetzt.",
+            "logchannel_notset": "{x} Der Logkanal ist nicht gesetzt.",
+            "logchannel_reset": "{y} Der Logkanal wurde erfolgreich zurückgesetzt."
+        }
+    },
+    "config": {
+        "developer_name": "D_Gamet",
+        "developer_id": "754246997266923571",
+        "support_invite": "https://discord.gg/BQumAujuvk",
+        "invite_link": "https://discord.com/api/oauth2/authorize?client_id=965903240384376872&permissions=274878295233&scope=applications.commands%20bot"
+    },
+    "contextmenus": {
+        "avatar": {},
+        "end_poll": {
+            "message-not-poll": "{x} Diese Nachricht ist keine Umfrage. Erstelle eine Umfrage mit </poll create:1114289709099798578>."
+        },
+        "levelrank": {
+            "system-deactivated": "{x} Das Levelsystem ist auf diesem Server deaktiviert.",
+            "user-bot": "{x} Bots können kein XP sammeln.",
+            "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server."
+        },
+        "pollcreate": {},
+        "userinfo": {},
+        "voiceinfo": {
+            "not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server.",
+            "not-in-vc": "{x} Dieser Nutzer ist in keinem Sprachkanal.",
+            "embed": {
+                "self": "Selbst",
+                "moderator": "Moderator",
+                "user": "Nutzer",
+                "id": "ID",
+                "voice-connection": "Sprachkanalverbindung",
+                "voice-channel": "Sprachkanal",
+                "deaf": "Kopfhörer stummgeschaltet",
+                "mute": "Mikrofon stummgeschaltet"
+            }
+        }
+    },
+    "events": {
+        "logging": {},
+        "emojiquiz": {},
+        "flagquiz": {}
+    },
+    "modals": {
+        "embeds": {
+            "embed-message-not-found": "{x} Ich kann die Embed-Nachricht nicht mehr finden.",
+            "embed-not-existing": "{x} Die Embed-Nachricht gibt es nicht mehr",
+            "embed-not-found": "{x} Ich finde das Embed nicht mehr.",
+            "url-invalid": "{x} Die Angabe muss eine valide URL sein.",
+            "author": {
+                "name": {},
+                "url": {},
+                "icon": {}
+            },
+            "color": {
+                "not-hex-code": "{x} Die Angabe ist kein Hex-Code"
+            },
+            "description": {},
+            "fields_add": {},
+            "footer": {
+                "text": {},
+                "icon": {}
+            },
+            "image": {},
+            "thumbnail": {},
+            "timestamp": {
+                "not-timestamp": "{x} Die angegebene Zeit ist ungültig. `YYYY-MM-DD HH:MM:SS` wäre richtig.\n> Beispiel: `2023-03-15 15:37:12` -> 15.03.2023 15:37:12"
+            },
+            "title": {
+                "title": {},
+                "url": {}
+            },
+            "import_json": {
+                "not-json-code": "{x} Der JSON Code ist nicht valid."
+            },
+            "sendwithwebhook": {
+                "not-valid": "{x} Die angegebene Webhook URL ist nicht valid.",
+                "thread-id": "{x} Dieses Webhook ist für ein Forum, deswegen kann es nicht verwendet werden."
+            }
+        },
+        "logs": {
+            "leave_message": {
+                "success": "{y} Die Nachricht wurde aktualisiert."
+            },
+            "welcome_message": {
+                "success": "{y} Die Nachricht wurde aktualisiert."
+            }
+        },
+        "other": {
+            "endelon_post_create": {
+                "url-not-valid": "{x} Die URL ist nicht valid."
+            },
+            "level_message": {
+                "success": "{y} Die Nachricht wurde aktualisiert."
+            }
+        },
+        "poll": {
+            "add_option": {
+                "current-options": "Aktuelle Option(en)",
+                "embed-deleted": "{x} Das Embed wurde gelöscht.",
+                "option-twice": "{x} Du kannst keine Option mehrmals nutzen.",
+                "fields-size-error": "{x} Du kannst nicht mehr als 25 Optionen hinzufügen."
+            },
+            "set_description": {
+                "embed-deleted": "{x} Das Embed wurde gelöscht."
+            }
+        }
+    },
+    "other": {
+        "yes": "Ja",
+        "no": "Nein",
+        "active": "Aktiv",
+        "no-data": "Keine Daten",
+        "deactive": "Nicht aktiv",
+        "channel": "Kanal",
+        "channels": "Kanäle",
+        "activate": "Aktivieren",
+        "deactivate": "Deaktivieren",
+        "no-channel": "Kein Kanal",
+        "day": "Tag",
+        "days": "Tage",
+        "none": "Keine",
+        "api": {
+            "not-functionable": "{x} Dieser Befehl ist nicht mehr funktionsfähig. Bitte kontaktiere meinen Entwickler D_Gamet.",
+            "401": "{x} Der Befehl ist nicht mehr funktionsfähig, ich habe meinen Entwickler aber schon benachrichtigt.",
+            "403": "{x} Dieser Befehl ist nicht mehr funktionabel. Bitte kontaktiere meinen Entwickler D_Gamet.",
+            "429": "{x} Ich befinde mich zurzeit im Rate Limit.",
+            "500": "{x} Der externe Server hatte einen Error.",
+            "502": "{x} Der externe Server ist zurzeit nicht erreichbar.",
+            "503": "{x} Der externe Server ist zurzeit nicht verfügbar."
+        },
+        "general": {
+            "currently-not-available": "{x} Zurzeit nicht verfügbar.",
+            "notspecific": "{x} Ein Fehler ist aufgetreten.",
+            "notyourmenu": "{x} Dies ist nicht dein Menu.",
+            "option-not-valid": "{x} Die angegebene Option ist nicht valid. Bitte suche dir eine aus, die dir vorgeschlagen wird.",
+            "translation-error": "{i} Ich habe automatisch erkannt, dass eine Übersetzung nicht richtig geladen wurde. Ich habe meinen Entwickler bereits automatisch informiert.",
+            "menutimeover": "{x} Das Menu ist abgelaufen. Bitte öffne ein neues Menu.",
+            "components": {
+                "buttons": {
+                    "support-button": {
+                        "label": "Support"
+                    },
+                    "invite-button": {
+                        "label": "Bot einladen"
+                    },
+                    "status-button": {
+                        "label": "Status"
+                    },
+                    "docs-button": {
+                        "label": "Documentation"
+                    },
+                    "topgg-button": {
+                        "label": "Top.gg"
+                    },
+                    "privacy-policy-button": {
+                        "label": "Datenschutzerklärung"
+                    }
+                }
+            }
+        },
+        "permissions": {
+            "user_permission": "{x} Dir fehlt die Berechtigung {permission}.",
+            "user_permission_channel": "{x} Dir fehlt die Berechtigung {permission} in {channel}",
+            "user_channel": "{x} Dir fehlt die Berechtigung, den Kanal {channel} zu sehen.",
+            "bot_permission": "{x} Mir fehlt die Berechtigung {permission}.",
+            "bot_permission_channel": "{x} Mir fehlt die Berechtigung {permission} in {channel}",
+            "bot_channel": "{x} Mir fehlt die Berechtigung, den Kanal {channel} zu sehen."
+        },
+        "grammar": {
+            "singular": "Ein Fehler ist aufgetreten",
+            "plural": "{size} Fehler sind aufgetreten"
+        },
+        "restrictions": {
+            "server-banned": "{x} Dieser Server wurde gebannt. Mehr Informationen: https://discord.gg/BQumAujuvk.",
+            "user-banned": "{x} Du wurdest aus dem System von Dat Bot gebannt. Mehr Informationen bekommst du hier: https://discord.gg/BQumAujuvk.",
+            "cooldown": {
+                "button": "{x} Du kannst diesen Button wieder {lastexecuted} nutzen.",
+                "command": "{x} Du kannst diesen Befehl wieder {lastexecuted} nutzen.",
+                "contextmenu": "{x} Du kannst diese App wieder {lastexecuted} nutzen.",
+                "modal": "{x} Du kannst dieses Modal wieder {lastexecuted} nutzen.",
+                "selector": "{x} Du kannst dieses Select Menu wieder {lastexecuted} nutzen."
+            },
+            "command-developer": "{x} Dieser Befehl ist nur für Entwickler.",
+            "command-unloaded": "{x} Dieser Befehl ist nicht geladen. Bitte kontaktiere den Support Server: https://discord.gg/BQumAujuvk",
+            "use-command-again": "{x} Bitte nutze den Befehl erneut.",
+            "user-banned-command": "{x} Du darfst diesen Befehl nicht benutzen."
+        },
+        "endelon": {
+            "runtime": "🕐・Laufzeit",
+            "status": {
+                "offline": "🔴・Status",
+                "online": "🟢・Status",
+                "installing": "🟤・Status",
+                "unknown": "⚫・Status"
+            },
+            "status-label": {
+                "offline": "Offline",
+                "starting": "Startend",
+                "online": "Online",
+                "installing": "Installieren",
+                "stopping": "Stoppend",
+                "running": "Laufend",
+                "unknown": "Unbekannt",
+                "restart": "Neustarten"
+            },
+            "server-not-found": "{x} Dieser Server wurde nicht gefunden.",
+            "manage-your-server": "Verwalte deinen Server",
+            "server-started": "{y} Server gestartet.",
+            "api": {
+                "400": "{x} Du hast dein Endelon Konto nicht mit deinem Discord Konto verknüpft.",
+                "404": "{x} Der Server gehört dir nicht."
+            },
+            "update": "Update",
+            "start": "Start",
+            "restart": "Neustarten",
+            "stop": "Stoppen",
+            "kill": "Killen"
+        },
+        "quiz": {
+            "emojiquiz": {
+                "embed": {
+                    "title": "Errate den Begriff"
+                }
+            },
+            "flagquiz": {
+                "embed": {
+                    "title": "Errate die Flagge"
+                }
+            }
+        }
+    },
+    "permissions": {
+        "AddReactions": "Reaktionen hinzufügen",
+        "Administrator": "Administrator",
+        "AttachFiles": "Dateien anhängen",
+        "BanMembers": "Nutzer bannen",
+        "ChangeNickname": "Nickname ändern",
+        "Connect": "Verbinden",
+        "CreateInstantInvite": "Einladung erstellen",
+        "CreatePrivateThreads": "Private Threads erstellen",
+        "CreatePublicThreads": "Öffentliche Threads erstellen",
+        "DeafenMembers": "Kopfhörer stummschalten",
+        "EmbedLinks": "Links einbetten",
+        "KickMembers": "Nutzer kicken",
+        "ManageChannels": "Kanäle verwalten",
+        "ManageEmojisAndStickers": "Emojis und Sticker verwalten",
+        "ManageEvents": "Events verwalten",
+        "ManageGuild": "Server verwalten",
+        "ManageGuildExpressions": "Ausdrücke verwalten",
+        "ManageMessages": "Nachrichten verwalten",
+        "ManageNicknames": "Nickname ändern",
+        "ManageRoles": "Rollen verwalten",
+        "ManageThreads": "Threads verwalten",
+        "ManageWebhooks": "Webhooks verwalten",
+        "MentionEveryone": "@everyone, @here und alle Rollen erwähnen",
+        "ModerateMembers": "Mitglieder timeouten",
+        "MoveMembers": "Nutzer verschieben",
+        "MuteMembers": "Mikrofon stummschalten",
+        "PrioritySpeaker": "Very Important Speaker",
+        "ReadMessageHistory": "Nachrichtenverlauf einsehen",
+        "RequestToSpeak": "Redeanfrage senden",
+        "SendMessages": "Nachrichten versenden",
+        "SendMessagesInThreads": "Nachrichten in Threads versenden",
+        "SendTTSMessages": "Text-zu-Sprache-Nachricht senden",
+        "SendVoiceMessages": "Sprachnachrichten versenden",
+        "Speak": "Sprechen",
+        "Stream": "Bildschirmübertragung nutzen",
+        "UseApplicationCommands": "Applikationsbefehle nutzen",
+        "UseEmbeddedActivities": "Eingebettete Aktivitäten nutzen",
+        "UseExternalEmojis": "Externe Emojis verwenden",
+        "UseExternalSounds": "Externe Sounds verwenden",
+        "UseExternalStickers": "Externe Sticker verwenden",
+        "UseSoundboard": "Soundboard nutzen",
+        "UseVAD": "Voice-activity-detection nutzen",
+        "ViewAuditLog": "Auditlog einsehen",
+        "ViewChannel": "Kanal einsehen",
+        "ViewCreatorMonetizationAnalytics": "Rollenabonnements einblicken",
+        "ViewGuildInsights": "Server-Einblicke anzeigen"
+    },
+    "selectors": {
+        "embeds": {
+            "embed-message-not-found": "{x} Ich kann die Embed-Nachricht nicht mehr finden.",
+            "embed-not-existing": "{x} Die Embed-Nachricht gibt es nicht mehr",
+            "embed-not-found": "{x} Ich finde das Embed nicht mehr.",
+            "embed-deleted": "{x} Das Embed wurde gelöscht.",
+            "url-invalid": "{x} Die Angabe muss eine valide URL sein.",
+            "author": {
+                "name": {
+                    "modal": {
+                        "title": "Ändere den Autor Namen",
+                        "label": "Autor Name"
+                    }
+                },
+                "icon": {
+                    "modal": {
+                        "title": "Ändere das Autor Icon",
+                        "label": "Autor Icon",
+                        "placeholder": "Ein cooles Icon."
+                    }
+                },
+                "url": {
+                    "modal": {
+                        "title": "Ändere die Autor URL",
+                        "label": "URL",
+                        "placeholder": "https://discord.gg/BQumAujuvk"
+                    }
+                }
+            },
+            "delete": {},
+            "footer": {
+                "text": {
+                    "modal": {
+                        "title": "Ändere den Fusszeilen Text",
+                        "label": "Fusszeilen Text",
+                        "placeholder": "Dat Bot ist ein toller Bot."
+                    }
+                },
+                "icon": {
+                    "modal": {
+                        "title": "Ändere das Fusszeilen Icon",
+                        "label": "Fusszeilen Icon",
+                        "placeholder": "Ein cooles Icon."
+                    }
+                }
+            },
+            "title": {
+                "title": {
+                    "modal": {
+                        "title": "Ändere den Titel",
+                        "label": "Titel",
+                        "placeholder": "Ein sehr toller Titel."
+                    }
+                },
+                "url": {
+                    "modal": {
+                        "title": "Ändere die Titel URL",
+                        "label": "URL",
+                        "placeholder": "https://discord.gg/BQumAujuvk"
+                    }
+                }
+            },
+            "delete-part": {
+                "requirements-missing": "{x} Das Embed muss eines der folgenden Dinge enthalten: Titel, Autor Name, Fusszeile - Text, Beschreibung, Image oder Thumbnail.",
+                "embed-size": "{x} Man kann nicht mehr als 25 Felder hinzufügen.",
+                "selector": {
+                    "placeholder": "Wähle ein Feld zum Löschen aus."
+                }
+            },
+            "select-embed": {
+                "title": {
+                    "selector": {
+                        "placeholder": "Editiere den Titel!",
+                        "options": {
+                            "text": "Text",
+                            "url": "URL"
+                        }
+                    }
+                },
+                "author": {
+                    "selector": {
+                        "placeholder": "Editiere den Autor!",
+                        "options": {
+                            "name": "Name",
+                            "url": "URL",
+                            "icon": "Icon URL"
+                        }
+                    }
+                },
+                "description": {
+                    "modal": {
+                        "title": "Ändere die Beschreibung",
+                        "label": "Beschreibung",
+                        "placeholder": "Eine sehr tolle Beschreibung."
+                    }
+                },
+                "timestamp": {
+                    "modal": {
+                        "title": "Ändere den Zeitstempel",
+                        "label": "Zeitstempel",
+                        "placeholder": "YYYY-MM-DD HH:MM"
+                    }
+                },
+                "thumbnail": {
+                    "modal": {
+                        "title": "Ändere das Thumbnail",
+                        "label": "Thumbnail",
+                        "placeholder": "Ein tolles Thumbnail."
+                    }
+                },
+                "image": {
+                    "modal": {
+                        "title": "Ändere das Image",
+                        "label": "Image",
+                        "placeholder": "Ein tolles Image."
+                    }
+                },
+                "footer": {
+                    "selector": {
+                        "placeholder": "Editiere die Fusszeile!",
+                        "options": {
+                            "name": "Name",
+                            "icon": "Icon URL"
+                        }
+                    }
+                },
+                "color": {
+                    "modal": {
+                        "title": "Ändere die Farbe",
+                        "label": "Farbe",
+                        "placeholder": "#2ef024"
+                    }
+                },
+                "field": {
+                    "embed-size": "{x} Man kann nicht mehr als 25 Felder hinzufügen.",
+                    "modal": {
+                        "title": "Füge ein Feld hinzu!",
+                        "inputs": {
+                            "information": {
+                                "label": "Name",
+                                "placeholder": "Informationen"
+                            },
+                            "value": {
+                                "label": "Value",
+                                "placeholder": "Informationen sind sehr toll!"
+                            },
+                            "inline": {
+                                "label": "Inline",
+                                "placeholder": "true/talse"
+                            }
+                        }
+                    }
+                }
+            },
+            "send-embed": {}
+        },
+        "logs": {
+            "leave": {
+                "channel": {
+                    "success": "{y} Verlassensnachrichten werden nun in {channel} gesendet."
+                },
+                "mention-setrole": {
+                    "success": "{y} Die Rollenerwähnung wurde zu {role} gesetzt."
+                },
+                "mention": {
+                    "user": {
+                        "success": "{y} Die Erwähnung wurde gesetzt zu: **Nutzer**."
+                    },
+                    "role": {
+                        "selector": {
+                            "placeholder": "Setze die Rolle"
+                        },
+                        "success": "{i} Bitte wähle eine Rolle aus."
+                    },
+                    "none": {
+                        "success": "{y} Die Verlassenserwähnung wurde entfernt."
+                    }
+                }
+            },
+            "logs": {
+                "channel": {
+                    "success": "{y} Der Logging Kanal wurde zu {channel} gesetzt."
+                },
+                "channel_setup": {
+                    "success": "{y} Der Logging Kanal wurde zu {channel} gesetzt."
+                }
+            },
+            "welcome": {
+                "channel": {
+                    "success": "{y} Der Kanal für Willkommensnachrichten wurde in {channel} gesetzt."
+                },
+                "mention-setrole": {
+                    "success": "{y} Die Rollenerwähnung wurde zu {role} gesetzt."
+                },
+                "mention": {
+                    "user": {
+                        "success": "{y} Die Erwähnung wurde gesetzt zu: **Nutzer**."
+                    },
+                    "role": {
+                        "selector": {
+                            "placeholder": "Setze die Rolle"
+                        },
+                        "success": "{i} Bitte wähle eine Rolle aus."
+                    },
+                    "none": {
+                        "success": "{y} Die Willkommenserwähnung wurde entfernt."
+                    }
+                }
+            }
+        },
+        "other": {
+            "autorole_addrole": {
+                "buttons": {
+                    "autorole-home": {
+                        "label": "Zurück"
+                    }
+                },
+                "limit-reached": "- {role}: Das Limit von 15 Rollen wurde erreicht.",
+                "already-autorole": "- {role}: Diese Rolle ist schon eine Autorolle.",
+                "role-everyone": "- {role}: Diese Rolle ist @everyone.",
+                "role-managed": "- {role}: Rolle wird von einem externen Service verwaltet.",
+                "role-position": "- {role}: Ich kann diese Rolle nicht vergeben (Rollenposition).",
+                "role-administrator": "- {a} {role}: Diese Rolle hat Administrationsberechtigungen.",
+                "role-success": "- {role}: Erfolg",
+                "result": "Ergebnis",
+                "added-roles": "Hinzugefügte Rollen",
+                "log": "Log",
+                "success": "- {role}: Erfolg"
+            },
+            "autorole_removerole": {
+                "buttons": {
+                    "autorole-home": {
+                        "label": "Zurück"
+                    }
+                },
+                "not-autorole": "- {role}: Diese Rolle ist keine Autorolle.",
+                "result": "Ergebnis",
+                "removed-roles": "Hinzugefügte Rollen",
+                "success": "- {role}: Erfolg",
+                "log": "Log"
+            },
+            "datbot_channel": {
+                "embed": {
+                    "title": "Dat Bot einrichten",
+                    "description": "- {y} Einrichtung gestartet.\n- {y} Überprüfe Rechte.\n- {y} Überprüfe Logging-Kanal.\n- {y} Einrichtung fertig."
+                }
+            }
+        },
+        "poll": {
+            "embed-deleted": "{x} Das Embed wurde gelöscht.",
+            "poll_delete_option": {
+                "embed": {
+                    "fields": {
+                        "current-options": {
+                            "name": "Aktuelle Option(en)",
+                            "value": "Keine Optionen"
+                        }
+                    }
+                }
+            },
+            "send_poll": {
+                "poll-message-not-found": "{x} Die Umfrage Nachricht wurde nicht gefunden.",
+                "embed-deleted": "{x} Das Embed wurde gelöscht."
+            }
+        }
+    },
+    "valorant": {
+        "code_submit": {
+            "label": "Gebe den Code an",
+            "title": "Code"
+        },
+        "rank": {
+            "no-arguments": "{x} Bitte gebe einen Riot-namen (Als Beispiel DGamet#1687) an oder logge dich mit </link valorant:{commandId}> ein.",
+            "invalid-username": "{x} Der angegebene Nutzername ist nicht valid. Bitte überprüfe deine Eingabe.",
+            "user-no-data": "{x} Zu diesem Nutzer wurden keine Daten gefunden.",
+            "description": "## Kompetiv - {username}\n- Zurzeit\n - Rang: {rank}\n - MMR: {mmr}\n - Elo: {elo}\n - Letztes Spiel: {last_game} RR {result}\n - Spiele für das Einranken benötigt: {games_required} benötigt\n\n- Alltime\n - Zeitpunkt: Episode {episode} Akt {act}\n - Rang: {alltime_rank}",
+            "won": "gewonnen",
+            "lost": "verloren"
+        },
+        "matchhistory": {
+            "red": "Rot",
+            "blue": "Blau",
+            "not-linked": "{x} Du hast dein Konto nicht verlinkt. Nutze </link valorant:{commandId}>, um dein Konto zu verlinken.",
+            "wrong-shard": "{x} Bitte logge dich erneut ein. Vorher musst du dich mit </unlink valorant:{commandId}> wieder ausloggen.",
+            "account-not-found": "{x} Ich habe das verlinkte Konto nicht gefunden.",
+            "defaultDescription": "## Wähle ein Match aus\n- Wähle eines der Matches aus.\n- Aufgrund einer Limitierung von Discord kann Dat Bot nur die letzten 25 Matches anzeigen.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
+            "defaultSelectPlaceholder": "Wähle ein Match aus.",
+            "defaultFooter": "{matches} Matches erhalten",
+            "no-matches": "{x} Ich habe keine Matches gefunden.",
+            "match": "Runde",
+            "buttons": {
+                "playerandqueues": "Spieler & Queues",
+                "resultandteams": "Ergebnis & Teams",
+                "back": "Zurück"
+            },
+            "selectors": {
+                "match": "Wähle eine Runde aus.",
+                "player": "Wähle einen Spieler aus."
+            },
+            "descriptions": {
+                "defaultInMenu": "## Wähle etwas aus\n- Wähle einen der unteren Buttons, um Informationen über dieses Spiel zu erhalten\n - Spieler & Queues: Informationen über die einzelnen Spieler und wer mit wem gequeuet hat.\n - Ergebnis & Teams: Informationen zu den jeweiligen Teams und das Endergebnis.\n\n- Bemerke: Jeder kann die Informationen über das Spiel einsehen, solange diese Person diese Nachricht lesen kann.",
+                "valo_players": "## {mode}・{region}\n## Spieler - Blau\n{playersBlue}\n## Spieler - Rot\n{playersRed}\n## Queues\n{queues}",
+                "valo_match": "## Game\n- Startzeitpunkt: <t:{started}:R>・<t:{started}:F>\n- Endzeitpunkt: <t:{ended}:R>・<t:{ended}:F>\n- Modus: {mode}\n- Karte: {map}\n## Ergebnis\n- Gewonnen von {team1}: {team1wins}/{rounds_played}\n- Gewonnen von{team2}: {team2wins}/{rounds_played}\n- Sieger: {winner} ({yourteam})\n## Rundenenden\n{endings}\n## Timeline\n{timeline}",
+                "your-team": "Dein Team",
+                "roundending_elimination": "Elimination: {1}/{rounds_played}",
+                "roundending_defuse": "Entschärft: {1}/{rounds_played}",
+                "roundending_timer": "Zeit ausgelaufen: {1}/{rounds_played}",
+                "roundending_detonate": "Explosion: {1}/{rounds_played}",
+                "not-your-team": "Nicht dein Team",
+                "valo_matchinfo": "## Ergebnis in Runde {roundNum}\n- Vorheriges Ergebnis (blau:rot): {blueWon}:{redWon}\n- Rundenende: {roundResultCode}\n- Sieger: {winnerTeam}{plant}{defuse}\n## Spiellog\n{gameLog}",
+                "plantinfo": "## Spike Plant\n- Platziert vonn: {planter}\n- Zeitpunkt: {plantTimestamp}\n- Seite: {plantSide}",
+                "defuseinfo": "## Spike Defuse\n- Entschärft von: {defuser}\n- Zeitpunkt: {defuseTimestamp}",
+                "gamelog_kill": "{killer} eliminiert {player} ({type}).",
+                "gamelog_plant": "{planter} platzierte den Spike auf {site}.",
+                "gamelog_defuse": "{defuser} hat den Spike entschärft.",
+                "valo_matchinfoplayers": "## Information über {player} ({agent}) in Runde {roundNumber}\n- Score: {score}\n## Kills\n{kills}\n## Schaden hinzugefügt\n{damage}\n## Economy\n- Total: {economyTotal}\n- Ausgegeben: {economySpent}\n- Schild: {armor}\n- Waffe: {weapon}",
+                "shield": {
+                    "big": "Schweres Schild",
+                    "light": "Leichtes Schild",
+                    "regen": "Regen Shield"
+                },
+                "damageinfo": "{damageAmount} Schaden: {dmg}",
+                "headshots": "{1} Headshot(s)",
+                "bodyshots": "{1} Bodyshot(s)",
+                "legshots": "{1} Legshot(s)"
+            },
+            "footerdata": "{played} Runden gespielt - Gewinner: {winner}"
+        }
+    },
+    "tempvoice": {
+        "presets": {
+            "no-presets": "Du hast keine Presets.",
+            "not-found": "{x} Das Preset wurde nicht gefunden oder gelöscht.",
+            "not-owned": "{x} Das ist nicht dein Preset.",
+            "no-issues-found": "{y} Es wurden keine Probleme gefunden.",
+            "embeddel": "{x} Das Embed der vorherigen Nachricht wurde gelöscht. Bitte verwenden Sie den Befehl erneut.",
+            "namedollar": "{x} Der Name darf kein `$` enthalten.",
+            "limit": "{x} Du hast bereits `{1}` Voreinstellungen erstellt, was die maximale Anzahl ist. Wenn du mehr benötigen, kontaktiere den Support-Server hier: https://discord.gg/BQumAujuvk",
+            "nameexists": "{x} Du hast bereits eine Voreinstellung mit dem angegebenen Namen erstellt.",
+            "embed-1": "# TempVoice Preset bearbeiten\n- Kanalname: Editiere den Kanalnamen\n- User limit: Editiere die maximale Anzahl an Nutzer\n- Bitrate: Bearbeite die Bitrate\n- Kurzname: Bearbeiten Sie den Kurznamen\n- Interface: Entscheiden Sie, ob das Interface in den Textkanal des Sprachkanals gesendet wird\n- Berechtigungen: Zeigt die aktuellen Berechtigungen\n- Gesperrt: Ob der Kanal beim Erstellen gesperrt ist\n- Sichtbar: Ob der Kanal sichtbar ist, wenn er erstellt wird\n- Bans: Benutzer, die standardmäßig gesperrt sind\n- [+] Berechtigungen: Benutzerdefinierte Berechtigungen hinzufügen\n- [-] Berechtigungen: Benutzerdefinierte Berechtigungen entfernen",
+            "button-channelname": "Kanalname",
+            "button-userlimit": "Userlimit",
+            "button-bitrate": "Bitrate",
+            "button-shortname": "Kurzname",
+            "button-interface": "Interface",
+            "button-permissions": "Berechtigungen",
+            "button-visible": "Sichtbar",
+            "button-locked": "Gesperrt",
+            "button-bans": "Bans",
+            "select-permsadd": "[+] Berechtigungen",
+            "select-permsrem": "[-] Berechtigungen",
+            "createsuccess": "{y} TempVoice Preset wurde erfolgreich erstellt.",
+            "deletesuccess": "{y} TempVoice Preset wurde erfolgreich gelöscht.",
+            "defaultpanelsetsuccess": "{y} Panel wird jetzt als Standardpanel verwendet.",
+            "nodefaultpanel": "{x} Du hast keine Standardvorgabe für TempVoice. Lege die Standardvoreinstellung mit </tempvoice preset load:{1}> fest.",
+            "unloadsuccess": "{y} Panel `{1}` wird nicht mehr als Standard-Panel verwendet.",
+            "idinvalid": "{x} Die ID ist ungültig.",
+            "infoembed": "## TempVoice Preset\n- Kurzname: {1}\n- ID: {2}\n- Standard-Kanalname: {3}\n- Standard-Kanal-Bitrate: {4}\n- Standard-Kanal-Benutzerlimit: {5}\n- Standard-Sperrstatus: {6}\n- Standard-Sichtbarkeit: {7}\n- Interface in den TempVoice-Kanal senden: {8}",
+            "locked": "Locked",
+            "unlocked": "Unlocked",
+            "visible": "Sichtbar",
+            "invisible": "Unsichtbar",
+            "settings": {
+                "role-requiring-1": "{y} Alle Rollen sind jetzt erforderlich, um einen TempVoice-Kanal zu erstellen.",
+                "role-requiring-2": "{y} Jetzt ist nur noch eine Rolle erforderlich, um einen TempVoice-Kanal zu erstellen",
+                "no-rr": "{x} Es sind keine Required Roles festgelegt.",
+                "deleted-rr": "{y} Erfolgreich **{1}** Required Roles gelöscht.",
+                "isnan": "{x} Eingabe ist keine Nummer.",
+                "bitrate-reset": "{y} Die Bitrate wurde zurückgesetzt.",
+                "bitrate-changed": "{y} Die Bitrate wurde geändert.",
+                "name-reset": "{y} Der Name wurde zurückgesetzt.",
+                "name-changed": "{y} Der Name wurde geändert.",
+                "maximumtvchannels": "{y} Das Maximum an TempVoice Kanälen wurde geändert."
+            },
+            "components": {
+                "ban-select-placeholder": "Wähle Nutzer zum Bannen aus...",
+                "ban-embed-description": "## TempVoice Bans editieren\n- Füge gebannte Nutzer hinzu oder entferne diese. Nutze das Select Menu unten.\n- Du kannst dich nicht selbst und keine Bots hinzufügen.",
+                "default-bitrate-modal-title": "Preset Standard-Benutzergrenze",
+                "default-bitrate-modal-label": "Geben Sie die Bitrate in kbps an",
+                "default-name-modal-title": "Preset Name",
+                "default-position-1": "{y} Standardposition wurde auf `höchste` gesetzt",
+                "default-position-2": "{y} Standardposition wurde auf `niedrigst` gesetzt"
+            },
+            "invoiceroles": {
+                "successfully-deleted": "- Rolle mit ID {1} wurde gelöscht und aus der Datenbank entfernt",
+                "managed": "- <@&{1}> wird von einem externen Dienst verwaltet und kann daher nicht hinzugefügt werden.",
+                "position": "- <@&{1}> ist meine höchste Rolle oder höher als meine höchste Rolle und kann daher nicht hinzugefügt werden.",
+                "embed-description-debug": "# Ergebnis\n-# Gefunden: {1} issue(s)\n{2}",
+                "no-length": "{x} Es gibt keine Invoice Roles",
+                "successfully-deleted-response": "{y} Es wurden erfolgreich **{1}** Invoice Roles gelöscht."
+            },
+            "perms": {
+                "noextraperms": "{x} Es sind keine zusätzlichen Berechtigungen für den Eigentümer des TempVoice-Kanals festgelegt",
+                "perms-success-response": "{y} Erfolgreiches Zurücksetzen der Berechtigungen für den TempVoice-Kanaleigentümer.",
+                "noneset": "{x} Es sind keine Berechtigungen eingestellt.",
+                "embed": "# Permissions\n## Rollen\n{1}\n## Nutzer\n{2}",
+                "limit": "{x} Zu viele Berechtigungen (> 25).",
+                "banplaceholder": "Wähle nutzer zum Bannen aus...",
+                "yourself": "{x} Sie können sich selbst keine Berechtigungen geben.",
+                "userbot": "{x} Der angegebene Nutzer ist ein Bot.",
+                "embed-1": "# TempVoice Preset Permissions hinzufügen\n- Wähle Berechtigungen aus dem Select Menu unten aus\n- Die Berechtigungen beziehen sich nur auf den temporären Sprachkanal, nicht auf den Server\n## Risiko der Berechtigungen\n- 🔵 // Niedrig\n- 🟡 // Mittel\n- 🔴 // Hoch",
+                "permsplaceholder": "Choose permissions...",
+                "rolenoneset": "{x} Rolle hat keine benutzerdefinierten Berechtigungen",
+                "rolepermsrem": "{y} Die Berechtigungen der Rolle wurden entfernt",
+                "usernoneset": "{x} Benutzer hat keine benutzerdefinierten Berechtigungen",
+                "userpermsrem": "{y} Die Berechtigungen des Benutzers wurden entfernt"
+            },
+            "interface-sending-1": "{y} Interface wird in den erstellten TempVoice-Kanal gesendet",
+            "interface-sending-2": "{y} Interface wird nicht mehr in den erstellten TempVoice-Kanal gesendet",
+            "channel-locking-1": "{y} Kanal wird jetzt gesperrt.",
+            "channel-locking-2": "{y} Kanal wird nicht mehr gesperrt.",
+            "visible-1": "{y} Kanal wird nicht mehr sichtbar sein.",
+            "visible-2": "{y}  Kanal wird jetzt sichtbar sein."
+        },
+        "interface": {
+            "footer": "Trete dem Creator Kanal bei, um einen TempVoice Kanal zu erstellen.",
+            "description": "- <:1lock:1201576417897488535>・Privatsphäre\n- <:1bolt:1201576407965376533>・Kanal verwalten\n- <:1users:1201580813574230188>・Nutzer verwalten\n- <:1ban:1201576397798379600>・Moderation\n- <:1check:1201578213831356517>・Hilfe"
+        },
+        "beta": {
+            "closed": "{x} Dieses Feature ist zurzeit in einer geschlossenen Beta. Wenn du das Feature ausprobieren möchtest, kannst du dies auf dem [Support Server](https://discord.gg/BQumAujuvk) anfragen.",
+            "open": "Dieses Feature ist zurzeit in der offenen Beta."
+        },
+        "missing-permissions-setup": "{x} Um das TempVoice System nutzen zu können, benötigte ich noch folgende Berechtigungen:\n{permissions}",
+        "not-in-vc": "{x} Du bist in keinem Sprachkanal.",
+        "more-info": "Mehr Informationen",
+        "not-possible-ban": "{x} Du kannst diesen Nutzer nicht blockieren.",
+        "not-in-tv-channel": "{x} Du bist in keinem temporären Sprachkanal.",
+        "missing-permissions": "{x} Du musst entweder Inhaber des temporären Sprachkanales oder Serveradministrator sein, um diese Aktion ausführen zu können.",
+        "feature-not-available": "{x} Dieses Feature ist noch nicht verfügbar.",
+        "user-not-on-guild": "{x} Dieser Nutzer ist nicht auf diesem Server.",
+        "user-bot": "{x} Dieser Nutzer ist ein Bot.",
+        "permissions-admin": "{x} Um dies zu machen, musst du Serveradministrator sein.",
+        "permissions-mod": "{x} Um dies zu machen, musst du Serveradministrator sein, der Inhaber dieses Kanals oder Kanalmoderator sein.",
+        "permissions-owner": "{x} Um dies zu machen, musst du den Kanal besitzen.",
+        "is-owner": "{x} Dieser Benutzer ist Inhaber dieses Servers.",
+        "is-admin": "{x} Dieser Benutzer ist ein Administrator dieses Servers.",
+        "infinity": "unendlich",
+        "blocked": "{x} Du wurdest aus dem TempVoice System blockiert und kannst dieses nicht mehr benutzen.\n- Dies wurde von einem Mitglied des Servers getan und ist **nicht** global.\n- Mehr Informationen findest du [hier](https://en.docs.datbot.xyz/features/our-features/tempvoice).",
+        "logs": {
+            "info": "## Hier werden ab sofort die Logs für diesen Kanal gesendet.",
+            "lock": "{user} hat den Kanal **gesperrt**.",
+            "unlock": "{user} hat den Kanal **entsperrt**.",
+            "inactivity": "Da der letzte Nutzer ({user}) {channel} **verlassen** hat, wurde dieser gelöscht.",
+            "visible": "{user} hat den Kanal **sichtbar** gemacht.",
+            "invisible": "{user} hat den Kanal **unsichtbar** gemacht.",
+            "bitrate": "{user} hat die Bitrate auf **{bitrate}** gesetzt.",
+            "name": "{user} hat den Namen auf **{name}** gesetzt.",
+            "status": "{user} hat den Status auf **{status}** gesetzt.",
+            "region": "{user} hat die Region auf **{region}** gesetzt.",
+            "userlimit": "{user} hat das Nutzerlimit auf **{userlimit}** gesetzt.",
+            "nsfw-1": "{user} hat NSFW **aktiviert**.",
+            "nsfw-2": "{user} hat NSFW **deaktiviert**.",
+            "delete": "{user} hat {channel} **gelöscht**.",
+            "create": "{user} hat den Kanal {channel} **erstellt**.",
+            "invite": "{user} hat {member} **eingeladen**.",
+            "uninvite": "{user} hat die Einladung für {member} **entfernt**.",
+            "ban": "{user} hat {member} **gebannt**.",
+            "unban": "{user} hat {member} **entbannt**.",
+            "kick": "{user} hat {member} **gekickt**.",
+            "owner": "{user} hat {member} die Eigentumsgrechte **übertragen**.",
+            "modadd": "{user} hat {member} als Moderator **hinzugefügt**.",
+            "modrem": "{user} hat {member} als Moderator **entfernt**.",
+            "takeover": "{user} hat den Kanal **übernommen**. {member} war der vorherige Owner.",
+            "removeallmoderators": "{user} hat alle Kanalmoderatoren **entfernt**. Die Kanalmoderatoren waren: {mods}",
+            "created": "{user} hat den Kanal {channel} **erstellt**.",
+            "deleted": "Da {user} den Kanal verlassen hat, wurde {channel} **gelöscht**. Es waren keine weiteren Nutzer mehr in dem Kanal.",
+            "videoquality": "{user} hat die Videoqualität auf **{videoquality}** gesetzt."
+        },
+        "lock": {
+            "already": "{x} Der Kanal ist bereits gesperrt.",
+            "success": "{y} Der Kanal wurde gesperrt."
+        },
+        "unlock": {
+            "already": "{x} Der Kanal ist bereits entsperrt.",
+            "success": "{y} Der Kanal wurde entsperrt."
+        },
+        "visible": {
+            "already": "{x} Der Kanal ist bereits sichtbar.",
+            "success": "{y} Der Kanal wurde sichtbar gemacht."
+        },
+        "invisible": {
+            "already": "{x} Der Kanal ist bereits unsichtbar.",
+            "success": "{y} Der Kanal wurde unsichtbar gemacht."
+        },
+        "bitrate": {
+            "title": "Setze die Bitrate (in Kbps)",
+            "label": "Bitrate",
+            "placeholder": "64",
+            "bitrate-update-success": "{y} Die Bitrate wurde auf **{bitrate}kbps** gesetzt.",
+            "bitrate-update-info": "{y} Die Bitrate wurde auf **{bitrate}kbps** gesetzt, da man für {reqBitrate} ein höheres Boostlevel benötigt oder diese Bitrate nicht verfügbar ist.",
+            "bitrate-update-info-1": "{y} Die Bitrate wurde auf **8kbps** gesetzt, da dies die Mindestanzahl ist."
+        },
+        "name": {
+            "title": "Setze den Namen von dem Kanal",
+            "label": "Name",
+            "placeholder": "toller-kanalname",
+            "set-success": "{y} Der Name wurde aktualisiert."
+        },
+        "slowmode": {
+            "title": "Setze den Slowmode (s/m/h)",
+            "label": "Slowmode",
+            "placeholder": "1 Stunde 2 Sekunden 35 Minuten"
+        },
+        "status": {
+            "title": "Setze den Kanalstatus",
+            "label": "Status",
+            "placeholder": "Partytime! 🎉"
+        },
+        "userlimit": {
+            "title": "Setze das Nutzerlimit",
+            "label": "Nutzerlimit",
+            "placeholder": "∞",
+            "success": "{y} Das Nutzerlimit wurde auf **{limit}** gesetzt.",
+            "success-without-limit": "{y} Das Nutzerlimit wurde auf **unendlich** gesetzt."
+        },
+        "nsfw": {
+            "success-deactivated": "{y} NSFW wurde **deaktiviert**.",
+            "success-activated": "{y} NSFW wurde **aktiviert**."
+        },
+        "delete": {
+            "continue-success": "{y} Der Kanal wurde gelöscht.",
+            "continue-deleteable-error": "{x} Ich habe keine Berechtigung, den Kanal zu löschen.",
+            "embed": {
+                "description": "## Kanal löschen\n- Bist du dir sicher, dass du diesen TempVoice Kanal löschen möchtest? Wenn ja, klicke auf <:1check:1201578213831356517>. Wenn du diesen Vorgang abbrechen möchtest, klicke auf <:1ban:1201576397798379600>.\n- Bemerke, dass du das Löschen eines TempVoice Kanals nicht rückgängig machen kannst.",
+                "footer": "Du kannst dies nicht rückgängig machen."
+            }
+        },
+        "manage": {
+            "description": "## Erklärung\n- <:volume:1202705024057081856>・Bitrate setzen\n- <:image4:1202697412012154890>・Name setzen\n- <:note:1202703281055604787>・Status setzen\n- <:globe:1202703306527481917>・Region setzen\n- <:user:1202704216041455677>・Nutzerlimit setzen\n- <:image7:1202697417326338078>・NSFW setzen\n- <:camera:1202703995014094888>・Videoqualität setzen\n- <:trash:1202716962489110609>・Kanal löschen"
+        },
+        "moderate": {
+            "description": "## Schnelle Aktionen\n- <:crown:1202717638447468605>・Kanal übernehmen\n- <:trash:1202716962489110609>・Kanal löschen\n- <:1lock:1201576417897488535>・Kanal sperren\n- <:ban:1202712066394423326>・Nutzer bannen\n- <:unmod:1202716452860461087>・Alle Kanalmoderatoren entfernen\n## Weitergehende Moderation\n- Klicke bei dem Interface auf das Emoji <:1users:1201580813574230188>, um die Nutzer zu verwalten.\n- Klicke bei dem Interface auf das Emoji <:1bolt:1201576407965376533>, um den Kanal zu verwalten.\n## Bemerke\n- Um alle Kanalmoderatoren gleichzeitig entfernen zu können, muss man vorher den Kanal übernehmen."
+        },
+        "privacy": {
+            "description": "## Erklärung\n- <:1lock:1201576417897488535>・Sperre den Kanal\n- <:1lockopen:1201585638609272832>・Entsperre den Kanal\n- <:1eye:1201585529431527434>・Mache den Kanal sichtbar\n- <:1eyeslash:1201585541402079302>・Mache den Kanal unsichtbar"
+        },
+        "region": {
+            "description": "## Setze die Kanalregion\n- Wähle in dem unteren Select Menu die neue Region aus. Die alte Region wird standardmäßig ausgewählt.\n## Was ändert die Kanalregion?\n- Um diese Frage zu beantworten, empfehle ich, den [Support Artikel](https://support.discord.com/hc/en-us/articles/1500007645701-Voice-Regions-on-Discord-FAQ) zu lesen.",
+            "placeholder": "Wähle eine Region aus.",
+            "regions": {
+                "description-auto": "Discord wählt automatisch die Region.",
+                "description-region": "RTC Region: {region}",
+                "automatic": "Automatisch",
+                "brazil": "Brazilien",
+                "hongkong": "Hong Kong",
+                "india": "Indien",
+                "japan": "Japan",
+                "rotterdam": "Rotterdam",
+                "russia": "Russland",
+                "southafrica": "Südafrika",
+                "sydney": "Sydney",
+                "us-east": "US Ost",
+                "us-south": "US Süd",
+                "us-west": "US West",
+                "us-central": "US Zentral",
+                "singapore": "Singapur",
+                "south-korea": "Südkorea"
+            },
+            "set-success": "{y} Die Region wurde geändert."
+        },
+        "users": {
+            "description": "## Erklärung\n- <:invite:1202708818392522853>・Nutzer einladen\n- <:uninvite:1202708805851414539>・Einladung entfernen\n- <:ban:1202712066394423326>・Nutzer bannen\n- <:unban:1202712377175449730>・Nutzer entbannen\n- <:kick:1202714648990720071>・Nutzer kicken\n- <:user:1202704216041455677>・Eigentumsrechte übertragen\n- <:modadd:1202713237964062841>・Moderator hinzufügen\n- <:unmod:1202716452860461087>・Moderator entfernen"
+        },
+        "videoquality": {
+            "description": "## Setze die Videoqualität\n- Wähle in dem unteren Select Menu die neue Qualität aus. Die alte Qualität wird standardmäßig ausgewählt.",
+            "placeholder": "Wähle eine Qualität aus.",
+            "automatic": {
+                "label": "Automatisch",
+                "description": "Discord wählt automatisch die Qualität."
+            },
+            "720p": {
+                "label": "720p",
+                "description": "Videoqualität: 720p"
+            },
+            "success": "{y} Die Videoqualität wurde auf **{mode}** gesetzt."
+        },
+        "help": {
+            "description": {
+                "no-creator-channel": "## Wie kann man einen Kanal erstellen?\n- Du musst dem Creator Kanal beitreten, um einen temporären Sprachkanal zu erstellen. Der Bot wird dir automatisch einen Sprachkanal erstellen.\n- Bemerke: Dieser Server hat keinen Creator Channel\n## Wie funktioniert das Interface?\n- Privatsphäre: Hier kannst du den Kanal sperren, entsperren, sichtbar und unsichtbar stellen.\n- Kanal verwalten: Verwalte Name, Region, Nutzerlimit, Status und Bitrate.\n- Nutzer verwalten: Banne, entbanne oder kicke Nutzer. Man kann auch Nutzer Einladen und den Inhaber übertragen.\n- Moderation: Nur für Servermoderatoren: Diese können hiermit den Kanal verwalten.\n- Hilfe: Das ist dieses Menu. Es soll dir helfen, das System zu verstehen.\n## Deine Berechtigungen\n- Inhaber eines Kanals: {tempvoiceOwner}\n- Servermoderator: {serverMod}\n- Hat Moderationsrolle: {modrole}\n- Gesperrt: {blocked}",
+                "creator-channel": "## Wie kann man einen Kanal erstellen?\n- Du musst dem Kanal {creatorChannel} beitreten, um einen temporären Sprachkanal zu erstellen. Der Bot wird dir automatisch einen Sprachkanal erstellen.\n## Wie funktioniert das Interface?\n- Privatsphäre: Hier kannst du den Kanal sperren, entsperren, sichtbar und unsichtbar stellen.\n- Kanal verwalten: Verwalte Name, Region, Nutzerlimit, Status und Bitrate.\n- Nutzer verwalten: Banne, entbanne oder kicke Nutzer. Man kann auch Nutzer Einladen und den Inhaber übertragen.\n- Moderation: Nur für Servermoderatoren: Diese können hiermit den Kanal verwalten.\n- Hilfe: Das ist dieses Menu. Es soll dir helfen, das System zu verstehen.\n## Deine Berechtigungen\n- Inhaber eines Kanals: {tempvoiceOwner}\n- Servermoderator: {serverMod}\n- Hat Moderationsrolle: {modrole}\n- Gesperrt: {blocked}"
+            }
+        },
+        "setup": {
+            "too-many-channels-1": "{x} Dieser Server hat zu viele Kanäle. Bitte lösche **1 Kanal**, damit das System genutzt werden kann oder wähle einen bereits existierenden Kanal aus.",
+            "too-many-channels-2": "{x} Dieser Server hat zu viele Kanäle. Bitte lösche **{amount} Kanäle**, damit das System genutzt werden kann oder wähle einen bereits existierenden Kanal aus.",
+            "type": {
+                "description": "## Wähle den Type aus\n- Schnell: Nutzt die Standardeinstellungen und erstellt eine neue Kategorie und zwei neue Kanäle, einen für Interface (Textkanal) und einen anderen für das Erstellen (Sprachkanal).\n- manuall: Stelle den Creator Kanal ein.\n## Information\n- Du kannst die Einstellungen danach weiterhin mit </tempvoice settings:0> umstellen.",
+                "placeholder": "Wähle einen Type aus.",
+                "quick": {
+                    "label": "Schnell",
+                    "description": "Erstellt die Kanäle und nutzt die Standardeinstellungen."
+                },
+                "manual": {
+                    "label": "manuall",
+                    "description": "Stelle alles manuall ein."
+                }
+            },
+            "success": "{y} Das System wurde eingerichtet. Erstelle deinen eigegen Sprachkanal nun in {channel}! 🎉",
+            "description": "## Richte TempVoice ein\n- Dieses System erlaubt es dir, temporäre Sprachkanäle zu erstellen, die gelöscht werden, wenn diese nicht mehr genutzt werden.\n- Der Nutzer, der diesen erstellt hat, hat volle Kontrolle, ohne Berechtigungen über andere Kanäle zu haben.\n- Servermoderatoren haben trotzdem die Möglichkeit, den Kanal zu übernehmen und zu moderieren.",
+            "continue": "Fortfahren",
+            "manual": {
+                "defaultdescription": "## Wähle den Creator Kanal aus\n- Dieser Kanal wird zu dem Creator Kanal.\n- Man muss dem Creator Kanal beitreten, um einen temporären Sprachkanal zu erstellen.",
+                "description": "## Informationen\n- Erfolg. Der Creator Kanal ist nun {channel}.\n- Wähle nun den Kanal aus, in dem die Interface Nachricht gesendet werden soll.",
+                "description-1": "## Informationen\n- Erfolg. Die Interface Nachricht wurde in {channel} gesendet.\n- Um weitere Einstellungen, als Beispiel Kategorie, Systemeinstellungen oder ähnliches zu verändern, nutze </tempvoice settings:0>.\n- Um das System zu verwalten, muss man Administrator sein.\n- Unter dieser Nachricht ist ein Select Menu, dort kannst du eine Standandkategorie auswählen.",
+                "placeholder-1": "Wähle den Creator Kanal aus.",
+                "placeholder-2": "Wähle Kanal zum Senden des Intefaces aus."
+            }
+        },
+        "invite": {
+            "placeholder": "Wähle einen Nutzer zum Einladen aus.",
+            "description": "## Lade einen Nutzer ein\n- Wenn du möchtest, dass ein Nutzer beitreten kann, auch wenn der Kanal gesperrt ist, dann nutze das Select Menu unter diesem Embed, um diesen auszusuchen.\n- Man kann auch den Namen in das Select Menu eingeben, dann wird der dir der Nutzer vorgeschlagen.\n- Um die Einladung zu entfernen, klicke bei Nutzer verwalten auf das Emoji <:uninvite:1202708805851414539> und gebe dort den Nutzer an.",
+            "already": "{x} Der Nutzer wurde bereits eingeladen.",
+            "success": "{y} {user} wurde eingeladen.",
+            "banned": "{x} Ich kann {user} nicht einladen, da dieser aus dem Sprachkanal gebannt wurde."
+        },
+        "ban": {
+            "placeholder": "Wähle einen Nutzer zum Bannen aus.",
+            "description": "## Banne einen Nutzer\n- Wenn du einen Nutzer bannen möchtest, dann gebe diesen in dem unteren Select Menu an.\n - Dieser kann dann den Sprachkanal nicht mehr betreten und wird, wenn dieser zurzeit in diesem Sprachkanal ist, aus diesem gekickt.\n- Man kann auch nach dem Nutzernamen suchen, so wird der Nutzer vorgeschlagen.\n- Um einen Nutzer zu entbannen, kannst du bei dem Menu Nutzer verwalten auf das Emoji <:unban:1202712377175449730> klicken und dort den Nutzer angeben.",
+            "already": "{x} Der Nutzer ist bereits gebannt.",
+            "success": "{y} {user} wurde aus dem Sprachkanal gebannt.",
+            "success-info": "{y} {user} wurde aus dem Sprachkanal gebannt.\n- Ich habe {user} aus diesem Sprachkanal entfernt, da dieser in diesem war.",
+            "user-admin": "{x} Du kannst keine Administratoren aus einem TempVoice Kanal bannen.",
+            "user-disconnect-error": "{x} Ich konnte {user} nicht aus diesem Sprachkanal entfernen.",
+            "error-singular": "{x} Es ist ein Fehler aufgetreten\n{error}",
+            "error-plural": "{x} Es sind {amount} Fehler aufgetreten\n{error}",
+            "user-yourself": "{x} Du kannst dich nicht selber aus dem TempVoice Kanal bannen."
+        },
+        "kick": {
+            "placeholder": "Wähle einen Nutzer zum Kicken aus.",
+            "description": "## Kicke einen Nutzer\n- Wenn du einen Nutzer kicken möchtest, dann gebe diesen in dem unteren Select Menu an.\n - Dieser **kann** dann den Sprachkanal **wieder betreten**, aber wird, wenn dieser zurzeit in diesem Sprachkanal ist, aus diesem gekickt.\n- Man kann auch nach dem Nutzernamen suchen, so wird der Nutzer vorgeschlagen.",
+            "already": "{x} {user} ist nicht in diesem Sprachkanal.",
+            "success": "{y} {user} wurde gekickt. Dieser kann aber wieder beitreten, solange dieser den Kanal sieht und diesem Beitreten kann."
+        },
+        "modadd": {
+            "placeholder": "Wähle einen Nutzer aus, der Moderator wird.",
+            "description": "## Moderator hinzufügen\n- Wenn du möchtest, dass ein Nutzer Moderator wird, dann nutze das Select Menu unter diesem Embed, um diesen auszusuchen.\n- Moderatoren können\n - Nutzer kicken\n - Den Kanal sperren und entsperren\n - Den Namen ändern\n - Das Nutzerlimit ändern\n - Nutzer einladen\n - Einladungen entfernen\n- Man kann auch den Namen in das Select Menu eingeben, dann wird der dir der Nutzer vorgeschlagen.\n- Um den Moderatorenstatus zu entfernen, klicke bei Nutzer verwalten auf das Emoji <:unmod:1202716452860461087> und gebe dort den Nutzer an.",
+            "already": "{x} {user} ist bereits ein TempVoice Moderator.",
+            "success": "{y} {user} ist jetzt ein TempVoice Moderator.",
+            "owner-you": "{x} Du bist der Inhaber und bist somit automatisch Kanalmoderator.",
+            "max-reached": "{x} Du kannst nur maximal {limit} Kanalmoderatoren hinzufügen."
+        },
+        "modrem": {
+            "placeholder": "Wähle einen Nutzer aus, der als Moderator entfernt wird",
+            "description": "## Moderator entfernen\n- Wenn du möchtest, dass einem Nutzer der Moderatorenstatus entfernt wird, dann nutze das Select Menu unter diesem Embed, um diesen auszusuchen.\n- Der Nutzer hat danach keine Moderationsberechtigungen mehr.\n- Man kann auch den Namen in das Select Menu eingeben, dann wird der dir der Nutzer vorgeschlagen.",
+            "already": "{x} {user} ist kein TempVoice Moderator.",
+            "success": "{y} {user} ist kein TempVoice Moderator mehr.",
+            "owner-you": "{x} Du bist der Inhaber und bist somit automatisch Kanalmoderator."
+        },
+        "ownerset": {
+            "placeholder": "Wähle den neuen Inhaber aus.",
+            "description": "## Eigentumsrechte übertragen\n- Wenn du möchtest, dass einem Nutzer die Eigentumsrechte übertragen werden, dann nutze das Select Menu unter diesem Embed, um diesen auszusuchen.\n- Du **verlierst** danach **alle Berechtigungen**.\n- Man kann auch den Namen in das Select Menu eingeben, dann wird der dir der Nutzer vorgeschlagen.",
+            "not-owner": "{x} Du bist nicht der Inhaber des Kanals. Wenn du diesen übernehmen möchtest, klicke bei dem Interface auf \"Moderation\" und dann auf das Emoji <:crown:1202717638447468605>.",
+            "success": "{y} {user} ist nun der neue Inhaber und somit hast du keine Berechtigungen mehr, wenn du nicht sowieso Administrator auf dem Server bist.",
+            "not-in-channel": "{x} {user} muss in diesem Kanal sein, um neuer Inhaber zu werden."
+        },
+        "unban": {
+            "placeholder": "Wähle einen Nutzer zum Entbannen aus.",
+            "description": "## Entbanne einen Nutzer\n- Wenn du einen Nutzer entbannen möchtest, dann gebe diesen in dem unteren Select Menu an.\n - Dieser kann dann den Sprachkanal wieder betreten.\n- Man kann auch nach dem Nutzernamen suchen, so wird der Nutzer vorgeschlagen.",
+            "already": "{x} Der Nutzer ist nicht gebannt.",
+            "success": "{y} {user} wurde entbannt."
+        },
+        "uninvite": {
+            "placeholder": "Wähle einen Nutzer aus, von dem du die Einladung entfernen möchtest.",
+            "description": "## Einladung entfernen\n- Wenn du möchtest, dass die Einladung eines Nutzers entfernt wird, dann nutze das Select Menu unter diesem Embed, um diesen auszusuchen.\n- Dieser kann dem Kanal dann nicht mehr beitreten, wenn dieser gesperrt ist.\n- Man kann auch den Namen in das Select Menu eingeben, dann wird der dir der Nutzer vorgeschlagen.",
+            "already": "{x} Der Nutzer ist nicht eingeladen.",
+            "success": "{y} Die Einladung von {user} wurde entfernt."
+        },
+        "takeover": {
+            "already": "{x} Du bist bereits der Inhaber des Kanals {channel}.",
+            "success": "{y} Du hast den Kanal **übernommen**\n- {user} hat ab sofort keine Berechtigungen mehr."
+        },
+        "removeallmods": {
+            "already": "{x} Es gibt keine TempVoice Kanalmoderatoren.",
+            "success": "{y} Alle Kanalmoderatoren wurden entfernt:\n{mods}"
+        },
+        "resetsystem": {
+            "success": "{y} Die Einstellungen wurden erfolgreich zurückgesetzt.",
+            "description": "## Setze die Einstellungen zurück\n- Du möchtest dieses System nicht mehr nutzen? Wenn ja, setze die Einstellungen hiermit zurück.\n- Du kannst dies nicht rückgängig machen.\n- Gebe gerne Feedback, wieso du das System nicht mehr nutzen möchtest.\n\n- Bist du dir sicher und möchtest die Einstellungen zurücksetzen, so klicke auf <:1check:1201578213831356517>. Wenn du diesen Vorgang abbrechen möchtest, klicke auf <:1ban:1201576397798379600>."
+        },
+        "settings": {
+            "defaultname": {
+                "success-1": "{y} Der Standardname wurde aktualisiert.",
+                "success-2": "{y} Der Standardname wurde zurückgesetzt."
+            },
+            "defaultuserlimit": {
+                "success-1": "{y} Das Standardnutzerlimit wurde aktualisiert.",
+                "success-2": "{y} Das Standardnutzerlimit wurde zurückgesetzt.",
+                "not-valid": "{x} Das angegebene Nutzerlimit ist nicht valid. Bitte gebe eine Zahl zwischen **1** und **99** an oder gebe \"max\" an, um unendlich viele Nutzer zu erlauben."
+            },
+            "command": {
+                "description": "## Verwalte die Einstellungen\n- <:1bolt:1201576407965376533>・Verwalte den Kanal, der erstellt wird, wenn man dem Creator Channel beitritt: Name, Berechtigungen, Bitrate, Kategorie & Nutzerlimit.\n- <:1check:1201578213831356517>・Verwalte das System: Setze dieses Zurück, deaktiviere/aktiviere dieses, teste das System oder siehe die Einstellungen ein.\n- <:user:1202704216041455677>・Moderationseinstellungen: Logging, Nutzer blockieren und Moderationsrolle"
+            }
+        },
+        "block": {
+            "already": "{x} {user} ist bereits blockiert.",
+            "success": "{y} {user} wurde blockiert.",
+            "placeholder": "Wähle den Nutzer zum Blockieren aus.",
+            "description": "## Blockiere einen Nutzer\n- Dieser Nutzer kann dann keine Einstellungen mehr verwalten und keine TempVoice Kanäle zu erstellen.\n- Der Nutzer darf kein Administrator sein, darf die Moderationsrolle nicht haben und darf nicht Inhaber sein.\n- Wähle den Nutzer zum Blockieren in dem Nutzer Select Menu aus. Du kannst auch per Nutzername oder ID suchen."
+        },
+        "category": {
+            "already": "{x} Die Kategorie ist bereits die Standardkategorie oder Fallbackkategorie.",
+            "success": "{y} Die Standardkategorie wurde aktualisiert.",
+            "reset": "{y} Die Standardkategorie wurde **zurückgesetzt**."
+        },
+        "fallback": {
+            "already": "{x} Die Kategorie ist bereits die Standardkategorie oder Fallbackkategorie.",
+            "no-default": "{x} Es gibt keine Standardkategorie. Es muss erst eine Standardkategorie gesetzt werden.",
+            "success": "{y} Die Fallbackkategorie wurde aktualisiert.",
+            "reset": "{y} Die Fallbackkategorie wurde **zurückgesetzt**."
+        },
+        "channelset": {
+            "success": "{y} Der Creator Kanal wurde gesetzt."
+        },
+        "loggingchannel": {
+            "success": "{y} Der Logging Kanal wurde zu {channel} gesetzt."
+        },
+        "moderationrole": {
+            "role-is-everyone": "{x} Diese Rolle ist `@everyone` und kann somit nicht genutzt werden.",
+            "success": "{y} Die Moderationsrolle wurde zu {role} gesetzt.",
+            "description": "## Moderationsrolle\n- <:note:1202703281055604787>・Setze die Moderationsrolle zurück\n- <:1eye:1201585529431527434>・Siehe die aktuelle Moderationsrolle ein\n## Informationen\n- Die Moderationsrolle hat alle Berechtigungen und kann somit TempVoice Kanäle komplett verwalten. Ausnahmen: Inhaber setzen, Kanalmoderatoren hinzufügen und Kanalmoderatoren entfernen. Man kann aber den Kanal übernehmen und somit auch dies verwalten.",
+            "placeholder": "Wähle eine Moderationsrolle"
+        },
+        "unblock": {
+            "already": "{x} {user} ist nicht blockiert.",
+            "success": "{y} Die Blockierung des Nutzers {user} wurde aufgehoben.",
+            "placeholder": "Wähle den Nutzer zum Entfernen der Blockierung aus.",
+            "description": "## Entferne die Blockierung\n- Gebannte Nutzer können keine Einstellungen mehr verwalten und keine TempVoice Kanäle zu erstellen.\n- Entbanne einen Nutzer, indem du diesen bei dem Nutzer Select Menu unter diesem Embed angibst. Du kannst auch per Nutzername oder ID suchen."
+        },
+        "defaultname": {
+            "success-reset": "{y} Der Standardname wurde zurückgesetzt.",
+            "success-1": "{y} Der Standardname wurde aktualisiert.",
+            "title": "Setze den Standardnamen",
+            "label": "Name",
+            "placeholder": "tempvoice-{username}"
+        },
+        "defaultbitrate": {
+            "not-valid": "{x} Die angegebene Bitrate ist nicht valid. Diese muss zwischen **8kbps** und **384kbps** liegen.",
+            "success-reset": "{y} Die Standardbitrate wurde zurückgesetzt.",
+            "success-1": "{y} Die Standardbitrate **{set}kbps** wurde gesetzt, da **{input}kbps** nicht möglich ist. Dies kann unter anderem an dem Boostlevel liegen.",
+            "success-2": "{y} Die Standardbitrate wurde auf **{input}kbps** gesetzt.",
+            "title": "Setze die Standardbitrate",
+            "label": "Bitrate"
+        },
+        "defaultuserlimit": {
+            "not-valid": "{x} Das angegebene Nutzerlimit ist nicht valid. Diese muss zwischen **1** und **99** liegen. Falls du unendlich haben möchtest, gebe \"max\" in dem Formular an.",
+            "success-reset": "{y} Das Standardnutzerlimit wurde zurückgesetzt.",
+            "success-1": "{y} Das Nutzerlimit wurde auf **{limit}** gesetzt.",
+            "title": "Setze das Standardnutzerlimit",
+            "label": "Nutzerlimit"
+        },
+        "defaultcategory": {
+            "description": "## Setze die Kategorie für Temporäre Sprachkanäle\n- Aufgrund einer Limitierung von Discord, pro Kategorie nur 50 Kanäle haben zu dürfen, bietet Dat Bot die Funktion an, eine Kategorie zu nutzen, falls die erste voll ist. Diese Funktion nennt sich \"Fallback\".\n\n- Um die Standardkategorie auszuwählen, nutze das Select Menu \"Wähle die Standardkategorie.\"\n- Um die Fallbackkategorie auszuwählen, nutze das Select Menu \"Wähle eine Fallbackkategorie.\"",
+            "placeholder-1": "Wähle eine Standardkategorie.",
+            "placeholder-2": "Wähle eine Fallbackkategorie.",
+            "label-1": "Standardkategorie zurücksetzen",
+            "label-2": "Fallbackkategorie zurücksetzen"
+        },
+        "blockshow": {
+            "description-1": "## Blockierte Nutzer\n- {blocked}",
+            "description-2": "## Blockierte Nutzer\n- Es gibt keine gebannten Nutzer."
+        },
+        "loggingreset": {
+            "success": "{y} Die Einstellungen in Bezug auf das Logging wurden zurückgesetzt."
+        },
+        "loggingsettings": {
+            "description": "## Logging - Einstellungen\n- Status: {toggle}\n- Kanal: {channel}",
+            "deleted": "Gelöscht (Alte ID: {id})",
+            "none": "Keiner"
+        },
+        "loggingtest": {
+            "label-1": "System aktivieren",
+            "label-2": "System aktiviert",
+            "toggle-error": "- Toggle: Das System ist deaktiviert.`",
+            "toggle-fix": "- Toggle: Nutze </tempvoice settings:0>, klicke auf den Button mit dem Emoji <:user:1202704216041455677> und dann auf das Emoji <:image4:1202697412012154890>, dann auf <:note:1202703281055604787> oder klicke unten auf den Button \"System aktivieren\".",
+            "logging-not-existing-error": "- Logging Kanal: Es gibt keinen.",
+            "logging-not-existing-fix": "- Logging Kanal: Wähle einen Logging Kanal aus, indem du </tempvoice settings:0> nutzt, <:user:1202704216041455677> und dann auf das Emoji <:image4:1202697412012154890>, dann auf \"Wähle einen Kanal für Logging.\"",
+            "logging-deleted-error": "- Logging Kanal: Dieser wurde gelöscht (Alte ID: {id}).",
+            "logging-deleted-fix": "- Creator Kanal: Wähle den neuen Logging Kanal aus, indem du </tempvoice settings:0> nutzt, <:user:1202704216041455677> und dann auf das Emoji <:image4:1202697412012154890>, dann wähle das Select Menu \"Wähle einen Kanal für Logging.\"",
+            "permissions-error": "- Folgende Berechtigungen fehlen mir in {channel}: {missing}",
+            "permissions-fix": "- Berechtigungen: Man muss dem Bot die Berechtigungen geben.",
+            "no-errors": "- Es wurden **keine** Fehler gefunden.",
+            "no-fixes": "- Es gibt **keine** Fehler zu beheben.",
+            "description": "## Fehler\n{errors}\n## Fehler beheben\n{fixes}\n## Weitere Informationen\n- Wenn das System danach weiterhin nicht funktioniert, kannst du dem [Support Server](https://discord.gg/BQumAujuvk) beitreten."
+        },
+        "loggingtoggle": {
+            "success-1": "{y} Das Logging System wurde **aktiviert**.",
+            "success-2": "{y} Das Logging System wurde **deaktiviert**."
+        },
+        "logging": {
+            "description": "## Logging\n- <:note:1202703281055604787>・Aktiviere oder deaktiviere das Logging\n- <:1ban:1201576397798379600>・Setze die Einstellungen in Bezug auf Logging zurück\n- <:1check:1201578213831356517>・Teste das Logging System auf Fehler\n- <:1eye:1201585529431527434>・Siehe die Einstellungen des Loggings ein\n- Logging Kanal setzen: Nutze das Select Menu \"Wähle einen Kanal für Logging\".\n## Informationen\n- Logging funktioniert wie der Discord Audit Log, nur dass es sich um alle Aktionen handelt, die einen TempVoice Kanal betreffen.\n- Wenn das System deaktiviert ist, werden die Logs nicht gesendet.",
+            "placeholder": "Wähle einen Kanal für Logging."
+        },
+        "moderationrole_reset": {
+            "success": "{y} Die Moderationsrolle wurde erfolgreich **zurückgesetzt**."
+        },
+        "moderationrole_show": {
+            "description-1": "## Moderationsrolle\n- Die Moderationsrolle ist zurzeit {role}.",
+            "description-2": "## Moderationsrolle\n- Es gibt zurzeit keine Moderationsrolle."
+        },
+        "settings_channel": {
+            "description": "## Verwalte den Standardkanal\n- <:image4:1202697412012154890>・Setze den Standardnamen\n- <:volume:1202705024057081856>・Setze die Standardbitrate\n- <:user:1202704216041455677>・Setze das Standardnutzerlimit\n- <:globe:1202703306527481917>・Setze die Standardkategorie\n## Zusätzliche Informationen\n- Um den Creator Kanal zu setzen, nutze das Select Menu \"Wähle den Creator Kanal aus\".\n- Für den Standardnamen kann man folgende Variablen nutzen\n - {id}・Die ID des Nutzers\n - {username}・Der Name des Nutzers\n - {servername}・Der Spitzname. Wenn keiner angegeben, wird der Nutzername verwendet.\n- Für die Bitrate kann man entweder die Bitrate in kbps oder \"max\" angeben. Dies wird automatisch die maximal mögliche Bitrate auswählen.",
+            "placeholder": "Wähle den Creator Kanal aus."
+        },
+        "settings_moderation": {
+            "description": "## Moderationseinstellungen\n- <:image4:1202697412012154890>・Logging\n- <:image7:1202697417326338078>・Nutzer blockieren\n- <:user:1202704216041455677>・Blockierung entfernen\n- <:1eye:1201585529431527434>・Alle Blockierten Benutzer anzeigen\n- <:globe:1202703306527481917>・Moderationsrolle setzen oder entfernen\n## Weitere Infos\n- Logging: Es funktioniert im Prinzip wie der Discord Audit Log, jedoch wird immer, wenn etwas an einem TempVoice Kanal verändert wird, eine Nachricht in diesen Kanal gesendet.\n- Moderationsrolle: Mitglieder, die diese Rolle besitzen, werden im Prinzip wie die Kanalinhaber behandelt. Diese können alles an einem TempVoice Kanal einstellen, ausgenommen:\n - Kanalmoderatoren hinzufügen\n - Kanalmoderatoren entfernen\n - Inhaber übergeben (Man kann den Kanal aber übernehmen)"
+        },
+        "settings_system": {
+            "description": "## Verwalte das System\n- <:trash:1202716962489110609>・Setze das System zurück\n- <:1lock:1201576417897488535>・Aktiviere oder deaktiviere das System.\n- <:1check:1201578213831356517>・Teste das System.\n- <:1eye:1201585529431527434>・Siehe die Einstellungen ein.\n- <:image5:1271200893529886803>・Verwalte benötigte Rollen\n- <:speachbubble:1271201018444648448>・Verwalte Invoice Rollen\n- <:owner:1271201010228137994>・Verwalte die extra Berechtigungen für den Owner\n- <:image7:1271200917047480464>・Setze das Limit an TempVoice Kanälen im Server .\n## Weitere Informationen\n### Toggle\n- Wenn das System zurzeit aktiviert ist, wird dieses deaktiviert.\n- Das System funktioniert dann nicht mehr.\n- Die Daten werden nicht gelöscht."
+        },
+        "showsettings": {
+            "description": "# Die Einstellungen\n## Kanal\n- Creator Kanal: {channel}\n- Standardname: {name}\n- Standardbitrate: {bitrate}\n- Standardnutzerlimit: {userlimit}\n## Kategorie\n- Standard: {category}\n- Fallback: {fallback}\n## Moderation\n- Moderationsrolle: {modrole}\n- Logging Kanal: {loggingchannel}\n- Logging Toggle: {loggingtoggle}\n- {emoji}Toggle: {toggle}\n- Blockierte Nutzer: {blocked}\n## Anderes\n- Benötigte Rollen: {rr1}\n- Benötigt alle Rollen: {rr2}\n- Invoice Rollen: {ir}\n- Maximale Anzahl an TempVoice Kanälen: {maxtemp}\n- Extra Berechtigungen für den Inhaber: {extraownerperms}",
+            "none-1": "Keiner",
+            "none-2": "Keine",
+            "infinity": "Unendlich",
+            "kbps": "kbps"
+        },
+        "testsystem": {
+            "permissions-error": "- Berechtigungen: Folgende Berechtigungen fehlen: {missing}",
+            "permissions-fix": "- Berechtigungen: Man muss dem Bot die Berechtigungen geben.",
+            "label-1": "System aktivieren",
+            "label-2": "System aktiviert",
+            "toggle-error": "- Toggle: Das System ist deaktiviert.",
+            "toggle-fix": "- Toggle: Nutze </tempvoice settings:0>, klicke auf den Button mit dem Emoji <:1check:1201578213831356517> und dann auf das Emoji <:1lock:1201576417897488535> oder klicke unten auf den Button \"System aktivieren\".",
+            "no-creator-channel-error": "- Creator Kanal: Keiner gesetzt.",
+            "no-creator-channel-fix": "- Creator Kanal: Setze diesen </tempvoice setup:0>.",
+            "creator-channel-deleted-error": "- Creator Kanal: Dieser wurde gelöscht (Alte ID: {id}).",
+            "creator-channel-deleted-fix": "- Creator Kanal: Wähle den neuen Creator Kanal aus, indem du </tempvoice settings:0> nutzt, auf den Button mit dem Emoji <:1bolt:1201576407965376533> und dann das Select Menu \"Wähle den Creator Kanal\".",
+            "default-category-deleted-error": "- Standardkategorie: Diese wurde gelöscht (Alte ID: {id}).",
+            "default-category-deleted-fix": "- Standardkategorie: Wähle die neue Standardkategorie aus, indem du </tempvoice settings:0> nutzt, auf den Button mit dem Emoji <:1bolt:1201576407965376533>, dann den Button mit dem Emoji <:globe:1202703306527481917> und dort das Select Menu \"Wähle die Standardkategorie\".",
+            "fallback-category-deleted-error": "- Fallbackkategorie: Diese wurde gelöscht (Alte ID: {id}).",
+            "fallback-category-deleted-fix": "- Fallbackkategorie: Wähle die neue Fallbackkategorie aus, indem du </tempvoice settings:0> nutzt, auf den Button mit dem Emoji <:1bolt:1201576407965376533>, dann den Button mit dem Emoji <:globe:1202703306527481917> und dort das Select Menu \"Wähle die Fallbackkategorie\"."
+        },
+        "toggle": {
+            "success-1": "{y} Das System wurde **aktiviert**.",
+            "success-2": "{y} Das System wurde **deaktiviert**."
+        }
+    },
+    "giveaways": {
+        "deleted": "{x} Das Gewinnspiel ist gelöscht worden.",
+        "ended": "{x} Das Gewinnspiel wurde beendet.",
+        "notended": "{x} Das Gewinnspiel ist aktuell aktiv.",
+        "paused": "{x} Das Gewinnspiel ist aktuell pausiert.",
+        "notpaused": "{x} Das Gewinnspiel ist nicht pausiert.",
+        "rr-missing": "{x} Du benötigst die Rolle <@&{1}>, um dem Gewinnspiel beizutreten.",
+        "join": "{y} Du bist dem Gewinnspiel beigetreten.",
+        "left": "{a} Du hast das Gewinnspiel **verlassen**.",
+        "limit": "{x} Du kannst nicht mehr als **5** Gewinnspiele erstellen. Lösche ein Gewinnspiel mit </giveaway delete:{1}>.",
+        "time": "{x} Die angegebene Zeit ist nicht gültig. Diese muss zwischen 1 Minute und 14 Tagen liegen.\n- {i} Wie man die Zeit angibt\n - Es funktioniert mit d (Tage), h (Stunden), m (Minuten) und s (Sekunden). Zum Beispiel: \"2d 10h 25m 34s\" -> 2 Tage, 10 Stunden, 25 Minuten, 34 Sekunden",
+        "embed-1": "<:dd_punktblau:1059188076678762497> Erstellt von <@{1}>\n<:dd_punktblau:1059188076678762497> Anzahl an Gewinnern: {2}\n<:dd_punktblau:1059188076678762497> Endet: <t:{3}:F> (<t:{3}:R>)\n<:dd_punktblau:1059188076678762497> Teilnehmer: {4}",
+        "embed-2": "<:dd_punktblau:1059188076678762497> Erstellt von <@{1}>\n<:dd_punktblau:1059188076678762497> Anzahl an Gewinnern: {2}\n<:dd_punktblau:1059188076678762497> Endet: <t:{3}:F> (<t:{3}:R>)\n<:dd_punktblau:1059188076678762497> Teilnehmer: {4}\n<:dd_punktblau:1059188076678762497> Benötigte Rolle: <@&{5}>",
+        "embed-3": "<:dd_punktblau:1059188076678762497> Erstellt von <@{1}>\n<:dd_punktblau:1059188076678762497> Anzahl an Gewinnern: {2}\n<:dd_punktblau:1059188076678762497> Beendet: <t:{3}:F> (<t:{3}:R>)\n\n<:dd_punktblau:1059188076678762497> Gewinner: {4}",
+        "embed-footer": "Beendet",
+        "embed-footer-2": "Endet",
+        "pausedmessage": "\n<:dd_punktblau:1059188076678762497> Pausiert seit: <t:{1}:F> (<t:{1}:R>)",
+        "started": "{y} Das Gewinnspiel wurde in <#{1}> gestartet.",
+        "notfound": "{x} Das Gewinnspiel existiert nicht.",
+        "channeldeleted": "{x} Der Kanal wurde gelöscht.",
+        "success": "{y} Erfolg!",
+        "noparticipants": "{x} Es gibt keine Teilenhmer.",
+        "pausedsuccess": "{y} Das Gewinnspiel wurde pausiert.",
+        "resumedsuccess": "{y} Das Gewinnspiel wird fortgesetzt.",
+        "button": "Teilnehmen",
+        "nobody-won": "🏆 Niemand hat **{1}** gewonnen",
+        "winner-1": "🏆 {1} ist der Gewinner!",
+        "winner-2": "🏆 {1} sind die Gewinner!"
+    },
+    "ticket": {
+        "notickets": "{x} Es gibt keine Tickets.",
+        "notaticket": "{x} Dieser Kanal ist kein Ticket.",
+        "noticketbyuser": "{x} Dieser Nutzer besitzt keine Tickets.",
+        "nodata": "{x} Über dieses Ticket wurden keine Daten gefunden.",
+        "missingperms": "{x} Du kannst dies nicht machen.",
+        "yours": "{x} Das ist dein Ticket.",
+        "open": "Öffnen",
+        "stayopen": "Offen lassen",
+        "close": "Schließen",
+        "claim": "Beanspruchen",
+        "info": "Info",
+        "defaultcategoryplaceholder": "Standardkategorie",
+        "closedcategoryplaceholder": "Geschlossene Kategorie",
+        "categoriestext-1": "## Categories\n-# ID: `{1}`\n- Ändere die Kategorien.",
+        "choosesettingsplaceholder": "Wähle Settings aus.",
+        "choosesettingstextdisplay-1": "## Suche deine Berechtigungen für <@&{1}> aus.\n-# ID: `{2}`\n- -# Role ID: `{1}`\n- Unter dieser Nachricht findest du ein Select Menu, in dem du dir die Berechtigungen aussuchen kannst.",
+        "unclaim": "Freigeben",
+        "button-embed": "Embed",
+        "button-name": "Name",
+        "button-emoji": "Emoji",
+        "emoji-invalid": "{x} Das Emoji ist ungültig.",
+        "button-label": "Label",
+        "button-reset": "Zurücksetzen",
+        "button-view": "Anzeigen",
+        "button-permissions": "Berechtigungen",
+        "button-add": "Hinzufügen",
+        "button-title": "Titel",
+        "button-manage": "Verwalten",
+        "button-componenttype": "Component Typ",
+        "button-use": "Benutzen",
+        "button-save": "Speichern",
+        "button-saved": "Gespeichert!",
+        "button-selectplaceholder": "Selector Platzhalter",
+        "button-maxtickets": "Maximale Tickets",
+        "button-openingembed": "Opening Embed",
+        "button-rr": "Benötigte Rollen",
+        "button-ticketname": "Ticket Name",
+        "button-channeltype": "Kanaltyp",
+        "button-autoclaim": "Autoclaim",
+        "button-onlyone": "Only One Mode",
+        "button-feedback": "Feedback",
+        "button-blocks": "Blocks",
+        "button-componenttypeview": "Component Typ ansehen",
+        "button-resetembed": "Embed zurücksetzen",
+        "button-viewembed": "Embed ansehen",
+        "button-selectplaceholderlogchannel": "Log Kanal",
+        "button-selectplaceholdertranscriptchannel": "Transkript Kanal",
+        "button-selectplaceholderthreadcreatorchannel": "Threaderstellungskanal",
+        "placeholder": "Platzhalter",
+        "textdisplaysettingslogchannel": "## Einstellungen\n-# ID: `{1}`\n- Ändere die Einstellungen.\nVariablen für den Ticketnamen und Erklärungen findet ihr in den Docs:",
+        "button-type": "Typ",
+        "button-inuse": "Wird benutzt",
+        "button-rolepingselect": "Wähle Rollen zum Pingen aus...",
+        "delete": "Löschen",
+        "loading": "Lädt...",
+        "transfer": "Übertragung",
+        "transcript": "Transkript",
+        "dollar": "{x} Der Input darf kein `$`-Zeichen enthalten.",
+        "idinvalid": "{x} Diese ID ist nicht gültig.",
+        "button-help": "Mehr erfahren",
+        "yesornoselecterror": "{x} Du hast angegeben dir nicht sicher zu sein, also wurde die Aktion abgebrochen.",
+        "permissionnotyours": "{x} Dieses Panel gehört dir nicht.",
+        "transcriptgeneratedmsg": "Ticket {1} von <@{2}>",
+        "block": {
+            "text-block-1": "Möchtest du den Nutzer Zugriff auf diese Ticket Kategorie verwähren oder auf alle Ticket Kategorien auf diesem Server?",
+            "server-button": "Serverweit",
+            "category-button": "Kategorie",
+            "server-success": "## Erfolg!\n<@{1}> wurde erfolgreich **serverweit** blockiert.",
+            "category-success": "## Erfolg!\n<@{1}> wurde erfolgreich **für diese Kategorie** blockiert.",
+            "unable": "{x} Der Nutzer kann nicht geblockt werden, weil er die Berechtigung Administrator besitzt.`",
+            "rolealreadyblocked": "{x} Diese Rolle ist bereits blockiert.",
+            "roleblocksuccess": "{y} Rolle wurde erfolgreich blockiert.",
+            "rolenotblocked": "{x} Diese Rolle ist nicht blockiert.",
+            "roleunblocksuccess": "{y} Rolle wird nicht mehr blockiert.",
+            "useralreadyblocked": "{x} Dieser Nutzer ist bereits blockiert.",
+            "userblocksuccess": "{y} Nutzer wurde erfolgreich blockiert.",
+            "usernotblocked": "{x} Dieser Nutzer ist nicht blockiert.",
+            "userunblocksuccess": "{y} Nutzer wird nicht mehr blockiert.",
+            "noneblocked": "{x} Es sind keine Nutzer oder Rollen blockiert.",
+            "list-embed": "# Blocks\n## User\n- {1}\n## Rollen\n- {2}",
+            "multiblocksuccess": "{y} {1} wurde(n) blockiert.",
+            "nobodyunblocked": "{x} Es sind keine Nutzer blockiert.",
+            "unblockusersuccess": "{y} Die User wurden unblocked.",
+            "resetsuccess": "{y} Alle Blocks wurden entfernt",
+            "blockuserselectplaceholder": "Blockiere einen Nutzer",
+            "unblockuserselectplaceholder": "Entferne die Blockierung eines Nutzers",
+            "edittextdisplay": "## Editiere die Blocks.\n-# ID: `{1}`",
+            "blockembed": "# Blocks\n- {1}"
+        },
+        "closerequest": {
+            "success": "<@{1}> hat die Anfrage angenommen. Das Ticket wird/wurde <t:{2}:R> geschlossen.",
+            "reject": "<@{1}> hat die Anfrage abgelehnt.",
+            "text-1": "<@{1}> <@{2}> fragt, ob das Ticket geschlossen werden kann.",
+            "text-2": "<@{1}>, hast du noch weitere Fragen oder möchtest du das Ticket schließen?",
+            "text-3": "<@{1}> asks if the ticket can be closed.",
+            "sendsuccess": "{y} Die Close Request wurde versendet."
+        },
+        "settings": {
+            "nodata": "{x} Es wurden keine Daten über die Einstellungen gefunden",
+            "maximum": "{x} Du kannst nur maximal **{1}** Setting Models erstellen.",
+            "button-transfers": "Übertragungen",
+            "button-modal": "Modal",
+            "button-categories": "Kategorien",
+            "button-settings": "Einstellungen",
+            "settingsedittext": "## Einstellungen editieren\n- ID: `{2}`\n-# Bearbeite die Einstellungen mit den Buttons unten!",
+            "deletedsuccess": "{y} Das Setting Model wurde gelöscht.",
+            "none": "{x} Du hast keine Einstellungen. Erstelle welche mit `/ticket settings create`.",
+            "customidregexerror": "{x} Die Custom-ID darf nur Buchstaben, Nummern und Unterstriche enthalten.",
+            "customidalreadyused": "{x} Die Custom-ID wird bereits verwendet.",
+            "labelregexerror": "{x} Das Label darf nur Buchstaben, Nummern, Unterstriche und Leerzeichen enthalten.",
+            "titleregexerror": "{x} Der Titel darf nur Buchstaben, Nummern, Unterstriche und Leerzeichen enthalten.",
+            "placeholderregexerror": "{x} Der Platzhalter darf nur Buchstaben, Nummern, Unterstriche und Leerzeichen enthalten.",
+            "requiredvaluenotvalid": "{x} Benötigt darf nur true oder false sein.",
+            "modalfieldremoveplaceholder": "Entferne ein Modal Field.",
+            "modalfieldnotexisting": "{x} Dieses Feld existiert nicht mehr.",
+            "modaltextfield": "## Modal\n-# ID: `{1}`\n- Ändere dein Modal.",
+            "rolenocustompermissions": "{x} Diese Rolle hat keine eingestellten Berechtigungen.",
+            "rolecustompermissionsremovesuccess": "{y} Die Berechtigungen dieser Rolle wurden entfernt.",
+            "textdisplay-rr": "## Roles\n-# ID: `{1}`\n- Ändere die benötigten Rollen.",
+            "autoclaim-1": "{y} Autoclaim wurde **aktiviert**",
+            "autoclaim-2": "{y} Autoclaim wurde **deaktiviert**",
+            "oneonly-1": "{y} One Only Mode wurde **aktiviert**",
+            "oneonly-2": "{y} One Only Mode wurde **deaktiviert**",
+            "feedback-1": "{y} Feedback wurde **aktiviert**",
+            "feedback-2": "{y} Feedback wurde **deaktiviert**",
+            "channeltype-1": "{y} Der Kanaltyp wurde auf `Thread` gesetzt.",
+            "channeltype-2": "{y} Der Kanaltyp wurde auf `Textkanal` gesetzt.",
+            "categoryview": "## Kategorien\n- Offene Tickets: {1}\n- Geschlossene Tickets: {2}",
+            "maxticketsperusertitle": "Maximale Tickets pro Nutzer",
+            "modalmaxfields": "{x} Maximale Anzahl an Feldern erreicht.",
+            "modaladdtitle": "Modal Hinzufügen",
+            "modaladdinput-1": "Custom ID",
+            "modaladdinput-2": "Placeholder",
+            "modaladdinput-3": "Benötigt",
+            "nomodaldata": "{x} Es gibt keine Modal Daten.",
+            "nofields": "{x} Es sind keine Felder konfiguriert.",
+            "notitle": "{x} Es sind keine Titel konfiguriert.",
+            "addpermsplaceholder": "Füge Berechtigungen hinzu.",
+            "rempermsplaceholder": "Entferne Berechtigungen.",
+            "custompermstextdisplay": "## Berechtigungen\n-# ID: `{1}`\n- Ändere deine benutzerdefinierten Permissions.",
+            "nopermissions": "{x} Es gibt keine Berechtigungen für diese Settings.",
+            "resetpermissionssuccess": "{y} Die Berechtigungen wurden zurückgesetzt.",
+            "permissionviewcontent": "## Berechtigungen\n{1}",
+            "nocategory-1": "{x} Es gibt keine Kategorie für geschlossene Tickets.",
+            "nocategory-2": "{x} Es gibt keine Kategorie für Tickets.",
+            "norr": "{x} Es gibt keine benötigten Rollen für diesen Server",
+            "rrsuccess-1": "{y} Es werden nun alle angebenen benötigten Rollen benötigt, um ein Ticket zu öffnen.",
+            "rrsuccess-2": "{y} Es werden nun nicht mehr alle Rollen benötigt.",
+            "rrdisplay": "## Benötigte Rollen\n- Benötigt alle Rollen: {1}\n- {2}",
+            "nopermsselected": "{x} Du hast keine Berechtigungen ausgewählt.",
+            "copysuccess": "{y} Die Einstellungen wurden kopiert. ID: `{1}`"
+        },
+        "create": {
+            "missing-rr": "{x} Du hast nicht die benötigte(n) Rolle(n), um dieses Ticket zu erstellen.",
+            "blocked-category": "{x} Du kannst dieses Panel nicht verwenden.",
+            "blocked-server": "{x} Du kannst keine Tickets auf diesem Server erstellen.",
+            "maximum": "{x} Du kannst nur maximal **{1}** Ticket(s) erstellen.",
+            "creating": "Ticket wird erstellt...",
+            "maximum-textchannels": "{x} Der Server hat das Maximum an Textkanälen erreicht.",
+            "maximum-threads": "{x} Der Kanal für den Thread Support hat die maximale Anzahl an Threads erreicht.",
+            "default-embed": "## Herzlich Willkommen im Support, {1}\n- Bitte beschreibe uns das Problem, wir werden uns so schnell wie möglich bei dir melden.",
+            "embed-footer": "Erstellt",
+            "tool-select-placeholder": "Wähle ein Tool aus",
+            "tool-select-closerequest": "Schließanfrage senden",
+            "tool-select-adduser": "Nutzer zum Ticket hinzufügen",
+            "tool-select-remuser": "Nutzer aus dem Ticket entfernen",
+            "tool-select-block": "Nutzer blockieren",
+            "button-label": "Zum Ticket",
+            "content": "Dein Ticket wurde erstellt!"
+        },
+        "ondelete": {
+            "embed-description": "## Ticket geschlossen\n- Dein Ticket **{1}** wurde geschlossen. Das Transcript ist an dieser Nachricht angehängt.",
+            "embed-fields-messages": "Nachrichten",
+            "embed-fields-created": "Erstellt",
+            "embed-fields-channelid": "Kanal ID",
+            "embed-fields-claimedby": "Geclaimet von",
+            "embed-fields-claimedat": "Geclaimet am",
+            "embed-fields-categoryid": "Kategorie ID",
+            "embed-fields-closedby": "Geschlossen von",
+            "embed-fields-closedat": "Geschlossen am",
+            "embed-fields-rating": "Bewertung"
+        },
+        "info-embed": "## Ticket Info\n- Erstellt von: <@{1}> ({1})\n- Erstellt: <t:{2}:R> (<t:{2}:F>)\n## Log\n{3}",
+        "notclosed": "{x} Das Ticket ist nicht geschlossen.",
+        "alreadyclaimed": "{x} Dieses Ticket wurde bereits von <@{1}> beansprucht.",
+        "notclaimed": "{x} Dieses Ticket wurde nicht beansprucht.",
+        "alreadyclaimedbyyou": "{x} Dieses Ticket wurde bereits von dir beansprucht.",
+        "claimedmessage": "<@{1}> wird sich nun um dein Ticket kümmern.",
+        "claimsuccess": "{y} Das Ticket wurde erfolgreich beansprucht.",
+        "unclaimsuccess": "{y} Das Ticket wurde erfolgreich unclaimed.",
+        "closesuccess": "{y} Das Ticket wurde geschlossen.",
+        "opensuccess": "{y} Das Ticket wurde geöffnet.",
+        "userleft": "{x} Der Nutzer, dem das Ticket gehört, ist nicht mehr auf dem Server.",
+        "transcriptgenerating": "<@{1}>, das Transkript wird generiert...",
+        "transcriptgenerated": "Das Transkript wurde erstellt.",
+        "ticketdeletesuccess": "{y} Das Ticket wurde gelöscht.",
+        "user": {
+            "success": "{y} Erfolg!",
+            "log-1": "- {1} ist nicht auf diesem Server",
+            "log-2": "- <@{1}> hat bereits die Berechtigung diesen Kanal zu sehen.",
+            "log-3": "- <@{1}> wurde erfolgreich hinzugefügt.",
+            "log-4": "- <@{1}> ist Administrator.",
+            "log-5": "- <@{1}> hat keine Berechtigung, dieses Ticket zu sehen.",
+            "log-6": "- <@{1}> wurde erfolgreich entfernt.",
+            "successlog": "{y} Fertig!\n## Log\n{1}",
+            "addselectplaceholder": "Wähle Nutzer zum Hinzufügen aus",
+            "remselectplaceholder": "Wähle Nutzer zum Entfernen aus"
+        },
+        "alreadyclosed": "{x} Das Ticket ist bereits geschlossen.",
+        "transfers": {
+            "noneconfigured": "{x} Es sind keine Übertragungen konfiguriert.",
+            "noneconfiguredforguild": "{x} Es sind keine Übertragungen für diesen Server konfiguriert.",
+            "transfer-choose-label": "Wähle eine Übertragunge aus",
+            "nodata": "{x} Diese Übertragung wurde nicht gefunden.",
+            "transfersuccess": ", das Ticket wurde an euch übertragen.",
+            "maximum": "{x} Du kannst nur maximal **{1}** Übertragungen erstellen.",
+            "categoryselect": "Wähle eine Kategorie aus...",
+            "rolepingselect": "Wähle Rollen zum Pingen aus...",
+            "textdisplay": "## Übertragungs-Model\n- ID: `{2}`\n-# Bearbeite die Übertragungs-Models mit den Buttons unten!",
+            "deleteusederror": "{x} Du kannst diese Übertragungs nicht löschen, da dieser von einem Einstellungs-Model genutzt wird: {1}",
+            "deletesuccess": "{y} Die Übertragung wurde gelöscht.",
+            "transfereditsettingstextdisplay": "## Übertragungen\n-# ID: `{1}`\n- Ändere die Einstellungen.",
+            "transferschoose": "Wähle Übertragungen aus...",
+            "notransfersforsettings": "{x} Es gibt keine Übertragungen für diese Settings.",
+            "transfersreset": "{y} Alle Übertragungen für diese Settings wurden zurückgesetzt.",
+            "nopermissionsfortransfer": "{x} Es gibt keine Permissions für dieses Transfer Model"
+        },
+        "panels": {
+            "maximum": "{x} Du kannst nur maximal **{1}** Panels erstellen.",
+            "button-components": "Komponenten",
+            "button-linked": "Verlinkt",
+            "edit-text": "## Panel editieren\n- ID: `{2}`\n-# Bearbeite das neue Panel mit den Buttons unten!",
+            "notfound": "{x} Das Panel wurde nicht gefunden.",
+            "nolinkedsettings": "{x} Das Panel hat keine Linked Settings. Bitte verlinke zuerst ein Einstellungen, damit der Bot entscheiden kann, welche Ticket Kategorien er anbieten kann.",
+            "ticketcategoryselectplaceholder": "Wähle eine Ticketkategorie aus.",
+            "linkedembeddeleted": "{x} Das verlinkte Embed wurde gelöscht oder nicht gefunden.",
+            "panelsendsuccess": "{y} Das Panel wurde versendet",
+            "defaultsentembeddescription": "# Tickets\n - Klicke den Button unten, um ein Ticket zu erstellen.",
+            "deletesuccess": "{y} Das Panel wurde gelöscht.",
+            "deleted": "{x} Das Panel wurde gelöscht.",
+            "none": "{x} Du hast keine Panels.",
+            "buttonstylechooseplaceholder": "Wähle einen Button Style aus.",
+            "buttonlinkedplaceholder": "Wähle ein Einstellungs-Model.",
+            "textdisplaycomponents": "## Komponenten\n- Konfiguriere dein Button hier!\n-# ID: `{1}`\n-# Button ID: `{2}`",
+            "textdisplaycomponents-2": "## Komponenten\n- Konfiguriere dein Button hier!\n-# ID: `{1}`",
+            "viewbuttonstyles": "Hier sind die Button Styles zu sehen:",
+            "namechanged": "{y} Der Name wurde geändert.",
+            "placeholderchanged": "{y} Der Platzhalter wurde geändert.",
+            "emojichanged": "{y} Das Emoji wurde geändert.",
+            "limitchanged": "{y} Das Limit wurde geändert.",
+            "limitnan": "{x} Das angegebene Limit ist keine Nummer.",
+            "limitmin": "{x} Das angegebene Limit ist kleiner als 1.",
+            "limitmax": "{x} Das angegebene Limit ist größer als 50.",
+            "buttonmaximum": "{x} Du kannst nicht mehr als 25 Buttons hinzufügen.",
+            "buttonremoveplaceholder": "Entferne einen Button.",
+            "textbuttonremove-1": "## Komponenten\n- Konfiguriere deine Komponenten hier!\n-# ID: `{1}`",
+            "textbuttonremove-2": "## Buttons\n- Konfiguriere hier die Buttons.",
+            "textbuttonremove-3": "## Anderes\n- Konfiguriere hier den Rest.",
+            "embedalreadyinuse": "{x} Das ausgewählte Embed ist bereits in Benutzung.",
+            "panelembedsuccesscontent": "- Panel ID: `{1}`\n- Embed ID: `{2}`",
+            "linkedsettingsselecttext": "## Suche deine verlinkten Einstellungen aus.\n-# ID: `{1}`\n- Unter dieser Nachricht findest du ein Select Menu, in dem du eines deiner verlinkten Einstellungen aussuchen kannst.\n- Um verlinkten Einstellungen zu nutzen, klicke nach dem Konfigurieren mit </ticket settings create:1305879339946082363> und konfiguriere diese.",
+            "nolinkedsettings-text-1": "- Es wurden keine verlinkten Einstellungen von dir gefunden.",
+            "settingsselectplaceholder": "Wähle ein Einstellungs-Model aus.",
+            "panelsettingtext-1": "- Um die Aktion abzubrechen, kannst du einfach auf `Nachricht verwerfen` klicken.",
+            "panelsettingtext-2": "- Um die verlinkten Einstellungen zurückzusetzen, klicke auf `Zurücksetzen`\n- Um die verlinkten Einstellungen zu sehen, klicke auf `Anzeigen`",
+            "nobuttons": "{x} Es gibt keine Buttons.",
+            "componenttype-1": "{y} Der Komponententyp wurde auf `Selector` gesetzt.",
+            "componenttype-2": "{y} Der Komponententyp wurde auf `Button` gesetzt.",
+            "textdisplayselectembed": "## Suche dein Embed aus.\n-# ID: `{1}`\n- Unter dieser Nachricht findest du ein Select Menu, in dem du eines deiner Embeds aussuchen kannst.\n- Um ein Embed zu nutzen, klicke nach dem Konfigurieren mit </embeds create:1305879339946082363> auf `Save`",
+            "noembeds": "- Es wurden keine Embeds von dir gefunden.",
+            "selectembedplaceholder": "Wähle ein Embed aus.",
+            "dismisstextdisplay": "- Um die Aktion abzubrechen, kannst du einfach auf `Dismiss message` klicken.",
+            "embedtextdisplayedit": "- Um das benutze Embed zurückzusetzen, klicke auf `Embed zurücksetzen`\n- Um das Embed zu sehen, klicke auf `Embed ansehen`",
+            "panelnoembed": "{x} Das Panel hat kein Embed.",
+            "embedremovesuccess": "{y} Das Embed wird nicht weiter verwendet.",
+            "embedaddsuccess": "{y} Das Embed wird nun verwendet.",
+            "panelnolinkedsettings": "{x} Das Panel hat keine verlinkten Einstellungen.",
+            "linkedsettingsremovesuccess": "{y} Die verlinkten Einstellungen werden nicht weiter verwendet.",
+            "embeddeleted": "{x} Das Embed wurde gelöscht.",
+            "componenttypeview-1": "Der Komponententyp ist zurzeit `Selector`.",
+            "componenttypeview-2": "Der Komponententyp ist zurzeit `Button`.",
+            "nosettings-1": "{x} Es sind noch keine Einstellungen verlinkt. Klicke über dieser Nachricht auf \"Verlinkt\" und wähle dort Einstellungen aus.",
+            "copysuccess": "{y} Das Panel wurde kopiert. ID: `{1}`"
+        },
+        "embednotfound": "{x} Das Embed wurde in der Datenbank nicht gefunden.",
+        "statistics": {
+            "server-embed": "# Ticketstatistiken\n## Tickets\n- Offen: {1}\n- Beansprucht: {2}\n- Nicht beansprucht: {3}\n- Geschlossen: {4}\n- Gelöscht: {5}\n## Kategorien\n{6}\n## Generelles\n- Durchschnittliche Zeit bis zur Beanspruchung: {7}\n- Durchschnittliche Zeit bis zum Schließen: {8}\n- Durchschnittliche Bewertung: {9}",
+            "category-data": "- {1}: {2} Ticket(s) // Durchschnittliche Bewertung: {3}",
+            "rating-data": "{1} ⭐ aus {2} Bewertung(en)",
+            "user-embed": "# Ticketstatistiken von <@{0}>\n## Tickets\n- Offen: {1}\n- Beansprucht: {2}\n- Nicht beansprucht: {3}\n- Geschlossen: {4}\n- Gelöscht: {5}\n## Kategorien\n{6}\n## Generelles\n- Durchschnittliche Zeit bis zur Beanspruchung: {7}\n- Durchschnittliche Zeit bis zum Schließen: {8}\n- Durchschnittliche Bewertung: {9}",
+            "staffmember": "# Ticketstatistiken von <@{0}>\n## Gestern\n{1}\n## Letzten 7 Tage\n{2}\n## {3}\n{4}\n## Zuletzt bearbeitere Tickets [{5}]\n{6}\n## Ranking\n{7}",
+            "staffmember-ranking-data": "- Score: {0}/100 [{1}]\n  - Claim Delay: {2}/35\n  - Erste Antwort: {3}/35\n  - Nachrichten pro Ticket: {4}/15\n  - Antwortzeit nach Antwort des Nutzers: {5}/15\n  - [Bonus] Anzahl an Tickets: {6}",
+            "ranking-embed": "# Bestenluste\n## Anzahl an Tickets [7 Tage]\n{1}\n## Qualität\n{2}",
+            "ranking-embed-ticketamount-data": "{1}. <@{2}> // {3} Ticket(s)",
+            "ranking-embed-quality-data": "{1}. <@{2}>: {3}/100 berechnet aus {4} Ticket(s)",
+            "staffmember-recenttickets": "- {1} // von <@{2}> // Kategorie: {3} // {4}",
+            "staffmember-embed-timedata": "- Tickets bearbeitet: {1}/{2} ({3}%)\n- Rating: {4}\n- Durchschnittliche Zeit bis zur Beanspruchung: {5}\n- Durchschnittliche Zeit von der Beanspruchung bis zum Schließen: {6}\n### Kategorien\n{7}",
+            "staffmember-embed-categorydata": "- {1} // {2} Ticket(s) // {3}",
+            "defaulttime": "Letzten 90 Tage",
+            "norating": "Keine Bewertung"
+        },
+        "logs": {
+            "create": "{1} hat das Ticket {2} erstellt.",
+            "close": "{1} hat das Ticket {2} geclosed.",
+            "open": "{1} hat das Ticket {2} geopened.",
+            "claim": "{1} hat das Ticket {2} geclaimed.",
+            "unclaim": "{1} hat das Ticket {2} unclaimed.",
+            "delete": "{1} hat das Ticket {2} gelöscht.",
+            "adduser": "{1} hat {3} zu dem Ticket {2} hinzugefügt.",
+            "removeuser": "{1} hat {3} aus dem Ticket {2} entfernt.",
+            "transfer": "{1} hat das Ticket {2} an {4} übertragen."
+        },
+        "formattedinfologs": {
+            "claim": "- [<t:{1}:R>] <@{2}> hat das Ticket beansprucht.",
+            "unclaim": "- [<t:{1}:R>] <@{2}> hat das Ticket freigegeben.",
+            "close": "- [<t:{1}:R>] <@{2}> hat das Ticket geschlossen.",
+            "reopen": "- [<t:{1}:R>] <@{2}> hat das Ticket geöffnet.",
+            "closerequestsentuser": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage gesendet [Nutzer].",
+            "closerequestsentmod": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage gesendet [Mod].",
+            "closerequestacceptuser": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage angenommen [Nutzer]",
+            "closerequestacceptmod": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage angenommen [Mod].",
+            "closerequestrejectuser": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage abgelehnt [Nutzer].",
+            "closerequestrejectmod": "- [<t:{1}:R>] <@{2}> hat eine Schließungsanfrage abgelehnt [Mod].",
+            "forceclaim": "- [<t:{1}:R>] <@{2}> hat das Ticket beansprucht [force].",
+            "adduser": "- [<t:{1}:R>] <@{2}> hat {3} in das Ticket hinzugefügt.",
+            "removeuser": "- [<t:{1}:R>] <@{2}> hat {3} aus dem Ticket entfernt.",
+            "transfer": "- [<t:{1}:R>] <@{2}> hat das Ticket an **{3}** übertragen."
+        }
+    }
+}
